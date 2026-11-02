@@ -1,7 +1,12 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:image_picker/image_picker.dart';
 
 import '../data/database.dart';
+import '../data/library_repository.dart';
+import '../data/media/media_store.dart';
 import '../features/settings/app_settings.dart';
 
 /// Die lokale Datenbank. Wird in `main()` überschrieben.
@@ -48,3 +53,32 @@ class SettingsNotifier extends Notifier<AppSettings> {
   Future<void> setQuizDirection(QuizDirection direction) =>
       _update(state.copyWith(quizDirection: direction));
 }
+
+/// Ablage für Bilder und Aufnahmen. Wird in `main()` überschrieben.
+final mediaStoreProvider = Provider<MediaStore>(
+  (ref) =>
+      throw UnimplementedError('mediaStoreProvider muss überschrieben werden'),
+);
+
+final libraryRepositoryProvider = Provider<LibraryRepository>(
+  (ref) => LibraryRepository(
+    ref.watch(databaseProvider),
+    ref.watch(mediaStoreProvider),
+  ),
+);
+
+/// Bildauswahl (Kamera/Galerie). In Tests überschreibbar.
+typedef ImagePickFn = Future<File?> Function(ImageSource source);
+
+final imagePickerProvider = Provider<ImagePickFn>((ref) {
+  final picker = ImagePicker();
+  return (source) async {
+    final x = await picker.pickImage(
+      source: source,
+      maxWidth: 1600,
+      maxHeight: 1600,
+      imageQuality: 85,
+    );
+    return x == null ? null : File(x.path);
+  };
+});

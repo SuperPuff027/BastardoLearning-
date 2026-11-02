@@ -1,42 +1,19 @@
-import 'package:barstardo_learning/app/app.dart';
-import 'package:barstardo_learning/app/providers.dart';
-import 'package:barstardo_learning/data/database.dart';
 import 'package:barstardo_learning/features/settings/app_settings.dart';
-import 'package:drift/drift.dart';
-import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import 'helpers.dart';
+
 void main() {
-  late AppDatabase db;
+  late TestEnv env;
 
-  setUp(() {
-    db = AppDatabase(
-      DatabaseConnection(
-        NativeDatabase.memory(),
-        closeStreamsSynchronously: true,
-      ),
-    );
-  });
-
-  tearDown(() => db.close());
+  setUp(() async => env = await TestEnv.create());
+  tearDown(() => env.dispose());
 
   Future<void> pumpApp(
     WidgetTester tester, {
     AppSettings settings = const AppSettings(),
-  }) async {
-    await tester.pumpWidget(
-      ProviderScope(
-        overrides: [
-          databaseProvider.overrideWithValue(db),
-          initialSettingsProvider.overrideWithValue(settings),
-        ],
-        child: const BarstardoApp(),
-      ),
-    );
-    await tester.pumpAndSettle();
-  }
+  }) => env.pumpApp(tester, settings: settings);
 
   ThemeMode currentThemeMode(WidgetTester tester) =>
       tester.widget<MaterialApp>(find.byType(MaterialApp)).themeMode!;
@@ -74,7 +51,10 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(currentThemeMode(tester), ThemeMode.dark);
-    expect(await tester.runAsync(() => db.readSetting('theme_mode')), 'dark');
+    expect(
+      await tester.runAsync(() => env.db.readSetting('theme_mode')),
+      'dark',
+    );
 
     await tester.tap(find.text('Hell'));
     await tester.pumpAndSettle();
@@ -97,20 +77,24 @@ void main() {
     await tester.tap(find.byIcon(Icons.settings_outlined));
     await tester.pumpAndSettle();
 
+    await tester.ensureVisible(find.byKey(const Key('ttsSwitch')));
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('ttsSwitch')));
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const Key('remindersSwitch')));
-    await tester.pumpAndSettle();
-
     final tts = tester.widget<SwitchListTile>(
       find.byKey(const Key('ttsSwitch')),
     );
+
+    await tester.ensureVisible(find.byKey(const Key('reminderTimeTile')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('remindersSwitch')));
+    await tester.pumpAndSettle();
     final rem = tester.widget<SwitchListTile>(
       find.byKey(const Key('remindersSwitch')),
     );
     expect(tts.value, isFalse);
     expect(rem.value, isFalse);
-    final stored = await tester.runAsync(() => db.readAllSettings());
+    final stored = await tester.runAsync(() => env.db.readAllSettings());
     expect(stored!['tts_enabled'], 'false');
     expect(stored['reminders_enabled'], 'false');
 
