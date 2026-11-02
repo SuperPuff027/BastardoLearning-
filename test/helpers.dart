@@ -7,6 +7,7 @@ import 'package:barstardo_learning/app/providers.dart';
 import 'package:barstardo_learning/data/database.dart';
 import 'package:barstardo_learning/data/media/media_store.dart';
 import 'package:barstardo_learning/data/vocab/vocab_repository.dart';
+import 'package:barstardo_learning/features/scan/scan_services.dart';
 import 'package:barstardo_learning/features/settings/app_settings.dart';
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
@@ -37,6 +38,9 @@ class TestEnv {
   /// Datei, die der Fake-Bildwähler zurückgibt (null = Abbruch).
   File? pickedImage;
 
+  final ocr = FakeTextRecognition();
+  final translation = FakeTranslation();
+
   Future<void> dispose() async {
     // Nach einem fehlgeschlagenen Widget-Test kann close() auf noch offene
     // Stream-Abfragen warten; der Timeout verhindert, dass der Lauf hängt.
@@ -61,6 +65,9 @@ class TestEnv {
           imagePickerProvider.overrideWithValue((_) async => pickedImage),
           randomProvider.overrideWithValue(Random(42)),
           vocabRepositoryProvider.overrideWithValue(sharedVocab),
+          textRecognitionProvider.overrideWithValue(ocr),
+          languageIdProvider.overrideWithValue(FakeLanguageId()),
+          translationProvider.overrideWithValue(translation),
         ],
         child: const BarstardoApp(),
       ),
@@ -84,4 +91,37 @@ Future<void> settleIo(WidgetTester tester, {int rounds = 20}) async {
     await tester.pump();
   }
   await tester.pumpAndSettle();
+}
+
+class FakeTextRecognition implements TextRecognitionService {
+  List<String> lines = [];
+
+  @override
+  Future<List<String>> recognizeLines(File image) async => lines;
+}
+
+class FakeLanguageId implements LanguageIdService {
+  @override
+  Future<Map<String, double>> identify(String text) async => const {};
+}
+
+class FakeTranslation implements TranslationService {
+  final ready = <String>{};
+  final dictionary = <String, String>{};
+
+  @override
+  Future<bool> isReady(String language) async => ready.contains(language);
+
+  @override
+  Future<bool> download(String language, {bool wifiOnly = true}) async {
+    ready.add(language);
+    return true;
+  }
+
+  @override
+  Future<void> delete(String language) async => ready.remove(language);
+
+  @override
+  Future<String?> translate(String language, String text) async =>
+      ready.contains(language) ? dictionary[text] : null;
 }

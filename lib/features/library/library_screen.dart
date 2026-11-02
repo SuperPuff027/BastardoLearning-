@@ -85,6 +85,13 @@ class LibraryScreen extends ConsumerWidget {
               onTap: () => Navigator.of(context).pop('set'),
             ),
             ListTile(
+              key: const Key('createScan'),
+              leading: const Icon(Icons.document_scanner_outlined),
+              title: const Text('Aus Foto oder Text'),
+              subtitle: const Text('Wörter erkennen, auch handgeschrieben'),
+              onTap: () => Navigator.of(context).pop('scan'),
+            ),
+            ListTile(
               key: const Key('createPreset'),
               leading: const Icon(Icons.auto_stories_outlined),
               title: const Text('Vorgefertigtes Set'),
@@ -108,6 +115,8 @@ class LibraryScreen extends ConsumerWidget {
         context.go(Routes.newSet());
       case 'preset':
         context.go(Routes.presets);
+      case 'scan':
+        context.push(Routes.scan());
       case 'folder':
         final name = await showNameDialog(
           context,
