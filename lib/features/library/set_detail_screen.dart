@@ -135,6 +135,13 @@ class _SetDetailScreenState extends ConsumerState<SetDetailScreen> {
         ),
       ),
       PopupMenuItem(
+        value: 'scan',
+        child: ListTile(
+          leading: Icon(Icons.document_scanner_outlined),
+          title: Text('Aus Foto oder Text'),
+        ),
+      ),
+      PopupMenuItem(
         value: 'move',
         child: ListTile(
           leading: Icon(Icons.drive_file_move_outlined),
@@ -401,6 +408,12 @@ class _EmptyCards extends StatelessWidget {
                 onPressed: () => context.go(Routes.newCard(setId)),
                 icon: const Icon(Icons.add),
                 label: const Text('Karte hinzufügen'),
+              ),
+              OutlinedButton.icon(
+                key: const Key('emptyScan'),
+                onPressed: () => context.push(Routes.scan(setId: setId)),
+                icon: const Icon(Icons.document_scanner_outlined),
+                label: const Text('Aus Foto oder Text'),
               ),
               OutlinedButton.icon(
                 onPressed: () => context.go(Routes.importCards(setId)),

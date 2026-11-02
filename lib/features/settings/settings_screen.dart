@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/providers.dart';
 import 'app_settings.dart';
+import 'offline_translation_section.dart';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -94,6 +95,14 @@ class SettingsScreen extends ConsumerWidget {
               if (picked != null) await notifier.setReminderTime(picked);
             },
           ),
+          const _SectionHeader('Offline-Übersetzung'),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16),
+            child: Text(
+              'Für Wörter, die nicht in der Vokabeldatenbank stehen (z. B. beim Foto-Import). Optional.',
+            ),
+          ),
+          const OfflineTranslationSection(),
           const _SectionHeader('Datenschutz'),
           const ListTile(
             leading: Icon(Icons.lock_outline),

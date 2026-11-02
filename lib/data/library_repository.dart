@@ -54,7 +54,9 @@ class VocabCardData {
 
   final String front;
   final String back;
-  final int vocabId;
+
+  /// `null` bei neuen Wörtern, die nicht in der Datenbank stehen.
+  final int? vocabId;
   final bool verified;
 }
 
@@ -418,6 +420,21 @@ class LibraryRepository {
       return pa != pb ? pa - pb : a.card.id - b.card.id;
     });
     return hits;
+  }
+
+  /// Alle eigenen Karten einer Sprache als Nachschlagetabelle:
+  /// Vergleichsschlüssel der Vorderseite → Rückseite. Damit werden früher
+  /// aufgenommene Wörter beim nächsten Foto wiedererkannt.
+  Future<Map<String, String>> cardIndex(String language) async {
+    final rows = await (db.select(db.cards).join([
+      innerJoin(db.sets, db.sets.id.equalsExp(db.cards.setId)),
+    ])..where(db.sets.language.equals(language))).get();
+    final out = <String, String>{};
+    for (final r in rows) {
+      final c = r.readTable(db.cards);
+      out.putIfAbsent(duplicateKey(c.front), () => c.back);
+    }
+    return out;
   }
 
   /// IDs der Karten eines Sets, deren Vorderseite im Set mehrfach vorkommt.

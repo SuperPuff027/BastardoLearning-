@@ -10,6 +10,7 @@ import '../features/library/preset_sets_screen.dart';
 import '../features/library/set_detail_screen.dart';
 import '../features/library/set_form_screen.dart';
 import '../features/progress/progress_screen.dart';
+import '../features/scan/scan_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/study/flashcards_screen.dart';
 import '../features/study/learn_mode_screen.dart';
@@ -42,6 +43,10 @@ abstract final class Routes {
         queryParameters: options.toQuery(),
       ).toString();
 
+  /// Foto/Text → Karten; mit [setId] werden Karten an das Set angehängt.
+  static String scan({int? setId}) =>
+      setId == null ? '/scan' : '/scan?set=$setId';
+
   /// Spaced-Repetition-Wiederholung; ohne [setId] für alle Sets.
   static String review({int? setId}) =>
       setId == null ? '/wiederholen' : '/wiederholen?set=$setId';
@@ -72,6 +77,12 @@ GoRouter buildRouter() => GoRouter(
         path: '/ueben/:setId/${mode.path}',
         builder: (_, state) => _studyScreen(state, mode),
       ),
+    GoRoute(
+      path: '/scan',
+      builder: (_, state) => ScanScreen(
+        setId: int.tryParse(state.uri.queryParameters['set'] ?? ''),
+      ),
+    ),
     GoRoute(
       path: '/wiederholen',
       builder: (_, state) => ReviewScreen(
