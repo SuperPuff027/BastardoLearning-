@@ -1,0 +1,37 @@
+# Türkisch 973–1010
+oyuncak|noun||A2|das Spielzeug|Çocuğa bir oyuncak aldım.|Ich habe dem Kind ein Spielzeug gekauft.|oyuncağı,oyuncaklar|freizeit
+oyuncu|noun||A2|der Schauspieler;der Spieler|Ünlü bir oyuncu.|Ein berühmter Schauspieler.|oyuncusu|freizeit
+şarkıcı|noun||A2|der Sänger;die Sängerin|En sevdiğim şarkıcı.|Mein Lieblingssänger.|şarkıcısı|freizeit
+mühendis|noun||A2|der Ingenieur|Babam mühendis.|Mein Vater ist Ingenieur.|mühendisi|arbeit
+aşçı|noun||A2|der Koch;die Köchin|Aşçı çok iyi yemek yapıyor.|Der Koch kocht sehr gut.|aşçısı|arbeit
+şoför|noun||A2|der Fahrer|Otobüs şoförü.|Der Busfahrer.|şoförü|arbeit
+satıcı|noun||A2|der Verkäufer|Satıcı çok nazik.|Der Verkäufer ist sehr freundlich.|satıcısı|einkaufen
+işçi|noun||A2|der Arbeiter|Fabrikada yüz işçi var.|In der Fabrik gibt es hundert Arbeiter.|işçiler|arbeit
+emekli|adj||B1|im Ruhestand;der Rentner|Dedem emekli.|Mein Großvater ist in Rente.|emekliyim|arbeit
+işsiz|adj||B1|arbeitslos|Kardeşim şu an işsiz.|Mein Bruder ist gerade arbeitslos.||arbeit
+evli|adj||A1|verheiratet|Evli misin?|Bist du verheiratet?|evliyim|familie
+bekâr|adj||A1|ledig|Ben bekârım.|Ich bin ledig.|bekar,bekârım|familie
+boşanmış|adj||B1|geschieden|Ailem boşanmış.|Meine Eltern sind geschieden.||familie
+doğum|noun||B1|die Geburt|Doğum tarihin ne?|Was ist dein Geburtsdatum?|doğumu|familie
+ölüm|noun||B1|der Tod|Dedesinin ölümü onu çok üzdü.|Der Tod seines Großvaters hat ihn sehr traurig gemacht.|ölümü|familie
+sevgi|noun||B1|die Liebe;die Zuneigung|Annemin sevgisi.|Die Liebe meiner Mutter.|sevgisi|gefuehle
+nefret|noun||B1|der Hass|Nefret etmiyorum.|Ich hasse nicht.|nefret etmek|gefuehle
+özlemek|verb||A2|vermissen|Seni çok özledim.|Ich habe dich sehr vermisst.|özlüyor,özledi,özledim|gefuehle
+inanmak|verb||B1|glauben|Sana inanıyorum.|Ich glaube dir.|inanıyor,inandı,inanır|kommunikation
+umut etmek|verb||B1|hoffen|Yakında görüşmeyi umut ediyorum.|Ich hoffe, wir sehen uns bald.|umut ediyor,umarım|gefuehle
+korkmak|verb||A2|Angst haben|Karanlıktan korkuyorum.|Ich habe Angst vor der Dunkelheit.|korkuyor,korktu,korkar|gefuehle
+şaşırmak|verb||B1|überrascht sein;sich wundern|Çok şaşırdım.|Ich war sehr überrascht.|şaşırıyor,şaşırdı|gefuehle
+üzülmek|verb||B1|traurig sein;bedauern|Buna çok üzüldüm.|Das hat mich sehr traurig gemacht.|üzülüyor,üzüldü,üzüldüm|gefuehle
+sevinmek|verb||B1|sich freuen|Seni gördüğüme sevindim.|Ich freue mich, dich zu sehen.|seviniyor,sevindi,sevindim|gefuehle
+tanışmak|verb||A1|sich kennenlernen|Tanıştığımıza memnun oldum.|Freut mich, Sie kennenzulernen.|tanışıyor,tanıştı,tanıştığımıza|kommunikation
+memnun|adj||A2|zufrieden;erfreut|Memnun oldum.|Freut mich.||gefuehle
+izlemek|verb||A1|anschauen;zuschauen|Akşam film izliyoruz.|Abends schauen wir einen Film.|izliyor,izledi,izler,izle|freizeit
+anlamına gelmek|verb||B1|bedeuten|Bu kelime ne anlama geliyor?|Was bedeutet dieses Wort?|anlama geliyor,anlamı|kommunikation
+anlam|noun||B1|die Bedeutung|Kelimenin anlamı ne?|Was ist die Bedeutung des Wortes?|anlamı|schule
+çeviri|noun||B1|die Übersetzung|Bu çeviri doğru mu?|Ist diese Übersetzung richtig?|çevirisi|schule
+yazı|noun||A2|die Schrift;der Text|Yazısı çok güzel.|Seine Schrift ist sehr schön.|yazısı|schule
+harf|noun||A2|der Buchstabe|Türk alfabesinde yirmi dokuz harf var.|Das türkische Alphabet hat neunundzwanzig Buchstaben.|harfi,harfler|schule
+hikâye|noun||A2|die Geschichte;die Erzählung|Bana bir hikâye anlat.|Erzähl mir eine Geschichte.|hikaye,hikâyesi|freizeit
+masal|noun||B1|das Märchen|Çocuklara masal okuyorum.|Ich lese den Kindern ein Märchen vor.|masalı|freizeit
+şiir|noun||B1|das Gedicht|Güzel bir şiir.|Ein schönes Gedicht.|şiiri|freizeit
+dans|noun||A2|der Tanz|Halk dansı.|Volkstanz.|dansı|freizeit

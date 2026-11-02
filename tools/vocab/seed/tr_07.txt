@@ -1,0 +1,163 @@
+# Türkisch 811–1010
+yanak|noun||B1|die Wange|Yanakları kırmızı.|Ihre Wangen sind rot.|yanağı,yanakları|gesundheit
+diz|noun||B1|das Knie|Dizim ağrıyor.|Mir tut das Knie weh.|dizi,dizim|gesundheit
+kan|noun||B1|das Blut|Kan verdim.|Ich habe Blut gespendet.|kanı|gesundheit
+nezle|noun||A2|der Schnupfen;die Erkältung|Nezle oldum.|Ich habe mich erkältet.|nezlesi|gesundheit
+öksürük|noun||B1|der Husten|Öksürüğüm var.|Ich habe Husten.|öksürüğüm|gesundheit
+hap|noun||A2|die Tablette|Sekiz saatte bir hap al.|Nimm alle acht Stunden eine Tablette.|hapı|gesundheit
+diş hekimi|noun||A2|der Zahnarzt|Diş hekimine gidiyorum.|Ich gehe zum Zahnarzt.|dişçi,diş hekimine|gesundheit
+hemşire|noun||A2|die Krankenschwester;der Krankenpfleger|Kız kardeşim hemşire.|Meine Schwester ist Krankenschwester.|hemşiresi|gesundheit
+kaza|noun||B1|der Unfall|Otoyolda bir kaza oldu.|Auf der Autobahn gab es einen Unfall.|kazası|reisen
+ambulans|noun||B1|der Krankenwagen|Ambulans çağır.|Ruf einen Krankenwagen.|ambulansı|gesundheit
+yardım|noun||A2|die Hilfe|İmdat! Yardım edin!|Hilfe! Helfen Sie!|yardımı,imdat|alltag
+tehlike|noun||B1|die Gefahr|Tehlike var.|Es besteht Gefahr.|tehlikesi|alltag
+dikkat|noun||A2|die Vorsicht;die Aufmerksamkeit|Dikkat, köpek var!|Vorsicht, Hund!|dikkatli|alltag
+güvenlik|noun||B1|die Sicherheit|Güvenlik önce gelir.|Sicherheit geht vor.|güvenliği|alltag
+savaş|noun||B1|der Krieg|Savaş bitti.|Der Krieg ist vorbei.|savaşı|alltag
+barış|noun||B1|der Frieden|Barış istiyoruz.|Wir wollen Frieden.|barışı|alltag
+hükümet|noun||B1|die Regierung|Hükümet vergileri artırdı.|Die Regierung hat die Steuern erhöht.|hükümeti|alltag
+kanun|noun||B1|das Gesetz|Kanun böyle.|So ist das Gesetz.|kanunu,yasa|alltag
+hak|noun||B1|das Recht|Bunu bilmeye hakkın var.|Du hast ein Recht, es zu wissen.|hakkı,hakkın|alltag
+siyaset|noun||B1|die Politik|Siyaset konuşmam.|Ich rede nicht über Politik.|siyaseti,politika|alltag
+toplum|noun||B1|die Gesellschaft|Modern bir toplumda yaşıyoruz.|Wir leben in einer modernen Gesellschaft.|toplumu|alltag
+kültür|noun||A2|die Kultur|Türk kültürü beni ilgilendiriyor.|Die türkische Kultur interessiert mich.|kültürü|freizeit
+sanat|noun||A2|die Kunst|Modern sanat müzesi.|Das Museum für moderne Kunst.|sanatı|freizeit
+doğa|noun||A2|die Natur|Doğayı çok seviyorum.|Ich liebe die Natur sehr.|doğayı|natur
+çevre|noun||B1|die Umwelt;die Umgebung|Çevreyi korumalıyız.|Wir müssen die Umwelt schützen.|çevreyi|natur
+iklim|noun||B1|das Klima|İklim ılıman.|Das Klima ist mild.|iklimi|natur
+fırtına|noun||B1|der Sturm;das Gewitter|Bu gece fırtına var.|Heute Nacht gibt es einen Sturm.|fırtınası|natur
+derece|noun||A2|der Grad|Hava otuz derece.|Es sind dreißig Grad.|derecesi|natur
+sahil|noun||B1|die Küste;das Ufer|Sahilde oturuyoruz.|Wir wohnen an der Küste.|sahili,sahilde|natur
+kum|noun||B1|der Sand|Kum sıcak.|Der Sand ist heiß.|kumu|natur
+dalga|noun||B1|die Welle|Bugün dalgalar büyük.|Heute sind die Wellen groß.|dalgalar|natur
+çöl|noun||B1|die Wüste|Çölde su yok.|In der Wüste gibt es kein Wasser.|çölü|natur
+iş görüşmesi|noun||B1|das Vorstellungsgespräch|Yarın iş görüşmem var.|Morgen habe ich ein Vorstellungsgespräch.|iş görüşmem|arbeit
+sözleşme|noun||B1|der Vertrag|Sözleşmeyi imzaladım.|Ich habe den Vertrag unterschrieben.|sözleşmeyi|arbeit
+deneyim|noun||B1|die Erfahrung|Satışta deneyimim var.|Ich habe Erfahrung im Verkauf.|deneyimi,tecrübe|arbeit
+proje|noun||B1|das Projekt|Yeni bir proje üzerinde çalışıyoruz.|Wir arbeiten an einem neuen Projekt.|projesi|arbeit
+belge|noun||B1|das Dokument|Belgeyi bana gönder.|Schick mir das Dokument.|belgeyi|arbeit
+çalışma saatleri|noun||A2|die Öffnungszeiten;die Arbeitszeiten|Dükkanın çalışma saatleri ne?|Wie sind die Öffnungszeiten des Ladens?||zeit
+fabrika|noun||B1|die Fabrik|Babam bir fabrikada çalışıyor.|Mein Vater arbeitet in einer Fabrik.|fabrikada|arbeit
+kamyon|noun||A2|der Lastwagen|Kamyon çok büyük.|Der Lastwagen ist sehr groß.|kamyonu|reisen
+motosiklet|noun||A2|das Motorrad|İşe motosikletle gidiyorum.|Ich fahre mit dem Motorrad zur Arbeit.|motosikletle,motor|reisen
+benzin|noun||B1|das Benzin|Benzin lazım.|Wir brauchen Benzin.|benzini|reisen
+yol|noun||A1|der Weg;die Straße|Bu yol köye gidiyor.|Dieser Weg führt ins Dorf.|yolu,yollar,yolda|reisen
+otoyol|noun||B1|die Autobahn|Otoyolu kullanıyoruz.|Wir nehmen die Autobahn.|otoyolu|reisen
+kilometre|noun||A2|der Kilometer|Beş kilometre uzakta.|Es ist fünf Kilometer entfernt.|kilometreler|zahlen
+metrekare|noun||B1|der Quadratmeter|Daire seksen metrekare.|Die Wohnung hat achtzig Quadratmeter.||zahlen
+litre|noun||A2|der Liter|Bir litre süt.|Ein Liter Milch.|litresi|zahlen
+gram|noun||A2|das Gramm|İki yüz gram peynir.|Zweihundert Gramm Käse.|gramı|zahlen
+kilo|noun||A1|das Kilo|Bir kilo domates lütfen.|Ein Kilo Tomaten, bitte.|kiloyu|einkaufen
+lira|noun||A1|die Lira|On lira tutuyor.|Das macht zehn Lira.|lirası|einkaufen
+yüzde|noun||B1|das Prozent|Yüzde elli.|Fünfzig Prozent.||zahlen
+çeyrek|noun||A2|das Viertel|Saat ikiyi çeyrek geçiyor.|Es ist Viertel nach zwei.|çeyreği|zeit
+düzine|noun||B1|das Dutzend|Bir düzine yumurta.|Ein Dutzend Eier.||zahlen
+boyut|noun||B1|die Größe;das Ausmaß|Boyutu ne kadar?|Wie groß ist es?|boyutu,boy|zahlen
+çift|noun||A2|das Paar|Mutlu bir çift.|Ein glückliches Paar.|çifti|familie
+nüfus|noun||B1|die Bevölkerung;die Einwohnerzahl|Şehrin nüfusu bir milyon.|Die Stadt hat eine Million Einwohner.|nüfusu|stadt
+gerçek|noun||B1|die Wahrheit;die Tatsache;echt|Bu bir gerçek.|Das ist eine Tatsache.|gerçeği,gerçekten|kommunikation
+neden|noun||B1|der Grund|Bunun nedeni ne?|Was ist der Grund dafür?|nedeni,sebep|kommunikation
+haklı|adj||A2|recht haben|Haklısın.|Du hast recht.|haklısın|kommunikation
+düşünce|noun||B1|der Gedanke;die Meinung|Senin düşüncen ne?|Was ist deine Meinung?|düşüncen|kommunikation
+tavsiye|noun||B1|der Rat;die Empfehlung|Sana bir tavsiye vereyim.|Ich gebe dir einen Rat.|tavsiyesi|kommunikation
+konuşma|noun||A2|das Gespräch;die Rede|Uzun bir konuşma yaptık.|Wir hatten ein langes Gespräch.|konuşması|kommunikation
+ses|noun||A2|die Stimme;das Geräusch|Güzel bir sesi var.|Sie hat eine schöne Stimme.|sesi|kommunikation
+bilgi|noun||A2|die Information;das Wissen|Daha fazla bilgiye ihtiyacım var.|Ich brauche mehr Informationen.|bilgiye,bilgiler|kommunikation
+internet|noun||A1|das Internet|İnternette bilgi arıyorum.|Ich suche Informationen im Internet.|internette|kommunikation
+sayfa|noun||A2|die Seite|Kitabı onuncu sayfada aç.|Schlag das Buch auf Seite zehn auf.|sayfası,sayfada|schule
+ünite|noun||A2|die Lektion;die Einheit|Bugün beşinci üniteye başlıyoruz.|Heute beginnen wir mit Lektion fünf.|üniteye|schule
+matematik|noun||A2|die Mathematik|Matematik zor.|Mathe ist schwierig.|matematiği|schule
+bilim|noun||B1|die Wissenschaft|Bilimle ilgileniyorum.|Ich interessiere mich für Wissenschaft.|bilimle|schule
+tahta|noun||A2|die Tafel;das Holz|Tahtaya yaz.|Schreib an die Tafel.|tahtaya|schule
+sözlük|noun||A2|das Wörterbuch|Kelimeyi sözlükte ara.|Schlag das Wort im Wörterbuch nach.|sözlükte|schule
+dilbilgisi|noun||B1|die Grammatik|Türkçe dilbilgisi kolay değil.|Die türkische Grammatik ist nicht leicht.|gramer|schule
+kelime bilgisi|noun||B1|der Wortschatz|Kelime bilgimi geliştiriyorum.|Ich erweitere meinen Wortschatz.|kelime bilgimi|schule
+seviye|noun||B1|das Niveau;die Stufe|Orta seviyedeyim.|Ich bin auf mittlerem Niveau.|seviyesi,seviyedeyim|schule
+kurs|noun||A2|der Kurs|Türkçe kursuna gidiyorum.|Ich gehe in einen Türkischkurs.|kursu,kursuna|schule
+sınıf|noun||A1|die Klasse;das Klassenzimmer|Sınıfta yirmi öğrenci var.|In der Klasse sind zwanzig Schüler.|sınıfı,sınıfta|schule
+spor salonu|noun||A2|das Fitnessstudio;die Turnhalle|Haftada üç kez spor salonuna gidiyorum.|Ich gehe dreimal pro Woche ins Fitnessstudio.|spor salonuna|freizeit
+takım|noun||A2|die Mannschaft;das Team|Takımım maçı kazandı.|Meine Mannschaft hat das Spiel gewonnen.|takımı,takımım|freizeit
+maç|noun||A2|das Spiel (Sport)|Maçı televizyonda izliyoruz.|Wir schauen das Spiel im Fernsehen.|maçı|freizeit
+top|noun||A2|der Ball|Çocuklar topla oynuyor.|Die Kinder spielen mit dem Ball.|topu,topla|freizeit
+havuz|noun||A1|das Schwimmbad;der Pool|Otelin havuzu var.|Das Hotel hat einen Pool.|havuzu|freizeit
+konser|noun||A2|das Konzert|Cuma günü konsere gidiyoruz.|Am Freitag gehen wir ins Konzert.|konseri,konsere|freizeit
+roman|noun||B1|der Roman|Bir roman okuyorum.|Ich lese einen Roman.|romanı|freizeit
+dergi|noun||A2|die Zeitschrift|Bir dergi alıyorum.|Ich kaufe eine Zeitschrift.|dergisi|freizeit
+iş seyahati|noun||B1|die Geschäftsreise|İş seyahatindeyim.|Ich bin auf Geschäftsreise.|iş seyahatindeyim|arbeit
+gezi|noun||A2|der Ausflug;die Reise|Dağa bir gezi yapıyoruz.|Wir machen einen Ausflug in die Berge.|gezisi|freizeit
+yürüyüş|noun||A2|der Spaziergang;die Wanderung|Parkta yürüyüş yapıyoruz.|Wir machen einen Spaziergang im Park.|yürüyüşü|freizeit
+hobi|noun||A2|das Hobby|Hobim fotoğrafçılık.|Mein Hobby ist Fotografie.|hobim,hobiler|freizeit
+istek|noun||B1|der Wunsch;die Lust|Denize gitme isteğim var.|Ich habe Lust, ans Meer zu fahren.|isteği,isteğim|gefuehle
+sürpriz|noun||B1|die Überraschung|Ne güzel bir sürpriz!|Was für eine schöne Überraschung!|sürprizi|gefuehle
+karakter|noun||B1|der Charakter|İyi bir karakteri var.|Er hat einen guten Charakter.|karakteri|gefuehle
+sabır|noun||B1|die Geduld|Sabırlı ol.|Hab Geduld.|sabırlı,sabrı|gefuehle
+utanç|noun||B1|die Scham|Ne utanç verici!|Wie peinlich!|utanç verici|gefuehle
+suç|noun||B1|die Schuld;das Verbrechen|Senin suçun değil.|Es ist nicht deine Schuld.|suçu,suçun|gefuehle
+dilek|noun||B1|der Wunsch|Bir dilek tut.|Wünsch dir etwas.|dileği|gefuehle
+güzellik|noun||B2|die Schönheit|Manzaranın güzelliği.|Die Schönheit der Landschaft.|güzelliği|gefuehle
+yumuşak|adj||B1|weich|Yumuşak bir ekmek.|Ein weiches Brot.||essen
+sert|adj||B1|hart;streng|Sert bir iş.|Eine harte Arbeit.||arbeit
+tuzlu|adj||B1|salzig|Çorba çok tuzlu.|Die Suppe ist sehr salzig.||essen
+acı|adj||B1|scharf;bitter|Sos çok acı.|Die Soße ist sehr scharf.||essen
+taze|adj||A2|frisch|Balık taze.|Der Fisch ist frisch.||essen
+geniş|adj||B1|breit;weit;geräumig|Cadde çok geniş.|Die Straße ist sehr breit.||farben
+dar|adj||B1|eng;schmal|Bu pantolon dar.|Diese Hose ist eng.||kleidung
+derin|adj||B1|tief|Göl çok derin.|Der See ist sehr tief.||natur
+kare|adj||B1|quadratisch;das Quadrat|Kare bir masa.|Ein quadratischer Tisch.||farben
+yabancı|adj||A2|fremd;ausländisch;der Ausländer|Çok yabancı öğrenci var.|Es gibt viele ausländische Studenten.|yabancılar|reisen
+toplu taşıma|noun||B1|der öffentliche Verkehr|Toplu taşıma ucuz.|Der öffentliche Verkehr ist günstig.||stadt
+bedava|adj||A2|kostenlos;gratis|Giriş bedava.|Der Eintritt ist kostenlos.|ücretsiz|einkaufen
+faydalı|adj||B1|nützlich|Çok faydalı bir kitap.|Ein sehr nützliches Buch.|yararlı|alltag
+gerekli|adj||B1|nötig;notwendig|Bu gerekli değil.|Das ist nicht nötig.||alltag
+ana|adj||B1|Haupt-;wichtigste|Ana cadde.|Die Hauptstraße.||stadt
+yalnız|adj||A2|allein;einsam|Yalnız yaşıyorum.|Ich lebe allein.||alltag
+hoş geldiniz|phrase||A1|willkommen|Türkiye'ye hoş geldiniz!|Willkommen in der Türkei!|hoş geldin|kommunikation
+hoş bulduk|phrase||A1|danke (Antwort auf „hoş geldiniz“)|—Hoş geldiniz! —Hoş bulduk.|„Willkommen!“ – „Danke!“||kommunikation
+iyi günler|phrase||A1|guten Tag;schönen Tag noch|İyi günler, size nasıl yardım edebilirim?|Guten Tag, wie kann ich Ihnen helfen?||kommunikation
+görüşürüz|phrase||A1|bis bald;wir sehen uns|Görüşürüz, Marta.|Bis bald, Marta.||kommunikation
+kolay gelsin|phrase||A2|frohes Schaffen (Gruß bei der Arbeit)|Kolay gelsin, usta!|Frohes Schaffen, Meister!||kommunikation
+afiyet olsun|phrase||A1|guten Appetit|Afiyet olsun!|Guten Appetit!||essen
+geçmiş olsun|phrase||A2|gute Besserung|Geçmiş olsun, çabuk iyileş.|Gute Besserung, werd schnell gesund.||gesundheit
+maşallah|interj||B1|wie schön (Ausruf der Bewunderung)|Maşallah, çok büyümüş!|Wie schön, er ist so groß geworden!||kommunikation
+inşallah|interj||A2|hoffentlich;so Gott will|İnşallah yarın güneşli olur.|Hoffentlich ist es morgen sonnig.||kommunikation
+peki|interj||A2|na gut;also|Peki, ne zaman geliyorsun?|Also, wann kommst du?||kommunikation
+aslında|adv||B1|eigentlich|Aslında haklısın.|Eigentlich hast du recht.||kommunikation
+özellikle|adv||B1|besonders|Özellikle yazın çok sıcak.|Besonders im Sommer ist es sehr heiß.||grammatik
+gerçekten|adv||A2|wirklich|Gerçekten mi?|Wirklich?||kommunikation
+kesinlikle|adv||B1|auf jeden Fall;bestimmt|Kesinlikle geleceğim.|Ich komme auf jeden Fall.||kommunikation
+herhalde|adv||B1|wahrscheinlich;wohl|Herhalde yağmur yağacak.|Wahrscheinlich wird es regnen.||kommunikation
+hatta|adv||B1|sogar|Hatta çocuklar bile biliyor.|Sogar die Kinder wissen es.||grammatik
+ise|conj||B1|was … betrifft;dagegen|Ben çay içerim, o ise kahve.|Ich trinke Tee, sie dagegen Kaffee.||grammatik
+eğer|conj||A2|wenn;falls|Eğer yağmur yağarsa evde kalırım.|Wenn es regnet, bleibe ich zu Hause.||grammatik
+ki|conj||B1|dass|Biliyorum ki haklısın.|Ich weiß, dass du recht hast.||grammatik
+fakat|conj||A2|aber;jedoch|Pahalı fakat kaliteli.|Teuer, aber hochwertig.|ancak|grammatik
+ya da|conj||A1|oder|Çay ya da kahve?|Tee oder Kaffee?||grammatik
+hem … hem|conj||B1|sowohl … als auch|Hem güzel hem ucuz.|Sowohl schön als auch billig.|hem|grammatik
+madem|conj||B2|da ja;wenn schon|Madem geldin, otur.|Wenn du schon da bist, setz dich.||grammatik
+çay bahçesi|noun||B1|der Teegarten|Çay bahçesinde oturuyoruz.|Wir sitzen im Teegarten.|çay bahçesinde|freizeit
+simit|noun||A1|der Sesamring|Sabahları simit yerim.|Morgens esse ich einen Sesamring.|simidi|essen
+börek|noun||A2|der Börek (gefülltes Teiggebäck)|Peynirli börek çok lezzetli.|Börek mit Käse ist sehr lecker.|böreği|essen
+baklava|noun||A2|die Baklava|Bayramda baklava yeriz.|Am Feiertag essen wir Baklava.|baklavası|essen
+lokum|noun||A2|der türkische Honig (Lokum)|Kahvenin yanında lokum.|Lokum zum Kaffee.|lokumu|essen
+mercimek|noun||A2|die Linse|Mercimek çorbası severim.|Ich mag Linsensuppe.|mercimeği|essen
+fasulye|noun||A2|die Bohne|Kuru fasulye ve pilav.|Weiße Bohnen mit Reis.|fasulyesi|essen
+köfte|noun||A1|die Frikadelle|Köfte ve salata istiyorum.|Ich möchte Frikadellen und Salat.|köftesi|essen
+dolma|noun||A2|die gefüllte Speise (Dolma)|Annem dolma yapıyor.|Meine Mutter macht Dolma.|dolması|essen
+misafir|noun||A2|der Gast|Akşam misafirimiz var.|Heute Abend haben wir Gäste.|misafiri,misafirler|familie
+mahalle|noun||A2|das Viertel;die Nachbarschaft|Sakin bir mahallede oturuyoruz.|Wir wohnen in einem ruhigen Viertel.|mahallesi,mahallede|stadt
+bina|noun||A2|das Gebäude|On katlı bir bina.|Ein zehnstöckiges Gebäude.|binası|stadt
+köprü|noun||A2|die Brücke|Köprüyü geçiyoruz.|Wir überqueren die Brücke.|köprüyü|stadt
+kat|noun||A2|das Stockwerk|Üçüncü katta oturuyorum.|Ich wohne im dritten Stock.|katı,katta|wohnen
+giriş|noun||A2|der Eingang;der Eintritt|Giriş nerede?|Wo ist der Eingang?|girişi|reisen
+çıkış|noun||A2|der Ausgang|Çıkış solda.|Der Ausgang ist links.|çıkışı|reisen
+varış|noun||B1|die Ankunft|Varış saati on bir.|Die Ankunftszeit ist elf Uhr.|varışı|reisen
+kalkış|noun||B1|der Abflug;die Abfahrt|Kalkış saat kaçta?|Um wie viel Uhr ist der Abflug?|kalkışı|reisen
+bisiklet|noun||A1|das Fahrrad|İşe bisikletle gidiyorum.|Ich fahre mit dem Fahrrad zur Arbeit.|bisikleti,bisikletle|reisen
+gemi|noun||A1|das Schiff|Gemiyle seyahat ediyoruz.|Wir reisen mit dem Schiff.|gemisi,gemiyle|reisen
+vapur|noun||A1|die Fähre|Vapurla karşıya geçiyoruz.|Wir fahren mit der Fähre auf die andere Seite.|vapuru,vapurla|reisen
+taksi|noun||A1|das Taxi|Bir taksi çağıralım.|Lass uns ein Taxi rufen.|taksiyi|reisen
+metro|noun||A1|die U-Bahn|Her sabah metroya biniyorum.|Ich fahre jeden Morgen mit der U-Bahn.|metroya|reisen
+dolmuş|noun||A2|das Sammeltaxi|Dolmuşla merkeze gidiyoruz.|Wir fahren mit dem Sammeltaxi ins Zentrum.|dolmuşla|reisen
+numara|noun||A1|die Nummer|Telefon numaran ne?|Wie ist deine Telefonnummer?|numarası,numaran|zahlen
+sayı|noun||A2|die Zahl|Bir sayı söyle.|Nenn eine Zahl.|sayısı|zahlen
+kart|noun||A1|die Karte|Kartla ödüyorum.|Ich zahle mit Karte.|kartı,kartla|einkaufen
