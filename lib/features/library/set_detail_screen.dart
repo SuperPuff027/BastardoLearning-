@@ -9,6 +9,7 @@ import '../../core/rich_text_style.dart';
 import '../../core/study_language.dart';
 import '../../data/database.dart';
 import '../../data/library_repository.dart';
+import '../study/study_options.dart';
 import 'library_providers.dart';
 import 'widgets.dart';
 
@@ -72,6 +73,12 @@ class _SetDetailScreenState extends ConsumerState<SetDetailScreen> {
                     onStarredOnlyChanged: (v) =>
                         setState(() => _starredOnly = v),
                   ),
+                  if (cards.isNotEmpty)
+                    _StudyModes(
+                      onMode: (mode) =>
+                          _startMode(s, mode, cards.length, starredCount),
+                      onReview: () => context.push(Routes.review(setId: s.id)),
+                    ),
                   if (cards.isEmpty)
                     _EmptyCards(setId: s.id)
                   else if (visible.isEmpty)
@@ -155,6 +162,27 @@ class _SetDetailScreenState extends ConsumerState<SetDetailScreen> {
       ),
     ],
   );
+
+  Future<void> _startMode(
+    VocabSet s,
+    StudyModeKind mode,
+    int cardCount,
+    int starredCount,
+  ) async {
+    final settings = ref.read(settingsProvider);
+    final options = await showStudyOptionsSheet(
+      context,
+      mode: mode,
+      initial: StudyOptions(
+        direction: settings.quizDirection,
+        starredOnly: _starredOnly && starredCount > 0,
+      ),
+      cardCount: cardCount,
+      starredCount: starredCount,
+    );
+    if (options == null || !mounted) return;
+    await context.push(Routes.study(s.id, mode, options));
+  }
 
   Future<void> _deleteCard(VocabCard c) async {
     final ok = await showConfirmDialog(
@@ -307,6 +335,39 @@ class _Header extends StatelessWidget {
             label: Text('Nur markierte ($starredCount)'),
             selected: starredOnly,
             onSelected: onStarredOnlyChanged,
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _StudyModes extends StatelessWidget {
+  const _StudyModes({required this.onMode, required this.onReview});
+
+  final ValueChanged<StudyModeKind> onMode;
+  final VoidCallback onReview;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 12),
+      child: Wrap(
+        spacing: 8,
+        runSpacing: 8,
+        children: [
+          for (final m in StudyModeKind.values)
+            ActionChip(
+              key: Key('mode-${m.name}'),
+              avatar: Icon(m.icon, size: 18),
+              label: Text(m.label),
+              onPressed: () => onMode(m),
+            ),
+          ActionChip(
+            key: const Key('mode-review'),
+            avatar: const Icon(Icons.replay, size: 18),
+            label: const Text('Wiederholen'),
+            onPressed: onReview,
           ),
         ],
       ),

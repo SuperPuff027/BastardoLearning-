@@ -2352,6 +2352,15 @@ class $ReviewLogsTable extends ReviewLogs
       'CHECK ("correct" IN (0, 1))',
     ),
   );
+  static const VerificationMeta _ratingMeta = const VerificationMeta('rating');
+  @override
+  late final GeneratedColumn<int> rating = GeneratedColumn<int>(
+    'rating',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
   static const VerificationMeta _responseMsMeta = const VerificationMeta(
     'responseMs',
   );
@@ -2370,6 +2379,7 @@ class $ReviewLogsTable extends ReviewLogs
     timestamp,
     mode,
     correct,
+    rating,
     responseMs,
   ];
   @override
@@ -2417,6 +2427,12 @@ class $ReviewLogsTable extends ReviewLogs
     } else if (isInserting) {
       context.missing(_correctMeta);
     }
+    if (data.containsKey('rating')) {
+      context.handle(
+        _ratingMeta,
+        rating.isAcceptableOrUnknown(data['rating']!, _ratingMeta),
+      );
+    }
     if (data.containsKey('response_ms')) {
       context.handle(
         _responseMsMeta,
@@ -2452,6 +2468,10 @@ class $ReviewLogsTable extends ReviewLogs
         DriftSqlType.bool,
         data['${effectivePrefix}correct'],
       )!,
+      rating: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}rating'],
+      ),
       responseMs: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}response_ms'],
@@ -2471,6 +2491,9 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
   final DateTime timestamp;
   final String mode;
   final bool correct;
+
+  /// FSRS-Bewertung 1–4 (ab Schema 2).
+  final int? rating;
   final int? responseMs;
   const ReviewLog({
     required this.id,
@@ -2478,6 +2501,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
     required this.timestamp,
     required this.mode,
     required this.correct,
+    this.rating,
     this.responseMs,
   });
   @override
@@ -2488,6 +2512,9 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
     map['timestamp'] = Variable<DateTime>(timestamp);
     map['mode'] = Variable<String>(mode);
     map['correct'] = Variable<bool>(correct);
+    if (!nullToAbsent || rating != null) {
+      map['rating'] = Variable<int>(rating);
+    }
     if (!nullToAbsent || responseMs != null) {
       map['response_ms'] = Variable<int>(responseMs);
     }
@@ -2501,6 +2528,9 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
       timestamp: Value(timestamp),
       mode: Value(mode),
       correct: Value(correct),
+      rating: rating == null && nullToAbsent
+          ? const Value.absent()
+          : Value(rating),
       responseMs: responseMs == null && nullToAbsent
           ? const Value.absent()
           : Value(responseMs),
@@ -2518,6 +2548,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
       timestamp: serializer.fromJson<DateTime>(json['timestamp']),
       mode: serializer.fromJson<String>(json['mode']),
       correct: serializer.fromJson<bool>(json['correct']),
+      rating: serializer.fromJson<int?>(json['rating']),
       responseMs: serializer.fromJson<int?>(json['responseMs']),
     );
   }
@@ -2530,6 +2561,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
       'timestamp': serializer.toJson<DateTime>(timestamp),
       'mode': serializer.toJson<String>(mode),
       'correct': serializer.toJson<bool>(correct),
+      'rating': serializer.toJson<int?>(rating),
       'responseMs': serializer.toJson<int?>(responseMs),
     };
   }
@@ -2540,6 +2572,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
     DateTime? timestamp,
     String? mode,
     bool? correct,
+    Value<int?> rating = const Value.absent(),
     Value<int?> responseMs = const Value.absent(),
   }) => ReviewLog(
     id: id ?? this.id,
@@ -2547,6 +2580,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
     timestamp: timestamp ?? this.timestamp,
     mode: mode ?? this.mode,
     correct: correct ?? this.correct,
+    rating: rating.present ? rating.value : this.rating,
     responseMs: responseMs.present ? responseMs.value : this.responseMs,
   );
   ReviewLog copyWithCompanion(ReviewLogsCompanion data) {
@@ -2556,6 +2590,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
       timestamp: data.timestamp.present ? data.timestamp.value : this.timestamp,
       mode: data.mode.present ? data.mode.value : this.mode,
       correct: data.correct.present ? data.correct.value : this.correct,
+      rating: data.rating.present ? data.rating.value : this.rating,
       responseMs: data.responseMs.present
           ? data.responseMs.value
           : this.responseMs,
@@ -2570,6 +2605,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
           ..write('timestamp: $timestamp, ')
           ..write('mode: $mode, ')
           ..write('correct: $correct, ')
+          ..write('rating: $rating, ')
           ..write('responseMs: $responseMs')
           ..write(')'))
         .toString();
@@ -2577,7 +2613,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
 
   @override
   int get hashCode =>
-      Object.hash(id, cardId, timestamp, mode, correct, responseMs);
+      Object.hash(id, cardId, timestamp, mode, correct, rating, responseMs);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -2587,6 +2623,7 @@ class ReviewLog extends DataClass implements Insertable<ReviewLog> {
           other.timestamp == this.timestamp &&
           other.mode == this.mode &&
           other.correct == this.correct &&
+          other.rating == this.rating &&
           other.responseMs == this.responseMs);
 }
 
@@ -2596,6 +2633,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
   final Value<DateTime> timestamp;
   final Value<String> mode;
   final Value<bool> correct;
+  final Value<int?> rating;
   final Value<int?> responseMs;
   const ReviewLogsCompanion({
     this.id = const Value.absent(),
@@ -2603,6 +2641,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
     this.timestamp = const Value.absent(),
     this.mode = const Value.absent(),
     this.correct = const Value.absent(),
+    this.rating = const Value.absent(),
     this.responseMs = const Value.absent(),
   });
   ReviewLogsCompanion.insert({
@@ -2611,6 +2650,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
     this.timestamp = const Value.absent(),
     required String mode,
     required bool correct,
+    this.rating = const Value.absent(),
     this.responseMs = const Value.absent(),
   }) : cardId = Value(cardId),
        mode = Value(mode),
@@ -2621,6 +2661,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
     Expression<DateTime>? timestamp,
     Expression<String>? mode,
     Expression<bool>? correct,
+    Expression<int>? rating,
     Expression<int>? responseMs,
   }) {
     return RawValuesInsertable({
@@ -2629,6 +2670,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
       if (timestamp != null) 'timestamp': timestamp,
       if (mode != null) 'mode': mode,
       if (correct != null) 'correct': correct,
+      if (rating != null) 'rating': rating,
       if (responseMs != null) 'response_ms': responseMs,
     });
   }
@@ -2639,6 +2681,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
     Value<DateTime>? timestamp,
     Value<String>? mode,
     Value<bool>? correct,
+    Value<int?>? rating,
     Value<int?>? responseMs,
   }) {
     return ReviewLogsCompanion(
@@ -2647,6 +2690,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
       timestamp: timestamp ?? this.timestamp,
       mode: mode ?? this.mode,
       correct: correct ?? this.correct,
+      rating: rating ?? this.rating,
       responseMs: responseMs ?? this.responseMs,
     );
   }
@@ -2669,6 +2713,9 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
     if (correct.present) {
       map['correct'] = Variable<bool>(correct.value);
     }
+    if (rating.present) {
+      map['rating'] = Variable<int>(rating.value);
+    }
     if (responseMs.present) {
       map['response_ms'] = Variable<int>(responseMs.value);
     }
@@ -2683,6 +2730,7 @@ class ReviewLogsCompanion extends UpdateCompanion<ReviewLog> {
           ..write('timestamp: $timestamp, ')
           ..write('mode: $mode, ')
           ..write('correct: $correct, ')
+          ..write('rating: $rating, ')
           ..write('responseMs: $responseMs')
           ..write(')'))
         .toString();
@@ -5757,6 +5805,7 @@ typedef $$ReviewLogsTableCreateCompanionBuilder = ReviewLogsCompanion Function({
   Value<DateTime> timestamp,
   required String mode,
   required bool correct,
+  Value<int?> rating,
   Value<int?> responseMs,
 });
 typedef $$ReviewLogsTableUpdateCompanionBuilder = ReviewLogsCompanion Function({
@@ -5765,6 +5814,7 @@ typedef $$ReviewLogsTableUpdateCompanionBuilder = ReviewLogsCompanion Function({
   Value<DateTime> timestamp,
   Value<String> mode,
   Value<bool> correct,
+  Value<int?> rating,
   Value<int?> responseMs,
 });
 
@@ -5816,6 +5866,11 @@ class $$ReviewLogsTableFilterComposer
 
   ColumnFilters<bool> get correct => $composableBuilder(
     column: $table.correct,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get rating => $composableBuilder(
+    column: $table.rating,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -5877,6 +5932,11 @@ class $$ReviewLogsTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<int> get rating => $composableBuilder(
+    column: $table.rating,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   ColumnOrderings<int> get responseMs => $composableBuilder(
     column: $table.responseMs,
     builder: (column) => ColumnOrderings(column),
@@ -5926,6 +5986,9 @@ class $$ReviewLogsTableAnnotationComposer
 
   GeneratedColumn<bool> get correct =>
       $composableBuilder(column: $table.correct, builder: (column) => column);
+
+  GeneratedColumn<int> get rating =>
+      $composableBuilder(column: $table.rating, builder: (column) => column);
 
   GeneratedColumn<int> get responseMs => $composableBuilder(
     column: $table.responseMs,
@@ -5989,6 +6052,7 @@ class $$ReviewLogsTableTableManager
                 Value<DateTime> timestamp = const Value.absent(),
                 Value<String> mode = const Value.absent(),
                 Value<bool> correct = const Value.absent(),
+                Value<int?> rating = const Value.absent(),
                 Value<int?> responseMs = const Value.absent(),
               }) => ReviewLogsCompanion(
                 id: id,
@@ -5996,6 +6060,7 @@ class $$ReviewLogsTableTableManager
                 timestamp: timestamp,
                 mode: mode,
                 correct: correct,
+                rating: rating,
                 responseMs: responseMs,
               ),
           createCompanionCallback:
@@ -6005,6 +6070,7 @@ class $$ReviewLogsTableTableManager
                 Value<DateTime> timestamp = const Value.absent(),
                 required String mode,
                 required bool correct,
+                Value<int?> rating = const Value.absent(),
                 Value<int?> responseMs = const Value.absent(),
               }) => ReviewLogsCompanion.insert(
                 id: id,
@@ -6012,6 +6078,7 @@ class $$ReviewLogsTableTableManager
                 timestamp: timestamp,
                 mode: mode,
                 correct: correct,
+                rating: rating,
                 responseMs: responseMs,
               ),
           withReferenceMapper: (p0) => p0

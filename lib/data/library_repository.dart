@@ -301,6 +301,20 @@ class LibraryRepository {
     return q.watch();
   }
 
+  /// Karten-ID → Set-ID.
+  Future<Map<int, int>> setIdsOfCards(Iterable<int> cardIds) async {
+    final ids = cardIds.toList();
+    if (ids.isEmpty) return {};
+    final rows =
+        await (db.selectOnly(db.cards)
+              ..addColumns([db.cards.id, db.cards.setId])
+              ..where(db.cards.id.isIn(ids)))
+            .get();
+    return {
+      for (final r in rows) r.read(db.cards.id)!: r.read(db.cards.setId)!,
+    };
+  }
+
   Future<VocabCard?> getCard(int id) =>
       (db.select(db.cards)..where((c) => c.id.equals(id))).getSingleOrNull();
 

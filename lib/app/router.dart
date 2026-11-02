@@ -10,6 +10,12 @@ import '../features/library/set_detail_screen.dart';
 import '../features/library/set_form_screen.dart';
 import '../features/progress/progress_screen.dart';
 import '../features/settings/settings_screen.dart';
+import '../features/study/flashcards_screen.dart';
+import '../features/study/learn_mode_screen.dart';
+import '../features/study/review_screen.dart';
+import '../features/study/study_options.dart';
+import '../features/study/test_screen.dart';
+import '../features/study/write_screen.dart';
 
 abstract final class Routes {
   static const library = '/sets';
@@ -25,6 +31,31 @@ abstract final class Routes {
   static String importCards(int setId) => '${set(setId)}/import';
   static String newCard(int setId) => '${set(setId)}/karte/neu';
   static String card(int setId, int cardId) => '${set(setId)}/karte/$cardId';
+
+  /// Lernmodus eines Sets (Vollbild, ohne Tab-Leiste).
+  static String study(int setId, StudyModeKind mode, StudyOptions options) =>
+      Uri(
+        path: '/ueben/$setId/${mode.path}',
+        queryParameters: options.toQuery(),
+      ).toString();
+
+  /// Spaced-Repetition-Wiederholung; ohne [setId] für alle Sets.
+  static String review({int? setId}) =>
+      setId == null ? '/wiederholen' : '/wiederholen?set=$setId';
+}
+
+Widget _studyScreen(GoRouterState state, StudyModeKind mode) {
+  final setId = _id(state, 'setId');
+  final options = StudyOptions.fromQuery(state.uri.queryParameters);
+  return switch (mode) {
+    StudyModeKind.flashcards => FlashcardsScreen(
+      setId: setId,
+      options: options,
+    ),
+    StudyModeKind.learn => LearnModeScreen(setId: setId, options: options),
+    StudyModeKind.write => WriteScreen(setId: setId, options: options),
+    StudyModeKind.test => TestScreen(setId: setId, options: options),
+  };
 }
 
 int _id(GoRouterState state, String name) =>
@@ -33,6 +64,17 @@ int _id(GoRouterState state, String name) =>
 GoRouter buildRouter() => GoRouter(
   initialLocation: Routes.library,
   routes: [
+    for (final mode in StudyModeKind.values)
+      GoRoute(
+        path: '/ueben/:setId/${mode.path}',
+        builder: (_, state) => _studyScreen(state, mode),
+      ),
+    GoRoute(
+      path: '/wiederholen',
+      builder: (_, state) => ReviewScreen(
+        setId: int.tryParse(state.uri.queryParameters['set'] ?? ''),
+      ),
+    ),
     StatefulShellRoute.indexedStack(
       builder: (context, state, shell) => HomeShell(shell: shell),
       branches: [
