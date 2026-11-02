@@ -1,0 +1,126 @@
+# Türkisch 686–850
+kabul etmek|verb||B1|annehmen;akzeptieren|Davetini kabul ediyorum.|Ich nehme deine Einladung an.|kabul ediyor,kabul etti|kommunikation
+ulaşmak|verb||B1|erreichen;ankommen|Saat beşte Ankara'ya ulaştık.|Um fünf sind wir in Ankara angekommen.|ulaşıyor,ulaştı,ulaştık|reisen
+varmak|verb||A2|ankommen|Tren saat onda varıyor.|Der Zug kommt um zehn an.|varıyor,vardı,varır|reisen
+söndürmek|verb||B1|ausschalten;löschen|Işığı söndür.|Mach das Licht aus.|söndürüyor,söndürdü,söndür|wohnen
+yakmak|verb||B1|anzünden;einschalten|Işığı yak.|Mach das Licht an.|yakıyor,yaktı,yak|wohnen
+park etmek|verb||A2|parken|Buraya park edemezsin.|Hier kannst du nicht parken.|park ediyor,park etti,park edemezsin|reisen
+tamir etmek|verb||B1|reparieren|Babam bisikleti tamir ediyor.|Mein Vater repariert das Fahrrad.|tamir ediyor,tamir etti|wohnen
+öpmek|verb||B1|küssen|Beni yanağımdan öptü.|Er küsste mich auf die Wange.|öpüyor,öptü,öper|gefuehle
+düşmek|verb||B1|fallen;hinfallen|Dikkat et, düşme.|Pass auf, fall nicht hin.|düşüyor,düştü,düşer,düşme|alltag
+kutlamak|verb||A2|feiern;gratulieren|Doğum gününü kutluyoruz.|Wir feiern seinen Geburtstag.|kutluyor,kutladı,kutlar|freizeit
+paylaşmak|verb||B1|teilen|Pizzayı paylaşıyoruz.|Wir teilen die Pizza.|paylaşıyor,paylaştı,paylaşır|essen
+saymak|verb||A2|zählen|Ona kadar say.|Zähl bis zehn.|sayıyor,saydı,sayar,say|zahlen
+büyümek|verb||B1|wachsen;aufwachsen|Çocuklar çok hızlı büyüyor.|Kinder wachsen sehr schnell.|büyüyor,büyüdü,büyür|familie
+ilgilenmek|verb||B1|sich kümmern;sich interessieren|Küçük kardeşimle ilgileniyorum.|Ich kümmere mich um meinen kleinen Bruder.|ilgileniyor,ilgilendi,ilgilenir|familie
+karar vermek|verb||B1|entscheiden|Henüz karar vermedim.|Ich habe mich noch nicht entschieden.|karar veriyor,karar verdi,karar vermedim|alltag
+çizmek|verb||A2|zeichnen|Kızım çok güzel çiziyor.|Meine Tochter zeichnet sehr schön.|çiziyor,çizdi,çizer|freizeit
+keyif almak|verb||B1|genießen|Tatilden keyif al.|Genieß den Urlaub.|keyif alıyor,keyif aldı,keyif al|freizeit
+sürmek|verb||B1|dauern;fahren|Film iki saat sürüyor.|Der Film dauert zwei Stunden.|sürüyor,sürdü,sürer|zeit
+atmak|verb||B1|werfen;wegwerfen|Çöpü at.|Bring den Müll raus.|atıyor,attı,atar,at|wohnen
+aşık olmak|verb||B1|sich verlieben|Ona aşık oldu.|Er hat sich in sie verliebt.|aşık oldu,aşık oluyor|gefuehle
+kızmak|verb||B1|sich ärgern;böse werden|Bana kızma.|Sei nicht böse auf mich.|kızıyor,kızdı,kızar,kızma|gefuehle
+yanılmak|verb||B1|sich irren|Yanıldım.|Ich habe mich geirrt.|yanılıyor,yanıldı,yanıldım|kommunikation
+eksik olmak|verb||B1|fehlen|Bir sandalye eksik.|Es fehlt ein Stuhl.|eksik,eksiği|zahlen
+imzalamak|verb||B1|unterschreiben|Lütfen buraya imzalayın.|Bitte unterschreiben Sie hier.|imzalıyor,imzaladı,imzalayın|arbeit
+harcamak|verb||B1|ausgeben (Geld)|Kıyafete çok para harcıyorum.|Ich gebe viel Geld für Kleidung aus.|harcıyor,harcadı,harcar|einkaufen
+saklamak|verb||B1|aufbewahren;verstecken|Belgeyi sakla.|Bewahre das Dokument auf.|saklıyor,sakladı,sakla|alltag
+kaydetmek|verb||B1|speichern;aufnehmen|Dosyayı kaydet.|Speichere die Datei.|kaydediyor,kaydetti,kaydet|arbeit
+yıkanmak|verb||A2|sich waschen|Her sabah yıkanıyorum.|Ich wasche mich jeden Morgen.|yıkanıyor,yıkandı|alltag
+kaldırmak|verb||B1|heben;wegräumen|Elini kaldır.|Heb die Hand.|kaldırıyor,kaldırdı,kaldır|gesundheit
+doldurmak|verb||B1|füllen;ausfüllen|Formu doldurun.|Füllen Sie das Formular aus.|dolduruyor,doldurdu,doldurun|arbeit
+iyileşmek|verb||B1|gesund werden;sich verbessern|Türkçem iyileşti.|Mein Türkisch hat sich verbessert.|iyileşiyor,iyileşti|gesundheit
+hareket etmek|verb||B1|sich bewegen;abfahren|Bacağımı hareket ettiremiyorum.|Ich kann mein Bein nicht bewegen.|hareket ediyor,hareket etti,ettiremiyorum|gesundheit
+taşınmak|verb||B1|umziehen|İstanbul'a taşınıyoruz.|Wir ziehen nach Istanbul um.|taşınıyor,taşındı,taşınır|wohnen
+sunmak|verb||B2|anbieten;präsentieren|Size bir kahve sunayım.|Ich biete Ihnen einen Kaffee an.|sunuyor,sundu,sunar,sunayım|alltag
+benzemek|verb||B1|ähneln;aussehen wie|Babasına benziyor.|Er sieht seinem Vater ähnlich.|benziyor,benzedi,benzer|familie
+gezmek|verb||A2|spazieren gehen;besichtigen|Nehir kenarında geziyoruz.|Wir gehen am Fluss spazieren.|geziyor,gezdi,gezer|freizeit
+sipariş etmek|verb||A2|bestellen|Bir pizza sipariş ettik.|Wir haben eine Pizza bestellt.|sipariş ediyor,sipariş etti|essen
+ödünç vermek|verb||B1|leihen|Arabanı bana ödünç verir misin?|Leihst du mir dein Auto?|ödünç veriyor,ödünç verdi,ödünç verir|alltag
+hediye etmek|verb||A2|schenken|Ona bir kitap hediye ettim.|Ich habe ihm ein Buch geschenkt.|hediye ediyor,hediye etti|freizeit
+ayırtmak|verb||B1|reservieren|Bir masa ayırtmak istiyorum.|Ich möchte einen Tisch reservieren.|ayırtıyor,ayırttı|reisen
+çözmek|verb||B1|lösen|Sorunu çözdük.|Wir haben das Problem gelöst.|çözüyor,çözdü,çözer|schule
+selamlamak|verb||B1|grüßen|Komşumu selamladım.|Ich habe meinen Nachbarn gegrüßt.|selamlıyor,selamladı|kommunikation
+selam|interj||A1|hallo;Gruß|Annene selam söyle.|Grüß deine Mutter.|selamlar|kommunikation
+para çekmek|verb||B1|Geld abheben|Bankamatikten para çekiyorum.|Ich hebe Geld am Automaten ab.|para çekiyor,para çekti|einkaufen
+hizmet etmek|verb||B2|dienen|Size nasıl hizmet edebilirim?|Wie kann ich Ihnen dienen?|hizmet ediyor,hizmet edebilirim|arbeit
+acı çekmek|verb||B2|leiden|Sırt ağrısından acı çekiyor.|Er leidet unter Rückenschmerzen.|acı çekiyor,acı çekti|gesundheit
+çekmek|verb||B1|ziehen;fotografieren|Bir fotoğraf çek.|Mach ein Foto.|çekiyor,çekti,çek|freizeit
+davranmak|verb||B1|sich verhalten;behandeln|Bana iyi davranıyor.|Er behandelt mich gut.|davranıyor,davrandı|alltag
+değmek|verb||B1|wert sein;berühren|Buna değer.|Das ist es wert.|değer,değiyor|einkaufen
+uçmak|verb||B1|fliegen|Yarın Berlin'e uçuyoruz.|Morgen fliegen wir nach Berlin.|uçuyor,uçtu,uçar|reisen
+oy vermek|verb||B2|wählen;abstimmen|Yarın oy veriyoruz.|Morgen wählen wir.|oy veriyor,oy verdi|alltag
+ebeveyn|noun||B1|der Elternteil;die Eltern|Ebeveynler toplantıya geldi.|Die Eltern sind zur Versammlung gekommen.|ebeveynler|familie
+anne baba|noun||A1|die Eltern|Annem babam Konya'da yaşıyor.|Meine Eltern leben in Konya.|annem babam|familie
+yeğen|noun||A2|der Neffe;die Nichte|Yeğenim beş yaşında.|Mein Neffe ist fünf.|yeğenim|familie
+torun|noun||A2|der Enkel|Ninemin altı torunu var.|Meine Oma hat sechs Enkel.|torunu,torunlar|familie
+kayınpeder|noun||B1|der Schwiegervater|Kayınpederim çok iyi biri.|Mein Schwiegervater ist sehr nett.|kayınpederim|familie
+ikiz|noun||B1|der Zwilling|Onlar ikiz.|Sie sind Zwillinge.|ikizler|familie
+iş arkadaşı|noun||A2|der Kollege;die Kollegin|İş arkadaşım İtalyan.|Mein Kollege ist Italiener.|iş arkadaşım|arbeit
+ev arkadaşı|noun||A2|der Mitbewohner|Ev arkadaşım öğrenci.|Mein Mitbewohner ist Student.|ev arkadaşım|wohnen
+gelenek|noun||B1|die Tradition;der Brauch|Bu bir Türk geleneği.|Das ist eine türkische Tradition.|geleneği|alltag
+alışkanlık|noun||B1|die Gewohnheit|Kötü bir alışkanlık.|Eine schlechte Angewohnheit.|alışkanlığı|alltag
+çöp|noun||A2|der Müll|Çöpü dışarı çıkar.|Bring den Müll raus.|çöpü|wohnen
+çamaşır makinesi|noun||A2|die Waschmaschine|Çamaşır makinesi bozuk.|Die Waschmaschine ist kaputt.||wohnen
+ayna|noun||A2|der Spiegel|Aynaya bakıyorum.|Ich schaue in den Spiegel.|aynaya|wohnen
+lamba|noun||A2|die Lampe|Lambayı aç.|Mach die Lampe an.|lambayı|wohnen
+halı|noun||B1|der Teppich|Kırmızı bir halı.|Ein roter Teppich.|halıyı|wohnen
+resim|noun||A2|das Bild;das Gemälde|Duvarda bir resim var.|An der Wand hängt ein Bild.|resmi,resimler|freizeit
+havlu|noun||A2|das Handtuch|Temiz bir havlu lazım.|Ich brauche ein sauberes Handtuch.|havluyu|wohnen
+sabun|noun||A2|die Seife|Banyoda sabun yok.|Im Bad ist keine Seife.|sabunu|wohnen
+balkon|noun||A2|der Balkon|Dairenin balkonu var.|Die Wohnung hat einen Balkon.|balkonu|wohnen
+garaj|noun||A2|die Garage|Araba garajda.|Das Auto steht in der Garage.|garajda|wohnen
+kira|noun||B1|die Miete|Kira çok pahalı.|Die Miete ist sehr teuer.|kirası|wohnen
+bankamatik|noun||B1|der Geldautomat|Yakında bankamatik var mı?|Gibt es hier einen Geldautomaten?|bankamatikten|einkaufen
+indirim|noun||B1|der Rabatt;der Ausverkauf|Yüzde on indirim var.|Es gibt zehn Prozent Rabatt.|indirimi,indirimde|einkaufen
+poşet|noun||A2|die Tüte|Poşet ister misiniz?|Möchten Sie eine Tüte?|poşeti|einkaufen
+kasa|noun||A2|die Kasse|Kasada ödeyin lütfen.|Zahlen Sie bitte an der Kasse.|kasada|einkaufen
+para üstü|noun||B1|das Wechselgeld|Para üstünüz burada.|Hier ist Ihr Wechselgeld.|para üstünüz|einkaufen
+bozuk para|noun||A2|das Kleingeld;die Münze|Bozuk param yok.|Ich habe kein Kleingeld.|bozuk param|einkaufen
+fırın|noun||A2|die Bäckerei;der Ofen|Ekmeği fırından alıyorum.|Ich kaufe das Brot in der Bäckerei.|fırından|einkaufen
+kasap|noun||B1|der Metzger;die Metzgerei|Kasap dokuzda açılıyor.|Der Metzger öffnet um neun.|kasaptan|einkaufen
+tereyağı|noun||A2|die Butter|Tereyağlı ekmek.|Brot mit Butter.|tereyağlı|essen
+sucuk|noun||A2|die Knoblauchwurst|Kahvaltıda sucuklu yumurta yeriz.|Zum Frühstück essen wir Eier mit Sucuk.|sucuklu|essen
+sandviç|noun||A2|das Sandwich|Kendime bir sandviç yapıyorum.|Ich mache mir ein Sandwich.|sandviçi|essen
+bisküvi|noun||A2|der Keks|Çocuklar bisküvi yiyor.|Die Kinder essen Kekse.|bisküviler|essen
+pasta|noun||A2|die Torte;der Kuchen|Çikolatalı pasta.|Eine Schokoladentorte.|pastası|essen
+soğan|noun||A2|die Zwiebel|Soğanı doğra.|Schneide die Zwiebel.|soğanı|essen
+sarımsak|noun||A2|der Knoblauch|Sarımsağı severim.|Ich mag Knoblauch.|sarımsağı|essen
+limon|noun||A2|die Zitrone|Limonlu çay.|Tee mit Zitrone.|limonlu|essen
+çilek|noun||A2|die Erdbeere|Çilekleri çok severim.|Ich liebe Erdbeeren.|çilekler,çilekleri|essen
+üzüm|noun||A2|die Weintraube|Üzümler tatlı.|Die Trauben sind süß.|üzümler|essen
+biber|noun||A2|der Paprika;der Pfeffer|Kırmızı biber.|Rote Paprika.|biberi|essen
+tarif|noun||B1|das Rezept|Ninemin tarifi.|Das Rezept meiner Oma.|tarifi|essen
+menü|noun||A2|die Speisekarte;das Menü|Menüyü alabilir miyim?|Kann ich die Speisekarte haben?|menüyü|essen
+bahşiş|noun||B1|das Trinkgeld|İyi bir bahşiş bıraktık.|Wir haben ein gutes Trinkgeld gegeben.|bahşişi|essen
+kafe|noun||A1|das Café|Kafede buluşalım.|Treffen wir uns im Café.|kafede|essen
+pilav|noun||A1|der Reis (gekocht);der Pilaw|Tavuklu pilav yiyoruz.|Wir essen Reis mit Hähnchen.|pilavı|essen
+kebap|noun||A1|der Kebab|Adana kebap çok acı.|Adana Kebab ist sehr scharf.|kebabı|essen
+ayran|noun||A1|der Ayran (Joghurtgetränk)|Kebapla ayran içiyoruz.|Zum Kebab trinken wir Ayran.|ayranı|essen
+yoğurt|noun||A1|der Joghurt|Yoğurt sağlıklı.|Joghurt ist gesund.|yoğurdu|essen
+zeytin|noun||A1|die Olive|Kahvaltıda zeytin yeriz.|Zum Frühstück essen wir Oliven.|zeytini,zeytinler|essen
+bal|noun||A2|der Honig|Ekmeğe bal sür.|Streich Honig aufs Brot.|balı|essen
+su ısıtıcısı|noun||B1|der Wasserkocher|Su ısıtıcısı bozuk.|Der Wasserkocher ist kaputt.||wohnen
+çaydanlık|noun||B1|die Teekanne|Çaydanlık ocakta.|Die Teekanne steht auf dem Herd.|çaydanlığı|wohnen
+duş|noun||A1|die Dusche|Duş çalışmıyor.|Die Dusche funktioniert nicht.|duşu|wohnen
+çarşaf|noun||B1|das Bettlaken|Çarşafları değiştiriyorum.|Ich wechsle die Bettlaken.|çarşafları|wohnen
+yastık|noun||B1|das Kopfkissen|Yastık çok yumuşak.|Das Kissen ist sehr weich.|yastığı|wohnen
+mobilya|noun||B1|die Möbel|Yeni mobilya alıyoruz.|Wir kaufen neue Möbel.|mobilyalar|wohnen
+raf|noun||B1|das Regal|Kitaplar rafta.|Die Bücher stehen im Regal.|rafta,raflar|wohnen
+atkı|noun||A2|der Schal|Yün bir atkı.|Ein Wollschal.|atkısı|kleidung
+çorap|noun||A2|die Socke;der Strumpf|Çoraplarım yok.|Ich habe keine Socken.|çoraplar,çoraplarım|kleidung
+bot|noun||A2|der Stiefel|Botlarımı giyiyorum.|Ich ziehe meine Stiefel an.|botlar,botlarımı|kleidung
+eldiven|noun||A2|der Handschuh|Hava soğuk, eldivenlerini giy.|Es ist kalt, zieh deine Handschuhe an.|eldivenler,eldivenlerini|kleidung
+takım elbise|noun||A2|der Anzug|Gri bir takım elbise giyiyor.|Er trägt einen grauen Anzug.||kleidung
+kazak|noun||A2|der Pullover|Yün bir kazak.|Ein Wollpullover.|kazağı|kleidung
+pijama|noun||A2|der Schlafanzug|Pijamamı giyiyorum.|Ich ziehe meinen Schlafanzug an.|pijamamı|kleidung
+moda|noun||B1|die Mode|Modaya ilgisi var.|Sie interessiert sich für Mode.|modaya|kleidung
+çizgi|noun||B1|die Linie;der Strich|Düz bir çizgi çiz.|Zeichne eine gerade Linie.|çizgiler|farben
+altın|noun||B1|das Gold;golden|Altın bir saat.|Eine goldene Uhr.|altını|farben
+on üç|num||A1|dreizehn|On üç yaşındayım.|Ich bin dreizehn.||zahlen
+on beş|num||A1|fünfzehn|Saat on beş.|Es ist fünfzehn Uhr.||zahlen
+on altı|num||A1|sechzehn|On altı yaşında.|Sie ist sechzehn.||zahlen
+takvim|noun||A2|der Kalender|Takvime bak.|Schau in den Kalender.|takvimi|zeit
+şafak|noun||B1|die Morgendämmerung|Şafakta kalktık.|Wir sind bei Tagesanbruch aufgestanden.|şafakta|zeit
+öğleden sonra|noun||A1|der Nachmittag|Öğleden sonra görüşürüz.|Wir sehen uns am Nachmittag.||zeit
+hemen şimdi|adv||A2|sofort;jetzt gleich|Hemen şimdi gel.|Komm sofort.||zeit

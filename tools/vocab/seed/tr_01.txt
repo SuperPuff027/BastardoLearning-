@@ -1,0 +1,132 @@
+# Türkisch 1–130 · lemma|pos|gender|cefr|übersetzungen|beispiel|beispiel_de|formen|tags
+bir|num||A1|eins;ein;eine|Bir çay lütfen.|Einen Tee, bitte.|biri,birini|zahlen
+bu|pron||A1|dies;dieser;diese;dieses|Bu kitap çok güzel.|Dieses Buch ist sehr schön.|bunu,bunun,bunda,buna|grammatik
+ne|pron||A1|was|Ne yapıyorsun?|Was machst du?|neyi,neden,neye|kommunikation
+ve|conj||A1|und|Ekmek ve su.|Brot und Wasser.||grammatik
+ben|pron||A1|ich|Ben öğrenciyim.|Ich bin Student.|beni,benim,bana,bende|grammatik
+sen|pron||A1|du|Sen nerelisin?|Woher kommst du?|seni,senin,sana,sende|grammatik
+o|pron||A1|er;sie;es;jener|O benim kardeşim.|Er ist mein Bruder.|onu,onun,ona,onda|grammatik
+biz|pron||A1|wir|Biz Almanyalıyız.|Wir kommen aus Deutschland.|bizi,bizim,bize,bizde|grammatik
+siz|pron||A1|ihr;Sie (Höflichkeitsform)|Siz nasılsınız?|Wie geht es Ihnen?|sizi,sizin,size,sizde|grammatik
+onlar|pron||A1|sie (Plural)|Onlar okulda.|Sie sind in der Schule.|onları,onların,onlara|grammatik
+evet|interj||A1|ja|Evet, anlıyorum.|Ja, ich verstehe.||kommunikation
+hayır|interj||A1|nein|Hayır, teşekkürler.|Nein, danke.||kommunikation
+değil|adv||A1|nicht (bei Nomen/Adjektiven)|Bu benim değil.|Das ist nicht meins.|değilim,değilsin,değildi|grammatik
+var|adj||A1|vorhanden;es gibt|Evde ekmek var mı?|Gibt es zu Hause Brot?|vardı,varmış|grammatik
+yok|adj||A1|nicht vorhanden;es gibt nicht|Param yok.|Ich habe kein Geld.|yoktu,yokmuş|grammatik
+çok|adv||A1|sehr;viel|Çok teşekkür ederim.|Vielen Dank.||zahlen
+için|prep||A1|für;um … zu|Bu hediye senin için.|Dieses Geschenk ist für dich.||grammatik
+ile|prep||A1|mit|Annem ile sinemaya gidiyorum.|Ich gehe mit meiner Mutter ins Kino.||grammatik
+gibi|prep||A2|wie|Senin gibi konuşuyor.|Er spricht wie du.||grammatik
+ama|conj||A1|aber|Pahalı ama güzel.|Teuer, aber schön.||grammatik
+veya|conj||A1|oder|Çay veya kahve?|Tee oder Kaffee?|ya da|grammatik
+çünkü|conj||A2|weil;denn|Gelmiyorum çünkü hastayım.|Ich komme nicht, weil ich krank bin.||grammatik
+de|conj||A1|auch|Ben de geliyorum.|Ich komme auch.|da|grammatik
+daha|adv||A1|mehr;noch|Biraz daha çay ister misin?|Möchtest du noch etwas Tee?||zahlen
+en|adv||A2|am meisten (Superlativ)|En sevdiğim renk mavi.|Meine Lieblingsfarbe ist Blau.||grammatik
+her|det||A1|jeder;jede;jedes|Her gün okula gidiyorum.|Ich gehe jeden Tag zur Schule.||zeit
+bütün|det||A2|ganz;alle|Bütün gün çalıştım.|Ich habe den ganzen Tag gearbeitet.||zahlen
+hiç|adv||A2|nie;überhaupt nicht|Hiç İstanbul'a gittin mi?|Warst du schon einmal in Istanbul?||zeit
+şimdi|adv||A1|jetzt|Şimdi çok meşgulüm.|Jetzt bin ich sehr beschäftigt.||zeit
+bugün|adv||A1|heute|Bugün hava çok güzel.|Heute ist das Wetter sehr schön.||zeit
+yarın|adv||A1|morgen|Yarın görüşürüz.|Wir sehen uns morgen.||zeit
+dün|adv||A1|gestern|Dün sinemaya gittim.|Gestern war ich im Kino.||zeit
+burada|adv||A1|hier|Ben burada oturuyorum.|Ich wohne hier.|burası,buraya,buradan|stadt
+orada|adv||A1|dort|Müze orada.|Das Museum ist dort.|orası,oraya,oradan|stadt
+nerede|adv||A1|wo|Tuvalet nerede?|Wo ist die Toilette?|nereye,nereden,nereli|reisen
+ne zaman|adv||A1|wann|Film ne zaman başlıyor?|Wann fängt der Film an?||zeit
+nasıl|adv||A1|wie|Nasılsın?|Wie geht es dir?|nasılsın,nasılsınız|kommunikation
+neden|adv||A1|warum|Neden gelmiyorsun?|Warum kommst du nicht?|niye|kommunikation
+kim|pron||A1|wer|Bu adam kim?|Wer ist dieser Mann?|kimi,kimin,kime|kommunikation
+kaç|adv||A1|wie viele|Kaç yaşındasın?|Wie alt bist du?|kaça|zahlen
+ne kadar|adv||A1|wie viel;wie teuer|Bu ne kadar?|Wie viel kostet das?||einkaufen
+olmak|verb||A1|sein;werden|Doktor olmak istiyorum.|Ich möchte Arzt werden.|oluyor,oldu,olur,ol,olacak|grammatik
+etmek|verb||A1|machen;tun (Hilfsverb)|Teşekkür ederim.|Ich danke Ihnen.|ediyor,etti,eder,ederim|grammatik
+yapmak|verb||A1|machen;tun|Ödevimi yapıyorum.|Ich mache meine Hausaufgaben.|yapıyor,yaptı,yapar,yap,yapıyorum|alltag
+gitmek|verb||A1|gehen;fahren|Okula gidiyorum.|Ich gehe zur Schule.|gidiyor,gitti,gider,git,gidiyorum,gittim|reisen
+gelmek|verb||A1|kommen|Yarın geliyor musun?|Kommst du morgen?|geliyor,geldi,gelir,gel,geliyorum,geldim|reisen
+istemek|verb||A1|wollen;möchten|Bir kahve istiyorum.|Ich möchte einen Kaffee.|istiyor,istedi,ister,istiyorum|gefuehle
+bilmek|verb||A1|wissen;können|Bilmiyorum.|Ich weiß es nicht.|biliyor,bildi,bilir,biliyorum,bilmiyorum|schule
+görmek|verb||A1|sehen|Dağı görüyor musun?|Siehst du den Berg?|görüyor,gördü,görür,gör,görüyorum,gördüm|alltag
+demek|verb||A1|sagen;bedeuten|Bu ne demek?|Was bedeutet das?|diyor,dedi,der,de,diyorum|kommunikation
+vermek|verb||A1|geben|Bana kalemi verir misin?|Gibst du mir den Stift?|veriyor,verdi,verir,ver,veriyorum|alltag
+almak|verb||A1|nehmen;kaufen;bekommen|Ekmek aldım.|Ich habe Brot gekauft.|alıyor,aldı,alır,al,alıyorum,aldım|einkaufen
+söylemek|verb||A1|sagen|Doğruyu söyle.|Sag die Wahrheit.|söylüyor,söyledi,söyler,söyle|kommunikation
+konuşmak|verb||A1|sprechen;reden|Biraz Türkçe konuşuyorum.|Ich spreche ein bisschen Türkisch.|konuşuyor,konuştu,konuşur,konuş,konuşuyorum|kommunikation
+anlamak|verb||A1|verstehen|Soruyu anlamadım.|Ich habe die Frage nicht verstanden.|anlıyor,anladı,anlar,anlıyorum,anlamadım|schule
+düşünmek|verb||A2|denken;nachdenken|Seni düşünüyorum.|Ich denke an dich.|düşünüyor,düşündü,düşünür,düşün|kommunikation
+sevmek|verb||A1|lieben;mögen|Çikolatayı çok seviyorum.|Ich liebe Schokolade sehr.|seviyor,sevdi,sever,seviyorum|gefuehle
+yemek|verb||A1|essen|Akşam yemek yiyoruz.|Abends essen wir.|yiyor,yedi,yer,ye,yiyorum,yiyoruz|essen
+içmek|verb||A1|trinken|Çok su içiyorum.|Ich trinke viel Wasser.|içiyor,içti,içer,iç,içiyorum|essen
+okumak|verb||A1|lesen;studieren|Kitap okumayı severim.|Ich lese gern Bücher.|okuyor,okudu,okur,oku,okumayı|freizeit
+yazmak|verb||A1|schreiben|Bir mektup yazıyorum.|Ich schreibe einen Brief.|yazıyor,yazdı,yazar,yaz,yazıyorum|kommunikation
+çalışmak|verb||A1|arbeiten;lernen|Bir hastanede çalışıyorum.|Ich arbeite in einem Krankenhaus.|çalışıyor,çalıştı,çalışır,çalış,çalışıyorum|arbeit
+oturmak|verb||A1|sitzen;wohnen|Ankara'da oturuyorum.|Ich wohne in Ankara.|oturuyor,oturdu,oturur,otur,oturuyorum|wohnen
+yaşamak|verb||A1|leben|Annemle yaşıyorum.|Ich lebe bei meiner Mutter.|yaşıyor,yaşadı,yaşar,yaşıyorum|wohnen
+bakmak|verb||A1|schauen;sich kümmern|Şu fotoğrafa bak.|Schau dir dieses Foto an.|bakıyor,baktı,bakar,bak|alltag
+beklemek|verb||A1|warten|Seni istasyonda bekliyorum.|Ich warte am Bahnhof auf dich.|bekliyor,bekledi,bekler,bekle,bekliyorum|reisen
+aramak|verb||A1|suchen;anrufen|Seni yarın ararım.|Ich rufe dich morgen an.|arıyor,aradı,arar,ara,ararım|kommunikation
+bulmak|verb||A1|finden|Anahtarlarımı bulamıyorum.|Ich finde meine Schlüssel nicht.|buluyor,buldu,bulur,bul,bulamıyorum|alltag
+sormak|verb||A1|fragen|Garsona sor.|Frag den Kellner.|soruyor,sordu,sorar,sor|kommunikation
+cevap vermek|verb||A2|antworten|Telefona cevap vermiyor.|Er geht nicht ans Telefon.|cevap veriyor,cevap verdi,cevap vermiyor|kommunikation
+yardım etmek|verb||A1|helfen|Bana yardım eder misin?|Hilfst du mir?|yardım ediyor,yardım etti,yardım eder|alltag
+öğrenmek|verb||A1|lernen|Türkçe öğreniyorum.|Ich lerne Türkisch.|öğreniyor,öğrendi,öğrenir,öğreniyorum|schule
+öğretmek|verb||A2|lehren;beibringen|Bana yüzmeyi öğretti.|Er hat mir das Schwimmen beigebracht.|öğretiyor,öğretti,öğretir|schule
+dinlemek|verb||A1|zuhören;hören|Akşamları müzik dinliyorum.|Abends höre ich Musik.|dinliyor,dinledi,dinler,dinle|freizeit
+duymak|verb||A2|hören|Bu sesi duyuyor musun?|Hörst du dieses Geräusch?|duyuyor,duydu,duyar,duy|alltag
+koymak|verb||A1|stellen;legen;setzen|Kitabı masaya koy.|Leg das Buch auf den Tisch.|koyuyor,koydu,koyar,koy|wohnen
+getirmek|verb||A2|bringen;mitbringen|Ekmek getir lütfen.|Bring bitte Brot mit.|getiriyor,getirdi,getirir,getir|einkaufen
+götürmek|verb||A2|hinbringen;mitnehmen|Çocukları okula götürüyorum.|Ich bringe die Kinder zur Schule.|götürüyor,götürdü,götürür,götür|familie
+açmak|verb||A1|öffnen;einschalten|Pencereyi açar mısın?|Kannst du das Fenster öffnen?|açıyor,açtı,açar,aç|wohnen
+kapatmak|verb||A1|schließen;ausschalten|Kapıyı kapat lütfen.|Mach bitte die Tür zu.|kapatıyor,kapattı,kapatır,kapat|wohnen
+başlamak|verb||A1|anfangen;beginnen|Ders saat dokuzda başlıyor.|Der Unterricht beginnt um neun.|başlıyor,başladı,başlar,başla|zeit
+bitirmek|verb||A2|beenden|İşi saat beşte bitiriyorum.|Ich beende die Arbeit um fünf.|bitiriyor,bitirdi,bitirir,bitir|arbeit
+bitmek|verb||A2|zu Ende gehen;alle sein|Süt bitti.|Die Milch ist alle.|bitiyor,bitti,biter|zeit
+oynamak|verb||A1|spielen|Çocuklar parkta oynuyor.|Die Kinder spielen im Park.|oynuyor,oynadı,oynar,oyna|freizeit
+uyumak|verb||A1|schlafen|Sekiz saat uyuyorum.|Ich schlafe acht Stunden.|uyuyor,uyudu,uyur,uyu|alltag
+kalkmak|verb||A1|aufstehen;abfahren|Saat yedide kalkıyorum.|Ich stehe um sieben auf.|kalkıyor,kalktı,kalkar,kalk|alltag
+satın almak|verb||A1|kaufen|Yeni ayakkabı satın almak istiyorum.|Ich will neue Schuhe kaufen.|satın aldı,satın alıyor|einkaufen
+satmak|verb||A1|verkaufen|Arabamı satıyorum.|Ich verkaufe mein Auto.|satıyor,sattı,satar,sat|einkaufen
+ödemek|verb||A1|bezahlen|Kartla ödeyebilir miyim?|Kann ich mit Karte bezahlen?|ödüyor,ödedi,öder,öde,ödeyebilir|einkaufen
+girmek|verb||A1|eintreten;hineingehen|İçeri girin lütfen.|Treten Sie bitte ein.|giriyor,girdi,girer,gir,girin|wohnen
+çıkmak|verb||A1|hinausgehen;ausgehen;steigen|Saat sekizde evden çıkıyorum.|Ich gehe um acht aus dem Haus.|çıkıyor,çıktı,çıkar,çık|alltag
+dönmek|verb||A1|zurückkehren;abbiegen|Eve saat altıda dönüyorum.|Ich komme um sechs nach Hause.|dönüyor,döndü,döner,dön|reisen
+kalmak|verb||A1|bleiben|Bu akşam evde kalıyorum.|Heute Abend bleibe ich zu Hause.|kalıyor,kaldı,kalır,kal|alltag
+binmek|verb||A1|einsteigen;fahren mit|Her gün otobüse biniyorum.|Ich fahre jeden Tag mit dem Bus.|biniyor,bindi,biner,bin|reisen
+inmek|verb||A2|aussteigen;hinuntergehen|Bir sonraki durakta iniyoruz.|Wir steigen an der nächsten Haltestelle aus.|iniyor,indi,iner,in|reisen
+yürümek|verb||A1|gehen;laufen|Sahilde yürüyoruz.|Wir gehen am Strand spazieren.|yürüyor,yürüdü,yürür,yürü|freizeit
+koşmak|verb||A1|laufen;rennen|Her sabah koşuyorum.|Ich laufe jeden Morgen.|koşuyor,koştu,koşar,koş|freizeit
+pişirmek|verb||A2|kochen;backen|Babam çok güzel yemek pişirir.|Mein Vater kocht sehr gut.|pişiriyor,pişirdi,pişirir,pişir|essen
+temizlemek|verb||A2|putzen;sauber machen|Mutfağı temizliyorum.|Ich putze die Küche.|temizliyor,temizledi,temizler,temizle|wohnen
+kullanmak|verb||A2|benutzen;fahren (Auto)|Telefonunu kullanabilir miyim?|Kann ich dein Telefon benutzen?|kullanıyor,kullandı,kullanır,kullan,kullanabilir|alltag
+unutmak|verb||A2|vergessen|Şemsiyemi unuttum.|Ich habe meinen Regenschirm vergessen.|unutuyor,unuttu,unutur,unut,unuttum|alltag
+hatırlamak|verb||A2|sich erinnern|Adını hatırlamıyorum.|Ich erinnere mich nicht an seinen Namen.|hatırlıyor,hatırladı,hatırlar,hatırlamıyorum|schule
+kaybetmek|verb||A2|verlieren|Cüzdanımı kaybettim.|Ich habe mein Portemonnaie verloren.|kaybediyor,kaybetti,kaybeder,kaybettim|alltag
+kazanmak|verb||A2|gewinnen;verdienen|Çok para kazanıyor.|Er verdient viel Geld.|kazanıyor,kazandı,kazanır|arbeit
+seyahat etmek|verb||A1|reisen|Trenle seyahat etmeyi severim.|Ich reise gern mit dem Zug.|seyahat ediyor,seyahat etti,seyahat etmeyi|reisen
+tanımak|verb||A1|kennen;kennenlernen|Kız kardeşimi tanıyor musun?|Kennst du meine Schwester?|tanıyor,tanıdı,tanır|familie
+anlatmak|verb||A2|erzählen;erklären|Bana ne olduğunu anlat.|Erzähl mir, was passiert ist.|anlatıyor,anlattı,anlatır,anlat|kommunikation
+göstermek|verb||A2|zeigen|Sana yolu göstereyim.|Ich zeige dir den Weg.|gösteriyor,gösterdi,gösterir,göster,göstereyim|kommunikation
+değiştirmek|verb||A2|ändern;wechseln|Para değiştirmek istiyorum.|Ich möchte Geld wechseln.|değiştiriyor,değiştirdi,değiştirir|einkaufen
+ölmek|verb||B1|sterben|Dedesi geçen yıl öldü.|Sein Großvater ist letztes Jahr gestorben.|ölüyor,öldü,ölür|familie
+doğmak|verb||A2|geboren werden;aufgehen (Sonne)|İzmir'de doğdum.|Ich bin in İzmir geboren.|doğuyor,doğdu,doğar,doğdum|familie
+ağlamak|verb||A2|weinen|Bebek ağlıyor.|Das Baby weint.|ağlıyor,ağladı,ağlar|gefuehle
+gülmek|verb||A2|lachen|Çok güldük.|Wir haben viel gelacht.|gülüyor,güldü,güler,güldük|gefuehle
+şarkı söylemek|verb||A1|singen|Çok güzel şarkı söylüyor.|Sie singt sehr schön.|şarkı söylüyor,şarkı söyledi|freizeit
+dans etmek|verb||A1|tanzen|Benimle dans eder misin?|Tanzt du mit mir?|dans ediyor,dans etti,dans eder|freizeit
+yüzmek|verb||A1|schwimmen|Denizde yüzmeyi seviyorum.|Ich schwimme gern im Meer.|yüzüyor,yüzdü,yüzer,yüzmeyi|freizeit
+ihtiyaç|noun||A2|der Bedarf;das Bedürfnis|Yardıma ihtiyacım var.|Ich brauche Hilfe.|ihtiyacım,ihtiyacı|alltag
+lazım|adj||A1|nötig;gebraucht|Bana bir kalem lazım.|Ich brauche einen Stift.||alltag
+gerek|adj||A2|nötig;notwendig|Gitmen gerek.|Du musst gehen.|gerekiyor,gerekli|grammatik
+merhaba|interj||A1|hallo|Merhaba, nasılsın?|Hallo, wie geht's?||kommunikation
+teşekkürler|interj||A1|danke|Çok teşekkürler.|Vielen Dank.|teşekkür ederim|kommunikation
+lütfen|interj||A1|bitte|Bir su lütfen.|Ein Wasser, bitte.||kommunikation
+güle güle|phrase||A1|tschüss (zum Gehenden)|Güle güle, yine bekleriz.|Tschüss, besuchen Sie uns wieder.||kommunikation
+hoşça kal|phrase||A1|mach's gut;tschüss (beim Gehen)|Hoşça kal, yarın görüşürüz.|Mach's gut, wir sehen uns morgen.|hoşça kalın|kommunikation
+günaydın|interj||A1|guten Morgen|Günaydın anne!|Guten Morgen, Mama!||kommunikation
+iyi akşamlar|phrase||A1|guten Abend|İyi akşamlar efendim.|Guten Abend, mein Herr.||kommunikation
+iyi geceler|phrase||A1|gute Nacht|İyi geceler, tatlı rüyalar.|Gute Nacht, süße Träume.||kommunikation
+özür dilerim|phrase||A1|Entschuldigung;es tut mir leid|Özür dilerim, geç kaldım.|Entschuldigung, ich bin zu spät.||kommunikation
+affedersiniz|interj||A1|Entschuldigen Sie|Affedersiniz, istasyon nerede?|Entschuldigen Sie, wo ist der Bahnhof?|affedersin|kommunikation
+tamam|interj||A1|okay;in Ordnung|Tamam, saat sekizde görüşürüz.|Okay, wir sehen uns um acht.||kommunikation
+rica ederim|phrase||A1|bitte schön;gern geschehen|—Teşekkürler. —Rica ederim.|„Danke.“ – „Gern geschehen.“||kommunikation

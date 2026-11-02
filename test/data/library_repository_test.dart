@@ -248,4 +248,66 @@ void main() {
       expect(repo.mergeSets(a, [b]), throwsA(isA<ValidationException>()));
     });
   });
+
+  group('Duplikate & Vokabeldatenbank', () {
+    test('duplicateKey ignoriert Artikel, Groß/Klein, Satzzeichen', () {
+      expect(duplicateKey('La Casa.'), 'casa');
+      expect(duplicateKey('casa'), 'casa');
+      expect(duplicateKey('sí'), isNot(duplicateKey('si')));
+    });
+
+    test('findDuplicates: gleiches Set zuerst, andere Sprache nicht', () async {
+      final a = await repo.createSet(title: 'A', language: 'es');
+      final b = await repo.createSet(title: 'B', language: 'es');
+      final t = await repo.createSet(title: 'T', language: 'tr');
+      await repo.addCard(b, draft('la casa', 'das Haus'));
+      final own = await repo.addCard(a, draft('casa', 'Haus'));
+      await repo.addCard(t, draft('casa', 'x'));
+
+      final hits = await repo.findDuplicates('es', 'Casa', preferSetId: a);
+      expect(hits.map((h) => h.set.title), ['A', 'B']);
+      final withoutSelf = await repo.findDuplicates(
+        'es',
+        'casa',
+        excludeCardId: own,
+        preferSetId: a,
+      );
+      expect(withoutSelf.map((h) => h.set.title), ['B']);
+    });
+
+    test('duplicateIdsIn markiert alle Kopien', () async {
+      final a = await repo.createSet(title: 'A', language: 'es');
+      final c1 = await repo.addCard(a, draft('el perro', 'Hund'));
+      final c2 = await repo.addCard(a, draft('perro', 'der Hund'));
+      await repo.addCard(a, draft('gato', 'Katze'));
+      final cards = await repo.watchCards(a).first;
+      expect(LibraryRepository.duplicateIdsIn(cards), {c1, c2});
+    });
+
+    test('Karte mit vocabId; addVocabCards übernimmt verified', () async {
+      final a = await repo.createSet(title: 'A', language: 'es');
+      final id = await repo.addCard(
+        a,
+        CardDraft(
+          front: RichDocument.plain('la casa'),
+          back: RichDocument.plain('das Haus'),
+          vocabId: 1000123,
+          verified: false,
+        ),
+      );
+      final card = (await repo.getCard(id))!;
+      expect(card.vocabId, 1000123);
+      expect(card.verified, isFalse);
+
+      await repo.addVocabCards(a, const [
+        VocabCardData(front: 'uno', back: 'eins', vocabId: 1, verified: true),
+        VocabCardData(front: 'dos', back: 'zwei', vocabId: 2, verified: false),
+      ]);
+      final cards = await repo.watchCards(a).first;
+      expect(cards.map((c) => (c.front, c.vocabId, c.verified)).skip(1), [
+        ('uno', 1, true),
+        ('dos', 2, false),
+      ]);
+    });
+  });
 }

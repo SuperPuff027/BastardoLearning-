@@ -1,0 +1,131 @@
+# Türkisch 132–260
+ev|noun||A1|das Haus;das Zuhause|Evimizin bir bahçesi var.|Unser Haus hat einen Garten.|evi,evde,eve,evden,evler,evim,evlerimizde|wohnen
+zaman|noun||A1|die Zeit|Bugün hiç zamanım yok.|Ich habe heute keine Zeit.|zamanı,zamanım,zamanda|zeit
+gün|noun||A1|der Tag|Bugün güzel bir gün.|Heute ist ein schöner Tag.|günü,günler,günde,günlerde|zeit
+yıl|noun||A1|das Jahr|Geçen yıl Türkiye'ye gittim.|Letztes Jahr bin ich in die Türkei gefahren.|yılı,yıllar,yılda|zeit
+yaş|noun||A1|das Alter;das Lebensjahr|Kaç yaşındasın?|Wie alt bist du?|yaşında,yaşındayım|familie
+kez|noun||A2|das Mal|Seni bir kez daha arayacağım.|Ich rufe dich noch einmal an.|kere|zeit
+adam|noun||A1|der Mann|Bu adam benim komşum.|Dieser Mann ist mein Nachbar.|adamı,adamlar|familie
+kadın|noun||A1|die Frau|Kadın gazete okuyor.|Die Frau liest die Zeitung.|kadını,kadınlar|familie
+çocuk|noun||A1|das Kind|Çocuk köpekle oynuyor.|Das Kind spielt mit dem Hund.|çocuğu,çocuklar,çocuğum,çocuklarım|familie
+insan|noun||A1|der Mensch|Çok iyi bir insan.|Er ist ein sehr guter Mensch.|insanlar,insanı|familie
+arkadaş|noun||A1|der Freund;die Freundin|Arkadaşım Antalya'da yaşıyor.|Mein Freund lebt in Antalya.|arkadaşım,arkadaşlar,arkadaşı|familie
+aile|noun||A1|die Familie|Ailem çok kalabalık.|Meine Familie ist sehr groß.|ailem,ailesi,aileler|familie
+baba|noun||A1|der Vater|Babam mühendis.|Mein Vater ist Ingenieur.|babam,babası,babalar|familie
+anne|noun||A1|die Mutter|Annesi çok güzel yemek yapar.|Seine Mutter kocht sehr gut.|annem,annesi,anneler|familie
+oğul|noun||A1|der Sohn|Oğlum on yaşında.|Mein Sohn ist zehn Jahre alt.|oğlu,oğlum,oğullar|familie
+kız|noun||A1|das Mädchen;die Tochter|Kızım okula gidiyor.|Meine Tochter geht zur Schule.|kızı,kızım,kızlar|familie
+kardeş|noun||A1|das Geschwister;der Bruder;die Schwester|İki kardeşim var.|Ich habe zwei Geschwister.|kardeşim,kardeşi,kardeşler|familie
+abla|noun||A1|die ältere Schwester|Ablam İstanbul'da yaşıyor.|Meine ältere Schwester lebt in Istanbul.|ablam,ablası|familie
+ağabey|noun||A1|der ältere Bruder|Ağabeyim benden büyük.|Mein älterer Bruder ist älter als ich.|abi,ağabeyim,abim|familie
+dede|noun||A1|der Großvater|Dedem seksen yaşında.|Mein Großvater ist achtzig Jahre alt.|dedem,dedesi|familie
+nine|noun||A1|die Großmutter|Ninem köyde yaşıyor.|Meine Oma lebt im Dorf.|ninem,ninesi,babaanne,anneanne|familie
+eş|noun||A2|der Ehepartner;die Ehefrau;der Ehemann|Eşim doktor.|Meine Frau ist Ärztin.|eşim,eşi|familie
+bey|noun||A1|der Herr|Günaydın Ahmet Bey.|Guten Morgen, Herr Ahmet.|beyefendi|kommunikation
+hanım|noun||A1|die Frau (Anrede);die Dame|Ayşe Hanım burada mı?|Ist Frau Ayşe hier?|hanımefendi|kommunikation
+ad|noun||A1|der Name|Adın ne?|Wie heißt du?|adı,adım,adın|kommunikation
+hayat|noun||A2|das Leben|Şehirde hayat pahalı.|Das Leben in der Stadt ist teuer.|hayatı,hayatım|alltag
+dünya|noun||A2|die Welt|Dünyayı gezmek istiyorum.|Ich will die Welt bereisen.|dünyayı,dünyada|reisen
+iş|noun||A1|die Arbeit;der Job;die Angelegenheit|Yeni bir iş arıyorum.|Ich suche eine neue Arbeit.|işi,işim,işte,işe,işler|arbeit
+şey|noun||A1|die Sache;das Ding|Yapacak çok şeyim var.|Ich habe viele Dinge zu tun.|şeyler,şeyi|alltag
+yer|noun||A1|der Ort;der Platz;der Boden|Burası çok sakin bir yer.|Das ist ein sehr ruhiger Ort.|yeri,yerde,yerler|stadt
+şehir|noun||A1|die Stadt|İstanbul büyük bir şehir.|Istanbul ist eine große Stadt.|şehri,şehirde,şehirler|stadt
+ülke|noun||A1|das Land|Hangi ülkedensin?|Aus welchem Land kommst du?|ülkesi,ülkeler,ülkede|reisen
+sokak|noun||A1|die Straße;die Gasse|Bu sokakta oturuyorum.|Ich wohne in dieser Straße.|sokağı,sokakta,sokaklar|stadt
+cadde|noun||A2|die Straße (Hauptstraße)|Mağaza ana caddede.|Der Laden ist an der Hauptstraße.|caddesi,caddede|stadt
+su|noun||A1|das Wasser|Bir bardak su lütfen.|Ein Glas Wasser, bitte.|suyu,sular|essen
+yemek|noun||A1|das Essen;die Mahlzeit|Yemek hazır.|Das Essen ist fertig.|yemeği,yemekler|essen
+para|noun||A1|das Geld|Çok param yok.|Ich habe nicht viel Geld.|parası,param,paralar|einkaufen
+gece|noun||A1|die Nacht|İyi geceler.|Gute Nacht.|geceleri,gecede|zeit
+sabah|noun||A1|der Morgen|Sabah kahvaltı yapıyorum.|Morgens frühstücke ich.|sabahları,sabahleyin|zeit
+öğle|noun||A2|der Mittag|Öğle yemeği saat birde.|Das Mittagessen ist um eins.|öğleden,öğlen|zeit
+akşam|noun||A1|der Abend|Akşam sinemaya gidiyoruz.|Am Abend gehen wir ins Kino.|akşamları,akşamleyin|zeit
+saat|noun||A1|die Stunde;die Uhr;die Uhrzeit|Saat kaç?|Wie spät ist es?|saati,saatler,saatte|zeit
+hafta|noun||A1|die Woche|Haftada beş gün çalışıyorum.|Ich arbeite fünf Tage pro Woche.|haftada,haftalar,haftaya|zeit
+ay|noun||A1|der Monat;der Mond|Gelecek ay İtalya'ya gidiyorum.|Nächsten Monat fahre ich nach Italien.|ayı,aylar,ayda|zeit
+dakika|noun||A1|die Minute|Bir dakika bekle.|Warte eine Minute.|dakikası,dakikalar|zeit
+an|noun||A2|der Moment;der Augenblick|Bir an düşündüm.|Ich habe einen Moment nachgedacht.|anı|zeit
+sorun|noun||A2|das Problem|Sorun yok.|Kein Problem.|sorunu,sorunlar|alltag
+doğru|noun||A2|die Wahrheit;richtig|Bana doğruyu söyle.|Sag mir die Wahrheit.|doğruyu|kommunikation
+fikir|noun||A2|die Idee;die Meinung|Çok iyi bir fikir!|Eine sehr gute Idee!|fikri,fikrim,fikirler|kommunikation
+kelime|noun||A1|das Wort|Bu kelimeyi anlamıyorum.|Ich verstehe dieses Wort nicht.|kelimeyi,kelimeler|schule
+soru|noun||A1|die Frage|Bir sorum var.|Ich habe eine Frage.|sorum,soruyu,sorular|schule
+cevap|noun||A2|die Antwort|Cevap doğru.|Die Antwort ist richtig.|cevabı,cevaplar|schule
+kitap|noun||A1|das Buch|Bir kitap okuyorum.|Ich lese ein Buch.|kitabı,kitaplar,kitabım|schule
+okul|noun||A1|die Schule|Çocuklar okula gidiyor.|Die Kinder gehen zur Schule.|okulu,okulda,okula,okullar|schule
+ders|noun||A1|der Unterricht;die Lektion;das Fach|Türkçe dersi çok eğlenceli.|Der Türkischunterricht macht viel Spaß.|dersi,dersler,derste|schule
+öğretmen|noun||A1|der Lehrer;die Lehrerin|Öğretmen dersi anlatıyor.|Der Lehrer erklärt die Lektion.|öğretmeni,öğretmenler|schule
+öğrenci|noun||A1|der Schüler;der Student|Üniversite öğrencisiyim.|Ich bin Student an der Universität.|öğrencisi,öğrenciler,öğrenciyim|schule
+araba|noun||A1|das Auto|Arabam mavi.|Mein Auto ist blau.|arabası,arabam,arabalar|reisen
+tren|noun||A1|der Zug|Tren sekizde kalkıyor.|Der Zug fährt um acht ab.|treni,trenler,trenle|reisen
+otobüs|noun||A1|der Bus|Otobüsü bekliyorum.|Ich warte auf den Bus.|otobüsü,otobüsler,otobüse|reisen
+uçak|noun||A1|das Flugzeug|Uçak geç geliyor.|Das Flugzeug kommt spät an.|uçağı,uçaklar,uçakla|reisen
+yolculuk|noun||A2|die Reise;die Fahrt|İyi yolculuklar!|Gute Reise!|yolculuğu,yolculuklar|reisen
+tatil|noun||A1|der Urlaub;die Ferien|Tatildeyim.|Ich bin im Urlaub.|tatili,tatilde,tatile|freizeit
+otel|noun||A1|das Hotel|Otel sahile yakın.|Das Hotel ist in der Nähe des Strandes.|oteli,otelde,oteller|reisen
+plaj|noun||A1|der Strand|Plaja gidiyoruz.|Wir gehen an den Strand.|plajı,plaja,plajda|natur
+deniz|noun||A1|das Meer|Deniz çok soğuk.|Das Meer ist sehr kalt.|denizi,denizde,denize|natur
+güneş|noun||A1|die Sonne|Bugün güneş var.|Heute scheint die Sonne.|güneşi,güneşte|natur
+yağmur|noun||A1|der Regen|Yağmuru sevmiyorum.|Ich mag den Regen nicht.|yağmuru,yağmurlu|natur
+hava|noun||A1|das Wetter;die Luft|Hava bugün çok sıcak.|Das Wetter ist heute sehr heiß.|havası,havada|natur
+kapı|noun||A1|die Tür|Kapı açık.|Die Tür ist offen.|kapıyı,kapılar,kapıda|wohnen
+pencere|noun||A1|das Fenster|Pencereyi aç.|Mach das Fenster auf.|pencereyi,pencereler|wohnen
+masa|noun||A1|der Tisch|Yemek masada.|Das Essen steht auf dem Tisch.|masayı,masada,masalar|wohnen
+sandalye|noun||A1|der Stuhl|Bu sandalyeye otur.|Setz dich auf diesen Stuhl.|sandalyeye,sandalyeler|wohnen
+yatak|noun||A1|das Bett|Yatağa gidiyorum.|Ich gehe ins Bett.|yatağı,yatağa,yataklar|wohnen
+mutfak|noun||A1|die Küche|Mutfak küçük.|Die Küche ist klein.|mutfağı,mutfakta|wohnen
+banyo|noun||A1|das Bad;das Badezimmer|Banyo nerede?|Wo ist das Bad?|banyoyu,banyoda|wohnen
+oda|noun||A1|das Zimmer|Odam çok aydınlık.|Mein Zimmer ist sehr hell.|odası,odam,odalar,odada|wohnen
+daire|noun||A2|die Wohnung|Merkezde bir dairede oturuyorum.|Ich wohne in einer Wohnung im Zentrum.|dairesi,dairede|wohnen
+ekmek|noun||A1|das Brot|Her gün ekmek alıyorum.|Ich kaufe jeden Tag Brot.|ekmeği,ekmekler|essen
+süt|noun||A1|die Milch|Sütlü kahve içiyorum.|Ich trinke Kaffee mit Milch.|sütü,sütlü|essen
+kahve|noun||A1|der Kaffee|Bir Türk kahvesi lütfen.|Einen türkischen Kaffee, bitte.|kahvesi,kahveler|essen
+çay|noun||A1|der Tee|Çay ister misin?|Möchtest du Tee?|çayı,çaylar|essen
+et|noun||A1|das Fleisch|Et yemiyorum.|Ich esse kein Fleisch.|eti,etler|essen
+balık|noun||A1|der Fisch|Balık çok taze.|Der Fisch ist sehr frisch.|balığı,balıklar|essen
+meyve|noun||A1|das Obst;die Frucht|Her gün meyve yiyorum.|Ich esse jeden Tag Obst.|meyveler,meyveyi|essen
+elma|noun||A1|der Apfel|Kırmızı bir elma.|Ein roter Apfel.|elmayı,elmalar|essen
+yumurta|noun||A1|das Ei|İki yumurta istiyorum.|Ich möchte zwei Eier.|yumurtayı,yumurtalar|essen
+peynir|noun||A1|der Käse|Kahvaltıda peynir yeriz.|Zum Frühstück essen wir Käse.|peyniri,peynirler|essen
+kahvaltı|noun||A1|das Frühstück|Kahvaltı dahil.|Das Frühstück ist inbegriffen.|kahvaltıyı,kahvaltıda|essen
+akşam yemeği|noun||A1|das Abendessen|Akşam yemeği saat yedide.|Das Abendessen ist um sieben.|akşam yemeğini|essen
+lokanta|noun||A1|das Restaurant (einfach)|İyi bir lokanta biliyorum.|Ich kenne ein gutes Restaurant.|lokantası,lokantada|essen
+restoran|noun||A1|das Restaurant|Restoran çok kalabalık.|Das Restaurant ist sehr voll.|restoranı,restoranda|essen
+dükkan|noun||A1|der Laden|Dükkan saat onda açılıyor.|Der Laden öffnet um zehn.|dükkanı,dükkanlar,dükkân|einkaufen
+pazar|noun||A1|der Markt;der Sonntag|Pazardan sebze alıyorum.|Ich kaufe Gemüse auf dem Markt.|pazarı,pazarda,pazardan|einkaufen
+fiyat|noun||A2|der Preis|Fiyat çok yüksek.|Der Preis ist sehr hoch.|fiyatı,fiyatlar|einkaufen
+elbise|noun||A1|das Kleid;die Kleidung|Mavi bir elbise giyiyor.|Sie trägt ein blaues Kleid.|elbisesi,elbiseler|kleidung
+ayakkabı|noun||A1|der Schuh|Bu ayakkabılar rahat.|Diese Schuhe sind bequem.|ayakkabılar,ayakkabıyı|kleidung
+gömlek|noun||A1|das Hemd|Beyaz bir gömlek giyiyor.|Er trägt ein weißes Hemd.|gömleği,gömlekler|kleidung
+pantolon|noun||A1|die Hose|Siyah bir pantolon arıyorum.|Ich suche eine schwarze Hose.|pantolonu,pantolonlar|kleidung
+baş|noun||A1|der Kopf|Başım ağrıyor.|Ich habe Kopfschmerzen.|başı,başım|gesundheit
+el|noun||A1|die Hand|Ellerini yıka.|Wasch dir die Hände.|eli,elim,eller,ellerini|gesundheit
+göz|noun||A1|das Auge|Gözleri yeşil.|Sie hat grüne Augen.|gözü,gözler,gözleri|gesundheit
+vücut|noun||A2|der Körper|Vücudun suya ihtiyacı var.|Der Körper braucht Wasser.|vücudu|gesundheit
+kalp|noun||A2|das Herz|Kalbim hızlı atıyor.|Mein Herz schlägt schnell.|kalbi,kalbim|gesundheit
+doktor|noun||A1|der Arzt|Doktordan randevum var.|Ich habe einen Termin beim Arzt.|doktoru,doktora,doktorlar|gesundheit
+hastane|noun||A1|das Krankenhaus|Teyzem hastanede çalışıyor.|Meine Tante arbeitet im Krankenhaus.|hastaneye,hastanede|gesundheit
+köpek|noun||A1|der Hund|Köpek çok havlıyor.|Der Hund bellt viel.|köpeği,köpekler|tiere
+kedi|noun||A1|die Katze|Kedi kanepede uyuyor.|Die Katze schläft auf dem Sofa.|kedisi,kediler|tiere
+kuş|noun||A1|der Vogel|Ağaçta bir kuş ötüyor.|Ein Vogel singt im Baum.|kuşu,kuşlar|tiere
+at|noun||A2|das Pferd|Ata biniyoruz.|Wir reiten.|atı,atlar,ata|tiere
+ağaç|noun||A1|der Baum|Bahçede büyük bir ağaç var.|Im Garten steht ein großer Baum.|ağacı,ağaçlar|natur
+çiçek|noun||A1|die Blume|Sana bir çiçek aldım.|Ich habe dir eine Blume gekauft.|çiçeği,çiçekler|natur
+renk|noun||A1|die Farbe|En sevdiğin renk ne?|Was ist deine Lieblingsfarbe?|rengi,renkler|farben
+kırmızı|adj||A1|rot|Kırmızı bir arabam var.|Ich habe ein rotes Auto.||farben
+mavi|adj||A1|blau|Gökyüzü mavi.|Der Himmel ist blau.||farben
+yeşil|adj||A1|grün|Yeşil çayı severim.|Ich mag grünen Tee.||farben
+sarı|adj||A1|gelb|Güneş sarı.|Die Sonne ist gelb.||farben
+beyaz|adj||A1|weiß|Kar beyaz.|Der Schnee ist weiß.||farben
+siyah|adj||A1|schwarz|Siyah bir mont giyiyorum.|Ich trage eine schwarze Jacke.||farben
+iki|num||A1|zwei|İki çay lütfen.|Zwei Tee, bitte.||zahlen
+üç|num||A1|drei|Üç kız kardeşim var.|Ich habe drei Schwestern.||zahlen
+dört|num||A1|vier|Masanın dört ayağı var.|Der Tisch hat vier Beine.||zahlen
+beş|num||A1|fünf|Saat beş.|Es ist fünf Uhr.||zahlen
+altı|num||A1|sechs|Altıda dönüyorum.|Ich komme um sechs zurück.|altıda|zahlen
+yedi|num||A1|sieben|Haftada yedi gün var.|Die Woche hat sieben Tage.||zahlen
+sekiz|num||A1|acht|Sekiz saat uyuyorum.|Ich schlafe acht Stunden.||zahlen
+dokuz|num||A1|neun|Dükkan dokuzda açılıyor.|Der Laden öffnet um neun.|dokuzda|zahlen
+on|num||A1|zehn|On lira.|Zehn Lira.||zahlen
+yüz|num||A1|hundert|Yüz kişi var.|Es sind hundert Leute da.||zahlen
+bin|num||A2|tausend|Bin lira tutuyor.|Es kostet tausend Lira.||zahlen

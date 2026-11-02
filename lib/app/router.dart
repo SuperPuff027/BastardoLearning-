@@ -6,6 +6,7 @@ import '../features/library/card_edit_screen.dart';
 import '../features/library/folder_screen.dart';
 import '../features/library/import_screen.dart';
 import '../features/library/library_screen.dart';
+import '../features/library/preset_sets_screen.dart';
 import '../features/library/set_detail_screen.dart';
 import '../features/library/set_form_screen.dart';
 import '../features/progress/progress_screen.dart';
@@ -22,6 +23,8 @@ abstract final class Routes {
   static const learn = '/lernen';
   static const progress = '/fortschritt';
   static const settings = '/einstellungen';
+
+  static const presets = '$library/vorlagen';
 
   static String newSet({int? folderId}) =>
       folderId == null ? '$library/neu' : '$library/neu?ordner=$folderId';
@@ -91,6 +94,10 @@ GoRouter buildRouter() => GoRouter(
                       state.uri.queryParameters['ordner'] ?? '',
                     ),
                   ),
+                ),
+                GoRoute(
+                  path: 'vorlagen',
+                  builder: (_, _) => const PresetSetsScreen(),
                 ),
                 GoRoute(
                   path: 'ordner/:folderId',

@@ -1,0 +1,123 @@
+# Spanisch 489–620
+arroz|noun|m|A1|der Reis|Comemos arroz con pollo.|Wir essen Reis mit Hähnchen.||essen
+pollo|noun|m|A1|das Hähnchen;das Huhn|El pollo está muy rico.|Das Hähnchen ist sehr lecker.|pollos|essen
+verdura|noun|f|A1|das Gemüse|Como mucha verdura.|Ich esse viel Gemüse.|verduras|essen
+tomate|noun|m|A1|die Tomate|Una ensalada de tomate.|Ein Tomatensalat.|tomates|essen
+patata|noun|f|A1|die Kartoffel|Me gustan las patatas fritas.|Ich mag Pommes frites.|patatas|essen
+ensalada|noun|f|A1|der Salat|Quiero una ensalada mixta.|Ich möchte einen gemischten Salat.|ensaladas|essen
+sopa|noun|f|A1|die Suppe|La sopa está caliente.|Die Suppe ist heiß.|sopas|essen
+azúcar|noun|m|A1|der Zucker|Sin azúcar, por favor.|Ohne Zucker, bitte.||essen
+sal|noun|f|A1|das Salz|Pásame la sal.|Reich mir das Salz.||essen
+aceite|noun|m|A2|das Öl|Aceite de oliva.|Olivenöl.|aceites|essen
+naranja|noun|f|A1|die Orange|Un zumo de naranja.|Ein Orangensaft.|naranjas|essen
+plátano|noun|m|A1|die Banane|Como un plátano cada mañana.|Ich esse jeden Morgen eine Banane.|plátanos|essen
+zumo|noun|m|A1|der Saft|Un zumo de manzana, por favor.|Einen Apfelsaft, bitte.|zumos|essen
+botella|noun|f|A1|die Flasche|Una botella de agua.|Eine Flasche Wasser.|botellas|essen
+vaso|noun|m|A1|das Glas (Trinkglas)|Un vaso de leche.|Ein Glas Milch.|vasos|essen
+plato|noun|m|A1|der Teller;das Gericht|El plato del día es pescado.|Das Tagesgericht ist Fisch.|platos|essen
+cuchara|noun|f|A2|der Löffel|Necesito una cuchara.|Ich brauche einen Löffel.|cucharas|essen
+tenedor|noun|m|A2|die Gabel|Me falta un tenedor.|Mir fehlt eine Gabel.|tenedores|essen
+cuchillo|noun|m|A2|das Messer|El cuchillo no corta.|Das Messer schneidet nicht.|cuchillos|essen
+camarero|noun|m|A1|der Kellner|El camarero trae la cuenta.|Der Kellner bringt die Rechnung.|camarera,camareros|essen
+cuenta|noun|f|A1|die Rechnung;das Konto|La cuenta, por favor.|Die Rechnung, bitte.|cuentas|einkaufen
+hambre|noun|f|A1|der Hunger|Tengo mucha hambre.|Ich habe großen Hunger.||essen
+sed|noun|f|A1|der Durst|Tengo sed.|Ich habe Durst.||essen
+almuerzo|noun|m|A2|das Mittagessen|El almuerzo es a la una.|Das Mittagessen ist um eins.|almuerzos|essen
+postre|noun|m|A2|der Nachtisch|De postre, helado.|Zum Nachtisch Eis.|postres|essen
+helado|noun|m|A1|das Eis (Speiseeis)|Un helado de chocolate.|Ein Schokoladeneis.|helados|essen
+chocolate|noun|m|A1|die Schokolade|Me encanta el chocolate.|Ich liebe Schokolade.|chocolates|essen
+vestido|noun|m|A1|das Kleid|Lleva un vestido azul.|Sie trägt ein blaues Kleid.|vestidos|kleidung
+falda|noun|f|A1|der Rock|Una falda corta.|Ein kurzer Rock.|faldas|kleidung
+abrigo|noun|m|A1|der Mantel|Ponte el abrigo, hace frío.|Zieh den Mantel an, es ist kalt.|abrigos|kleidung
+chaqueta|noun|f|A1|die Jacke|Esta chaqueta es muy cálida.|Diese Jacke ist sehr warm.|chaquetas|kleidung
+camiseta|noun|f|A1|das T-Shirt|Compro una camiseta blanca.|Ich kaufe ein weißes T-Shirt.|camisetas|kleidung
+sombrero|noun|m|A2|der Hut|Lleva un sombrero de paja.|Er trägt einen Strohhut.|sombreros|kleidung
+gafas|noun|f|A1|die Brille|No encuentro mis gafas.|Ich finde meine Brille nicht.||kleidung
+bolso|noun|m|A1|die Handtasche;die Tasche|Mi bolso es negro.|Meine Handtasche ist schwarz.|bolsos|kleidung
+reloj|noun|m|A1|die Uhr|Mi reloj no funciona.|Meine Uhr funktioniert nicht.|relojes|zeit
+talla|noun|f|A2|die Größe (Kleidung)|¿Qué talla tiene?|Welche Größe haben Sie?|tallas|kleidung
+llave|noun|f|A1|der Schlüssel|¿Dónde está la llave?|Wo ist der Schlüssel?|llaves|wohnen
+sofá|noun|m|A1|das Sofa|Me siento en el sofá.|Ich setze mich aufs Sofa.|sofás|wohnen
+armario|noun|m|A2|der Schrank|La ropa está en el armario.|Die Kleidung ist im Schrank.|armarios|wohnen
+jardín|noun|m|A1|der Garten|Tenemos un jardín pequeño.|Wir haben einen kleinen Garten.|jardines|wohnen
+pared|noun|f|A2|die Wand|Hay un cuadro en la pared.|An der Wand hängt ein Bild.|paredes|wohnen
+suelo|noun|m|A2|der Boden|El libro está en el suelo.|Das Buch liegt auf dem Boden.|suelos|wohnen
+escalera|noun|f|A2|die Treppe;die Leiter|Subo por la escalera.|Ich gehe die Treppe hoch.|escaleras|wohnen
+ascensor|noun|m|A2|der Aufzug|Tomamos el ascensor.|Wir nehmen den Aufzug.|ascensores|wohnen
+vecino|noun|m|A2|der Nachbar|Mi vecino es muy ruidoso.|Mein Nachbar ist sehr laut.|vecina,vecinos,vecinas|wohnen
+nevera|noun|f|A2|der Kühlschrank|La leche está en la nevera.|Die Milch ist im Kühlschrank.|neveras|wohnen
+televisión|noun|f|A1|das Fernsehen;der Fernseher|No veo mucho la televisión.|Ich sehe nicht viel fern.|televisiones|freizeit
+foto|noun|f|A1|das Foto|Hacemos una foto juntos.|Wir machen ein Foto zusammen.|fotos|freizeit
+canción|noun|f|A1|das Lied|Es mi canción favorita.|Das ist mein Lieblingslied.|canciones|freizeit
+guitarra|noun|f|A2|die Gitarre|Toca la guitarra muy bien.|Er spielt sehr gut Gitarre.|guitarras|freizeit
+vacaciones|noun|f|A1|der Urlaub;die Ferien|Estoy de vacaciones.|Ich bin im Urlaub.||freizeit
+fin de semana|noun|m|A1|das Wochenende|¿Qué haces el fin de semana?|Was machst du am Wochenende?|fines de semana|zeit
+cine|noun|m|A1|das Kino|Vamos al cine esta noche.|Wir gehen heute Abend ins Kino.|cines|freizeit
+teatro|noun|m|A2|das Theater|Fuimos al teatro.|Wir waren im Theater.|teatros|freizeit
+periódico|noun|m|A2|die Zeitung|Leo el periódico cada mañana.|Ich lese jeden Morgen die Zeitung.|periódicos|kommunikation
+noticia|noun|f|A2|die Nachricht;die Neuigkeit|Tengo una buena noticia.|Ich habe eine gute Nachricht.|noticias|kommunikation
+correo|noun|m|A2|die Post;die E-Mail|Te escribo un correo.|Ich schreibe dir eine E-Mail.|correos|kommunikation
+idioma|noun|m|A1|die Sprache|Hablo tres idiomas.|Ich spreche drei Sprachen.|idiomas|schule
+lengua|noun|f|A2|die Sprache;die Zunge|El español es una lengua bonita.|Spanisch ist eine schöne Sprache.|lenguas|schule
+frase|noun|f|A2|der Satz|Lee esta frase en voz alta.|Lies diesen Satz laut vor.|frases|schule
+ejercicio|noun|m|A1|die Übung;die Bewegung|Haz el ejercicio dos.|Mach Übung zwei.|ejercicios|schule
+examen|noun|m|A1|die Prüfung|Mañana tengo un examen.|Morgen habe ich eine Prüfung.|exámenes|schule
+deberes|noun|m|A2|die Hausaufgaben|Todavía no he hecho los deberes.|Ich habe die Hausaufgaben noch nicht gemacht.||schule
+universidad|noun|f|A1|die Universität|Estudio en la universidad.|Ich studiere an der Universität.|universidades|schule
+cuaderno|noun|m|A1|das Heft|Escribe en tu cuaderno.|Schreib in dein Heft.|cuadernos|schule
+lápiz|noun|m|A1|der Bleistift|¿Me prestas un lápiz?|Leihst du mir einen Bleistift?|lápices|schule
+bolígrafo|noun|m|A1|der Kugelschreiber|Necesito un bolígrafo.|Ich brauche einen Kugelschreiber.|bolígrafos|schule
+papel|noun|m|A1|das Papier;die Rolle|Dame una hoja de papel.|Gib mir ein Blatt Papier.|papeles|schule
+error|noun|m|A2|der Fehler|Es un error pequeño.|Das ist ein kleiner Fehler.|errores|schule
+nota|noun|f|A2|die Note;die Notiz|Saqué una buena nota.|Ich habe eine gute Note bekommen.|notas|schule
+ejemplo|noun|m|A2|das Beispiel|Dame un ejemplo.|Gib mir ein Beispiel.|ejemplos|schule
+profesión|noun|f|A1|der Beruf|¿Cuál es tu profesión?|Was ist dein Beruf?|profesiones|arbeit
+trabajador|noun|m|A2|der Arbeiter;der Angestellte|Es un buen trabajador.|Er ist ein guter Arbeiter.|trabajadora,trabajadores|arbeit
+policía|noun|f|A1|die Polizei;der Polizist|Llama a la policía.|Ruf die Polizei.|policías|stadt
+abogado|noun|m|A2|der Anwalt|Mi hermana es abogada.|Meine Schwester ist Anwältin.|abogada,abogados|arbeit
+cliente|noun|mf|A2|der Kunde|El cliente siempre tiene razón.|Der Kunde hat immer recht.|clientes|arbeit
+sueldo|noun|m|B1|das Gehalt;der Lohn|Tiene un buen sueldo.|Er hat ein gutes Gehalt.|sueldos|arbeit
+novio|noun|m|A1|der Freund (Partner);der Verlobte|Mi novio se llama Carlos.|Mein Freund heißt Carlos.|novia,novios,novias|familie
+marido|noun|m|A1|der Ehemann|Su marido es médico.|Ihr Mann ist Arzt.|maridos|familie
+esposa|noun|f|A2|die Ehefrau|Te presento a mi esposa.|Ich stelle dir meine Frau vor.|esposo,esposas|familie
+tío|noun|m|A1|der Onkel|Mi tío vive en Chile.|Mein Onkel wohnt in Chile.|tía,tíos,tías|familie
+primo|noun|m|A1|der Cousin|Mi primo tiene diez años.|Mein Cousin ist zehn Jahre alt.|prima,primos,primas|familie
+bebé|noun|m|A1|das Baby|El bebé duerme.|Das Baby schläft.|bebés|familie
+chico|noun|m|A1|der Junge;der Kerl|Ese chico es mi hermano.|Der Junge ist mein Bruder.|chica,chicos,chicas|familie
+edad|noun|f|A2|das Alter|¿Qué edad tienes?|Wie alt bist du?|edades|familie
+boda|noun|f|A2|die Hochzeit|La boda es en mayo.|Die Hochzeit ist im Mai.|bodas|familie
+amor|noun|m|A2|die Liebe|El amor es ciego.|Liebe macht blind.|amores|gefuehle
+miedo|noun|m|A2|die Angst|Tengo miedo a los perros.|Ich habe Angst vor Hunden.|miedos|gefuehle
+suerte|noun|f|A2|das Glück (Zufall)|¡Buena suerte!|Viel Glück!||gefuehle
+alegría|noun|f|B1|die Freude|¡Qué alegría verte!|Was für eine Freude, dich zu sehen!|alegrías|gefuehle
+sueño|noun|m|A2|der Traum;der Schlaf;die Müdigkeit|Tengo sueño.|Ich bin müde.|sueños|gefuehle
+vaca|noun|f|A1|die Kuh|La vaca da leche.|Die Kuh gibt Milch.|vacas|tiere
+cerdo|noun|m|A2|das Schwein|El cerdo está en el campo.|Das Schwein ist auf dem Feld.|cerdos|tiere
+pez|noun|m|A1|der Fisch (lebend)|Hay peces en el río.|Im Fluss gibt es Fische.|peces|tiere
+ratón|noun|m|A2|die Maus|El gato persigue al ratón.|Die Katze jagt die Maus.|ratones|tiere
+oveja|noun|f|A2|das Schaf|Las ovejas comen hierba.|Die Schafe fressen Gras.|ovejas|tiere
+bosque|noun|m|A2|der Wald|Paseamos por el bosque.|Wir gehen im Wald spazieren.|bosques|natur
+lago|noun|m|A2|der See|El lago está helado.|Der See ist zugefroren.|lagos|natur
+isla|noun|f|A2|die Insel|Mallorca es una isla.|Mallorca ist eine Insel.|islas|natur
+piedra|noun|f|B1|der Stein|Hay una piedra en el camino.|Auf dem Weg liegt ein Stein.|piedras|natur
+nube|noun|f|A2|die Wolke|No hay nubes en el cielo.|Am Himmel sind keine Wolken.|nubes|natur
+estrella|noun|f|A2|der Stern|Mira las estrellas.|Schau dir die Sterne an.|estrellas|natur
+luna|noun|f|A2|der Mond|Hay luna llena.|Es ist Vollmond.|lunas|natur
+temperatura|noun|f|A2|die Temperatur|La temperatura baja por la noche.|Nachts sinkt die Temperatur.|temperaturas|natur
+gris|adj||A1|grau|El cielo está gris.|Der Himmel ist grau.|grises|farben
+marrón|adj||A1|braun|Tengo los ojos marrones.|Ich habe braune Augen.|marrones|farben
+rosa|adj||A1|rosa|Una camiseta rosa.|Ein rosa T-Shirt.|rosas|farben
+naranja|adj||A1|orange|Un coche naranja.|Ein oranges Auto.||farben
+morado|adj||A2|lila;violett|Una flor morada.|Eine lila Blume.|morada,morados,moradas|farben
+redondo|adj||A2|rund|Una mesa redonda.|Ein runder Tisch.|redonda,redondos,redondas|farben
+once|num||A1|elf|Tengo once años.|Ich bin elf Jahre alt.||zahlen
+doce|num||A1|zwölf|Son las doce.|Es ist zwölf Uhr.||zahlen
+veinte|num||A1|zwanzig|Cuesta veinte euros.|Es kostet zwanzig Euro.||zahlen
+treinta|num||A1|dreißig|Tengo treinta años.|Ich bin dreißig Jahre alt.||zahlen
+cincuenta|num||A1|fünfzig|Cincuenta personas.|Fünfzig Personen.||zahlen
+segundo|adj||A1|zweiter|Vivo en el segundo piso.|Ich wohne im zweiten Stock.|segunda,segundos,segundas|zahlen
+tercero|adj||A2|dritter|Es la tercera vez.|Es ist das dritte Mal.|tercer,tercera,terceros|zahlen
+minuto|noun|m|A1|die Minute|Espera un minuto.|Warte eine Minute.|minutos|zeit
+segundo|noun|m|A2|die Sekunde|Un segundo, por favor.|Eine Sekunde, bitte.|segundos|zeit
+fecha|noun|f|A2|das Datum|¿Qué fecha es hoy?|Welches Datum ist heute?|fechas|zeit
+cita|noun|f|A2|der Termin;die Verabredung|Tengo una cita con el dentista.|Ich habe einen Termin beim Zahnarzt.|citas|zeit

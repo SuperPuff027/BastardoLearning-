@@ -1,0 +1,129 @@
+# Spanisch 871–1010
+espalda|noun|f|A2|der Rücken|Me duele la espalda.|Mir tut der Rücken weh.|espaldas|gesundheit
+cara|noun|f|A1|das Gesicht|Tiene una cara bonita.|Sie hat ein hübsches Gesicht.|caras|gesundheit
+oreja|noun|f|A1|das Ohr|Me duele la oreja.|Mir tut das Ohr weh.|orejas|gesundheit
+dedo|noun|m|A1|der Finger;der Zeh|Me corté el dedo.|Ich habe mir in den Finger geschnitten.|dedos|gesundheit
+cuello|noun|m|A2|der Hals|Llevo una bufanda en el cuello.|Ich trage einen Schal um den Hals.|cuellos|gesundheit
+rodilla|noun|f|B1|das Knie|Me duele la rodilla.|Mir tut das Knie weh.|rodillas|gesundheit
+sangre|noun|f|B1|das Blut|Le sacaron sangre.|Man hat ihm Blut abgenommen.||gesundheit
+resfriado|noun|m|A2|die Erkältung|Tengo un resfriado.|Ich habe eine Erkältung.|resfriados|gesundheit
+tos|noun|f|B1|der Husten|Tengo tos.|Ich habe Husten.||gesundheit
+pastilla|noun|f|A2|die Tablette|Toma una pastilla cada ocho horas.|Nimm alle acht Stunden eine Tablette.|pastillas|gesundheit
+dentista|noun|mf|A2|der Zahnarzt|Voy al dentista.|Ich gehe zum Zahnarzt.|dentistas|gesundheit
+enfermero|noun|m|A2|der Krankenpfleger|Mi hermana es enfermera.|Meine Schwester ist Krankenschwester.|enfermera,enfermeros,enfermeras|gesundheit
+accidente|noun|m|B1|der Unfall|Hubo un accidente en la autopista.|Auf der Autobahn gab es einen Unfall.|accidentes|reisen
+ambulancia|noun|f|B1|der Krankenwagen|Llama a una ambulancia.|Ruf einen Krankenwagen.|ambulancias|gesundheit
+ayuda|noun|f|A2|die Hilfe|¡Ayuda!|Hilfe!||alltag
+peligro|noun|m|B1|die Gefahr|¡Peligro! No entrar.|Gefahr! Nicht betreten.|peligros|alltag
+cuidado|noun|m|A2|die Vorsicht;die Pflege|¡Cuidado con el perro!|Vorsicht vor dem Hund!||alltag
+seguridad|noun|f|B1|die Sicherheit|La seguridad es lo primero.|Sicherheit geht vor.||alltag
+guerra|noun|f|B1|der Krieg|La guerra terminó en 1945.|Der Krieg endete 1945.|guerras|alltag
+paz|noun|f|B1|der Frieden|Queremos paz.|Wir wollen Frieden.||alltag
+gobierno|noun|m|B1|die Regierung|El gobierno ha subido los impuestos.|Die Regierung hat die Steuern erhöht.|gobiernos|alltag
+ley|noun|f|B1|das Gesetz|Es la ley.|So ist das Gesetz.|leyes|alltag
+derecho|noun|m|B1|das Recht|Tienes derecho a saberlo.|Du hast ein Recht darauf, es zu wissen.|derechos|alltag
+política|noun|f|B1|die Politik|No hablo de política.|Ich rede nicht über Politik.|políticas|alltag
+sociedad|noun|f|B1|die Gesellschaft|Vivimos en una sociedad moderna.|Wir leben in einer modernen Gesellschaft.|sociedades|alltag
+cultura|noun|f|A2|die Kultur|Me interesa la cultura española.|Mich interessiert die spanische Kultur.|culturas|freizeit
+arte|noun|m|A2|die Kunst|El museo de arte moderno.|Das Museum für moderne Kunst.|artes|freizeit
+naturaleza|noun|f|A2|die Natur|Me encanta la naturaleza.|Ich liebe die Natur.||natur
+medio ambiente|noun|m|B1|die Umwelt|Hay que proteger el medio ambiente.|Man muss die Umwelt schützen.||natur
+clima|noun|m|B1|das Klima|El clima es suave.|Das Klima ist mild.|climas|natur
+tormenta|noun|f|B1|das Gewitter;der Sturm|Hay una tormenta esta noche.|Heute Nacht gibt es ein Gewitter.|tormentas|natur
+grado|noun|m|A2|der Grad|Estamos a treinta grados.|Es sind dreißig Grad.|grados|natur
+costa|noun|f|B1|die Küste|Vivimos en la costa.|Wir wohnen an der Küste.|costas|natur
+arena|noun|f|B1|der Sand|La arena está caliente.|Der Sand ist heiß.||natur
+ola|noun|f|B1|die Welle|Las olas son grandes hoy.|Die Wellen sind heute groß.|olas|natur
+desierto|noun|m|B1|die Wüste|El desierto de Atacama.|Die Atacama-Wüste.|desiertos|natur
+mundo laboral|noun|m|B2|die Arbeitswelt|Es difícil entrar en el mundo laboral.|Der Einstieg in die Arbeitswelt ist schwer.||arbeit
+entrevista|noun|f|B1|das Vorstellungsgespräch;das Interview|Mañana tengo una entrevista de trabajo.|Morgen habe ich ein Vorstellungsgespräch.|entrevistas|arbeit
+contrato|noun|m|B1|der Vertrag|Firmé el contrato.|Ich habe den Vertrag unterschrieben.|contratos|arbeit
+experiencia|noun|f|B1|die Erfahrung|Tengo experiencia en ventas.|Ich habe Erfahrung im Verkauf.|experiencias|arbeit
+proyecto|noun|m|B1|das Projekt|Trabajamos en un proyecto nuevo.|Wir arbeiten an einem neuen Projekt.|proyectos|arbeit
+documento|noun|m|B1|das Dokument|Envíame el documento.|Schick mir das Dokument.|documentos|arbeit
+horario|noun|m|A2|der Zeitplan;die Öffnungszeiten|¿Cuál es el horario de la tienda?|Wie sind die Öffnungszeiten des Ladens?|horarios|zeit
+fábrica|noun|f|B1|die Fabrik|Mi padre trabaja en una fábrica.|Mein Vater arbeitet in einer Fabrik.|fábricas|arbeit
+tienda de ropa|noun|f|A2|das Bekleidungsgeschäft|Trabajo en una tienda de ropa.|Ich arbeite in einem Bekleidungsgeschäft.||einkaufen
+camión|noun|m|A2|der Lastwagen|El camión es muy grande.|Der Lastwagen ist sehr groß.|camiones|reisen
+moto|noun|f|A2|das Motorrad|Voy en moto al trabajo.|Ich fahre mit dem Motorrad zur Arbeit.|motos|reisen
+gasolina|noun|f|B1|das Benzin|Necesitamos gasolina.|Wir brauchen Benzin.||reisen
+carretera|noun|f|B1|die Landstraße|La carretera está cortada.|Die Straße ist gesperrt.|carreteras|reisen
+autopista|noun|f|B1|die Autobahn|Tomamos la autopista.|Wir nehmen die Autobahn.|autopistas|reisen
+kilómetro|noun|m|A2|der Kilometer|Está a cinco kilómetros.|Es ist fünf Kilometer entfernt.|kilómetros|zahlen
+metro cuadrado|noun|m|B1|der Quadratmeter|El piso tiene ochenta metros cuadrados.|Die Wohnung hat achtzig Quadratmeter.|metros cuadrados|zahlen
+litro|noun|m|A2|der Liter|Un litro de leche.|Ein Liter Milch.|litros|zahlen
+gramo|noun|m|A2|das Gramm|Doscientos gramos de queso.|Zweihundert Gramm Käse.|gramos|zahlen
+por ciento|phrase||B1|Prozent|El cincuenta por ciento.|Fünfzig Prozent.||zahlen
+cuarto|noun|m|A2|das Viertel;das Zimmer|Son las dos y cuarto.|Es ist Viertel nach zwei.|cuartos|zeit
+docena|noun|f|B1|das Dutzend|Una docena de huevos.|Ein Dutzend Eier.|docenas|zahlen
+millón|noun|m|B1|die Million|Un millón de personas.|Eine Million Menschen.|millones|zahlen
+tamaño|noun|m|B1|die Größe|¿De qué tamaño es?|Wie groß ist es?|tamaños|zahlen
+pareja|noun|f|A2|das Paar;der Partner|Son una pareja feliz.|Sie sind ein glückliches Paar.|parejas|familie
+gente mayor|noun|f|B1|die älteren Leute|Hay mucha gente mayor en el pueblo.|Im Dorf gibt es viele ältere Leute.||familie
+habitante|noun|mf|B1|der Einwohner|La ciudad tiene un millón de habitantes.|Die Stadt hat eine Million Einwohner.|habitantes|stadt
+hecho|noun|m|B1|die Tatsache|Es un hecho.|Das ist eine Tatsache.|hechos|kommunikation
+razón|noun|f|A2|der Grund;die Vernunft|Tienes razón.|Du hast recht.|razones|kommunikation
+opinión|noun|f|B1|die Meinung|¿Cuál es tu opinión?|Was ist deine Meinung?|opiniones|kommunikation
+consejo|noun|m|B1|der Rat;der Ratschlag|Te doy un consejo.|Ich gebe dir einen Rat.|consejos|kommunikation
+conversación|noun|f|A2|das Gespräch|Tuvimos una conversación larga.|Wir hatten ein langes Gespräch.|conversaciones|kommunikation
+voz|noun|f|A2|die Stimme|Tiene una voz bonita.|Sie hat eine schöne Stimme.|voces|kommunikation
+información|noun|f|A2|die Information;die Auskunft|Necesito más información.|Ich brauche mehr Informationen.|informaciones|kommunikation
+internet|noun|m|A1|das Internet|Busco información en internet.|Ich suche Informationen im Internet.||kommunikation
+página|noun|f|A2|die Seite|Abre el libro en la página diez.|Schlag das Buch auf Seite zehn auf.|páginas|schule
+lección|noun|f|A2|die Lektion|Hoy empezamos la lección cinco.|Heute fangen wir mit Lektion fünf an.|lecciones|schule
+asignatura|noun|f|B1|das Schulfach|Mi asignatura favorita es la historia.|Mein Lieblingsfach ist Geschichte.|asignaturas|schule
+matemáticas|noun|f|A2|die Mathematik|Las matemáticas son difíciles.|Mathe ist schwierig.||schule
+ciencia|noun|f|B1|die Wissenschaft|Me interesa la ciencia.|Mich interessiert die Wissenschaft.|ciencias|schule
+pizarra|noun|f|A2|die Tafel|Escribe en la pizarra.|Schreib an die Tafel.|pizarras|schule
+diccionario|noun|m|A2|das Wörterbuch|Busca la palabra en el diccionario.|Schlag das Wort im Wörterbuch nach.|diccionarios|schule
+gramática|noun|f|B1|die Grammatik|La gramática española no es fácil.|Die spanische Grammatik ist nicht leicht.||schule
+vocabulario|noun|m|B1|der Wortschatz|Aprendo vocabulario nuevo cada día.|Ich lerne jeden Tag neue Vokabeln.||schule
+nivel|noun|m|B1|das Niveau;die Stufe|Tengo un nivel intermedio.|Ich habe ein mittleres Niveau.|niveles|schule
+curso|noun|m|A2|der Kurs;das Schuljahr|Hago un curso de español.|Ich mache einen Spanischkurs.|cursos|schule
+alumno|noun|m|A1|der Schüler|La clase tiene veinte alumnos.|Die Klasse hat zwanzig Schüler.|alumna,alumnos,alumnas|schule
+gimnasio|noun|m|A2|das Fitnessstudio;die Turnhalle|Voy al gimnasio tres veces por semana.|Ich gehe dreimal pro Woche ins Fitnessstudio.|gimnasios|freizeit
+equipo|noun|m|A2|die Mannschaft;das Team|Mi equipo ganó el partido.|Meine Mannschaft hat das Spiel gewonnen.|equipos|freizeit
+partido|noun|m|A2|das Spiel (Sport);die Partei|Vemos el partido en la tele.|Wir schauen das Spiel im Fernsehen.|partidos|freizeit
+pelota|noun|f|A2|der Ball|Los niños juegan con la pelota.|Die Kinder spielen mit dem Ball.|pelotas|freizeit
+piscina|noun|f|A1|das Schwimmbad;der Pool|El hotel tiene piscina.|Das Hotel hat einen Pool.|piscinas|freizeit
+concierto|noun|m|A2|das Konzert|Vamos a un concierto el viernes.|Am Freitag gehen wir auf ein Konzert.|conciertos|freizeit
+novela|noun|f|B1|der Roman|Estoy leyendo una novela.|Ich lese gerade einen Roman.|novelas|freizeit
+revista|noun|f|A2|die Zeitschrift|Compro una revista.|Ich kaufe eine Zeitschrift.|revistas|freizeit
+viaje de negocios|noun|m|B1|die Geschäftsreise|Estoy de viaje de negocios.|Ich bin auf Geschäftsreise.|viajes de negocios|arbeit
+excursión|noun|f|A2|der Ausflug|Hacemos una excursión a la montaña.|Wir machen einen Ausflug in die Berge.|excursiones|freizeit
+paseo|noun|m|A2|der Spaziergang|Damos un paseo por el parque.|Wir machen einen Spaziergang im Park.|paseos|freizeit
+afición|noun|f|B1|das Hobby|Mi afición es la fotografía.|Mein Hobby ist die Fotografie.|aficiones|freizeit
+ganas|noun|f|B1|die Lust|Tengo ganas de ir a la playa.|Ich habe Lust, an den Strand zu gehen.||gefuehle
+sorpresa|noun|f|B1|die Überraschung|¡Qué sorpresa!|Was für eine Überraschung!|sorpresas|gefuehle
+problema de salud|noun|m|B1|das Gesundheitsproblem|Tiene un problema de salud.|Er hat ein Gesundheitsproblem.|problemas de salud|gesundheit
+carácter|noun|m|B1|der Charakter|Tiene buen carácter.|Er hat einen guten Charakter.|caracteres|gefuehle
+paciencia|noun|f|B1|die Geduld|Ten paciencia.|Hab Geduld.||gefuehle
+vergüenza|noun|f|B1|die Scham;die Peinlichkeit|¡Qué vergüenza!|Wie peinlich!||gefuehle
+culpa|noun|f|B1|die Schuld|No es culpa tuya.|Es ist nicht deine Schuld.|culpas|gefuehle
+deseo|noun|m|B1|der Wunsch|Pide un deseo.|Wünsch dir etwas.|deseos|gefuehle
+belleza|noun|f|B2|die Schönheit|La belleza del paisaje.|Die Schönheit der Landschaft.||gefuehle
+blando|adj||B1|weich|Un pan blando.|Ein weiches Brot.|blanda,blandos,blandas|essen
+duro|adj||A2|hart;schwer|Es un trabajo duro.|Das ist eine harte Arbeit.|dura,duros,duras|arbeit
+suave|adj||B1|weich;sanft;mild|Una piel suave.|Eine weiche Haut.|suaves|gefuehle
+salado|adj||B1|salzig|La sopa está muy salada.|Die Suppe ist sehr salzig.|salada,salados,saladas|essen
+picante|adj||B1|scharf (Essen)|La salsa es muy picante.|Die Soße ist sehr scharf.|picantes|essen
+fresco|adj||A2|frisch;kühl|El pescado está fresco.|Der Fisch ist frisch.|fresca,frescos,frescas|essen
+ancho|adj||B1|breit;weit|La calle es muy ancha.|Die Straße ist sehr breit.|ancha,anchos,anchas|farben
+estrecho|adj||B1|eng;schmal|Este pantalón es estrecho.|Diese Hose ist eng.|estrecha,estrechos,estrechas|kleidung
+profundo|adj||B1|tief|El lago es muy profundo.|Der See ist sehr tief.|profunda,profundos,profundas|natur
+cuadrado|adj||B1|quadratisch;viereckig|Una mesa cuadrada.|Ein quadratischer Tisch.|cuadrada,cuadrados,cuadradas|farben
+extranjero|adj||A2|ausländisch;der Ausländer|Hay muchos estudiantes extranjeros.|Es gibt viele ausländische Studenten.|extranjera,extranjeros,extranjeras|reisen
+público|adj||B1|öffentlich|El transporte público es barato.|Der öffentliche Verkehr ist günstig.|pública,públicos,públicas|stadt
+privado|adj||B1|privat|Es una fiesta privada.|Es ist eine private Feier.|privada,privados,privadas|alltag
+gratis|adj||A2|kostenlos;gratis|La entrada es gratis.|Der Eintritt ist kostenlos.||einkaufen
+útil|adj||B1|nützlich|Es un libro muy útil.|Das ist ein sehr nützliches Buch.|útiles|alltag
+necesario|adj||B1|nötig;notwendig|No es necesario.|Das ist nicht nötig.|necesaria,necesarios,necesarias|alltag
+principal|adj||B1|Haupt-;wichtigste|La calle principal.|Die Hauptstraße.|principales|stadt
+propio|adj||B1|eigen|Tengo mi propio negocio.|Ich habe mein eigenes Geschäft.|propia,propios,propias|grammatik
+solo|adj||A2|allein|Vivo solo.|Ich wohne allein.|sola,solos,solas|alltag
+bienvenido|adj||A1|willkommen|¡Bienvenidos a España!|Willkommen in Spanien!|bienvenida,bienvenidos,bienvenidas|kommunikation
+buenas noches|phrase||A1|guten Abend;gute Nacht|Buenas noches a todos.|Guten Abend allerseits.||kommunikation
+buenas tardes|phrase||A1|guten Tag (nachmittags)|Buenas tardes, ¿en qué puedo ayudarle?|Guten Tag, wie kann ich Ihnen helfen?||kommunikation
+hasta luego|phrase||A1|bis später;tschüss|Hasta luego, Marta.|Bis später, Marta.||kommunikation
+lo siento|phrase||A1|es tut mir leid|Lo siento, no lo sé.|Es tut mir leid, ich weiß es nicht.||kommunikation
+claro|interj||A1|klar;natürlich|¡Claro que sí!|Na klar!||kommunikation

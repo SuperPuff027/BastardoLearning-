@@ -1,0 +1,120 @@
+# Spanisch 376–500
+llegada|noun|f|A2|die Ankunft|La llegada es a las once.|Die Ankunft ist um elf.|llegadas|reisen
+salida|noun|f|A2|der Ausgang;die Abfahrt|¿Dónde está la salida?|Wo ist der Ausgang?|salidas|reisen
+entrada|noun|f|A2|der Eingang;die Eintrittskarte|Compramos dos entradas.|Wir kaufen zwei Eintrittskarten.|entradas|freizeit
+camino|noun|m|A2|der Weg|Este camino va al pueblo.|Dieser Weg führt ins Dorf.|caminos|reisen
+pueblo|noun|m|A2|das Dorf;das Volk|Mis abuelos viven en un pueblo.|Meine Großeltern wohnen in einem Dorf.|pueblos|stadt
+barrio|noun|m|A2|das Viertel;die Nachbarschaft|Es un barrio tranquilo.|Es ist ein ruhiges Viertel.|barrios|stadt
+edificio|noun|m|A2|das Gebäude|Es un edificio de diez pisos.|Es ist ein zehnstöckiges Gebäude.|edificios|stadt
+puente|noun|m|A2|die Brücke|Cruzamos el puente.|Wir überqueren die Brücke.|puentes|stadt
+coche de alquiler|noun|m|B1|der Mietwagen|Reservamos un coche de alquiler.|Wir reservieren einen Mietwagen.||reisen
+bicicleta|noun|f|A1|das Fahrrad|Voy a trabajar en bicicleta.|Ich fahre mit dem Fahrrad zur Arbeit.|bicicletas|reisen
+barco|noun|m|A1|das Schiff;das Boot|Viajamos en barco a Mallorca.|Wir fahren mit dem Schiff nach Mallorca.|barcos|reisen
+taxi|noun|m|A1|das Taxi|Llamamos un taxi.|Wir rufen ein Taxi.|taxis|reisen
+metro|noun|m|A1|die U-Bahn|Tomo el metro cada mañana.|Ich nehme jeden Morgen die U-Bahn.||reisen
+derecha|noun|f|A1|die rechte Seite;rechts|Gira a la derecha.|Bieg rechts ab.||reisen
+izquierda|noun|f|A1|die linke Seite;links|El baño está a la izquierda.|Die Toilette ist links.||reisen
+recto|adv||A1|geradeaus|Siga todo recto.|Gehen Sie immer geradeaus.||reisen
+número|noun|m|A1|die Nummer;die Zahl|¿Cuál es tu número de teléfono?|Was ist deine Telefonnummer?|números|zahlen
+mitad|noun|f|A2|die Hälfte|Come la mitad de la pizza.|Er isst die Hälfte der Pizza.|mitades|zahlen
+kilo|noun|m|A1|das Kilo|Un kilo de tomates, por favor.|Ein Kilo Tomaten, bitte.|kilos|einkaufen
+euro|noun|m|A1|der Euro|Son tres euros.|Das macht drei Euro.|euros|einkaufen
+tarjeta|noun|f|A1|die Karte|Pago con tarjeta.|Ich zahle mit Karte.|tarjetas|einkaufen
+caro|adj||A1|teuer|Este reloj es muy caro.|Diese Uhr ist sehr teuer.|cara,caros,caras|einkaufen
+barato|adj||A1|billig;günstig|La fruta es barata aquí.|Das Obst ist hier billig.|barata,baratos,baratas|einkaufen
+abierto|adj||A1|offen;geöffnet|La tienda está abierta.|Der Laden ist geöffnet.|abierta,abiertos,abiertas|einkaufen
+cerrado|adj||A1|geschlossen|El museo está cerrado los lunes.|Das Museum ist montags geschlossen.|cerrada,cerrados,cerradas|einkaufen
+lleno|adj||A2|voll|El autobús está lleno.|Der Bus ist voll.|llena,llenos,llenas|zahlen
+vacío|adj||A2|leer|La botella está vacía.|Die Flasche ist leer.|vacía,vacíos,vacías|zahlen
+caliente|adj||A1|heiß;warm|La sopa está caliente.|Die Suppe ist heiß.|calientes|essen
+frío|adj||A1|kalt|El agua está fría.|Das Wasser ist kalt.|fría,fríos,frías|natur
+rico|adj||A1|lecker;reich|La paella está muy rica.|Die Paella ist sehr lecker.|rica,ricos,ricas|essen
+dulce|adj||A2|süß|Me gustan las cosas dulces.|Ich mag süße Sachen.|dulces|essen
+contento|adj||A1|froh;zufrieden|Estoy muy contento.|Ich bin sehr froh.|contenta,contentos,contentas|gefuehle
+triste|adj||A1|traurig|¿Por qué estás triste?|Warum bist du traurig?|tristes|gefuehle
+feliz|adj||A1|glücklich|Soy muy feliz contigo.|Ich bin sehr glücklich mit dir.|felices|gefuehle
+cansado|adj||A1|müde|Estoy cansado del viaje.|Ich bin müde von der Reise.|cansada,cansados,cansadas|gefuehle
+enfermo|adj||A1|krank|Mi hijo está enfermo.|Mein Sohn ist krank.|enferma,enfermos,enfermas|gesundheit
+simpático|adj||A1|nett;sympathisch|Tu amiga es muy simpática.|Deine Freundin ist sehr nett.|simpática,simpáticos,simpáticas|gefuehle
+amable|adj||A2|freundlich;liebenswürdig|Es usted muy amable.|Sie sind sehr freundlich.|amables|gefuehle
+tranquilo|adj||A2|ruhig|Es un pueblo tranquilo.|Es ist ein ruhiges Dorf.|tranquila,tranquilos,tranquilas|gefuehle
+nervioso|adj||A2|nervös|Estoy nervioso por el examen.|Ich bin nervös wegen der Prüfung.|nerviosa,nerviosos,nerviosas|gefuehle
+inteligente|adj||A1|intelligent;klug|Es una chica muy inteligente.|Sie ist ein sehr kluges Mädchen.|inteligentes|gefuehle
+divertido|adj||A1|lustig;unterhaltsam|La película es muy divertida.|Der Film ist sehr lustig.|divertida,divertidos,divertidas|freizeit
+aburrido|adj||A1|langweilig;gelangweilt|La clase es aburrida.|Der Unterricht ist langweilig.|aburrida,aburridos,aburridas|gefuehle
+interesante|adj||A1|interessant|Es un libro interesante.|Es ist ein interessantes Buch.|interesantes|schule
+listo|adj||A2|fertig;klug|¿Estás listo?|Bist du fertig?|lista,listos,listas|alltag
+ocupado|adj||A2|beschäftigt;besetzt|Estoy muy ocupado hoy.|Ich bin heute sehr beschäftigt.|ocupada,ocupados,ocupadas|arbeit
+libre|adj||A1|frei|¿Está libre esta mesa?|Ist dieser Tisch frei?|libres|freizeit
+posible|adj||A2|möglich|No es posible.|Das ist nicht möglich.|posibles|alltag
+seguro|adj||A2|sicher|¿Estás seguro?|Bist du sicher?|segura,seguros,seguras|gefuehle
+claro|adj||A2|klar;hell|Está claro.|Das ist klar.|clara,claros,claras|kommunikation
+cierto|adj||B1|wahr;gewiss|Eso no es cierto.|Das ist nicht wahr.|cierta,ciertos,ciertas|kommunikation
+mejor|adj||A2|besser;bester|Este es el mejor restaurante.|Das ist das beste Restaurant.|mejores|gefuehle
+peor|adj||A2|schlechter;schlechtester|Hoy es el peor día.|Heute ist der schlimmste Tag.|peores|gefuehle
+fuerte|adj||A2|stark;kräftig|Es un hombre muy fuerte.|Er ist ein sehr starker Mann.|fuertes|gesundheit
+rápido|adj||A1|schnell|El tren es muy rápido.|Der Zug ist sehr schnell.|rápida,rápidos,rápidas|reisen
+lento|adj||A2|langsam|El ordenador es lento.|Der Computer ist langsam.|lenta,lentos,lentas|reisen
+limpio|adj||A2|sauber|La habitación está limpia.|Das Zimmer ist sauber.|limpia,limpios,limpias|wohnen
+sucio|adj||A2|schmutzig|Los platos están sucios.|Die Teller sind schmutzig.|sucia,sucios,sucias|wohnen
+gordo|adj||A2|dick|El gato está gordo.|Die Katze ist dick.|gorda,gordos,gordas|gesundheit
+delgado|adj||A2|dünn;schlank|Es alta y delgada.|Sie ist groß und schlank.|delgada,delgados,delgadas|gesundheit
+guapo|adj||A1|hübsch;gut aussehend|Tu hermano es muy guapo.|Dein Bruder sieht sehr gut aus.|guapa,guapos,guapas|gefuehle
+español|adj||A1|spanisch;der Spanier|La comida española es deliciosa.|Das spanische Essen ist köstlich.|española,españoles,españolas|reisen
+alemán|adj||A1|deutsch;der Deutsche|Mi novia es alemana.|Meine Freundin ist Deutsche.|alemana,alemanes,alemanas|reisen
+levantarse|verb||A1|aufstehen|Me levanto a las siete.|Ich stehe um sieben auf.|levanto,levantas,levanta,levantamos,levantan,levantó|alltag
+acostarse|verb||A2|ins Bett gehen|Me acuesto a las once.|Ich gehe um elf ins Bett.|acuesto,acuestas,acuesta,acostamos,acuestan|alltag
+ducharse|verb||A1|duschen|Me ducho por la mañana.|Ich dusche morgens.|ducho,duchas,ducha,duchamos,duchan|alltag
+vestirse|verb||A2|sich anziehen|Me visto rápido.|Ich ziehe mich schnell an.|visto,vistes,viste,vestimos,visten|kleidung
+sentarse|verb||A2|sich setzen|Siéntese, por favor.|Setzen Sie sich bitte.|siento,sientas,sienta,sentamos,sientan,siéntese,siéntate|alltag
+desayunar|verb||A1|frühstücken|Desayuno a las ocho.|Ich frühstücke um acht.|desayuno,desayunas,desayuna,desayunamos,desayunan|essen
+cenar|verb||A1|zu Abend essen|Cenamos en un restaurante.|Wir essen in einem Restaurant zu Abend.|ceno,cenas,cena,cenamos,cenan|essen
+nadar|verb||A1|schwimmen|Me gusta nadar en el mar.|Ich schwimme gern im Meer.|nado,nadas,nada,nadamos,nadan,nadó|freizeit
+bailar|verb||A1|tanzen|¿Quieres bailar conmigo?|Willst du mit mir tanzen?|bailo,bailas,baila,bailamos,bailan,bailó|freizeit
+cantar|verb||A1|singen|Ella canta muy bien.|Sie singt sehr gut.|canto,cantas,canta,cantamos,cantan,cantó|freizeit
+tocar|verb||A2|berühren;spielen (Instrument)|Toco la guitarra.|Ich spiele Gitarre.|toco,tocas,toca,tocamos,tocan,tocó|freizeit
+pintar|verb||A2|malen;streichen|Pinto la pared de blanco.|Ich streiche die Wand weiß.|pinto,pintas,pinta,pintamos,pintan,pintó|freizeit
+conducir|verb||A2|fahren (Auto)|No sé conducir.|Ich kann nicht Auto fahren.|conduzco,conduces,conduce,conducimos,conducen,condujo|reisen
+alquilar|verb||A2|mieten;vermieten|Alquilamos un piso.|Wir mieten eine Wohnung.|alquilo,alquilas,alquila,alquilamos,alquilan|wohnen
+vender|verb||A1|verkaufen|Vendo mi bicicleta.|Ich verkaufe mein Fahrrad.|vendo,vendes,vende,vendemos,venden,vendió|einkaufen
+costar|verb||A1|kosten|¿Cuánto cuesta este libro?|Wie viel kostet dieses Buch?|cuesta,cuestan,costó|einkaufen
+probar|verb||A2|probieren;anprobieren|¿Puedo probarme esta camisa?|Kann ich dieses Hemd anprobieren?|pruebo,pruebas,prueba,probamos,prueban,probó|kleidung
+elegir|verb||B1|wählen;aussuchen|Elige un color.|Such dir eine Farbe aus.|elijo,eliges,elige,elegimos,eligen,eligió|alltag
+preferir|verb||A2|bevorzugen;lieber mögen|Prefiero el té.|Ich trinke lieber Tee.|prefiero,prefieres,prefiere,preferimos,prefieren|gefuehle
+explicar|verb||A2|erklären|¿Me explicas el ejercicio?|Erklärst du mir die Übung?|explico,explicas,explica,explicamos,explican,explicó|schule
+repetir|verb||A2|wiederholen|¿Puede repetir, por favor?|Können Sie das bitte wiederholen?|repito,repites,repite,repetimos,repiten,repitió|schule
+practicar|verb||A2|üben;ausüben|Practico español cada día.|Ich übe jeden Tag Spanisch.|practico,practicas,practica,practicamos,practican|schule
+traducir|verb||B1|übersetzen|¿Puedes traducir esta frase?|Kannst du diesen Satz übersetzen?|traduzco,traduces,traduce,traducimos,traducen,tradujo|schule
+enviar|verb||A2|schicken;senden|Te envío las fotos.|Ich schicke dir die Fotos.|envío,envías,envía,enviamos,envían,envió|kommunikation
+recibir|verb||A2|bekommen;empfangen|Recibí tu carta.|Ich habe deinen Brief bekommen.|recibo,recibes,recibe,recibimos,reciben,recibió,recibí|kommunikation
+invitar|verb||A2|einladen|Te invito a cenar.|Ich lade dich zum Abendessen ein.|invito,invitas,invita,invitamos,invitan,invitó|freizeit
+visitar|verb||A1|besuchen|Visitamos a mi tía.|Wir besuchen meine Tante.|visito,visitas,visita,visitamos,visitan,visitó|reisen
+subir|verb||A2|hinaufgehen;einsteigen;hochladen|Subimos al tren.|Wir steigen in den Zug ein.|subo,subes,sube,subimos,suben,subió|reisen
+bajar|verb||A2|hinuntergehen;aussteigen;senken|Bajamos en la próxima parada.|Wir steigen an der nächsten Haltestelle aus.|bajo,bajas,baja,bajamos,bajan,bajó|reisen
+cruzar|verb||A2|überqueren|Cruza la calle con cuidado.|Überquere die Straße vorsichtig.|cruzo,cruzas,cruza,cruzamos,cruzan,cruzó|stadt
+girar|verb||A2|abbiegen;drehen|Gire a la izquierda.|Biegen Sie links ab.|giro,giras,gira,giramos,giran,gire|reisen
+parar|verb||A2|anhalten;aufhören|El autobús para aquí.|Der Bus hält hier.|paro,paras,para,paramos,paran,paró|reisen
+funcionar|verb||A2|funktionieren|El ascensor no funciona.|Der Aufzug funktioniert nicht.|funciona,funcionan,funcionó|alltag
+romper|verb||B1|zerbrechen;kaputt machen|Rompí un vaso.|Ich habe ein Glas zerbrochen.|rompo,rompes,rompe,rompemos,rompen,rompió,roto,rompí|wohnen
+lavar|verb||A2|waschen|Lavo la ropa los sábados.|Samstags wasche ich die Wäsche.|lavo,lavas,lava,lavamos,lavan,lavó|wohnen
+preparar|verb||A2|vorbereiten;zubereiten|Preparo la cena.|Ich bereite das Abendessen zu.|preparo,preparas,prepara,preparamos,preparan,preparó|essen
+cortar|verb||A2|schneiden|Corta el pan, por favor.|Schneide bitte das Brot.|corto,cortas,corta,cortamos,cortan,cortó|essen
+encantar|verb||A2|sehr gefallen;lieben|Me encanta esta canción.|Ich liebe dieses Lied.|encanta,encantan,encantó|gefuehle
+doler|verb||A2|wehtun|Me duele el estómago.|Mir tut der Bauch weh.|duele,duelen,dolió|gesundheit
+llorar|verb||A2|weinen|El bebé llora.|Das Baby weint.|lloro,lloras,llora,lloramos,lloran,lloró|gefuehle
+reír|verb||A2|lachen|Nos reímos mucho.|Wir haben viel gelacht.|río,ríes,ríe,reímos,ríen,rió|gefuehle
+sonreír|verb||B1|lächeln|Siempre sonríe.|Sie lächelt immer.|sonrío,sonríes,sonríe,sonreímos,sonríen|gefuehle
+preocuparse|verb||B1|sich Sorgen machen|No te preocupes.|Mach dir keine Sorgen.|preocupo,preocupas,preocupa,preocupes|gefuehle
+casarse|verb||A2|heiraten|Se casan en junio.|Sie heiraten im Juni.|caso,casas,casa,casamos,casan,casó|familie
+estómago|noun|m|A2|der Magen;der Bauch|Tengo dolor de estómago.|Ich habe Bauchschmerzen.|estómagos|gesundheit
+pie|noun|m|A1|der Fuß|Me duele el pie.|Mir tut der Fuß weh.|pies|gesundheit
+brazo|noun|m|A1|der Arm|Me rompí el brazo.|Ich habe mir den Arm gebrochen.|brazos|gesundheit
+pierna|noun|f|A1|das Bein|Tengo las piernas cansadas.|Meine Beine sind müde.|piernas|gesundheit
+boca|noun|f|A1|der Mund|Abre la boca.|Mach den Mund auf.|bocas|gesundheit
+nariz|noun|f|A1|die Nase|Tengo la nariz roja.|Ich habe eine rote Nase.|narices|gesundheit
+pelo|noun|m|A1|das Haar;die Haare|Tiene el pelo largo.|Sie hat lange Haare.|pelos|gesundheit
+diente|noun|m|A1|der Zahn|Me lavo los dientes.|Ich putze mir die Zähne.|dientes|gesundheit
+dolor|noun|m|A2|der Schmerz|Tengo un dolor fuerte.|Ich habe starke Schmerzen.|dolores|gesundheit
+medicina|noun|f|A2|das Medikament;die Medizin|Toma esta medicina.|Nimm dieses Medikament.|medicinas|gesundheit
+salud|noun|f|A2|die Gesundheit|La salud es lo más importante.|Gesundheit ist das Wichtigste.||gesundheit
+fiebre|noun|f|A2|das Fieber|El niño tiene fiebre.|Das Kind hat Fieber.|fiebres|gesundheit

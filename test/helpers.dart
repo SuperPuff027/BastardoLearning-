@@ -6,6 +6,7 @@ import 'package:barstardo_learning/app/app.dart';
 import 'package:barstardo_learning/app/providers.dart';
 import 'package:barstardo_learning/data/database.dart';
 import 'package:barstardo_learning/data/media/media_store.dart';
+import 'package:barstardo_learning/data/vocab/vocab_repository.dart';
 import 'package:barstardo_learning/features/settings/app_settings.dart';
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
@@ -59,6 +60,7 @@ class TestEnv {
           mediaStoreProvider.overrideWithValue(media),
           imagePickerProvider.overrideWithValue((_) async => pickedImage),
           randomProvider.overrideWithValue(Random(42)),
+          vocabRepositoryProvider.overrideWithValue(sharedVocab),
         ],
         child: const BarstardoApp(),
       ),
@@ -66,6 +68,11 @@ class TestEnv {
     await tester.pumpAndSettle();
   }
 }
+
+/// Mitgelieferte Vokabeldatenbank, einmal pro Testlauf geöffnet.
+final VocabRepository sharedVocab = VocabRepository.open(
+  VocabRepository.assetPath,
+);
 
 /// Lässt echte Datei-I/O laufen. Jeder I/O-Schritt braucht eine echte
 /// Event-Loop-Runde, daher mehrere Durchläufe mit Pump dazwischen.

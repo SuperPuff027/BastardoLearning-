@@ -1,0 +1,39 @@
+# Spanisch 968–1010
+ducha|noun|f|A1|die Dusche|La ducha no funciona.|Die Dusche funktioniert nicht.|duchas|wohnen
+sábana|noun|f|B1|das Bettlaken|Cambio las sábanas.|Ich wechsle die Bettlaken.|sábanas|wohnen
+almohada|noun|f|B1|das Kopfkissen|La almohada es muy blanda.|Das Kopfkissen ist sehr weich.|almohadas|wohnen
+mueble|noun|m|B1|das Möbelstück|Compramos muebles nuevos.|Wir kaufen neue Möbel.|muebles|wohnen
+estantería|noun|f|B1|das Regal|Los libros están en la estantería.|Die Bücher stehen im Regal.|estanterías|wohnen
+bufanda|noun|f|A2|der Schal|Lleva una bufanda de lana.|Sie trägt einen Wollschal.|bufandas|kleidung
+calcetín|noun|m|A2|die Socke|Me faltan calcetines.|Mir fehlen Socken.|calcetines|kleidung
+botas|noun|f|A2|die Stiefel|Me pongo las botas.|Ich ziehe die Stiefel an.|bota|kleidung
+guante|noun|m|A2|der Handschuh|Hace frío, ponte los guantes.|Es ist kalt, zieh die Handschuhe an.|guantes|kleidung
+traje|noun|m|A2|der Anzug|Lleva un traje gris.|Er trägt einen grauen Anzug.|trajes|kleidung
+jersey|noun|m|A2|der Pullover|Un jersey de lana.|Ein Wollpullover.|jerséis|kleidung
+pijama|noun|m|A2|der Schlafanzug|Me pongo el pijama.|Ich ziehe den Schlafanzug an.|pijamas|kleidung
+moda|noun|f|B1|die Mode|Le interesa la moda.|Sie interessiert sich für Mode.|modas|kleidung
+tortuga|noun|f|B1|die Schildkröte|La tortuga es muy lenta.|Die Schildkröte ist sehr langsam.|tortugas|tiere
+elefante|noun|m|A2|der Elefant|El elefante es enorme.|Der Elefant ist riesig.|elefantes|tiere
+abeja|noun|f|B1|die Biene|Las abejas hacen miel.|Bienen machen Honig.|abejas|tiere
+toro|noun|m|B1|der Stier|El toro es un símbolo de España.|Der Stier ist ein Symbol Spaniens.|toros|tiere
+pato|noun|m|B1|die Ente|Hay patos en el lago.|Auf dem See sind Enten.|patos|tiere
+lobo|noun|m|B1|der Wolf|El lobo vive en la montaña.|Der Wolf lebt in den Bergen.|lobos|tiere
+mascota|noun|f|A2|das Haustier|¿Tienes mascota?|Hast du ein Haustier?|mascotas|tiere
+círculo|noun|m|B1|der Kreis|Dibuja un círculo.|Zeichne einen Kreis.|círculos|farben
+línea|noun|f|B1|die Linie;die Zeile|Escribe en la primera línea.|Schreib in die erste Zeile.|líneas|farben
+dorado|adj||B1|golden|Un reloj dorado.|Eine goldene Uhr.|dorada,dorados,doradas|farben
+trece|num||A1|dreizehn|Tengo trece años.|Ich bin dreizehn Jahre alt.||zahlen
+quince|num||A1|fünfzehn|Son las quince horas.|Es ist fünfzehn Uhr.||zahlen
+cuarenta|num||A1|vierzig|Cuarenta euros.|Vierzig Euro.||zahlen
+sesenta|num||A1|sechzig|Mi padre tiene sesenta años.|Mein Vater ist sechzig.||zahlen
+ochenta|num||A1|achtzig|Mi abuela tiene ochenta años.|Meine Oma ist achtzig.||zahlen
+cero|num||A1|null|Hace cero grados.|Es hat null Grad.||zahlen
+dieciséis|num||A1|sechzehn|Tiene dieciséis años.|Sie ist sechzehn.||zahlen
+calendario|noun|m|A2|der Kalender|Mira el calendario.|Schau in den Kalender.|calendarios|zeit
+madrugada|noun|f|B1|der frühe Morgen (nach Mitternacht)|Llegué a las tres de la madrugada.|Ich kam um drei Uhr morgens an.|madrugadas|zeit
+anoche|adv||A2|gestern Abend;letzte Nacht|Anoche dormí mal.|Letzte Nacht habe ich schlecht geschlafen.||zeit
+pasado mañana|adv||A2|übermorgen|Nos vemos pasado mañana.|Wir sehen uns übermorgen.||zeit
+a menudo|adv||A2|oft|Voy a menudo al cine.|Ich gehe oft ins Kino.||zeit
+a veces|adv||A1|manchmal|A veces como en el trabajo.|Manchmal esse ich auf der Arbeit.||zeit
+de repente|adv||B1|plötzlich|De repente empezó a llover.|Plötzlich fing es an zu regnen.||zeit
+enseguida|adv||B1|sofort;gleich|Vuelvo enseguida.|Ich bin gleich zurück.||zeit

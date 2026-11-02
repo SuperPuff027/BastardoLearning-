@@ -1,0 +1,158 @@
+# Türkisch 529–690
+inek|noun||A1|die Kuh|İnek süt verir.|Die Kuh gibt Milch.|ineği,inekler|tiere
+fare|noun||A2|die Maus|Kedi fareyi kovalıyor.|Die Katze jagt die Maus.|fareyi|tiere
+koyun|noun||A2|das Schaf|Koyunlar ot yiyor.|Die Schafe fressen Gras.|koyunlar|tiere
+tavşan|noun||A2|das Kaninchen;der Hase|Kızımın bir tavşanı var.|Meine Tochter hat ein Kaninchen.|tavşanı|tiere
+ayı|noun||A2|der Bär|Ayı ormanda yaşar.|Der Bär lebt im Wald.|ayılar|tiere
+aslan|noun||A2|der Löwe|Aslan ormanın kralıdır.|Der Löwe ist der König des Dschungels.|aslanı|tiere
+maymun|noun||A2|der Affe|Maymun muz yiyor.|Der Affe isst eine Banane.|maymunu|tiere
+yılan|noun||B1|die Schlange|Yılanlardan korkarım.|Ich habe Angst vor Schlangen.|yılanlar,yılanlardan|tiere
+hayvan|noun||A1|das Tier|Hayvanları severim.|Ich mag Tiere.|hayvanlar,hayvanları|tiere
+böcek|noun||B1|das Insekt;der Käfer|Yazın çok böcek var.|Im Sommer gibt es viele Insekten.|böcekler|tiere
+sinek|noun||B1|die Fliege|Çorbada bir sinek var.|In der Suppe ist eine Fliege.|sinekler|tiere
+arı|noun||B1|die Biene|Arılar bal yapar.|Bienen machen Honig.|arılar|tiere
+ördek|noun||B1|die Ente|Gölde ördekler var.|Auf dem See sind Enten.|ördekler|tiere
+kurt|noun||B1|der Wolf;der Wurm|Kurt dağda yaşar.|Der Wolf lebt in den Bergen.|kurtlar|tiere
+fil|noun||A2|der Elefant|Fil çok büyük.|Der Elefant ist sehr groß.|filler|tiere
+kaplumbağa|noun||B1|die Schildkröte|Kaplumbağa çok yavaş.|Die Schildkröte ist sehr langsam.|kaplumbağalar|tiere
+evcil hayvan|noun||A2|das Haustier|Evcil hayvanın var mı?|Hast du ein Haustier?|evcil hayvanlar|tiere
+orman|noun||A2|der Wald|Ormanda yürüyoruz.|Wir gehen im Wald spazieren.|ormanı,ormanda|natur
+göl|noun||A2|der See|Göl donmuş.|Der See ist zugefroren.|gölü,gölde|natur
+ada|noun||A2|die Insel|Büyükada bir ada.|Büyükada ist eine Insel.|adası,adalar|natur
+taş|noun||B1|der Stein|Yolda bir taş var.|Auf dem Weg liegt ein Stein.|taşı,taşlar|natur
+bulut|noun||A2|die Wolke|Gökyüzünde bulut yok.|Am Himmel sind keine Wolken.|bulutlar,bulutlu|natur
+yıldız|noun||A2|der Stern|Yıldızlara bak.|Schau dir die Sterne an.|yıldızlar,yıldızlara|natur
+sıcaklık|noun||A2|die Temperatur;die Wärme|Gece sıcaklık düşüyor.|Nachts sinkt die Temperatur.|sıcaklığı|natur
+gri|adj||A1|grau|Gökyüzü gri.|Der Himmel ist grau.||farben
+kahverengi|adj||A1|braun|Gözlerim kahverengi.|Meine Augen sind braun.||farben
+pembe|adj||A1|rosa|Pembe bir tişört.|Ein rosa T-Shirt.||farben
+turuncu|adj||A1|orange|Turuncu bir araba.|Ein oranges Auto.||farben
+mor|adj||A2|lila;violett|Mor bir çiçek.|Eine lila Blume.||farben
+yuvarlak|adj||A2|rund|Yuvarlak bir masa.|Ein runder Tisch.||farben
+on bir|num||A1|elf|On bir yaşındayım.|Ich bin elf Jahre alt.||zahlen
+on iki|num||A1|zwölf|Saat on iki.|Es ist zwölf Uhr.||zahlen
+yirmi|num||A1|zwanzig|Yirmi lira.|Zwanzig Lira.||zahlen
+otuz|num||A1|dreißig|Otuz yaşındayım.|Ich bin dreißig Jahre alt.||zahlen
+kırk|num||A1|vierzig|Kırk kişi geldi.|Vierzig Leute sind gekommen.||zahlen
+elli|num||A1|fünfzig|Elli kişi.|Fünfzig Personen.||zahlen
+altmış|num||A1|sechzig|Babam altmış yaşında.|Mein Vater ist sechzig.||zahlen
+yetmiş|num||A1|siebzig|Yetmiş lira.|Siebzig Lira.||zahlen
+seksen|num||A1|achtzig|Ninem seksen yaşında.|Meine Oma ist achtzig.||zahlen
+doksan|num||A1|neunzig|Doksan dakika sürüyor.|Es dauert neunzig Minuten.||zahlen
+sıfır|num||A1|null|Hava sıfır derece.|Es sind null Grad.||zahlen
+milyon|num||B1|die Million|Bir milyon insan.|Eine Million Menschen.||zahlen
+ikinci|adj||A1|zweiter|İkinci katta oturuyorum.|Ich wohne im zweiten Stock.||zahlen
+üçüncü|adj||A2|dritter|Bu üçüncü kez.|Das ist das dritte Mal.||zahlen
+yarım|adj||A2|halb|Yarım saat bekledim.|Ich habe eine halbe Stunde gewartet.|buçuk|zahlen
+yarı|noun||A2|die Hälfte|Pizzanın yarısını yedi.|Er hat die Hälfte der Pizza gegessen.|yarısı,yarısını|zahlen
+tarih|noun||A2|das Datum;die Geschichte|Bugün tarih ne?|Welches Datum ist heute?|tarihi|zeit
+randevu|noun||A2|der Termin;die Verabredung|Dişçiden randevum var.|Ich habe einen Termin beim Zahnarzt.|randevum,randevusu|zeit
+şubat|noun||A1|der Februar|Doğum günüm şubatta.|Mein Geburtstag ist im Februar.|şubatta|zeit
+mart|noun||A1|der März|Martta bahar başlıyor.|Im März beginnt der Frühling.|martta|zeit
+nisan|noun||A1|der April|Nisanda seyahat ediyoruz.|Wir reisen im April.|nisanda|zeit
+mayıs|noun||A1|der Mai|Düğün mayısta.|Die Hochzeit ist im Mai.|mayısta|zeit
+haziran|noun||A1|der Juni|Haziranda okul bitiyor.|Im Juni endet die Schule.|haziranda|zeit
+temmuz|noun||A1|der Juli|Temmuzda çok sıcak.|Im Juli ist es sehr heiß.|temmuzda|zeit
+ağustos|noun||A1|der August|Ağustosta tatildeyim.|Im August bin ich im Urlaub.|ağustosta|zeit
+eylül|noun||A1|der September|Okul eylülde başlıyor.|Die Schule beginnt im September.|eylülde|zeit
+ekim|noun||A1|der Oktober|Ekimde çok yağmur yağıyor.|Im Oktober regnet es viel.|ekimde|zeit
+kasım|noun||A1|der November|Kasım soğuk bir ay.|November ist ein kalter Monat.|kasımda|zeit
+aralık|noun||A1|der Dezember|Aralıkta yılbaşını kutlarız.|Im Dezember feiern wir Silvester.|aralıkta|zeit
+yılbaşı|noun||A2|das Neujahr;der Silvester|Mutlu yıllar, iyi yılbaşları!|Frohes neues Jahr!|yılbaşını,yılbaşları|zeit
+bayram|noun||A2|der Feiertag;das Fest|Bayramınız kutlu olsun!|Frohes Fest!|bayramı,bayramınız|zeit
+yüzyıl|noun||B1|das Jahrhundert|On ikinci yüzyıldan bir cami.|Eine Moschee aus dem zwölften Jahrhundert.|yüzyıldan,asır|zeit
+gelecek|noun||A2|die Zukunft;nächster|Geleceği düşünüyorum.|Ich denke an die Zukunft.|geleceği|zeit
+geçmiş|noun||A2|die Vergangenheit|Geçmişi unut.|Vergiss die Vergangenheit.|geçmişi|zeit
+gelecek hafta|adv||A1|nächste Woche|Gelecek hafta Roma'ya gidiyorum.|Nächste Woche fahre ich nach Rom.||zeit
+geçen|adj||A1|letzter;vergangen|Geçen yıl Küba'ya gittim.|Letztes Jahr war ich auf Kuba.||zeit
+sırasında|prep||B1|während|Yolculuk sırasında çok okudum.|Während der Reise habe ich viel gelesen.||zeit
+karşı|prep||B1|gegen;gegenüber|Galatasaray'a karşı oynuyoruz.|Wir spielen gegen Galatasaray.|karşısında|grammatik
+doğru|prep||B1|in Richtung;gegen (zeitlich)|Merkeze doğru yürüyoruz.|Wir gehen Richtung Zentrum.||reisen
+göre|prep||B1|laut;gemäß;nach|Gazeteye göre yağmur yağacak.|Laut Zeitung wird es regnen.||kommunikation
+alt|noun||A2|der untere Teil;unter|Kedi masanın altında.|Die Katze ist unter dem Tisch.|altında,altına|grammatik
+üst|noun||A2|der obere Teil;auf;über|Anahtarlar masanın üstünde.|Die Schlüssel liegen auf dem Tisch.|üstünde,üstüne|grammatik
+ön|noun||A2|die Vorderseite;vor|Evin önünde bir araba var.|Vor dem Haus steht ein Auto.|önünde,önüne|stadt
+arka|noun||A2|die Rückseite;hinter|Bahçe evin arkasında.|Der Garten ist hinter dem Haus.|arkasında,arkaya|stadt
+iç|noun||A2|das Innere;in|Kutunun içinde ne var?|Was ist in der Kiste?|içinde,içeri|wohnen
+dış|noun||A2|das Äußere;außerhalb|Çocuklar dışarıda oynuyor.|Die Kinder spielen draußen.|dışarı,dışarıda|wohnen
+yan|noun||A2|die Seite;neben|Eczane bankanın yanında.|Die Apotheke ist neben der Bank.|yanında,yanına|stadt
+ara|noun||B1|der Zwischenraum;zwischen;die Pause|Okulla ev arasında bir park var.|Zwischen Schule und Haus gibt es einen Park.|arasında|stadt
+sağ|noun||A1|die rechte Seite;rechts|Sağa dön.|Bieg rechts ab.|sağa,sağda|reisen
+sol|noun||A1|die linke Seite;links|Tuvalet solda.|Die Toilette ist links.|sola,solda|reisen
+düz|adv||A1|geradeaus;gerade|Dümdüz gidin.|Gehen Sie geradeaus.|dümdüz|reisen
+yukarı|adv||A2|hinauf;oben|Odam yukarıda.|Mein Zimmer ist oben.|yukarıda|wohnen
+aşağı|adv||A2|hinunter;unten|Mutfak aşağıda.|Die Küche ist unten.|aşağıda|wohnen
+ayrıca|adv||B1|außerdem|Ayrıca çok ucuz.|Außerdem ist es sehr billig.||kommunikation
+o zaman|adv||A2|dann;also|O zaman geliyor musun?|Kommst du dann?||kommunikation
+böyle|adv||A2|so;auf diese Weise|Böyle yap.|Mach es so.|böylece|grammatik
+şöyle|adv||B1|so (wie folgt)|Şöyle anlatayım.|Ich erkläre es so.||grammatik
+genellikle|adv||A2|normalerweise|Genellikle evde yerim.|Normalerweise esse ich zu Hause.||alltag
+bazen|adv||A1|manchmal|Bazen işte yemek yerim.|Manchmal esse ich bei der Arbeit.||zeit
+sık sık|adv||A2|oft|Sık sık sinemaya giderim.|Ich gehe oft ins Kino.||zeit
+birden|adv||B1|plötzlich|Birden yağmur başladı.|Plötzlich fing es an zu regnen.|aniden|zeit
+dün gece|adv||A2|gestern Abend;letzte Nacht|Dün gece kötü uyudum.|Letzte Nacht habe ich schlecht geschlafen.||zeit
+öbür gün|adv||A2|übermorgen|Öbür gün görüşürüz.|Wir sehen uns übermorgen.||zeit
+iken|conj||B1|während;als|Ben okurken o uyuyor.|Während ich lese, schläft er.|-ken,okurken|zeit
+rağmen|prep||B1|trotz;obwohl|Yağmura rağmen dışarı çıktım.|Trotz des Regens bin ich rausgegangen.||grammatik
+değil mi|phrase||A2|nicht wahr?|Güzel, değil mi?|Schön, nicht wahr?||kommunikation
+hangi|det||A1|welcher;welche;welches|Hangisini istiyorsun?|Welches möchtest du?|hangisi,hangisini|grammatik
+kendi|pron||B1|selbst;eigen|Kendi işim var.|Ich habe mein eigenes Geschäft.|kendisi,kendim|grammatik
+benim|pron||A1|mein;meine|Bu benim kitabım.|Das ist mein Buch.|benimki|grammatik
+senin|pron||A1|dein;deine|Senin araban nerede?|Wo ist dein Auto?|seninki|grammatik
+hiçbir|det||A2|kein;keinerlei|Hiçbir sorunum yok.|Ich habe kein Problem.||grammatik
+bazı|det||A2|einige;manche|Bazı arkadaşlarım burada.|Einige meiner Freunde sind hier.|bazıları|zahlen
+birkaç|det||A2|einige;ein paar|Birkaç gün kalacağım.|Ich bleibe ein paar Tage.||zahlen
+kadar|prep||A2|bis;so … wie|Yarına kadar bekle.|Warte bis morgen.||zeit
+o kadar|adv||A2|so (sehr)|O kadar zor değil.|Es ist nicht so schwierig.||grammatik
+neredeyse|adv||A2|fast;beinahe|Saat neredeyse on.|Es ist fast zehn Uhr.||zeit
+yeterince|adv||B1|genug;ausreichend|Yeterince param yok.|Ich habe nicht genug Geld.|yeterli|zahlen
+fazla|adv||A2|zu viel;mehr|Fazla yeme.|Iss nicht zu viel.||zahlen
+doğru|adj||A2|richtig;korrekt|Cevap doğru.|Die Antwort ist richtig.||schule
+yanlış|adj||A2|falsch|Bu yanlış.|Das ist falsch.||schule
+farklı|adj||A2|anders;verschieden|Çok farklıyız.|Wir sind sehr verschieden.||alltag
+özel|adj||A2|besonders;privat|Bugün özel bir gün.|Heute ist ein besonderer Tag.||alltag
+normal|adj||A2|normal|Heyecanlı olmak normal.|Es ist normal, aufgeregt zu sein.||alltag
+ünlü|adj||A2|berühmt|Ünlü bir oyuncu.|Ein berühmter Schauspieler.||freizeit
+tehlikeli|adj||B1|gefährlich|Bu yol tehlikeli.|Diese Straße ist gefährlich.||reisen
+rahat|adj||A2|bequem;entspannt|Bu kanepe çok rahat.|Dieses Sofa ist sehr bequem.||wohnen
+modern|adj||A2|modern|Modern bir bina.|Ein modernes Gebäude.||stadt
+tarihi|adj||B1|historisch|Tarihi bir şehir.|Eine historische Stadt.||stadt
+harika|adj||A2|wunderbar;toll|Harika bir gündü.|Es war ein wunderbarer Tag.||gefuehle
+korkunç|adj||B1|schrecklich|Hava korkunç.|Das Wetter ist schrecklich.||gefuehle
+kızgın|adj||A2|wütend|Annem bana kızgın.|Meine Mutter ist wütend auf mich.|kızmak|gefuehle
+endişeli|adj||B1|besorgt|Senin için endişeliyim.|Ich mache mir Sorgen um dich.|endişeliyim|gefuehle
+şaşkın|adj||B1|überrascht;verwirrt|Çok şaşkınım.|Ich bin sehr überrascht.|şaşkınım|gefuehle
+utangaç|adj||A2|schüchtern|Utangaç bir çocuk.|Ein schüchternes Kind.||gefuehle
+çalışkan|adj||A2|fleißig|Çok çalışkan bir öğrenci.|Eine sehr fleißige Schülerin.||gefuehle
+tembel|adj||A2|faul|Kedim çok tembel.|Meine Katze ist sehr faul.||gefuehle
+sağlıklı|adj||A2|gesund|Sağlıklı yemek ye.|Iss gesundes Essen.||gesundheit
+canlı|adj||B1|lebendig;live|Balık canlı.|Der Fisch lebt.||natur
+ölü|adj||B1|tot|Bitki ölü.|Die Pflanze ist tot.||natur
+kuru|adj||A2|trocken|Çamaşırlar kuru.|Die Wäsche ist trocken.||natur
+ıslak|adj||A2|nass|Ayaklarım ıslak.|Meine Füße sind nass.||natur
+karanlık|adj||A2|dunkel|Oda karanlık.|Das Zimmer ist dunkel.||farben
+ağır|adj||A2|schwer|Bavul çok ağır.|Der Koffer ist sehr schwer.||reisen
+hafif|adj||B1|leicht (Gewicht)|Hafif bir ceket.|Eine leichte Jacke.||kleidung
+gürültü|noun||A2|der Lärm|Sokakta çok gürültü var.|Auf der Straße ist viel Lärm.|gürültülü|stadt
+trafik|noun||A2|der Verkehr|Bugün çok trafik var.|Heute ist viel Verkehr.|trafiği|reisen
+trafik ışığı|noun||A2|die Ampel|Trafik ışığında dur.|Halt an der Ampel.|trafik ışıkları|reisen
+köşe|noun||A2|die Ecke|Dükkan köşede.|Der Laden ist an der Ecke.|köşesi,köşede|stadt
+durak|noun||A2|die Haltestelle|Otobüs durağı burada.|Die Bushaltestelle ist hier.|durağı|reisen
+merkez|noun||A1|das Zentrum|Merkezde oturuyorum.|Ich wohne im Zentrum.|merkezi,merkezde|stadt
+belediye|noun||B1|die Stadtverwaltung;das Rathaus|Belediye meydanda.|Das Rathaus ist am Platz.|belediyesi|stadt
+kütüphane|noun||A1|die Bibliothek|Kütüphanede ders çalışıyorum.|Ich lerne in der Bibliothek.|kütüphanede|schule
+postane|noun||A2|die Post (Postamt)|Paket göndermek için postaneye gidiyorum.|Ich gehe zur Post, um ein Paket zu schicken.|postaneye|stadt
+paket|noun||A2|das Paket|Bir paket geldi.|Ein Paket ist angekommen.|paketi|kommunikation
+adres|noun||A2|die Adresse|Adresin ne?|Wie ist deine Adresse?|adresi,adresin|kommunikation
+pasaport|noun||A2|der Reisepass|Pasaportunu unutma.|Vergiss deinen Pass nicht.|pasaportu,pasaportunu|reisen
+sınır|noun||B1|die Grenze|Sınırı geçiyoruz.|Wir überqueren die Grenze.|sınırı|reisen
+turist|noun||A1|der Tourist|Yazın çok turist var.|Im Sommer gibt es viele Touristen.|turistler|reisen
+uçuş|noun||A2|der Flug|Uçuş iki saat sürüyor.|Der Flug dauert zwei Stunden.|uçuşu|reisen
+rezervasyon|noun||A2|die Reservierung|Rezervasyonum var.|Ich habe eine Reservierung.|rezervasyonu|reisen
+bagaj|noun||A2|das Gepäck;der Kofferraum|Bagajım gelmedi.|Mein Gepäck ist nicht angekommen.|bagajı,bagajım|reisen
+kartpostal|noun||A2|die Postkarte|Sana bir kartpostal gönderiyorum.|Ich schicke dir eine Postkarte.|kartpostalı|kommunikation
+hatıra|noun||B1|die Erinnerung;das Andenken|Annem için bir hatıra aldım.|Ich habe ein Andenken für meine Mutter gekauft.|hatırası,hediyelik|reisen
+manzara|noun||B1|die Aussicht;die Landschaft|Manzara harika.|Die Aussicht ist wunderbar.|manzarası|natur
+bitki|noun||A2|die Pflanze|Her gün bitkileri suluyorum.|Ich gieße jeden Tag die Pflanzen.|bitkiler,bitkileri|natur
+ot|noun||B1|das Gras;das Kraut|Çocuklar otların üstünde oynuyor.|Die Kinder spielen im Gras.|otlar,otların|natur
+yaprak|noun||A2|das Blatt|Sonbaharda yapraklar düşer.|Im Herbst fallen die Blätter.|yaprağı,yapraklar|natur

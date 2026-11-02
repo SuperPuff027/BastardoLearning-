@@ -62,6 +62,7 @@ class _SetDetailScreenState extends ConsumerState<SetDetailScreen> {
               final visible = _starredOnly
                   ? cards.where((c) => c.starred).toList()
                   : cards;
+              final duplicates = LibraryRepository.duplicateIdsIn(cards);
               return ListView(
                 padding: const EdgeInsets.only(bottom: 96),
                 children: [
@@ -93,6 +94,7 @@ class _SetDetailScreenState extends ConsumerState<SetDetailScreen> {
                     for (final c in visible)
                       _CardTile(
                         card: c,
+                        isDuplicate: duplicates.contains(c.id),
                         onTap: () => context.go(Routes.card(s.id, c.id)),
                         onStar: () => _repo.setStarred(c.id, !c.starred),
                         onDelete: () => _deleteCard(c),
@@ -416,12 +418,14 @@ class _EmptyCards extends StatelessWidget {
 class _CardTile extends StatelessWidget {
   const _CardTile({
     required this.card,
+    this.isDuplicate = false,
     required this.onTap,
     required this.onStar,
     required this.onDelete,
   });
 
   final VocabCard card;
+  final bool isDuplicate;
   final VoidCallback onTap;
   final VoidCallback onStar;
   final VoidCallback onDelete;
@@ -454,6 +458,17 @@ class _CardTile extends StatelessWidget {
                       rich: card.backRich,
                       style: theme.textTheme.bodyMedium,
                     ),
+                    if (isDuplicate)
+                      Padding(
+                        padding: const EdgeInsets.only(top: 6),
+                        child: ActionChip(
+                          key: Key('duplicateChip-${card.id}'),
+                          avatar: const Icon(Icons.content_copy, size: 16),
+                          label: const Text('doppelt – löschen'),
+                          visualDensity: VisualDensity.compact,
+                          onPressed: onDelete,
+                        ),
+                      ),
                     if (!card.verified)
                       Padding(
                         padding: const EdgeInsets.only(top: 6),

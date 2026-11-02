@@ -9,6 +9,7 @@ import '../data/database.dart';
 import '../data/library_repository.dart';
 import '../data/media/media_store.dart';
 import '../data/study_repository.dart';
+import '../data/vocab/vocab_repository.dart';
 import '../features/settings/app_settings.dart';
 
 /// Die lokale Datenbank. Wird in `main()` überschrieben.
@@ -91,3 +92,11 @@ final studyRepositoryProvider = Provider<StudyRepository>(
 
 /// Zufallsquelle der Lernmodi. In Tests mit festem Seed überschreibbar.
 final randomProvider = Provider<Random>((ref) => Random());
+
+/// Mitgelieferte Vokabeldatenbank (schreibgeschützt). Wird in `main()`
+/// überschrieben.
+final vocabRepositoryProvider = Provider<VocabRepository>(
+  (ref) => throw UnimplementedError(
+    'vocabRepositoryProvider muss überschrieben werden',
+  ),
+);

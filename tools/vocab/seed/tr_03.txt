@@ -1,0 +1,114 @@
+# Türkisch 262–390
+iyi|adj||A1|gut|İyi bir kitap.|Ein gutes Buch.|iyiyim,iyisin|gefuehle
+kötü|adj||A1|schlecht|Hava kötü.|Das Wetter ist schlecht.||gefuehle
+büyük|adj||A1|groß|Büyük bir evde oturuyoruz.|Wir wohnen in einem großen Haus.||farben
+küçük|adj||A1|klein|Küçük bir köpeğim var.|Ich habe einen kleinen Hund.||farben
+yeni|adj||A1|neu|Yeni bir telefonum var.|Ich habe ein neues Handy.||alltag
+eski|adj||A1|alt (Dinge);ehemalig|Bu araba çok eski.|Dieses Auto ist sehr alt.||alltag
+yaşlı|adj||A1|alt (Personen)|Yaşlı bir adam.|Ein alter Mann.||familie
+genç|adj||A1|jung|Öğretmenim çok genç.|Meine Lehrerin ist sehr jung.|gençler|familie
+uzun|adj||A1|lang;groß (Person)|Çok uzun bir yolculuk.|Eine sehr lange Reise.||farben
+kısa|adj||A1|kurz;klein (Person)|Saçları kısa.|Sie hat kurze Haare.||farben
+güzel|adj||A1|schön|Ne güzel bir elbise!|Was für ein schönes Kleid!||gefuehle
+çirkin|adj||A2|hässlich|Bina çok çirkin.|Das Gebäude ist sehr hässlich.||gefuehle
+kolay|adj||A1|leicht;einfach|Sınav kolaydı.|Die Prüfung war leicht.||schule
+zor|adj||A1|schwierig;schwer|Almanca zor.|Deutsch ist schwierig.||schule
+önemli|adj||A2|wichtig|Bu çok önemli.|Das ist sehr wichtig.||alltag
+aynı|adj||A2|gleich;derselbe|Aynı arabamız var.|Wir haben dasselbe Auto.||grammatik
+başka|adj||A1|anderer|Başka bir çay ister misin?|Möchtest du noch einen Tee?||grammatik
+diğer|adj||A2|anderer;übriger|Diğer kitap nerede?|Wo ist das andere Buch?|diğeri|grammatik
+her şey|pron||A1|alles|Her şey yolunda.|Alles ist in Ordnung.||grammatik
+az|adv||A1|wenig|Çok az insan var.|Es sind sehr wenige Leute da.|azıcık|zahlen
+biraz|adv||A1|ein bisschen;etwas|Biraz Türkçe biliyorum.|Ich kann ein bisschen Türkisch.||zahlen
+ilk|adj||A1|erster|Bu benim ilk yolculuğum.|Das ist meine erste Reise.||zahlen
+son|adj||A2|letzter|Bu son tren.|Das ist der letzte Zug.|sonuncu|zahlen
+bir şey|pron||A1|etwas|Bir şey içmek ister misin?|Möchtest du etwas trinken?||grammatik
+hiçbir şey|pron||A2|nichts|Hiçbir şeyim yok.|Ich habe nichts.||grammatik
+biri|pron||A2|jemand|Evde biri var mı?|Ist jemand zu Hause?|birisi|grammatik
+kimse|pron||A2|niemand|Burada kimse yok.|Hier ist niemand.||grammatik
+her zaman|adv||A1|immer|Her zaman geç kalıyor.|Er kommt immer zu spät.||zeit
+asla|adv||A2|niemals|Asla kahve içmem.|Ich trinke niemals Kaffee.||zeit
+hep|adv||A2|immer;stets|Hep aynı şeyi söylüyor.|Er sagt immer dasselbe.||zeit
+artık|adv||A2|nun;nicht mehr (verneint)|Artık sigara içmiyorum.|Ich rauche nicht mehr.||zeit
+hâlâ|adv||A2|immer noch|Hâlâ gelmedi.|Er ist immer noch nicht gekommen.|hala|zeit
+zaten|adv||A2|sowieso;schon|Zaten yedim.|Ich habe schon gegessen.||zeit
+sonra|adv||A1|danach;später;nach|Yemekten sonra uyuyorum.|Nach dem Essen schlafe ich.||zeit
+önce|adv||A1|vorher;früher;vor|Önce Berlin'de yaşıyordum.|Früher wohnte ich in Berlin.||zeit
+hemen|adv||A2|sofort;gleich|Hemen geliyorum.|Ich komme sofort.||zeit
+erken|adv||A2|früh|Erken kalkıyorum.|Ich stehe früh auf.||zeit
+geç|adv||A1|spät|Çok geç oldu.|Es ist sehr spät geworden.||zeit
+yakın|adj||A1|nah|Banka yakın.|Die Bank ist in der Nähe.|yakında|stadt
+uzak|adj||A1|weit;entfernt|Evim uzak.|Mein Haus ist weit weg.||stadt
+belki|adv||A2|vielleicht|Belki yarın gelirim.|Vielleicht komme ich morgen.||kommunikation
+tabii|adv||A1|natürlich;klar|Tabii ki geliyorum.|Natürlich komme ich.|tabii ki|kommunikation
+sadece|adv||A2|nur;bloß|Sadece beş liram var.|Ich habe nur fünf Lira.||grammatik
+bile|adv||B1|sogar|Çocuklar bile biliyor.|Sogar die Kinder wissen es.||grammatik
+yine|adv||A2|wieder|Yine geç kaldın.|Du bist wieder zu spät.|gene|zeit
+tekrar|adv||A2|noch einmal;wieder|Tekrar eder misiniz?|Können Sie das wiederholen?||kommunikation
+birlikte|adv||A2|zusammen|Birlikte sinemaya gidelim.|Lass uns zusammen ins Kino gehen.|beraber|freizeit
+yavaş|adj||A2|langsam|Lütfen daha yavaş konuşun.|Bitte sprechen Sie langsamer.|yavaşça|kommunikation
+hızlı|adj||A1|schnell|Tren çok hızlı.|Der Zug ist sehr schnell.|hızlıca|reisen
+pazartesi|noun||A1|der Montag|Pazartesi işe başlıyorum.|Am Montag fange ich an zu arbeiten.|pazartesiden|zeit
+salı|noun||A1|der Dienstag|Salı günü dersim var.|Am Dienstag habe ich Unterricht.||zeit
+çarşamba|noun||A1|der Mittwoch|Çarşamba görüşürüz.|Wir sehen uns am Mittwoch.||zeit
+perşembe|noun||A1|der Donnerstag|Perşembe doktora gidiyorum.|Am Donnerstag gehe ich zum Arzt.||zeit
+cuma|noun||A1|der Freitag|Cuma akşamı dışarı çıkıyoruz.|Am Freitagabend gehen wir aus.||zeit
+cumartesi|noun||A1|der Samstag|Cumartesi çalışmıyorum.|Am Samstag arbeite ich nicht.||zeit
+ocak|noun||A1|der Januar;der Herd|Ocakta hava soğuk.|Im Januar ist es kalt.|ocakta|zeit
+yaz|noun||A1|der Sommer|Yazın denize gidiyoruz.|Im Sommer fahren wir ans Meer.|yazın,yazları|zeit
+kış|noun||A1|der Winter|Kış çok uzun.|Der Winter ist sehr lang.|kışın,kışları|zeit
+ilkbahar|noun||A1|der Frühling|İlkbaharda çok çiçek var.|Im Frühling gibt es viele Blumen.|ilkbaharda,bahar|zeit
+sonbahar|noun||A1|der Herbst|Sonbaharda çok yağmur yağar.|Im Herbst regnet es viel.|sonbaharda|zeit
+soğuk|adj||A1|kalt|Su soğuk.|Das Wasser ist kalt.||natur
+sıcak|adj||A1|heiß;warm|Ağustosta hava çok sıcak.|Im August ist es sehr heiß.||natur
+kar|noun||A2|der Schnee|Dağda kar var.|Auf dem Berg liegt Schnee.|karı|natur
+rüzgâr|noun||A2|der Wind|Bugün çok rüzgâr var.|Heute ist es sehr windig.|rüzgar,rüzgârlı|natur
+gökyüzü|noun||A2|der Himmel|Gökyüzü bulutlu.|Der Himmel ist bewölkt.|gök|natur
+dağ|noun||A1|der Berg|Dağa tırmanıyoruz.|Wir steigen auf den Berg.|dağı,dağlar,dağa|natur
+nehir|noun||A1|der Fluss|Nehir çok uzun.|Der Fluss ist sehr lang.|nehri,nehirler|natur
+köy|noun||A2|das Dorf|Köyde yaşıyorum.|Ich wohne auf dem Dorf.|köyü,köyde,köyler|stadt
+toprak|noun||A2|die Erde;der Boden|Toprak kuru.|Die Erde ist trocken.|toprağı|natur
+ateş|noun||A2|das Feuer;das Fieber|Ateşe dokunma.|Fass das Feuer nicht an.|ateşi|natur
+ışık|noun||A2|das Licht|Işığı kapat.|Mach das Licht aus.|ışığı,ışıklar|wohnen
+telefon|noun||A1|das Telefon|Telefonum çalışmıyor.|Mein Telefon funktioniert nicht.|telefonu,telefonum|kommunikation
+cep telefonu|noun||A1|das Handy|Cep telefonuna mesaj atıyorum.|Ich schicke eine Nachricht aufs Handy.|cep telefonum|kommunikation
+bilgisayar|noun||A1|der Computer|Bilgisayarla çalışıyorum.|Ich arbeite am Computer.|bilgisayarı,bilgisayarla|arbeit
+mesaj|noun||A2|die Nachricht|Sana bir mesaj gönderdim.|Ich habe dir eine Nachricht geschickt.|mesajı,mesajlar|kommunikation
+mektup|noun||A1|der Brief|Bir mektup yazıyorum.|Ich schreibe einen Brief.|mektubu,mektuplar|kommunikation
+müzik|noun||A1|die Musik|Klasik müzik severim.|Ich mag klassische Musik.|müziği|freizeit
+film|noun||A1|der Film|Bu akşam bir film izliyoruz.|Heute Abend schauen wir einen Film.|filmi,filmler|freizeit
+spor|noun||A1|der Sport|Haftada üç kez spor yapıyorum.|Ich mache dreimal pro Woche Sport.|sporu|freizeit
+futbol|noun||A1|der Fußball|Pazar günleri futbol oynuyorum.|Sonntags spiele ich Fußball.|futbolu|freizeit
+oyun|noun||A1|das Spiel|Eğlenceli bir oyun.|Ein lustiges Spiel.|oyunu,oyunlar|freizeit
+parti|noun||A1|die Party|Cumartesi parti var.|Am Samstag gibt es eine Party.|partiye,partiler|freizeit
+hediye|noun||A1|das Geschenk|Hediye için teşekkürler.|Danke für das Geschenk.|hediyesi,hediyeler|freizeit
+doğum günü|noun||A1|der Geburtstag|Doğum günün kutlu olsun!|Alles Gute zum Geburtstag!|doğum günün|freizeit
+ofis|noun||A1|das Büro|Bir ofiste çalışıyorum.|Ich arbeite in einem Büro.|ofisi,ofiste|arbeit
+şirket|noun||A2|die Firma;das Unternehmen|Şirketin yüz çalışanı var.|Die Firma hat hundert Angestellte.|şirketi,şirketler|arbeit
+patron|noun||A2|der Chef|Patronum çok iyi biri.|Mein Chef ist sehr nett.|patronu,patronum|arbeit
+toplantı|noun||A2|die Besprechung;die Sitzung|Saat onda toplantım var.|Ich habe um zehn eine Besprechung.|toplantısı,toplantıda|arbeit
+banka|noun||A1|die Bank|Banka saat beşte kapanıyor.|Die Bank schließt um fünf.|bankası,bankada|stadt
+istasyon|noun||A1|der Bahnhof|İstasyon nerede?|Wo ist der Bahnhof?|istasyonu,istasyonda|reisen
+havalimanı|noun||A1|der Flughafen|Havalimanına taksiyle gidiyoruz.|Wir fahren mit dem Taxi zum Flughafen.|havaalanı,havalimanına|reisen
+bilet|noun||A1|die Fahrkarte;das Ticket|Tren bileti alıyorum.|Ich kaufe eine Zugfahrkarte.|bileti,biletler|reisen
+bavul|noun||A1|der Koffer|Bavulum çok ağır.|Mein Koffer ist sehr schwer.|bavulu,bavulum|reisen
+harita|noun||A1|die Landkarte;der Stadtplan|Şehir haritan var mı?|Hast du einen Stadtplan?|haritası,haritan|reisen
+müze|noun||A1|das Museum|Müze salı günleri açık.|Das Museum ist dienstags geöffnet.|müzesi,müzede|stadt
+cami|noun||A1|die Moschee|Cami çok eski.|Die Moschee ist sehr alt.|camisi,camide|stadt
+meydan|noun||A2|der Platz|Meydanda buluşalım.|Treffen wir uns auf dem Platz.|meydanı,meydanda|stadt
+park|noun||A1|der Park|Parkta yürüyoruz.|Wir gehen im Park spazieren.|parkı,parkta|stadt
+eczane|noun||A1|die Apotheke|Eczane açık.|Die Apotheke ist geöffnet.|eczanesi,eczaneye|gesundheit
+süpermarket|noun||A1|der Supermarkt|Süpermarkete gidiyorum.|Ich gehe in den Supermarkt.|süpermarkete,market|einkaufen
+çarşı|noun||A2|der Basar;das Einkaufsviertel|Kapalı Çarşı çok ünlü.|Der Große Basar ist sehr berühmt.|çarşıda|einkaufen
+pahalı|adj||A1|teuer|Bu saat çok pahalı.|Diese Uhr ist sehr teuer.||einkaufen
+ucuz|adj||A1|billig;günstig|Meyve burada ucuz.|Obst ist hier billig.||einkaufen
+açık|adj||A1|offen;geöffnet;hell|Dükkan açık.|Der Laden ist geöffnet.||einkaufen
+kapalı|adj||A1|geschlossen|Müze pazartesi kapalı.|Das Museum ist montags geschlossen.||einkaufen
+dolu|adj||A2|voll|Otobüs dolu.|Der Bus ist voll.||zahlen
+boş|adj||A2|leer;frei|Bu masa boş mu?|Ist dieser Tisch frei?||zahlen
+lezzetli|adj||A1|lecker|Yemek çok lezzetli.|Das Essen ist sehr lecker.||essen
+tatlı|adj||A1|süß;der Nachtisch|Tatlı şeyleri severim.|Ich mag süße Sachen.|tatlılar|essen
+mutlu|adj||A1|glücklich|Seninle çok mutluyum.|Ich bin sehr glücklich mit dir.|mutluyum|gefuehle
+üzgün|adj||A1|traurig|Neden üzgünsün?|Warum bist du traurig?|üzgünüm,üzgünsün|gefuehle
+yorgun|adj||A1|müde|Yolculuktan çok yorgunum.|Ich bin sehr müde von der Reise.|yorgunum|gefuehle
+hasta|adj||A1|krank;der Patient|Oğlum hasta.|Mein Sohn ist krank.|hastayım|gesundheit

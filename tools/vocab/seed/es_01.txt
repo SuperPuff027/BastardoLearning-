@@ -1,0 +1,126 @@
+# Spanisch 1–125 · lemma|pos|gender|cefr|übersetzungen|beispiel|beispiel_de|formen|tags
+de|prep||A1|von;aus|Soy de Madrid.|Ich bin aus Madrid.||grammatik
+que|conj||A1|dass;der, die, das (Relativpronomen)|Creo que tienes razón.|Ich glaube, dass du recht hast.||grammatik
+no|adv||A1|nein;nicht|No tengo tiempo.|Ich habe keine Zeit.||grammatik
+a|prep||A1|nach;zu;an|Voy a Barcelona.|Ich fahre nach Barcelona.||grammatik
+en|prep||A1|in;an;auf|Vivo en una ciudad pequeña.|Ich wohne in einer kleinen Stadt.||grammatik
+y|conj||A1|und|Pan y agua, por favor.|Brot und Wasser, bitte.||grammatik
+ser|verb||A1|sein|Ella es médica.|Sie ist Ärztin.|soy,eres,es,somos,son,fue,era,sido|grammatik
+estar|verb||A1|sein (Zustand, Ort);sich befinden|Estoy muy cansado.|Ich bin sehr müde.|estoy,estás,está,estamos,están,estuvo,estaba|grammatik
+tener|verb||A1|haben|Tengo dos hermanos.|Ich habe zwei Geschwister.|tengo,tienes,tiene,tenemos,tienen,tuvo,tenía|grammatik
+hacer|verb||A1|machen;tun|¿Qué haces hoy?|Was machst du heute?|hago,haces,hace,hacemos,hacen,hizo,hecho|alltag
+ir|verb||A1|gehen;fahren|Mañana voy al cine.|Morgen gehe ich ins Kino.|voy,vas,va,vamos,van,fue,iba,ido|reisen
+poder|verb||A1|können;dürfen|¿Puedes ayudarme?|Kannst du mir helfen?|puedo,puedes,puede,podemos,pueden,pudo,podía|grammatik
+decir|verb||A1|sagen|¿Qué dice el profesor?|Was sagt der Lehrer?|digo,dices,dice,decimos,dicen,dijo,dicho|kommunikation
+querer|verb||A1|wollen;lieben;mögen|Quiero un café.|Ich möchte einen Kaffee.|quiero,quieres,quiere,queremos,quieren,quiso,quería|gefuehle
+saber|verb||A1|wissen;können (gelernt)|No sé la respuesta.|Ich weiß die Antwort nicht.|sé,sabes,sabe,sabemos,saben,supo,sabía|schule
+ver|verb||A1|sehen|¿Ves la montaña?|Siehst du den Berg?|veo,ves,ve,vemos,ven,vio,visto|alltag
+dar|verb||A1|geben|Te doy mi número.|Ich gebe dir meine Nummer.|doy,das,da,damos,dan,dio,dado|alltag
+venir|verb||A1|kommen|¿Vienes a la fiesta?|Kommst du zur Party?|vengo,vienes,viene,venimos,vienen,vino|reisen
+haber|verb||A2|haben (Hilfsverb);es gibt (hay)|Hay un problema.|Es gibt ein Problem.|hay,he,has,ha,hemos,han,había,hubo|grammatik
+pensar|verb||A1|denken;meinen|Pienso en ti.|Ich denke an dich.|pienso,piensas,piensa,pensamos,piensan,pensó|kommunikation
+creer|verb||A1|glauben|Creo que va a llover.|Ich glaube, dass es regnen wird.|creo,crees,cree,creemos,creen,creyó|kommunikation
+hablar|verb||A1|sprechen;reden|Hablo un poco de español.|Ich spreche ein bisschen Spanisch.|hablo,hablas,habla,hablamos,hablan,habló|kommunikation
+llevar|verb||A2|tragen;mitnehmen;bringen|Llevo una chaqueta roja.|Ich trage eine rote Jacke.|llevo,llevas,lleva,llevamos,llevan,llevó|kleidung
+dejar|verb||A2|lassen;verlassen|Deja la puerta abierta.|Lass die Tür offen.|dejo,dejas,deja,dejamos,dejan,dejó|alltag
+salir|verb||A1|hinausgehen;ausgehen;abfahren|Salgo de casa a las ocho.|Ich gehe um acht aus dem Haus.|salgo,sales,sale,salimos,salen,salió|alltag
+llegar|verb||A1|ankommen|El tren llega a las diez.|Der Zug kommt um zehn an.|llego,llegas,llega,llegamos,llegan,llegó|reisen
+pasar|verb||A2|passieren;vorbeigehen;verbringen|¿Qué pasa?|Was ist los?|paso,pasas,pasa,pasamos,pasan,pasó|alltag
+deber|verb||A2|müssen;sollen;schulden|Debes estudiar más.|Du musst mehr lernen.|debo,debes,debe,debemos,deben,debía|grammatik
+quedar|verb||A2|bleiben;sich verabreden|Quedamos a las siete.|Wir treffen uns um sieben.|quedo,quedas,queda,quedamos,quedan,quedó|freizeit
+encontrar|verb||A2|finden;treffen|No encuentro mis llaves.|Ich finde meine Schlüssel nicht.|encuentro,encuentras,encuentra,encontramos,encuentran,encontró|alltag
+conocer|verb||A1|kennen;kennenlernen|¿Conoces a mi hermana?|Kennst du meine Schwester?|conozco,conoces,conoce,conocemos,conocen,conoció|familie
+mirar|verb||A1|schauen;ansehen|Mira esta foto.|Schau dir dieses Foto an.|miro,miras,mira,miramos,miran,miró|alltag
+esperar|verb||A1|warten;hoffen;erwarten|Te espero en la estación.|Ich warte am Bahnhof auf dich.|espero,esperas,espera,esperamos,esperan,esperó|reisen
+buscar|verb||A1|suchen|Busco trabajo.|Ich suche Arbeit.|busco,buscas,busca,buscamos,buscan,buscó|arbeit
+seguir|verb||A2|folgen;weitermachen|Sigue recto.|Geh geradeaus weiter.|sigo,sigues,sigue,seguimos,siguen,siguió|reisen
+necesitar|verb||A1|brauchen|Necesito ayuda.|Ich brauche Hilfe.|necesito,necesitas,necesita,necesitamos,necesitan|alltag
+gustar|verb||A1|gefallen;mögen|Me gusta el chocolate.|Ich mag Schokolade.|gusta,gustan,gustó,gustaba|gefuehle
+vivir|verb||A1|leben;wohnen|Vivo con mis padres.|Ich wohne bei meinen Eltern.|vivo,vives,vive,vivimos,viven,vivió|wohnen
+sentir|verb||A2|fühlen;bedauern|Lo siento mucho.|Es tut mir sehr leid.|siento,sientes,siente,sentimos,sienten,sintió|gefuehle
+tomar|verb||A1|nehmen;trinken|Tomo el autobús cada día.|Ich nehme jeden Tag den Bus.|tomo,tomas,toma,tomamos,toman,tomó|reisen
+volver|verb||A1|zurückkehren;zurückkommen|Vuelvo a casa a las seis.|Ich komme um sechs nach Hause zurück.|vuelvo,vuelves,vuelve,volvemos,vuelven,volvió,vuelto|reisen
+entender|verb||A1|verstehen|No entiendo la pregunta.|Ich verstehe die Frage nicht.|entiendo,entiendes,entiende,entendemos,entienden,entendió|schule
+trabajar|verb||A1|arbeiten|Trabajo en un hospital.|Ich arbeite in einem Krankenhaus.|trabajo,trabajas,trabaja,trabajamos,trabajan,trabajó|arbeit
+comer|verb||A1|essen|Comemos a las dos.|Wir essen um zwei.|como,comes,come,comemos,comen,comió,comimos|essen
+beber|verb||A1|trinken|Bebo mucha agua.|Ich trinke viel Wasser.|bebo,bebes,bebe,bebemos,beben,bebió|essen
+escribir|verb||A1|schreiben|Escribo una carta.|Ich schreibe einen Brief.|escribo,escribes,escribe,escribimos,escriben,escribió,escrito|kommunikation
+leer|verb||A1|lesen|Me gusta leer novelas.|Ich lese gern Romane.|leo,lees,lee,leemos,leen,leyó|freizeit
+abrir|verb||A1|öffnen|¿Puedes abrir la ventana?|Kannst du das Fenster öffnen?|abro,abres,abre,abrimos,abren,abrió,abierto|wohnen
+cerrar|verb||A1|schließen;zumachen|Cierra la puerta, por favor.|Mach bitte die Tür zu.|cierro,cierras,cierra,cerramos,cierran,cerró|wohnen
+empezar|verb||A1|anfangen;beginnen|La clase empieza a las nueve.|Der Unterricht beginnt um neun.|empiezo,empiezas,empieza,empezamos,empiezan,empezó|zeit
+terminar|verb||A2|beenden;aufhören|Termino el trabajo a las cinco.|Ich beende die Arbeit um fünf.|termino,terminas,termina,terminamos,terminan,terminó|arbeit
+jugar|verb||A1|spielen|Los niños juegan en el parque.|Die Kinder spielen im Park.|juego,juegas,juega,jugamos,juegan,jugó|freizeit
+dormir|verb||A1|schlafen|Duermo ocho horas.|Ich schlafe acht Stunden.|duermo,duermes,duerme,dormimos,duermen,durmió|alltag
+comprar|verb||A1|kaufen|Quiero comprar zapatos.|Ich will Schuhe kaufen.|compro,compras,compra,compramos,compran,compró|einkaufen
+pagar|verb||A1|bezahlen|¿Puedo pagar con tarjeta?|Kann ich mit Karte bezahlen?|pago,pagas,paga,pagamos,pagan,pagó|einkaufen
+llamar|verb||A1|rufen;anrufen;heißen (llamarse)|Me llamo Ana.|Ich heiße Ana.|llamo,llamas,llama,llamamos,llaman,llamó|kommunikation
+preguntar|verb||A1|fragen|Pregunta al camarero.|Frag den Kellner.|pregunto,preguntas,pregunta,preguntamos,preguntan,preguntó|kommunikation
+contestar|verb||A2|antworten|No contesta al teléfono.|Er geht nicht ans Telefon.|contesto,contestas,contesta,contestamos,contestan,contestó|kommunikation
+ayudar|verb||A1|helfen|¿Me ayudas con la maleta?|Hilfst du mir mit dem Koffer?|ayudo,ayudas,ayuda,ayudamos,ayudan,ayudó|alltag
+aprender|verb||A1|lernen|Aprendo español en la escuela.|Ich lerne Spanisch in der Schule.|aprendo,aprendes,aprende,aprendemos,aprenden,aprendió|schule
+estudiar|verb||A1|lernen;studieren|Estudio medicina.|Ich studiere Medizin.|estudio,estudias,estudia,estudiamos,estudian,estudió|schule
+escuchar|verb||A1|hören;zuhören|Escucho música por la noche.|Ich höre abends Musik.|escucho,escuchas,escucha,escuchamos,escuchan,escuchó|freizeit
+oír|verb||A2|hören|¿Oyes ese ruido?|Hörst du dieses Geräusch?|oigo,oyes,oye,oímos,oyen,oyó|alltag
+poner|verb||A1|stellen;legen;setzen|Pon el libro en la mesa.|Leg das Buch auf den Tisch.|pongo,pones,pone,ponemos,ponen,puso,puesto,pon|wohnen
+traer|verb||A2|bringen;mitbringen|Trae pan, por favor.|Bring bitte Brot mit.|traigo,traes,trae,traemos,traen,trajo|einkaufen
+cambiar|verb||A2|ändern;wechseln;tauschen|Quiero cambiar dinero.|Ich möchte Geld wechseln.|cambio,cambias,cambia,cambiamos,cambian,cambió|einkaufen
+recordar|verb||A2|sich erinnern;erinnern|No recuerdo su nombre.|Ich erinnere mich nicht an seinen Namen.|recuerdo,recuerdas,recuerda,recordamos,recuerdan,recordó|schule
+olvidar|verb||A2|vergessen|Olvidé mi paraguas.|Ich habe meinen Regenschirm vergessen.|olvido,olvidas,olvida,olvidamos,olvidan,olvidó,olvidé|alltag
+perder|verb||A2|verlieren;verpassen|Perdí el autobús.|Ich habe den Bus verpasst.|pierdo,pierdes,pierde,perdemos,pierden,perdió,perdí|alltag
+ganar|verb||A2|gewinnen;verdienen|Gana mucho dinero.|Er verdient viel Geld.|gano,ganas,gana,ganamos,ganan,ganó|arbeit
+entrar|verb||A1|hineingehen;eintreten|Entra, por favor.|Komm bitte herein.|entro,entras,entra,entramos,entran,entró|wohnen
+viajar|verb||A1|reisen|Me gusta viajar en tren.|Ich reise gern mit dem Zug.|viajo,viajas,viaja,viajamos,viajan,viajó|reisen
+caminar|verb||A1|gehen;laufen;spazieren gehen|Caminamos por la playa.|Wir gehen am Strand spazieren.|camino,caminas,camina,caminamos,caminan,caminó|freizeit
+correr|verb||A1|laufen;rennen|Corro cada mañana.|Ich laufe jeden Morgen.|corro,corres,corre,corremos,corren,corrió|freizeit
+cocinar|verb||A1|kochen|Mi padre cocina muy bien.|Mein Vater kocht sehr gut.|cocino,cocinas,cocina,cocinamos,cocinan,cocinó|essen
+limpiar|verb||A2|putzen;sauber machen|Limpio la cocina.|Ich putze die Küche.|limpio,limpias,limpia,limpiamos,limpian,limpió|wohnen
+usar|verb||A2|benutzen;verwenden|¿Puedo usar tu móvil?|Kann ich dein Handy benutzen?|uso,usas,usa,usamos,usan,usó|alltag
+enseñar|verb||A2|unterrichten;zeigen;beibringen|Enseña inglés en un colegio.|Sie unterrichtet Englisch an einer Schule.|enseño,enseñas,enseña,enseñamos,enseñan,enseñó|schule
+mostrar|verb||B1|zeigen|Te muestro el camino.|Ich zeige dir den Weg.|muestro,muestras,muestra,mostramos,muestran,mostró|kommunikation
+ocurrir|verb||B1|geschehen;passieren|¿Qué ocurrió ayer?|Was ist gestern passiert?|ocurre,ocurren,ocurrió|alltag
+morir|verb||B1|sterben|Su abuelo murió el año pasado.|Sein Großvater ist letztes Jahr gestorben.|muero,mueres,muere,morimos,mueren,murió,muerto|familie
+nacer|verb||A2|geboren werden|Nací en Sevilla.|Ich bin in Sevilla geboren.|nazco,naces,nace,nacemos,nacen,nació,nací|familie
+amar|verb||B1|lieben|Te amo.|Ich liebe dich.|amo,amas,ama,amamos,aman,amó|gefuehle
+el|det||A1|der (bestimmter Artikel, m.)|El perro es grande.|Der Hund ist groß.|los|grammatik
+la|det||A1|die (bestimmter Artikel, f.)|La casa es bonita.|Das Haus ist schön.|las|grammatik
+un|det||A1|ein;eine (unbestimmter Artikel)|Tengo un gato.|Ich habe eine Katze.|una,unos,unas|grammatik
+yo|pron||A1|ich|Yo soy estudiante.|Ich bin Student.||grammatik
+tú|pron||A1|du|¿Tú eres de aquí?|Bist du von hier?||grammatik
+él|pron||A1|er|Él trabaja en un banco.|Er arbeitet in einer Bank.||grammatik
+ella|pron||A1|sie (Singular)|Ella vive en Málaga.|Sie wohnt in Málaga.|ellas|grammatik
+nosotros|pron||A1|wir|Nosotros vamos a la playa.|Wir gehen an den Strand.|nosotras|grammatik
+ellos|pron||A1|sie (Plural)|Ellos hablan alemán.|Sie sprechen Deutsch.||grammatik
+usted|pron||A1|Sie (Höflichkeitsform)|¿Usted es el señor García?|Sind Sie Herr García?|ustedes|grammatik
+me|pron||A1|mich;mir|Me duele la cabeza.|Mir tut der Kopf weh.||grammatik
+te|pron||A1|dich;dir|Te quiero.|Ich hab dich lieb.||grammatik
+se|pron||A2|sich|Se llama Pedro.|Er heißt Pedro.||grammatik
+lo|pron||A2|ihn;es|Lo veo mañana.|Ich sehe ihn morgen.|los|grammatik
+le|pron||A2|ihm;ihr;Ihnen|Le doy el libro.|Ich gebe ihm das Buch.|les|grammatik
+mi|det||A1|mein;meine|Mi madre es profesora.|Meine Mutter ist Lehrerin.|mis|familie
+tu|det||A1|dein;deine|¿Dónde está tu coche?|Wo ist dein Auto?|tus|grammatik
+su|det||A1|sein;ihr;Ihr|Su casa es muy grande.|Ihr Haus ist sehr groß.|sus|grammatik
+nuestro|det||A2|unser|Nuestro piso es pequeño.|Unsere Wohnung ist klein.|nuestra,nuestros,nuestras|grammatik
+este|det||A1|dieser;diese;dieses|Este libro es interesante.|Dieses Buch ist interessant.|esta,estos,estas,esto|grammatik
+ese|det||A1|jener;der da|Ese chico es mi primo.|Der Junge da ist mein Cousin.|esa,esos,esas,eso|grammatik
+qué|pron||A1|was;welche|¿Qué quieres comer?|Was möchtest du essen?||kommunikation
+quién|pron||A1|wer|¿Quién es ese hombre?|Wer ist dieser Mann?|quiénes|kommunikation
+dónde|adv||A1|wo|¿Dónde está el baño?|Wo ist die Toilette?|adónde|reisen
+cuándo|adv||A1|wann|¿Cuándo empieza la película?|Wann fängt der Film an?||zeit
+cómo|adv||A1|wie|¿Cómo estás?|Wie geht es dir?||kommunikation
+por qué|adv||A1|warum|¿Por qué no vienes?|Warum kommst du nicht?||kommunikation
+cuánto|adv||A1|wie viel|¿Cuánto cuesta?|Wie viel kostet das?|cuánta,cuántos,cuántas|einkaufen
+porque|conj||A1|weil|No voy porque estoy enfermo.|Ich gehe nicht, weil ich krank bin.||grammatik
+pero|conj||A1|aber|Es caro, pero bueno.|Es ist teuer, aber gut.||grammatik
+o|conj||A1|oder|¿Té o café?|Tee oder Kaffee?||grammatik
+si|conj||A2|wenn;falls;ob|Si llueve, me quedo en casa.|Wenn es regnet, bleibe ich zu Hause.||grammatik
+cuando|conj||A2|wenn;als|Cuando era niño, vivía en Lima.|Als ich ein Kind war, wohnte ich in Lima.||zeit
+como|conj||A2|wie;da|Es alto como su padre.|Er ist groß wie sein Vater.||grammatik
+con|prep||A1|mit|Voy con mi amigo.|Ich gehe mit meinem Freund.||grammatik
+sin|prep||A1|ohne|Café sin azúcar, por favor.|Kaffee ohne Zucker, bitte.||essen
+para|prep||A1|für;um zu|Este regalo es para ti.|Dieses Geschenk ist für dich.||grammatik
+por|prep||A2|durch;wegen;für|Gracias por todo.|Danke für alles.||grammatik
+sobre|prep||A2|über;auf|El libro está sobre la mesa.|Das Buch liegt auf dem Tisch.||grammatik
+entre|prep||A2|zwischen;unter|La farmacia está entre el banco y el bar.|Die Apotheke ist zwischen der Bank und der Bar.||stadt
+hasta|prep||A1|bis|Hasta mañana.|Bis morgen.||zeit
+desde|prep||A2|seit;von … aus|Vivo aquí desde 2020.|Ich wohne seit 2020 hier.||zeit
