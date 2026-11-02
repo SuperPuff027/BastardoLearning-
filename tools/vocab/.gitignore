@@ -1,0 +1,3 @@
+data/freq_*.txt
+data/batch_*.json
+__pycache__/
