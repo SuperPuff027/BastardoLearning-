@@ -2,7 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../features/learn/learn_screen.dart';
+import '../features/library/card_edit_screen.dart';
+import '../features/library/folder_screen.dart';
+import '../features/library/import_screen.dart';
 import '../features/library/library_screen.dart';
+import '../features/library/set_detail_screen.dart';
+import '../features/library/set_form_screen.dart';
 import '../features/progress/progress_screen.dart';
 import '../features/settings/settings_screen.dart';
 
@@ -11,7 +16,19 @@ abstract final class Routes {
   static const learn = '/lernen';
   static const progress = '/fortschritt';
   static const settings = '/einstellungen';
+
+  static String newSet({int? folderId}) =>
+      folderId == null ? '$library/neu' : '$library/neu?ordner=$folderId';
+  static String folder(int id) => '$library/ordner/$id';
+  static String set(int id) => '$library/set/$id';
+  static String editSet(int id) => '${set(id)}/bearbeiten';
+  static String importCards(int setId) => '${set(setId)}/import';
+  static String newCard(int setId) => '${set(setId)}/karte/neu';
+  static String card(int setId, int cardId) => '${set(setId)}/karte/$cardId';
 }
+
+int _id(GoRouterState state, String name) =>
+    int.parse(state.pathParameters[name]!);
 
 GoRouter buildRouter() => GoRouter(
   initialLocation: Routes.library,
@@ -24,6 +41,50 @@ GoRouter buildRouter() => GoRouter(
             GoRoute(
               path: Routes.library,
               builder: (_, _) => const LibraryScreen(),
+              routes: [
+                GoRoute(
+                  path: 'neu',
+                  builder: (_, state) => SetFormScreen(
+                    initialFolderId: int.tryParse(
+                      state.uri.queryParameters['ordner'] ?? '',
+                    ),
+                  ),
+                ),
+                GoRoute(
+                  path: 'ordner/:folderId',
+                  builder: (_, state) =>
+                      FolderScreen(folderId: _id(state, 'folderId')),
+                ),
+                GoRoute(
+                  path: 'set/:setId',
+                  builder: (_, state) =>
+                      SetDetailScreen(setId: _id(state, 'setId')),
+                  routes: [
+                    GoRoute(
+                      path: 'bearbeiten',
+                      builder: (_, state) =>
+                          SetFormScreen(setId: _id(state, 'setId')),
+                    ),
+                    GoRoute(
+                      path: 'import',
+                      builder: (_, state) =>
+                          ImportScreen(setId: _id(state, 'setId')),
+                    ),
+                    GoRoute(
+                      path: 'karte/neu',
+                      builder: (_, state) =>
+                          CardEditScreen(setId: _id(state, 'setId')),
+                    ),
+                    GoRoute(
+                      path: 'karte/:cardId',
+                      builder: (_, state) => CardEditScreen(
+                        setId: _id(state, 'setId'),
+                        cardId: _id(state, 'cardId'),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),

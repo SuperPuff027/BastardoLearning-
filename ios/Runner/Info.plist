@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Barstardo Learning nutzt die Kamera, um Fotos für Karteikarten aufzunehmen. Die Bilder bleiben auf deinem Gerät.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Barstardo Learning greift auf deine Fotos zu, damit du Bilder zu Karteikarten hinzufügen kannst. Die Bilder bleiben auf deinem Gerät.</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
