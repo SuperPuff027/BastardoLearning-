@@ -85,6 +85,9 @@ class ReviewLogs extends Table {
   DateTimeColumn get timestamp => dateTime().withDefault(currentDateAndTime)();
   TextColumn get mode => text()();
   BoolColumn get correct => boolean()();
+
+  /// FSRS-Bewertung 1–4 (ab Schema 2).
+  IntColumn get rating => integer().nullable()();
   IntColumn get responseMs => integer().nullable()();
 }
 

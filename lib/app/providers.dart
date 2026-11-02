@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -7,6 +8,7 @@ import 'package:image_picker/image_picker.dart';
 import '../data/database.dart';
 import '../data/library_repository.dart';
 import '../data/media/media_store.dart';
+import '../data/study_repository.dart';
 import '../features/settings/app_settings.dart';
 
 /// Die lokale Datenbank. Wird in `main()` überschrieben.
@@ -82,3 +84,10 @@ final imagePickerProvider = Provider<ImagePickFn>((ref) {
     return x == null ? null : File(x.path);
   };
 });
+
+final studyRepositoryProvider = Provider<StudyRepository>(
+  (ref) => StudyRepository(ref.watch(databaseProvider)),
+);
+
+/// Zufallsquelle der Lernmodi. In Tests mit festem Seed überschreibbar.
+final randomProvider = Provider<Random>((ref) => Random());

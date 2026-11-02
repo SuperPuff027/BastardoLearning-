@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 import 'dart:ui' show Size;
 
 import 'package:barstardo_learning/app/app.dart';
@@ -57,6 +58,7 @@ class TestEnv {
           initialSettingsProvider.overrideWithValue(settings),
           mediaStoreProvider.overrideWithValue(media),
           imagePickerProvider.overrideWithValue((_) async => pickedImage),
+          randomProvider.overrideWithValue(Random(42)),
         ],
         child: const BarstardoApp(),
       ),
