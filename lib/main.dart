@@ -9,6 +9,7 @@ import 'app/app.dart';
 import 'app/providers.dart';
 import 'data/database.dart';
 import 'data/media/media_store.dart';
+import 'data/vocab/vocab_repository.dart';
 import 'features/settings/app_settings.dart';
 
 Future<void> main() async {
@@ -17,6 +18,10 @@ Future<void> main() async {
   final settings = AppSettings.fromMap(await db.readAllSettings());
   final docs = await getApplicationDocumentsDirectory();
   final media = MediaStore(Directory(p.join(docs.path, 'media')));
+  final support = await getApplicationSupportDirectory();
+  final vocab = await VocabRepository.install(
+    Directory(p.join(support.path, 'vocab')),
+  );
 
   runApp(
     ProviderScope(
@@ -24,6 +29,7 @@ Future<void> main() async {
         databaseProvider.overrideWithValue(db),
         initialSettingsProvider.overrideWithValue(settings),
         mediaStoreProvider.overrideWithValue(media),
+        vocabRepositoryProvider.overrideWithValue(vocab),
       ],
       child: const BarstardoApp(),
     ),

@@ -102,12 +102,18 @@ class SettingsScreen extends ConsumerWidget {
               'Kein Account, keine Cloud, keine Analytics. Beim Löschen der App gehen die Daten verloren.',
             ),
           ),
-          const AboutListTile(
-            icon: Icon(Icons.info_outline),
+          AboutListTile(
+            icon: const Icon(Icons.info_outline),
             applicationName: 'Barstardo Learning',
             applicationLegalese:
                 'Offline-Vokabeltrainer für Spanisch und Türkisch',
-            child: Text('Über die App & Lizenzen'),
+            aboutBoxChildren: [
+              const SizedBox(height: 16),
+              Text('Vokabeldatenbank', style: textTheme.titleSmall),
+              const SizedBox(height: 4),
+              Text(ref.read(vocabRepositoryProvider).attribution),
+            ],
+            child: const Text('Über die App & Lizenzen'),
           ),
         ],
       ),

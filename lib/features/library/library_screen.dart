@@ -85,6 +85,15 @@ class LibraryScreen extends ConsumerWidget {
               onTap: () => Navigator.of(context).pop('set'),
             ),
             ListTile(
+              key: const Key('createPreset'),
+              leading: const Icon(Icons.auto_stories_outlined),
+              title: const Text('Vorgefertigtes Set'),
+              subtitle: const Text(
+                'Aus der Vokabeldatenbank nach Niveau und Thema',
+              ),
+              onTap: () => Navigator.of(context).pop('preset'),
+            ),
+            ListTile(
               leading: const Icon(Icons.create_new_folder_outlined),
               title: const Text('Neuer Ordner'),
               onTap: () => Navigator.of(context).pop('folder'),
@@ -97,6 +106,8 @@ class LibraryScreen extends ConsumerWidget {
     switch (choice) {
       case 'set':
         context.go(Routes.newSet());
+      case 'preset':
+        context.go(Routes.presets);
       case 'folder':
         final name = await showNameDialog(
           context,

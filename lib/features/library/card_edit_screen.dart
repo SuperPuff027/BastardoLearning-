@@ -10,6 +10,9 @@ import '../../core/rich_text_field.dart';
 import '../../core/study_language.dart';
 import '../../data/library_repository.dart';
 import '../../data/media/media_store.dart';
+import '../../data/vocab/vocab_entry.dart';
+import '../../app/router.dart';
+import 'vocab_assist.dart';
 import 'widgets.dart';
 
 /// Karte anlegen ([cardId] == null) oder bearbeiten.
@@ -28,6 +31,11 @@ class _CardEditScreenState extends ConsumerState<CardEditScreen> {
   final _back = RichTextController();
   final _frontFocus = FocusNode();
   String _languageLabel = 'Fremdwort';
+  String? _languageCode;
+
+  /// Verknüpfter Eintrag der Vokabeldatenbank (übernommen oder geladen).
+  VocabEntry? _vocabEntry;
+  int? _lastLinkedId;
 
   /// Bild beim Öffnen (bereits gespeichert).
   String? _savedImage;
@@ -50,6 +58,11 @@ class _CardEditScreenState extends ConsumerState<CardEditScreen> {
   void initState() {
     super.initState();
     _media = ref.read(mediaStoreProvider);
+    // Verknüpfungsanzeige aktualisieren, wenn die Vorderseite sich ändert.
+    _front.addListener(() {
+      final id = _linkedEntry?.id;
+      if (id != _lastLinkedId && mounted) setState(() => _lastLinkedId = id);
+    });
     _load();
   }
 
@@ -58,7 +71,13 @@ class _CardEditScreenState extends ConsumerState<CardEditScreen> {
     final card = _isNew ? null : await _repo.getCard(widget.cardId!);
     if (!mounted) return;
     setState(() {
-      if (set != null) _languageLabel = StudyLanguage.labelFor(set.language);
+      if (set != null) {
+        _languageLabel = StudyLanguage.labelFor(set.language);
+        _languageCode = set.language;
+      }
+      if (card?.vocabId != null) {
+        _vocabEntry = ref.read(vocabRepositoryProvider).byId(card!.vocabId!);
+      }
       if (card != null) {
         _front.document = RichDocument.decode(card.front, card.frontRich);
         _back.document = RichDocument.decode(card.back, card.backRich);
@@ -106,13 +125,54 @@ class _CardEditScreenState extends ConsumerState<CardEditScreen> {
     }
   }
 
+  /// Verknüpfung bleibt nur, solange die Vorderseite zum Eintrag passt.
+  VocabEntry? get _linkedEntry {
+    final e = _vocabEntry;
+    if (e == null) return null;
+    final key = duplicateKey(_front.text);
+    final matches =
+        key == duplicateKey(e.cardFront) ||
+        key == duplicateKey(e.lemma) ||
+        e.forms.any((f) => duplicateKey(f) == key);
+    return matches ? e : null;
+  }
+
+  void _adopt(VocabEntry entry) {
+    setState(() {
+      _front.document = RichDocument.plain(entry.cardFront);
+      _back.document = RichDocument.plain(entry.cardBack);
+      _vocabEntry = entry;
+    });
+  }
+
+  /// Neue Karte verwerfen: im Serienmodus Felder leeren, sonst schließen.
+  void _discard() {
+    if (_addedCount > 0) {
+      setState(() {
+        _front.document = RichDocument.plain('');
+        _back.document = RichDocument.plain('');
+        _vocabEntry = null;
+      });
+      _discardUnsavedImage();
+      setState(() => _image = null);
+      _frontFocus.requestFocus();
+      showMessage(context, 'Karte verworfen');
+    } else {
+      context.pop();
+      showMessage(context, 'Karte verworfen');
+    }
+  }
+
   Future<void> _save({bool next = false}) async {
     setState(() => _saving = true);
+    final linked = _linkedEntry;
     final draft = CardDraft(
       front: _front.document,
       back: _back.document,
       imagePath: _image,
       starred: _starred,
+      vocabId: linked?.id,
+      verified: linked?.verified ?? true,
     );
     try {
       if (_isNew) {
@@ -130,6 +190,7 @@ class _CardEditScreenState extends ConsumerState<CardEditScreen> {
           _image = null;
           _savedImage = null;
           _starred = false;
+          _vocabEntry = null;
         });
         _frontFocus.requestFocus();
         showMessage(context, 'Karte gespeichert');
@@ -207,6 +268,21 @@ class _CardEditScreenState extends ConsumerState<CardEditScreen> {
                   controller: _back,
                   label: 'Rückseite (Deutsch)',
                 ),
+                if (_languageCode != null)
+                  VocabAssist(
+                    setId: widget.setId,
+                    language: _languageCode!,
+                    front: _front,
+                    back: _back,
+                    linkedVocabId: _linkedEntry?.id,
+                    isNewCard: _isNew,
+                    cardId: widget.cardId,
+                    onAdopt: _adopt,
+                    onDiscard: _discard,
+                    onDeleteThis: _delete,
+                    onOpenCard: (hit) =>
+                        context.go(Routes.card(hit.set.id, hit.card.id)),
+                  ),
                 const SizedBox(height: 16),
                 _ImageSection(
                   image: _image,

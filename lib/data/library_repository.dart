@@ -4,6 +4,7 @@ import '../core/import_parser.dart';
 import '../core/rich_text.dart';
 import 'database.dart';
 import 'media/media_store.dart';
+import 'vocab/vocab_repository.dart' show normalizeKey;
 
 class FolderWithCount {
   const FolderWithCount(this.folder, this.setCount);
@@ -26,12 +27,43 @@ class CardDraft {
     required this.back,
     this.imagePath,
     this.starred = false,
+    this.vocabId,
+    this.verified = true,
   });
 
   final RichDocument front;
   final RichDocument back;
   final String? imagePath;
   final bool starred;
+
+  /// Verweis auf einen Eintrag der Vokabeldatenbank.
+  final int? vocabId;
+
+  /// Neue Karten aus unbestätigten Datenbank-Einträgen bleiben „unbestätigt“.
+  final bool verified;
+}
+
+/// Karte aus der Vokabeldatenbank (vorgefertigte Sets).
+class VocabCardData {
+  const VocabCardData({
+    required this.front,
+    required this.back,
+    required this.vocabId,
+    required this.verified,
+  });
+
+  final String front;
+  final String back;
+  final int vocabId;
+  final bool verified;
+}
+
+/// Eine schon vorhandene Karte mit gleicher Vorderseite.
+class DuplicateHit {
+  const DuplicateHit(this.card, this.set);
+
+  final VocabCard card;
+  final VocabSet set;
 }
 
 class ValidationException implements Exception {
@@ -331,6 +363,8 @@ class LibraryRepository {
             backRich: Value(c.back.encode()),
             imagePath: Value(c.imagePath),
             starred: Value(c.starred),
+            vocabId: Value(c.vocabId),
+            verified: Value(c.verified),
             position: Value(await _nextPosition(setId)),
           ),
         );
@@ -349,12 +383,75 @@ class LibraryRepository {
         backRich: Value(c.back.encode()),
         imagePath: Value(c.imagePath),
         starred: Value(c.starred),
+        vocabId: Value(c.vocabId),
         verified: const Value(true),
       ),
     );
     if (old?.imagePath != null && old!.imagePath != c.imagePath) {
       await media.delete(old.imagePath);
     }
+  }
+
+  /// Karten in Sets derselben Sprache mit gleicher Vorderseite (ohne
+  /// Artikel, Groß-/Kleinschreibung und Satzzeichen). Treffer im Set
+  /// [preferSetId] stehen vorne.
+  Future<List<DuplicateHit>> findDuplicates(
+    String language,
+    String front, {
+    int? excludeCardId,
+    int? preferSetId,
+  }) async {
+    final key = duplicateKey(front);
+    if (key.isEmpty) return const [];
+    final rows = await (db.select(db.cards).join([
+      innerJoin(db.sets, db.sets.id.equalsExp(db.cards.setId)),
+    ])..where(db.sets.language.equals(language))).get();
+    final hits = [
+      for (final r in rows)
+        if (r.readTable(db.cards).id != excludeCardId &&
+            duplicateKey(r.readTable(db.cards).front) == key)
+          DuplicateHit(r.readTable(db.cards), r.readTable(db.sets)),
+    ];
+    hits.sort((a, b) {
+      final pa = a.set.id == preferSetId ? 0 : 1;
+      final pb = b.set.id == preferSetId ? 0 : 1;
+      return pa != pb ? pa - pb : a.card.id - b.card.id;
+    });
+    return hits;
+  }
+
+  /// IDs der Karten eines Sets, deren Vorderseite im Set mehrfach vorkommt.
+  static Set<int> duplicateIdsIn(List<VocabCard> cards) {
+    final byKey = <String, List<int>>{};
+    for (final c in cards) {
+      byKey.putIfAbsent(duplicateKey(c.front), () => []).add(c.id);
+    }
+    return {
+      for (final ids in byKey.values)
+        if (ids.length > 1) ...ids,
+    };
+  }
+
+  /// Hängt Karten aus der Vokabeldatenbank an ein Set an.
+  Future<int> addVocabCards(int setId, List<VocabCardData> cards) async {
+    if (cards.isEmpty) return 0;
+    await db.transaction(() async {
+      var position = await _nextPosition(setId);
+      await db.batch((b) {
+        b.insertAll(db.cards, [
+          for (final c in cards)
+            CardsCompanion.insert(
+              setId: setId,
+              front: c.front,
+              back: c.back,
+              vocabId: Value(c.vocabId),
+              verified: Value(c.verified),
+              position: Value(position++),
+            ),
+        ]);
+      });
+    });
+    return cards.length;
   }
 
   Future<void> setStarred(int cardId, bool starred) =>
@@ -469,6 +566,8 @@ class LibraryRepository {
       back: back,
       imagePath: d.imagePath,
       starred: d.starred,
+      vocabId: d.vocabId,
+      verified: d.verified,
     );
   }
 
@@ -477,4 +576,28 @@ class LibraryRepository {
     if (t.isEmpty) throw ValidationException('$field darf nicht leer sein');
     return t;
   }
+}
+
+const _duplicateArticles = [
+  'el ',
+  'la ',
+  'los ',
+  'las ',
+  'un ',
+  'una ',
+  'der ',
+  'die ',
+  'das ',
+  'ein ',
+  'eine ',
+];
+
+/// Vergleichsschlüssel für doppelte Karten: ohne Artikel, Klammern,
+/// Groß-/Kleinschreibung und Satzzeichen (Akzente zählen: „si“ ≠ „sí“).
+String duplicateKey(String front) {
+  final k = normalizeKey(front);
+  for (final a in _duplicateArticles) {
+    if (k.startsWith(a)) return k.substring(a.length);
+  }
+  return k;
 }
