@@ -1,0 +1,46 @@
+name: iOS-Build
+
+# Baut die App für iPhone auf einem macOS-Runner (ohne Signatur).
+# Ergebnis: unsigniertes .ipa als Artefakt (z. B. für Sideloadly/AltStore).
+on:
+  workflow_dispatch:
+  push:
+    branches: [ios-build, main]
+
+jobs:
+  build-ios:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Abhängigkeiten
+        run: |
+          flutter --version
+          flutter pub get
+          dart run build_runner build --delete-conflicting-outputs
+
+      - name: Tests
+        run: flutter test
+
+      - name: iOS-Build (ohne Signatur)
+        run: flutter build ios --release --no-codesign
+
+      - name: IPA packen
+        run: |
+          mkdir -p build/ipa/Payload
+          cp -R build/ios/iphoneos/Runner.app build/ipa/Payload/
+          cd build/ipa
+          zip -qr BarstardoLearning-unsigniert.ipa Payload
+          ls -lh BarstardoLearning-unsigniert.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BarstardoLearning-unsigniert-ipa
+          path: build/ipa/BarstardoLearning-unsigniert.ipa
+          retention-days: 14
