@@ -1,0 +1,112 @@
+# Spanisch 729–870
+acabar|verb||B1|beenden;gerade getan haben (acabar de)|Acabo de llegar.|Ich bin gerade angekommen.|acabo,acabas,acaba,acabamos,acaban,acabó|zeit
+aceptar|verb||B1|annehmen;akzeptieren|Acepto tu invitación.|Ich nehme deine Einladung an.|acepto,aceptas,acepta,aceptamos,aceptan,aceptó|kommunikation
+alcanzar|verb||B1|erreichen|No alcanzo la estantería.|Ich komme nicht an das Regal.|alcanzo,alcanzas,alcanza,alcanzamos,alcanzan,alcanzó|alltag
+andar|verb||A2|gehen;laufen|Me gusta andar por la ciudad.|Ich laufe gern durch die Stadt.|ando,andas,anda,andamos,andan,anduvo|freizeit
+apagar|verb||A2|ausschalten;löschen|Apaga la televisión.|Schalte den Fernseher aus.|apago,apagas,apaga,apagamos,apagan,apagó|wohnen
+encender|verb||A2|einschalten;anzünden|Enciende la luz.|Mach das Licht an.|enciendo,enciendes,enciende,encendemos,encienden,encendió|wohnen
+aparcar|verb||A2|parken|No se puede aparcar aquí.|Hier darf man nicht parken.|aparco,aparcas,aparca,aparcamos,aparcan,aparcó|reisen
+arreglar|verb||B1|reparieren;in Ordnung bringen|Mi padre arregla la bici.|Mein Vater repariert das Fahrrad.|arreglo,arreglas,arregla,arreglamos,arreglan,arregló|wohnen
+bañarse|verb||A2|baden|Nos bañamos en el lago.|Wir baden im See.|baño,bañas,baña,bañamos,bañan|freizeit
+besar|verb||B1|küssen|Me besó en la mejilla.|Er küsste mich auf die Wange.|beso,besas,besa,besamos,besan,besó|gefuehle
+caer|verb||B1|fallen|Cuidado, no te caigas.|Pass auf, fall nicht hin.|caigo,caes,cae,caemos,caen,cayó,caigas|alltag
+celebrar|verb||A2|feiern|Celebramos su cumpleaños.|Wir feiern seinen Geburtstag.|celebro,celebras,celebra,celebramos,celebran,celebró|freizeit
+cobrar|verb||B1|kassieren;verdienen|¿Me cobra, por favor?|Kann ich bitte zahlen?|cobro,cobras,cobra,cobramos,cobran,cobró|einkaufen
+compartir|verb||B1|teilen|Compartimos la pizza.|Wir teilen die Pizza.|comparto,compartes,comparte,compartimos,comparten,compartió|essen
+contar|verb||A2|zählen;erzählen|Cuéntame qué pasó.|Erzähl mir, was passiert ist.|cuento,cuentas,cuenta,contamos,cuentan,contó,cuéntame|kommunikation
+crecer|verb||B1|wachsen|Los niños crecen muy rápido.|Kinder wachsen sehr schnell.|crezco,creces,crece,crecemos,crecen,creció|familie
+cuidar|verb||A2|pflegen;aufpassen auf|Cuido a mi hermano pequeño.|Ich passe auf meinen kleinen Bruder auf.|cuido,cuidas,cuida,cuidamos,cuidan,cuidó|familie
+decidir|verb||B1|entscheiden|Todavía no he decidido.|Ich habe mich noch nicht entschieden.|decido,decides,decide,decidimos,deciden,decidió,decidido|alltag
+descansar|verb||A2|sich ausruhen|Necesito descansar un poco.|Ich muss mich ein bisschen ausruhen.|descanso,descansas,descansa,descansamos,descansan|freizeit
+despertarse|verb||A2|aufwachen|Me despierto a las seis.|Ich wache um sechs auf.|despierto,despiertas,despierta,despertamos,despiertan|alltag
+dibujar|verb||A2|zeichnen|Mi hija dibuja muy bien.|Meine Tochter zeichnet sehr gut.|dibujo,dibujas,dibuja,dibujamos,dibujan,dibujó|freizeit
+disfrutar|verb||B1|genießen|Disfruta de las vacaciones.|Genieß den Urlaub.|disfruto,disfrutas,disfruta,disfrutamos,disfrutan,disfrutó|freizeit
+durar|verb||B1|dauern|La película dura dos horas.|Der Film dauert zwei Stunden.|dura,duran,duró|zeit
+echar|verb||B1|werfen;einwerfen|Echa la carta al buzón.|Wirf den Brief in den Briefkasten.|echo,echas,echa,echamos,echan,echó|alltag
+enamorarse|verb||B1|sich verlieben|Se enamoró de ella.|Er hat sich in sie verliebt.|enamoro,enamoras,enamora,enamoró|gefuehle
+enfadarse|verb||B1|sich ärgern;wütend werden|No te enfades conmigo.|Sei nicht böse auf mich.|enfado,enfadas,enfada,enfadamos,enfadan,enfades|gefuehle
+equivocarse|verb||B1|sich irren|Me he equivocado de número.|Ich habe mich verwählt.|equivoco,equivocas,equivoca,equivocado|kommunikation
+existir|verb||B1|existieren;geben|No existe otra solución.|Es gibt keine andere Lösung.|existe,existen,existió|alltag
+faltar|verb||B1|fehlen|Me falta dinero.|Mir fehlt Geld.|falta,faltan,faltó|zahlen
+firmar|verb||B1|unterschreiben|Firme aquí, por favor.|Unterschreiben Sie bitte hier.|firmo,firmas,firma,firmamos,firman,firme|arbeit
+gastar|verb||B1|ausgeben (Geld)|Gasto mucho en ropa.|Ich gebe viel für Kleidung aus.|gasto,gastas,gasta,gastamos,gastan,gastó|einkaufen
+guardar|verb||B1|aufbewahren;speichern|Guarda el documento.|Speichere das Dokument.|guardo,guardas,guarda,guardamos,guardan,guardó|arbeit
+intentar|verb||B1|versuchen|Intento aprender alemán.|Ich versuche, Deutsch zu lernen.|intento,intentas,intenta,intentamos,intentan,intentó|schule
+ir de compras|phrase||A2|einkaufen gehen|Vamos de compras el sábado.|Am Samstag gehen wir einkaufen.|de compras|einkaufen
+irse|verb||A2|weggehen;gehen|Me voy a casa.|Ich gehe nach Hause.|voy,vas,va,vamos,van,fue|alltag
+lavarse|verb||A1|sich waschen|Me lavo la cara.|Ich wasche mir das Gesicht.|lavo,lavas,lava,lavamos,lavan|alltag
+levantar|verb||B1|heben;hochheben|Levanta la mano.|Heb die Hand.|levanto,levantas,levanta,levantamos,levantan|gesundheit
+llenar|verb||B1|füllen;ausfüllen|Llena el formulario.|Füll das Formular aus.|lleno,llenas,llena,llenamos,llenan,llenó|arbeit
+mandar|verb||B1|schicken;befehlen|Te mando una foto.|Ich schicke dir ein Foto.|mando,mandas,manda,mandamos,mandan,mandó|kommunikation
+mejorar|verb||B1|verbessern;besser werden|Mi español ha mejorado.|Mein Spanisch hat sich verbessert.|mejoro,mejoras,mejora,mejoramos,mejoran,mejorado|schule
+mover|verb||B1|bewegen|No puedo mover la pierna.|Ich kann das Bein nicht bewegen.|muevo,mueves,mueve,movemos,mueven,movió|gesundheit
+mudarse|verb||B1|umziehen|Nos mudamos a Madrid.|Wir ziehen nach Madrid um.|mudo,mudas,muda,mudamos,mudan,mudó|wohnen
+obtener|verb||B2|erhalten;bekommen|Obtuvo el primer premio.|Er hat den ersten Preis bekommen.|obtengo,obtienes,obtiene,obtuvo|arbeit
+ofrecer|verb||B1|anbieten|Te ofrezco un café.|Ich biete dir einen Kaffee an.|ofrezco,ofreces,ofrece,ofrecemos,ofrecen,ofreció|alltag
+parecer|verb||B1|scheinen;aussehen wie|Parece cansado.|Er sieht müde aus.|parezco,pareces,parece,parecemos,parecen,pareció|gefuehle
+pasear|verb||A2|spazieren gehen|Paseamos por el río.|Wir gehen am Fluss spazieren.|paseo,paseas,pasea,paseamos,pasean,paseó|freizeit
+pedir|verb||A2|bitten;bestellen|Pedimos una paella.|Wir bestellen eine Paella.|pido,pides,pide,pedimos,piden,pidió|essen
+pertenecer|verb||B2|gehören|Este libro pertenece a la biblioteca.|Dieses Buch gehört der Bibliothek.|pertenece,pertenecen|grammatik
+prestar|verb||B1|leihen|¿Me prestas tu coche?|Leihst du mir dein Auto?|presto,prestas,presta,prestamos,prestan,prestó|alltag
+quitar|verb||B1|wegnehmen;ausziehen|Quítate los zapatos.|Zieh die Schuhe aus.|quito,quitas,quita,quitamos,quitan,quítate|kleidung
+regalar|verb||A2|schenken|Le regalo un libro.|Ich schenke ihm ein Buch.|regalo,regalas,regala,regalamos,regalan,regaló|freizeit
+reservar|verb||A2|reservieren|Quiero reservar una mesa.|Ich möchte einen Tisch reservieren.|reservo,reservas,reserva,reservamos,reservan,reservó|reisen
+resolver|verb||B1|lösen|Resolvimos el problema.|Wir haben das Problem gelöst.|resuelvo,resuelves,resuelve,resolvimos,resuelto|schule
+saludar|verb||A2|grüßen|Saluda a tu madre de mi parte.|Grüß deine Mutter von mir.|saludo,saludas,saluda,saludamos,saludan,saludó|kommunikation
+sacar|verb||B1|herausnehmen;abheben|Saco dinero del cajero.|Ich hebe Geld am Automaten ab.|saco,sacas,saca,sacamos,sacan,sacó,saqué|einkaufen
+servir|verb||B1|dienen;servieren;nützen|¿Para qué sirve esto?|Wofür ist das gut?|sirvo,sirves,sirve,servimos,sirven,sirvió|essen
+soñar|verb||B1|träumen|Sueño con viajar a Japón.|Ich träume davon, nach Japan zu reisen.|sueño,sueñas,sueña,soñamos,sueñan,soñó|gefuehle
+sufrir|verb||B2|leiden|Sufre de dolor de espalda.|Er leidet unter Rückenschmerzen.|sufro,sufres,sufre,sufrimos,sufren,sufrió|gesundheit
+tirar|verb||B1|werfen;wegwerfen;ziehen|Tira la basura.|Bring den Müll raus.|tiro,tiras,tira,tiramos,tiran,tiró|wohnen
+tratar|verb||B1|behandeln;versuchen (tratar de)|Trata de llegar a tiempo.|Versuch, pünktlich zu sein.|trato,tratas,trata,tratamos,tratan,trató|alltag
+utilizar|verb||B1|benutzen;verwenden|Utilizo el ordenador para trabajar.|Ich benutze den Computer zum Arbeiten.|utilizo,utilizas,utiliza,utilizamos,utilizan|arbeit
+valer|verb||B1|kosten;wert sein|¿Cuánto vale?|Wie viel kostet das?|vale,valen,valió|einkaufen
+vale|interj||A1|okay;in Ordnung|Vale, nos vemos a las ocho.|Okay, wir sehen uns um acht.||kommunikation
+volar|verb||B1|fliegen|Volamos a Berlín mañana.|Wir fliegen morgen nach Berlin.|vuelo,vuelas,vuela,volamos,vuelan,voló|reisen
+votar|verb||B2|wählen;abstimmen|Mañana votamos.|Morgen wählen wir.|voto,votas,vota,votamos,votan,votó|alltag
+abuelos|noun|m|A1|die Großeltern|Visito a mis abuelos los domingos.|Sonntags besuche ich meine Großeltern.||familie
+padres|noun|m|A1|die Eltern|Mis padres viven en Toledo.|Meine Eltern wohnen in Toledo.||familie
+hermanos|noun|m|A1|die Geschwister;die Brüder|¿Tienes hermanos?|Hast du Geschwister?||familie
+sobrino|noun|m|A2|der Neffe|Mi sobrino tiene cinco años.|Mein Neffe ist fünf Jahre alt.|sobrina,sobrinos,sobrinas|familie
+nieto|noun|m|A2|der Enkel|Mi abuela tiene seis nietos.|Meine Oma hat sechs Enkel.|nieta,nietos,nietas|familie
+suegro|noun|m|B1|der Schwiegervater|Mi suegro es muy simpático.|Mein Schwiegervater ist sehr nett.|suegra,suegros,suegras|familie
+gemelo|noun|m|B1|der Zwilling|Son gemelos.|Sie sind Zwillinge.|gemela,gemelos,gemelas|familie
+compañero|noun|m|A2|der Kollege;der Mitschüler|Mi compañero de piso es italiano.|Mein Mitbewohner ist Italiener.|compañera,compañeros,compañeras|arbeit
+vida diaria|noun|f|B1|der Alltag|La vida diaria en Madrid es intensa.|Der Alltag in Madrid ist intensiv.||alltag
+costumbre|noun|f|B1|die Gewohnheit;der Brauch|Es una costumbre española.|Das ist ein spanischer Brauch.|costumbres|alltag
+basura|noun|f|A2|der Müll|Saca la basura, por favor.|Bring bitte den Müll raus.||wohnen
+lavadora|noun|f|A2|die Waschmaschine|La lavadora está rota.|Die Waschmaschine ist kaputt.|lavadoras|wohnen
+espejo|noun|m|A2|der Spiegel|Me miro en el espejo.|Ich schaue in den Spiegel.|espejos|wohnen
+lámpara|noun|f|A2|die Lampe|Enciende la lámpara.|Mach die Lampe an.|lámparas|wohnen
+alfombra|noun|f|B1|der Teppich|Una alfombra roja.|Ein roter Teppich.|alfombras|wohnen
+cuadro|noun|m|A2|das Bild;das Gemälde|Un cuadro de Picasso.|Ein Bild von Picasso.|cuadros|freizeit
+toalla|noun|f|A2|das Handtuch|Necesito una toalla limpia.|Ich brauche ein sauberes Handtuch.|toallas|wohnen
+jabón|noun|m|A2|die Seife|No hay jabón en el baño.|Im Bad ist keine Seife.|jabones|wohnen
+terraza|noun|f|A2|die Terrasse|Desayunamos en la terraza.|Wir frühstücken auf der Terrasse.|terrazas|wohnen
+balcón|noun|m|A2|der Balkon|El piso tiene un balcón.|Die Wohnung hat einen Balkon.|balcones|wohnen
+garaje|noun|m|A2|die Garage|El coche está en el garaje.|Das Auto steht in der Garage.|garajes|wohnen
+alquiler|noun|m|B1|die Miete|El alquiler es muy caro.|Die Miete ist sehr teuer.|alquileres|wohnen
+cajero|noun|m|B1|der Geldautomat;der Kassierer|¿Hay un cajero por aquí?|Gibt es hier einen Geldautomaten?|cajera,cajeros|einkaufen
+oferta|noun|f|B1|das Angebot|Hay ofertas en la tienda.|Im Laden gibt es Angebote.|ofertas|einkaufen
+descuento|noun|m|B1|der Rabatt|Tiene un descuento del diez por ciento.|Es gibt zehn Prozent Rabatt.|descuentos|einkaufen
+bolsa|noun|f|A2|die Tüte;die Tasche|¿Quiere una bolsa?|Möchten Sie eine Tüte?|bolsas|einkaufen
+caja|noun|f|A2|die Kiste;die Kasse|Pague en la caja, por favor.|Zahlen Sie bitte an der Kasse.|cajas|einkaufen
+cambio|noun|m|B1|das Wechselgeld;die Änderung|Aquí tiene el cambio.|Hier ist Ihr Wechselgeld.|cambios|einkaufen
+moneda|noun|f|A2|die Münze;die Währung|No tengo monedas.|Ich habe keine Münzen.|monedas|einkaufen
+panadería|noun|f|A2|die Bäckerei|Compro pan en la panadería.|Ich kaufe Brot in der Bäckerei.|panaderías|einkaufen
+carnicería|noun|f|B1|die Metzgerei|La carnicería abre a las nueve.|Die Metzgerei öffnet um neun.|carnicerías|einkaufen
+mantequilla|noun|f|A2|die Butter|Pan con mantequilla.|Brot mit Butter.||essen
+jamón|noun|m|A1|der Schinken|Un bocadillo de jamón.|Ein Schinkenbrötchen.|jamones|essen
+bocadillo|noun|m|A2|das belegte Brötchen|Me preparo un bocadillo.|Ich mache mir ein belegtes Brötchen.|bocadillos|essen
+galleta|noun|f|A2|der Keks|Los niños comen galletas.|Die Kinder essen Kekse.|galletas|essen
+pastel|noun|m|A2|der Kuchen|Un pastel de chocolate.|Ein Schokoladenkuchen.|pasteles|essen
+cebolla|noun|f|A2|die Zwiebel|Corta la cebolla.|Schneide die Zwiebel.|cebollas|essen
+ajo|noun|m|A2|der Knoblauch|Me gusta el ajo.|Ich mag Knoblauch.|ajos|essen
+limón|noun|m|A2|die Zitrone|Té con limón.|Tee mit Zitrone.|limones|essen
+fresa|noun|f|A2|die Erdbeere|Me encantan las fresas.|Ich liebe Erdbeeren.|fresas|essen
+uva|noun|f|A2|die Weintraube|Las uvas son dulces.|Die Trauben sind süß.|uvas|essen
+pimienta|noun|f|B1|der Pfeffer|Sal y pimienta.|Salz und Pfeffer.||essen
+receta|noun|f|B1|das Rezept|Es la receta de mi abuela.|Das ist das Rezept meiner Oma.|recetas|essen
+menú|noun|m|A2|das Menü;die Speisekarte|El menú del día cuesta doce euros.|Das Tagesmenü kostet zwölf Euro.|menús|essen
+propina|noun|f|B1|das Trinkgeld|Dejamos una buena propina.|Wir lassen ein gutes Trinkgeld da.|propinas|essen
+bar|noun|m|A1|die Bar;die Kneipe|Tomamos algo en el bar.|Wir trinken etwas in der Bar.|bares|essen

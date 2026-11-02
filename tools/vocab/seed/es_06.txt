@@ -1,0 +1,119 @@
+# Spanisch 621–750
+febrero|noun|m|A1|der Februar|Mi cumpleaños es en febrero.|Mein Geburtstag ist im Februar.||zeit
+marzo|noun|m|A1|der März|En marzo empieza la primavera.|Im März beginnt der Frühling.||zeit
+abril|noun|m|A1|der April|Viajamos en abril.|Wir reisen im April.||zeit
+mayo|noun|m|A1|der Mai|La boda es en mayo.|Die Hochzeit ist im Mai.||zeit
+junio|noun|m|A1|der Juni|En junio termina el curso.|Im Juni endet das Schuljahr.||zeit
+julio|noun|m|A1|der Juli|En julio hace mucho calor.|Im Juli ist es sehr heiß.||zeit
+agosto|noun|m|A1|der August|Estoy de vacaciones en agosto.|Im August habe ich Urlaub.||zeit
+septiembre|noun|m|A1|der September|Las clases empiezan en septiembre.|Der Unterricht beginnt im September.|setiembre|zeit
+octubre|noun|m|A1|der Oktober|En octubre llueve mucho.|Im Oktober regnet es viel.||zeit
+noviembre|noun|m|A1|der November|Noviembre es un mes frío.|November ist ein kalter Monat.||zeit
+diciembre|noun|m|A1|der Dezember|En diciembre celebramos la Navidad.|Im Dezember feiern wir Weihnachten.||zeit
+Navidad|noun|f|A2|das Weihnachten|¡Feliz Navidad!|Frohe Weihnachten!|navidades|zeit
+mediodía|noun|m|A2|der Mittag|Comemos al mediodía.|Wir essen mittags.||zeit
+siglo|noun|m|B1|das Jahrhundert|Es una iglesia del siglo doce.|Es ist eine Kirche aus dem zwölften Jahrhundert.|siglos|zeit
+futuro|noun|m|A2|die Zukunft|Pienso en el futuro.|Ich denke an die Zukunft.|futuros|zeit
+pasado|noun|m|A2|die Vergangenheit|Olvida el pasado.|Vergiss die Vergangenheit.||zeit
+próximo|adj||A1|nächster|La próxima semana voy a Roma.|Nächste Woche fahre ich nach Rom.|próxima,próximos,próximas|zeit
+pasado|adj||A1|vergangen;letzter|El año pasado fui a Cuba.|Letztes Jahr war ich auf Kuba.|pasada,pasados,pasadas|zeit
+durante|prep||A2|während|Durante el viaje leí mucho.|Während der Reise habe ich viel gelesen.||zeit
+contra|prep||B1|gegen|Jugamos contra el Real Madrid.|Wir spielen gegen Real Madrid.||grammatik
+hacia|prep||B1|nach … hin;gegen (zeitlich)|Caminamos hacia el centro.|Wir gehen Richtung Zentrum.||reisen
+según|prep||B1|laut;gemäß|Según el periódico, va a llover.|Laut Zeitung wird es regnen.||kommunikation
+bajo|prep||B1|unter|El gato está bajo la mesa.|Die Katze ist unter dem Tisch.||grammatik
+delante|adv||A2|vorne;davor|Hay un coche delante de la casa.|Vor dem Haus steht ein Auto.||stadt
+detrás|adv||A2|hinten;dahinter|El jardín está detrás de la casa.|Der Garten ist hinter dem Haus.||stadt
+encima|adv||A2|oben;darauf|Las llaves están encima de la mesa.|Die Schlüssel liegen auf dem Tisch.||wohnen
+debajo|adv||A2|unten;darunter|El perro duerme debajo de la cama.|Der Hund schläft unter dem Bett.||wohnen
+dentro|adv||A2|drinnen;innen|Esperamos dentro.|Wir warten drinnen.||wohnen
+fuera|adv||A2|draußen;außen|Los niños juegan fuera.|Die Kinder spielen draußen.||wohnen
+arriba|adv||A2|oben;nach oben|Mi habitación está arriba.|Mein Zimmer ist oben.||wohnen
+abajo|adv||A2|unten;nach unten|La cocina está abajo.|Die Küche ist unten.||wohnen
+juntos|adv||A2|zusammen|Vamos juntos al cine.|Wir gehen zusammen ins Kino.|juntas,junto|freizeit
+otra vez|phrase||A1|noch einmal;wieder|Dilo otra vez.|Sag es noch einmal.||kommunikation
+quizás|adv||A2|vielleicht|Quizás vaya mañana.|Vielleicht gehe ich morgen.|quizá|kommunikation
+además|adv||B1|außerdem|Además, es muy barato.|Außerdem ist es sehr billig.||kommunikation
+entonces|adv||A2|dann;also|Entonces, ¿vienes o no?|Also, kommst du oder nicht?||kommunikation
+así|adv||A2|so;auf diese Weise|Hazlo así.|Mach es so.||grammatik
+despacio|adv||A2|langsam|Habla más despacio, por favor.|Sprich bitte langsamer.||kommunikation
+rápidamente|adv||B1|schnell|Terminó rápidamente.|Er war schnell fertig.||zeit
+normalmente|adv||A2|normalerweise|Normalmente como en casa.|Normalerweise esse ich zu Hause.||alltag
+mientras|conj||B1|während|Leo mientras espero.|Ich lese, während ich warte.||zeit
+aunque|conj||B1|obwohl|Salgo aunque llueve.|Ich gehe raus, obwohl es regnet.||grammatik
+ni|conj||B1|noch;nicht einmal|No tengo ni tiempo ni dinero.|Ich habe weder Zeit noch Geld.||grammatik
+sino|conj||B1|sondern|No es rojo, sino naranja.|Es ist nicht rot, sondern orange.||grammatik
+cual|pron||B1|welcher;der, die, das|¿Cuál prefieres?|Welchen möchtest du lieber?|cuál,cuales,cuáles|grammatik
+nos|pron||A2|uns|Nos vemos mañana.|Wir sehen uns morgen.||grammatik
+vosotros|pron||A1|ihr|¿Vosotros venís a la fiesta?|Kommt ihr zur Party?|vosotras|grammatik
+mío|pron||A2|meiner;meine;mein(e)s|Este libro es mío.|Dieses Buch gehört mir.|mía,míos,mías|grammatik
+tuyo|pron||A2|deiner;deine;dein(e)s|¿Es tuyo este bolso?|Gehört dir diese Tasche?|tuya,tuyos,tuyas|grammatik
+ninguno|det||A2|kein;keiner|No tengo ningún problema.|Ich habe kein Problem.|ningún,ninguna|grammatik
+alguno|det||A2|irgendein;einige|¿Tienes alguna pregunta?|Hast du irgendeine Frage?|algún,alguna,algunos,algunas|grammatik
+varios|det||B1|mehrere|Tengo varios amigos aquí.|Ich habe hier mehrere Freunde.|varias|zahlen
+tanto|det||A2|so viel|No comas tanto.|Iss nicht so viel.|tanta,tantos,tantas|zahlen
+medio|adj||A2|halb;mittlerer|Son las tres y media.|Es ist halb vier.|media,medios,medias|zahlen
+doble|adj||B1|doppelt|Una habitación doble.|Ein Doppelzimmer.|dobles|zahlen
+entero|adj||B1|ganz|Me comí la pizza entera.|Ich habe die ganze Pizza gegessen.|entera,enteros,enteras|zahlen
+correcto|adj||A2|richtig;korrekt|La respuesta es correcta.|Die Antwort ist richtig.|correcta,correctos,correctas|schule
+falso|adj||A2|falsch|Eso es falso.|Das ist falsch.|falsa,falsos,falsas|schule
+verdadero|adj||B1|wahr;echt|Es una historia verdadera.|Es ist eine wahre Geschichte.|verdadera,verdaderos,verdaderas|kommunikation
+diferente|adj||A2|anders;verschieden|Somos muy diferentes.|Wir sind sehr verschieden.|diferentes|alltag
+igual|adj||A2|gleich|Es igual.|Das ist egal.|iguales|alltag
+especial|adj||A2|besonders;speziell|Hoy es un día especial.|Heute ist ein besonderer Tag.|especiales|alltag
+normal|adj||A2|normal|Es normal estar nervioso.|Es ist normal, nervös zu sein.|normales|alltag
+famoso|adj||A2|berühmt|Es un actor famoso.|Er ist ein berühmter Schauspieler.|famosa,famosos,famosas|freizeit
+peligroso|adj||B1|gefährlich|Esta carretera es peligrosa.|Diese Straße ist gefährlich.|peligrosa,peligrosos,peligrosas|reisen
+cómodo|adj||A2|bequem|Este sofá es muy cómodo.|Dieses Sofa ist sehr bequem.|cómoda,cómodos,cómodas|wohnen
+moderno|adj||A2|modern|Un edificio moderno.|Ein modernes Gebäude.|moderna,modernos,modernas|stadt
+antiguo|adj||A2|alt;antik|Una ciudad antigua.|Eine alte Stadt.|antigua,antiguos,antiguas|stadt
+precioso|adj||A2|wunderschön;kostbar|¡Qué vista tan preciosa!|Was für eine wunderschöne Aussicht!|preciosa,preciosos,preciosas|gefuehle
+maravilloso|adj||B1|wunderbar|Fue un día maravilloso.|Es war ein wunderbarer Tag.|maravillosa,maravillosos,maravillosas|gefuehle
+horrible|adj||A2|schrecklich|Hace un tiempo horrible.|Das Wetter ist schrecklich.|horribles|gefuehle
+enfadado|adj||A2|wütend;verärgert|Mi madre está enfadada.|Meine Mutter ist wütend.|enfadada,enfadados,enfadadas|gefuehle
+preocupado|adj||B1|besorgt|Estoy preocupado por ti.|Ich mache mir Sorgen um dich.|preocupada,preocupados,preocupadas|gefuehle
+sorprendido|adj||B1|überrascht|Estoy muy sorprendido.|Ich bin sehr überrascht.|sorprendida,sorprendidos|gefuehle
+tímido|adj||A2|schüchtern|Es un niño tímido.|Er ist ein schüchternes Kind.|tímida,tímidos,tímidas|gefuehle
+trabajador|adj||A2|fleißig|Es una alumna muy trabajadora.|Sie ist eine sehr fleißige Schülerin.|trabajadora,trabajadores|gefuehle
+perezoso|adj||A2|faul|Mi gato es muy perezoso.|Meine Katze ist sehr faul.|perezosa,perezosos,perezosas|gefuehle
+sano|adj||A2|gesund|Come comida sana.|Iss gesundes Essen.|sana,sanos,sanas|gesundheit
+vivo|adj||B1|lebendig;am Leben|El pez está vivo.|Der Fisch lebt.|viva,vivos,vivas|natur
+muerto|adj||B1|tot|La planta está muerta.|Die Pflanze ist tot.|muerta,muertos,muertas|natur
+seco|adj||A2|trocken|La ropa ya está seca.|Die Wäsche ist schon trocken.|seca,secos,secas|natur
+mojado|adj||A2|nass|Tengo los pies mojados.|Ich habe nasse Füße.|mojada,mojados,mojadas|natur
+oscuro|adj||A2|dunkel|La habitación está oscura.|Das Zimmer ist dunkel.|oscura,oscuros,oscuras|farben
+pesado|adj||A2|schwer;lästig|La maleta es muy pesada.|Der Koffer ist sehr schwer.|pesada,pesados,pesadas|reisen
+ligero|adj||B1|leicht (Gewicht)|Una chaqueta ligera.|Eine leichte Jacke.|ligera,ligeros,ligeras|kleidung
+ruido|noun|m|A2|der Lärm;das Geräusch|Hay mucho ruido en la calle.|Auf der Straße ist es sehr laut.|ruidos|stadt
+tráfico|noun|m|A2|der Verkehr|Hay mucho tráfico hoy.|Heute ist viel Verkehr.||reisen
+semáforo|noun|m|A2|die Ampel|Para en el semáforo.|Halt an der Ampel.|semáforos|reisen
+esquina|noun|f|A2|die Ecke|La tienda está en la esquina.|Der Laden ist an der Ecke.|esquinas|stadt
+parada|noun|f|A2|die Haltestelle|La parada del autobús está aquí.|Die Bushaltestelle ist hier.|paradas|reisen
+centro|noun|m|A1|das Zentrum;die Mitte|Vivo en el centro.|Ich wohne im Zentrum.|centros|stadt
+ayuntamiento|noun|m|B1|das Rathaus|El ayuntamiento está en la plaza.|Das Rathaus ist am Platz.|ayuntamientos|stadt
+biblioteca|noun|f|A1|die Bibliothek|Estudio en la biblioteca.|Ich lerne in der Bibliothek.|bibliotecas|schule
+correos|noun|m|A2|die Post (Postamt)|Voy a correos a enviar un paquete.|Ich gehe zur Post, um ein Paket zu schicken.||stadt
+paquete|noun|m|A2|das Paket|Ha llegado un paquete.|Ein Paket ist angekommen.|paquetes|kommunikation
+dirección|noun|f|A2|die Adresse;die Richtung|¿Cuál es tu dirección?|Wie ist deine Adresse?|direcciones|kommunikation
+pasaporte|noun|m|A2|der Reisepass|No olvides el pasaporte.|Vergiss den Reisepass nicht.|pasaportes|reisen
+frontera|noun|f|B1|die Grenze|Cruzamos la frontera.|Wir überqueren die Grenze.|fronteras|reisen
+turista|noun|mf|A1|der Tourist|Hay muchos turistas en verano.|Im Sommer gibt es viele Touristen.|turistas|reisen
+vuelo|noun|m|A2|der Flug|El vuelo dura dos horas.|Der Flug dauert zwei Stunden.|vuelos|reisen
+reserva|noun|f|A2|die Reservierung|Tengo una reserva a nombre de García.|Ich habe eine Reservierung auf den Namen García.|reservas|reisen
+equipaje|noun|m|A2|das Gepäck|Mi equipaje no ha llegado.|Mein Gepäck ist nicht angekommen.||reisen
+tarjeta postal|noun|f|A2|die Postkarte|Te mando una tarjeta postal.|Ich schicke dir eine Postkarte.|postal,postales|kommunikation
+recuerdo|noun|m|A2|die Erinnerung;das Souvenir|Compré un recuerdo para mi madre.|Ich habe ein Souvenir für meine Mutter gekauft.|recuerdos|reisen
+paisaje|noun|m|B1|die Landschaft|El paisaje es precioso.|Die Landschaft ist wunderschön.|paisajes|natur
+planta|noun|f|A2|die Pflanze;das Stockwerk|Riego las plantas cada día.|Ich gieße die Pflanzen jeden Tag.|plantas|natur
+hierba|noun|f|B1|das Gras;das Kraut|Los niños juegan en la hierba.|Die Kinder spielen im Gras.|hierbas|natur
+hoja|noun|f|A2|das Blatt|Las hojas caen en otoño.|Im Herbst fallen die Blätter.|hojas|natur
+animal|noun|m|A1|das Tier|Me gustan los animales.|Ich mag Tiere.|animales|tiere
+insecto|noun|m|B1|das Insekt|Hay muchos insectos en verano.|Im Sommer gibt es viele Insekten.|insectos|tiere
+mosca|noun|f|B1|die Fliege|Hay una mosca en la sopa.|In der Suppe ist eine Fliege.|moscas|tiere
+pollito|noun|m|B1|das Küken|La gallina tiene diez pollitos.|Die Henne hat zehn Küken.|pollitos|tiere
+gallina|noun|f|A2|das Huhn;die Henne|La gallina pone huevos.|Das Huhn legt Eier.|gallinas|tiere
+conejo|noun|m|A2|das Kaninchen|Mi hija tiene un conejo.|Meine Tochter hat ein Kaninchen.|conejos|tiere
+oso|noun|m|A2|der Bär|El oso vive en el bosque.|Der Bär lebt im Wald.|osos|tiere
+león|noun|m|A2|der Löwe|El león es el rey de la selva.|Der Löwe ist der König des Dschungels.|leones|tiere
+mono|noun|m|A2|der Affe;süß (ugs.)|El mono come plátanos.|Der Affe isst Bananen.|monos|tiere
+serpiente|noun|f|B1|die Schlange|Tengo miedo de las serpientes.|Ich habe Angst vor Schlangen.|serpientes|tiere

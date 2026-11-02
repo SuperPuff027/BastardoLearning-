@@ -1,0 +1,119 @@
+# Spanisch 252–375
+bueno|adj||A1|gut|Es un buen libro.|Das ist ein gutes Buch.|buen,buena,buenos,buenas|gefuehle
+malo|adj||A1|schlecht;böse|Hace mal tiempo.|Das Wetter ist schlecht.|mal,mala,malos,malas|gefuehle
+grande|adj||A1|groß|Vivimos en una casa grande.|Wir wohnen in einem großen Haus.|gran,grandes|farben
+pequeño|adj||A1|klein|Tengo un perro pequeño.|Ich habe einen kleinen Hund.|pequeña,pequeños,pequeñas|farben
+nuevo|adj||A1|neu|Tengo un móvil nuevo.|Ich habe ein neues Handy.|nueva,nuevos,nuevas|alltag
+viejo|adj||A1|alt|Este coche es muy viejo.|Dieses Auto ist sehr alt.|vieja,viejos,viejas|alltag
+joven|adj||A1|jung|Mi profesora es muy joven.|Meine Lehrerin ist sehr jung.|jóvenes|familie
+mayor|adj||A2|älter;größer;erwachsen|Mi hermana mayor vive en Roma.|Meine ältere Schwester wohnt in Rom.|mayores|familie
+alto|adj||A1|hoch;groß (Person)|Mi hermano es muy alto.|Mein Bruder ist sehr groß.|alta,altos,altas|gefuehle
+bajo|adj||A1|niedrig;klein (Person)|La mesa es baja.|Der Tisch ist niedrig.|baja,bajos,bajas|gefuehle
+largo|adj||A1|lang|Es un viaje muy largo.|Es ist eine sehr lange Reise.|larga,largos,largas|farben
+corto|adj||A1|kurz|Tiene el pelo corto.|Sie hat kurze Haare.|corta,cortos,cortas|farben
+bonito|adj||A1|schön;hübsch|¡Qué vestido tan bonito!|Was für ein schönes Kleid!|bonita,bonitos,bonitas|gefuehle
+feo|adj||A1|hässlich|El edificio es feo.|Das Gebäude ist hässlich.|fea,feos,feas|gefuehle
+fácil|adj||A1|leicht;einfach|El examen fue fácil.|Die Prüfung war leicht.|fáciles|schule
+difícil|adj||A1|schwierig;schwer|El alemán es difícil.|Deutsch ist schwierig.|difíciles|schule
+importante|adj||A2|wichtig|Es muy importante.|Es ist sehr wichtig.|importantes|alltag
+mismo|adj||A2|derselbe;gleich|Tenemos el mismo coche.|Wir haben dasselbe Auto.|misma,mismos,mismas|grammatik
+otro|det||A1|anderer;noch ein|Quiero otro café.|Ich möchte noch einen Kaffee.|otra,otros,otras|grammatik
+todo|det||A1|alles;ganz;jeder|Todo está bien.|Alles ist gut.|toda,todos,todas|grammatik
+mucho|det||A1|viel;sehr|Tengo mucho trabajo.|Ich habe viel Arbeit.|mucha,muchos,muchas|zahlen
+poco|det||A1|wenig|Hay poca gente.|Es sind wenig Leute da.|poca,pocos,pocas|zahlen
+primero|adj||A1|erster|Es mi primer viaje a México.|Es ist meine erste Reise nach Mexiko.|primer,primera,primeros|zahlen
+último|adj||A2|letzter|Es el último tren.|Das ist der letzte Zug.|última,últimos,últimas|zahlen
+cada|det||A2|jeder;jede;jedes|Voy al gimnasio cada día.|Ich gehe jeden Tag ins Fitnessstudio.||zeit
+algo|pron||A1|etwas|¿Quieres algo de beber?|Möchtest du etwas trinken?||grammatik
+nada|pron||A1|nichts|No tengo nada.|Ich habe nichts.||grammatik
+alguien|pron||A2|jemand|¿Hay alguien en casa?|Ist jemand zu Hause?||grammatik
+nadie|pron||A2|niemand|No hay nadie aquí.|Hier ist niemand.||grammatik
+siempre|adv||A1|immer|Siempre llega tarde.|Er kommt immer zu spät.||zeit
+nunca|adv||A1|nie;niemals|Nunca bebo café.|Ich trinke nie Kaffee.||zeit
+también|adv||A1|auch|Yo también quiero ir.|Ich will auch mitgehen.||grammatik
+tampoco|adv||A2|auch nicht|Yo tampoco lo sé.|Ich weiß es auch nicht.||grammatik
+ya|adv||A2|schon;bereits|Ya he comido.|Ich habe schon gegessen.||zeit
+todavía|adv||A2|noch|Todavía no ha llegado.|Er ist noch nicht angekommen.||zeit
+aquí|adv||A1|hier|Vivo aquí.|Ich wohne hier.||stadt
+allí|adv||A1|dort|El museo está allí.|Das Museum ist dort.|ahí,allá|stadt
+ahora|adv||A1|jetzt|Ahora no puedo.|Jetzt kann ich nicht.||zeit
+hoy|adv||A1|heute|Hoy hace calor.|Heute ist es heiß.||zeit
+ayer|adv||A1|gestern|Ayer fui al cine.|Gestern war ich im Kino.||zeit
+luego|adv||A1|später;dann|Hasta luego.|Bis später.||zeit
+después|adv||A1|danach;nachher|Después de comer, duermo.|Nach dem Essen schlafe ich.||zeit
+antes|adv||A1|vorher;früher|Antes vivía en Berlín.|Früher wohnte ich in Berlin.||zeit
+pronto|adv||A2|bald;früh|Nos vemos pronto.|Wir sehen uns bald.||zeit
+tarde|adv||A1|spät|Es muy tarde.|Es ist sehr spät.||zeit
+temprano|adv||A2|früh|Me levanto temprano.|Ich stehe früh auf.||zeit
+bien|adv||A1|gut|Estoy bien, gracias.|Mir geht es gut, danke.||gefuehle
+mal|adv||A1|schlecht|Me siento mal.|Ich fühle mich schlecht.||gesundheit
+muy|adv||A1|sehr|Es muy bonito.|Es ist sehr schön.||grammatik
+más|adv||A1|mehr|Quiero más pan.|Ich möchte mehr Brot.||zahlen
+menos|adv||A1|weniger|Hoy hace menos frío.|Heute ist es weniger kalt.||zahlen
+tan|adv||A2|so|No es tan difícil.|Es ist nicht so schwierig.||grammatik
+casi|adv||A2|fast;beinahe|Casi son las diez.|Es ist fast zehn Uhr.||zeit
+solo|adv||A2|nur;bloß|Solo tengo cinco euros.|Ich habe nur fünf Euro.|sólo|grammatik
+cerca|adv||A1|nah;in der Nähe|El banco está cerca.|Die Bank ist in der Nähe.||stadt
+lejos|adv||A1|weit;weit weg|Mi casa está lejos.|Mein Haus ist weit weg.||stadt
+bastante|adv||A2|ziemlich;genug|Es bastante caro.|Es ist ziemlich teuer.|bastantes|zahlen
+demasiado|adv||A2|zu;zu viel|Hace demasiado calor.|Es ist zu heiß.|demasiada,demasiados|zahlen
+sí|adv||A1|ja|Sí, claro.|Ja, natürlich.||kommunikation
+hola|interj||A1|hallo|¡Hola! ¿Qué tal?|Hallo! Wie geht's?||kommunikation
+adiós|interj||A1|tschüss;auf Wiedersehen|Adiós, hasta mañana.|Tschüss, bis morgen.||kommunikation
+gracias|interj||A1|danke|Muchas gracias.|Vielen Dank.||kommunikation
+por favor|phrase||A1|bitte|Un té, por favor.|Einen Tee, bitte.||kommunikation
+perdón|interj||A1|Entschuldigung;Verzeihung|Perdón, ¿dónde está la estación?|Entschuldigung, wo ist der Bahnhof?||kommunikation
+de nada|phrase||A1|gern geschehen;bitte|—Gracias. —De nada.|„Danke.“ – „Gern geschehen.“||kommunikation
+buenos días|phrase||A1|guten Morgen;guten Tag|Buenos días, señora.|Guten Morgen, gnädige Frau.||kommunikation
+lunes|noun|m|A1|der Montag|El lunes empiezo a trabajar.|Am Montag fange ich an zu arbeiten.||zeit
+martes|noun|m|A1|der Dienstag|El martes tengo clase.|Am Dienstag habe ich Unterricht.||zeit
+miércoles|noun|m|A1|der Mittwoch|Nos vemos el miércoles.|Wir sehen uns am Mittwoch.||zeit
+jueves|noun|m|A1|der Donnerstag|El jueves voy al médico.|Am Donnerstag gehe ich zum Arzt.||zeit
+viernes|noun|m|A1|der Freitag|El viernes salimos.|Am Freitag gehen wir aus.||zeit
+sábado|noun|m|A1|der Samstag|El sábado no trabajo.|Am Samstag arbeite ich nicht.|sábados|zeit
+domingo|noun|m|A1|der Sonntag|El domingo comemos con mis padres.|Am Sonntag essen wir bei meinen Eltern.|domingos|zeit
+enero|noun|m|A1|der Januar|En enero hace frío.|Im Januar ist es kalt.||zeit
+verano|noun|m|A1|der Sommer|En verano vamos a la playa.|Im Sommer fahren wir an den Strand.|veranos|zeit
+invierno|noun|m|A1|der Winter|El invierno es muy largo.|Der Winter ist sehr lang.|inviernos|zeit
+primavera|noun|f|A1|der Frühling|En primavera hay muchas flores.|Im Frühling gibt es viele Blumen.|primaveras|zeit
+otoño|noun|m|A1|der Herbst|En otoño llueve mucho.|Im Herbst regnet es viel.|otoños|zeit
+frío|noun|m|A1|die Kälte|Hace mucho frío.|Es ist sehr kalt.|fríos|natur
+calor|noun|m|A1|die Hitze;die Wärme|Hace calor en agosto.|Im August ist es heiß.|calores|natur
+nieve|noun|f|A2|der Schnee|Hay nieve en la montaña.|Auf dem Berg liegt Schnee.||natur
+viento|noun|m|A2|der Wind|Hace mucho viento.|Es ist sehr windig.|vientos|natur
+cielo|noun|m|A2|der Himmel|El cielo está nublado.|Der Himmel ist bewölkt.|cielos|natur
+montaña|noun|f|A1|der Berg;das Gebirge|Subimos la montaña.|Wir steigen auf den Berg.|montañas|natur
+río|noun|m|A1|der Fluss|El río es muy largo.|Der Fluss ist sehr lang.|ríos|natur
+campo|noun|m|A2|das Land;das Feld|Vivo en el campo.|Ich wohne auf dem Land.|campos|natur
+tierra|noun|f|A2|die Erde;das Land|La tierra está seca.|Die Erde ist trocken.|tierras|natur
+fuego|noun|m|A2|das Feuer|No toques el fuego.|Fass das Feuer nicht an.|fuegos|natur
+luz|noun|f|A2|das Licht|Apaga la luz.|Mach das Licht aus.|luces|wohnen
+teléfono|noun|m|A1|das Telefon|Mi teléfono no funciona.|Mein Telefon funktioniert nicht.|teléfonos|kommunikation
+móvil|noun|m|A1|das Handy|Te mando un mensaje al móvil.|Ich schicke dir eine Nachricht aufs Handy.|móviles|kommunikation
+ordenador|noun|m|A1|der Computer|Trabajo con el ordenador.|Ich arbeite am Computer.|ordenadores|arbeit
+mensaje|noun|m|A2|die Nachricht|Te he enviado un mensaje.|Ich habe dir eine Nachricht geschickt.|mensajes|kommunikation
+carta|noun|f|A1|der Brief;die Speisekarte|La carta, por favor.|Die Speisekarte, bitte.|cartas|kommunikation
+música|noun|f|A1|die Musik|Me gusta la música clásica.|Ich mag klassische Musik.||freizeit
+película|noun|f|A1|der Film|Vemos una película esta noche.|Heute Abend schauen wir einen Film.|películas|freizeit
+deporte|noun|m|A1|der Sport|Hago deporte tres veces por semana.|Ich mache dreimal pro Woche Sport.|deportes|freizeit
+fútbol|noun|m|A1|der Fußball|Juego al fútbol los domingos.|Sonntags spiele ich Fußball.||freizeit
+juego|noun|m|A2|das Spiel|Es un juego divertido.|Es ist ein lustiges Spiel.|juegos|freizeit
+fiesta|noun|f|A1|die Party;das Fest|Hay una fiesta el sábado.|Am Samstag gibt es eine Party.|fiestas|freizeit
+regalo|noun|m|A1|das Geschenk|Gracias por el regalo.|Danke für das Geschenk.|regalos|freizeit
+cumpleaños|noun|m|A1|der Geburtstag|¡Feliz cumpleaños!|Alles Gute zum Geburtstag!||freizeit
+oficina|noun|f|A1|das Büro|Trabajo en una oficina.|Ich arbeite in einem Büro.|oficinas|arbeit
+empresa|noun|f|A2|die Firma;das Unternehmen|La empresa tiene cien empleados.|Die Firma hat hundert Angestellte.|empresas|arbeit
+jefe|noun|m|A2|der Chef|Mi jefe es muy simpático.|Mein Chef ist sehr nett.|jefa,jefes|arbeit
+reunión|noun|f|A2|die Besprechung;das Treffen|Tengo una reunión a las diez.|Ich habe um zehn eine Besprechung.|reuniones|arbeit
+banco|noun|m|A1|die Bank|El banco cierra a las dos.|Die Bank schließt um zwei.|bancos|stadt
+estación|noun|f|A1|der Bahnhof;die Jahreszeit|¿Dónde está la estación?|Wo ist der Bahnhof?|estaciones|reisen
+aeropuerto|noun|m|A1|der Flughafen|Vamos al aeropuerto en taxi.|Wir fahren mit dem Taxi zum Flughafen.|aeropuertos|reisen
+billete|noun|m|A1|die Fahrkarte;der Geldschein|Compro un billete de tren.|Ich kaufe eine Zugfahrkarte.|billetes|reisen
+maleta|noun|f|A1|der Koffer|Mi maleta pesa mucho.|Mein Koffer ist sehr schwer.|maletas|reisen
+mapa|noun|m|A1|die Landkarte;der Stadtplan|¿Tienes un mapa de la ciudad?|Hast du einen Stadtplan?|mapas|reisen
+museo|noun|m|A1|das Museum|El museo abre los martes.|Das Museum öffnet dienstags.|museos|stadt
+iglesia|noun|f|A2|die Kirche|La iglesia es muy antigua.|Die Kirche ist sehr alt.|iglesias|stadt
+plaza|noun|f|A1|der Platz|Nos vemos en la plaza.|Wir treffen uns auf dem Platz.|plazas|stadt
+parque|noun|m|A1|der Park|Paseamos por el parque.|Wir gehen im Park spazieren.|parques|stadt
+farmacia|noun|f|A1|die Apotheke|La farmacia está abierta.|Die Apotheke ist geöffnet.|farmacias|gesundheit
+supermercado|noun|m|A1|der Supermarkt|Voy al supermercado.|Ich gehe in den Supermarkt.|supermercados|einkaufen
