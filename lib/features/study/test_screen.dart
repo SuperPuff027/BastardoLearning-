@@ -209,8 +209,8 @@ class _QuestionCard extends StatelessWidget {
   final VoidCallback onChanged;
 
   String _dirLabel(AskDirection d) => d == AskDirection.foreignToGerman
-      ? '$languageLabel → Deutsch'
-      : 'Deutsch → $languageLabel';
+      ? '$languageLabel » Deutsch'
+      : 'Deutsch » $languageLabel';
 
   @override
   Widget build(BuildContext context) {

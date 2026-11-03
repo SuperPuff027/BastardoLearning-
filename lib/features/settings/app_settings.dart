@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 /// Abfragerichtung im Lernmodus.
 enum QuizDirection {
   mixed('gemischt', 'Gemischt'),
-  foreignToGerman('foreign_to_de', 'Fremdwort → Deutsch'),
-  germanToForeign('de_to_foreign', 'Deutsch → Fremdwort');
+  foreignToGerman('foreign_to_de', 'Fremdwort » Deutsch'),
+  germanToForeign('de_to_foreign', 'Deutsch » Fremdwort');
 
   const QuizDirection(this.storageValue, this.label);
   final String storageValue;

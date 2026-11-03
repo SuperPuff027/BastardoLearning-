@@ -1,10 +1,12 @@
-import 'dart:io';
 import 'dart:math';
 
+import 'package:flutter/foundation.dart' show Uint8List, kIsWeb;
 import 'package:flutter/material.dart';
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../data/backup.dart';
 import '../data/database.dart';
 import '../data/library_repository.dart';
 import '../data/media/media_store.dart';
@@ -41,6 +43,13 @@ class SettingsNotifier extends Notifier<AppSettings> {
     });
   }
 
+  /// Nach einer Wiederherstellung: Einstellungen aus der Datenbank übernehmen.
+  Future<void> reload() async {
+    state = AppSettings.fromMap(
+      await ref.read(databaseProvider).readAllSettings(),
+    );
+  }
+
   Future<void> setThemeMode(ThemeMode mode) =>
       _update(state.copyWith(themeMode: mode));
 
@@ -71,7 +80,7 @@ final libraryRepositoryProvider = Provider<LibraryRepository>(
 );
 
 /// Bildauswahl (Kamera/Galerie). In Tests überschreibbar.
-typedef ImagePickFn = Future<File?> Function(ImageSource source);
+typedef ImagePickFn = Future<PickedImage?> Function(ImageSource source);
 
 final imagePickerProvider = Provider<ImagePickFn>((ref) {
   final picker = ImagePicker();
@@ -82,7 +91,12 @@ final imagePickerProvider = Provider<ImagePickFn>((ref) {
       maxHeight: 1600,
       imageQuality: 85,
     );
-    return x == null ? null : File(x.path);
+    if (x == null) return null;
+    return PickedImage(
+      bytes: await x.readAsBytes(),
+      name: x.name,
+      path: kIsWeb ? null : x.path,
+    );
   };
 });
 
@@ -98,5 +112,43 @@ final randomProvider = Provider<Random>((ref) => Random());
 final vocabRepositoryProvider = Provider<VocabRepository>(
   (ref) => throw UnimplementedError(
     'vocabRepositoryProvider muss überschrieben werden',
+  ),
+);
+
+final backupServiceProvider = Provider<BackupService>(
+  (ref) =>
+      BackupService(ref.watch(databaseProvider), ref.watch(mediaStoreProvider)),
+);
+
+/// Speichern/Öffnen der Sicherungsdatei. In Tests überschreibbar.
+class BackupFileIo {
+  const BackupFileIo({required this.save, required this.open});
+
+  /// Bietet die Datei zum Speichern an (Browser: Download, Handy: Dialog).
+  final Future<bool> Function(String fileName, Uint8List bytes) save;
+
+  /// Lässt eine Datei auswählen; `null` bei Abbruch.
+  final Future<Uint8List?> Function() open;
+}
+
+final backupFileIoProvider = Provider<BackupFileIo>(
+  (ref) => BackupFileIo(
+    save: (name, bytes) async {
+      final uri = await FilePicker.saveFile(
+        fileName: name,
+        bytes: bytes,
+        mimeType: 'application/json',
+        dialogTitle: 'Sicherung speichern',
+      );
+      return uri != null || kIsWeb;
+    },
+    open: () async {
+      final file = await FilePicker.pickFile(
+        dialogTitle: 'Sicherung öffnen',
+        type: FileType.custom,
+        allowedExtensions: const ['json'],
+      );
+      return file == null ? null : await file.xFile.readAsBytes();
+    },
   ),
 );

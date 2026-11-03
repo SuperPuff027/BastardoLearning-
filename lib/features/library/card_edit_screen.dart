@@ -105,7 +105,10 @@ class _CardEditScreenState extends ConsumerState<CardEditScreen> {
   Future<void> _pickImage(ImageSource source) async {
     final file = await ref.read(imagePickerProvider)(source);
     if (file == null) return;
-    final path = await _media.import(file);
+    final path = await _media.importBytes(
+      file.bytes,
+      extension: file.extension,
+    );
     if (!mounted) {
       await _media.delete(path);
       return;

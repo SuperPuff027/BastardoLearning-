@@ -1,13 +1,14 @@
 import 'package:barstardo_learning/core/scan/language_guess.dart';
 import 'package:barstardo_learning/core/scan/lemmatizer.dart';
 import 'package:barstardo_learning/core/scan/word_extractor.dart';
+import 'package:barstardo_learning/data/vocab/vocab_open_io.dart';
 import 'package:barstardo_learning/data/vocab/vocab_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   late VocabRepository vocab;
 
-  setUpAll(() => vocab = VocabRepository.open(VocabRepository.assetPath));
+  setUpAll(() => vocab = openVocabFile(VocabRepository.assetPath));
   tearDownAll(() => vocab.close());
 
   WordExtractor extractor({Map<String, String> myCards = const {}}) =>

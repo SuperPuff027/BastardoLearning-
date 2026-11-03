@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart' show Uint8List;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -67,8 +68,9 @@ class SectionHeader extends StatelessWidget {
   }
 }
 
-/// Vorschaubild einer Karte aus der lokalen Medienablage.
-class CardImage extends ConsumerWidget {
+/// Vorschaubild einer Karte aus der lokalen Medienablage
+/// (Dateien auf dem Handy, Datenbank im Browser).
+class CardImage extends ConsumerStatefulWidget {
   const CardImage({
     super.key,
     required this.path,
@@ -81,21 +83,61 @@ class CardImage extends ConsumerWidget {
   final BoxFit fit;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final file = ref.watch(mediaStoreProvider).resolve(path);
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(8),
-      child: Image.file(
-        file,
-        width: size,
-        height: size,
-        fit: fit,
-        errorBuilder: (_, _, _) => SizedBox(
-          width: size,
-          height: size,
-          child: const Icon(Icons.broken_image_outlined),
-        ),
-      ),
+  ConsumerState<CardImage> createState() => _CardImageState();
+}
+
+class _CardImageState extends ConsumerState<CardImage> {
+  late Future<Uint8List?> _bytes;
+
+  @override
+  void initState() {
+    super.initState();
+    _bytes = ref.read(mediaStoreProvider).read(widget.path);
+  }
+
+  @override
+  void didUpdateWidget(CardImage old) {
+    super.didUpdateWidget(old);
+    if (old.path != widget.path) {
+      _bytes = ref.read(mediaStoreProvider).read(widget.path);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final placeholder = SizedBox(
+      width: widget.size,
+      height: widget.size,
+      child: const Icon(Icons.image_outlined),
+    );
+    return FutureBuilder<Uint8List?>(
+      future: _bytes,
+      builder: (context, snap) {
+        final bytes = snap.data;
+        if (bytes == null) {
+          return snap.connectionState == ConnectionState.done
+              ? SizedBox(
+                  width: widget.size,
+                  height: widget.size,
+                  child: const Icon(Icons.broken_image_outlined),
+                )
+              : placeholder;
+        }
+        return ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: Image.memory(
+            bytes,
+            width: widget.size,
+            height: widget.size,
+            fit: widget.fit,
+            errorBuilder: (_, _, _) => SizedBox(
+              width: widget.size,
+              height: widget.size,
+              child: const Icon(Icons.broken_image_outlined),
+            ),
+          ),
+        );
+      },
     );
   }
 }

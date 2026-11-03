@@ -182,7 +182,7 @@ class _FlashcardsScreenState extends ConsumerState<FlashcardsScreen>
           ),
           const SizedBox(height: 8),
           Text(
-            'Tippen zum Umdrehen · wischen: ← nicht gewusst, gewusst →',
+            'Tippen zum Umdrehen · nach links wischen: nicht gewusst, nach rechts: gewusst',
             style: Theme.of(context).textTheme.bodySmall,
             textAlign: TextAlign.center,
           ),

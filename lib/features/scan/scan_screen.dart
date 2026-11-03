@@ -368,23 +368,28 @@ class _ScanScreenState extends ConsumerState<ScanScreen> {
           ),
         ],
         const SizedBox(height: 24),
-        _SourceButton(
-          key: const Key('scanCamera'),
-          icon: Icons.photo_camera_outlined,
-          title: 'Foto aufnehmen',
-          onTap: () => _fromImage(ImageSource.camera),
-        ),
-        _SourceButton(
-          key: const Key('scanGallery'),
-          icon: Icons.photo_library_outlined,
-          title: 'Aus der Galerie',
-          onTap: () => _fromImage(ImageSource.gallery),
-        ),
+        if (ref.watch(onDeviceMlAvailableProvider)) ...[
+          _SourceButton(
+            key: const Key('scanCamera'),
+            icon: Icons.photo_camera_outlined,
+            title: 'Foto aufnehmen',
+            onTap: () => _fromImage(ImageSource.camera),
+          ),
+          _SourceButton(
+            key: const Key('scanGallery'),
+            icon: Icons.photo_library_outlined,
+            title: 'Aus der Galerie',
+            onTap: () => _fromImage(ImageSource.gallery),
+          ),
+        ] else
+          const _LiveTextHelp(),
         _SourceButton(
           key: const Key('scanText'),
           icon: Icons.notes_outlined,
-          title: 'Text einfügen',
-          subtitle: 'Notizen, Liedtexte, Artikel …',
+          title: ref.watch(onDeviceMlAvailableProvider)
+              ? 'Text einfügen'
+              : 'Kopierten Text einfügen',
+          subtitle: 'Live Text, Notizen, Liedtexte, Artikel …',
           onTap: _fromText,
         ),
       ],
@@ -396,7 +401,7 @@ class _ScanScreenState extends ConsumerState<ScanScreen> {
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        if (_fromPhoto)
+        if (_fromPhoto || !ref.watch(onDeviceMlAvailableProvider))
           Card(
             color: theme.colorScheme.secondaryContainer,
             child: const Padding(
@@ -542,6 +547,53 @@ class _ScanScreenState extends ConsumerState<ScanScreen> {
             onTap: () => _edit(w),
           ),
       ],
+    );
+  }
+}
+
+/// Anleitung für Live Text (iPhone) in der Browser-Version.
+class _LiveTextHelp extends StatelessWidget {
+  const _LiveTextHelp();
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Card(
+      key: const Key('liveTextHelp'),
+      color: theme.colorScheme.secondaryContainer,
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                const Icon(Icons.document_scanner_outlined),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'Foto zu Text mit Live Text',
+                    style: theme.textTheme.titleMedium,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            const Text(
+              '1. Foto in der Kamera- oder Fotos-App öffnen.\n'
+              '2. Unten rechts auf das Text-Symbol tippen.\n'
+              '3. „Alles kopieren“ wählen.\n'
+              '4. Hier auf „Kopierten Text einfügen“ tippen.',
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'Live Text erkennt auch Handschrift oft gut und läuft offline '
+              'auf dem iPhone (ab iPhone XS / iOS 15).',
+              style: theme.textTheme.bodySmall,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

@@ -1,0 +1,49 @@
+name: Web-App
+
+# Baut die Browser-Version und veröffentlicht sie über GitHub Pages
+# (Branch gh-pages): https://superpuff027.github.io/BastardoLearning-/
+on:
+  workflow_dispatch:
+  push:
+    branches: [web-app, main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: web-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Abhängigkeiten
+        run: |
+          flutter pub get
+          dart run build_runner build --delete-conflicting-outputs
+
+      - name: Tests
+        run: flutter test
+
+      - name: Web-Build
+        run: flutter build web --release --no-web-resources-cdn --base-href /BastardoLearning-/
+
+      - name: Offline-Vorbereitung
+        run: ./tools/web/prepare_offline.sh build/web "${GITHUB_SHA::12}"
+
+      - name: Veröffentlichen (gh-pages)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/web
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "Web-App ${{ github.sha }}"

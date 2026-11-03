@@ -3,7 +3,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/providers.dart';
 import 'app_settings.dart';
+import 'backup_section.dart';
 import 'offline_translation_section.dart';
+import '../scan/scan_services.dart';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -95,20 +97,24 @@ class SettingsScreen extends ConsumerWidget {
               if (picked != null) await notifier.setReminderTime(picked);
             },
           ),
-          const _SectionHeader('Offline-Übersetzung'),
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16),
-            child: Text(
-              'Für Wörter, die nicht in der Vokabeldatenbank stehen (z. B. beim Foto-Import). Optional.',
+          if (ref.watch(onDeviceMlAvailableProvider)) ...[
+            const _SectionHeader('Offline-Übersetzung'),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Text(
+                'Für Wörter, die nicht in der Vokabeldatenbank stehen (z. B. beim Foto-Import). Optional.',
+              ),
             ),
-          ),
-          const OfflineTranslationSection(),
+            const OfflineTranslationSection(),
+          ],
+          const _SectionHeader('Daten sichern'),
+          const BackupSection(),
           const _SectionHeader('Datenschutz'),
           const ListTile(
             leading: Icon(Icons.lock_outline),
             title: Text('Alle Daten bleiben auf diesem Gerät'),
             subtitle: Text(
-              'Kein Account, keine Cloud, keine Analytics. Beim Löschen der App gehen die Daten verloren.',
+              'Kein Account, keine Cloud, keine Analytics. Ohne Sicherung gehen die Daten beim Löschen der App verloren.',
             ),
           ),
           AboutListTile(

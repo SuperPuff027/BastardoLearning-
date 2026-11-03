@@ -5,7 +5,9 @@ import 'dart:ui' show Size;
 import 'package:barstardo_learning/app/app.dart';
 import 'package:barstardo_learning/app/providers.dart';
 import 'package:barstardo_learning/data/database.dart';
+import 'package:barstardo_learning/data/media/file_media_store.dart';
 import 'package:barstardo_learning/data/media/media_store.dart';
+import 'package:barstardo_learning/data/vocab/vocab_open_io.dart';
 import 'package:barstardo_learning/data/vocab/vocab_repository.dart';
 import 'package:barstardo_learning/features/scan/scan_services.dart';
 import 'package:barstardo_learning/features/settings/app_settings.dart';
@@ -28,17 +30,25 @@ class TestEnv {
       ),
     );
     final dir = Directory.systemTemp.createTempSync('barstardo_widget');
-    return TestEnv._(db, dir, MediaStore(dir));
+    return TestEnv._(db, dir, FileMediaStore(dir));
   }
 
   final AppDatabase db;
   final Directory dir;
-  final MediaStore media;
+  final FileMediaStore media;
 
   /// Datei, die der Fake-Bildwähler zurückgibt (null = Abbruch).
   File? pickedImage;
 
   final ocr = FakeTextRecognition();
+
+  /// Simulierte Sicherungsdateien (Speichern/Öffnen).
+  Uint8List? savedBackup;
+  String? savedBackupName;
+  Uint8List? backupToOpen;
+
+  /// Simuliert die Browser-Version (keine Texterkennung auf dem Gerät).
+  bool webMode = false;
   final translation = FakeTranslation();
 
   Future<void> dispose() async {
@@ -62,12 +72,31 @@ class TestEnv {
           databaseProvider.overrideWithValue(db),
           initialSettingsProvider.overrideWithValue(settings),
           mediaStoreProvider.overrideWithValue(media),
-          imagePickerProvider.overrideWithValue((_) async => pickedImage),
+          imagePickerProvider.overrideWithValue((_) async {
+            final f = pickedImage;
+            if (f == null) return null;
+            return PickedImage(
+              bytes: f.readAsBytesSync(),
+              name: f.uri.pathSegments.last,
+              path: f.path,
+            );
+          }),
           randomProvider.overrideWithValue(Random(42)),
           vocabRepositoryProvider.overrideWithValue(sharedVocab),
           textRecognitionProvider.overrideWithValue(ocr),
           languageIdProvider.overrideWithValue(FakeLanguageId()),
           translationProvider.overrideWithValue(translation),
+          onDeviceMlAvailableProvider.overrideWithValue(!webMode),
+          backupFileIoProvider.overrideWithValue(
+            BackupFileIo(
+              save: (name, bytes) async {
+                savedBackupName = name;
+                savedBackup = bytes;
+                return true;
+              },
+              open: () async => backupToOpen,
+            ),
+          ),
         ],
         child: const BarstardoApp(),
       ),
@@ -77,9 +106,7 @@ class TestEnv {
 }
 
 /// Mitgelieferte Vokabeldatenbank, einmal pro Testlauf geöffnet.
-final VocabRepository sharedVocab = VocabRepository.open(
-  VocabRepository.assetPath,
-);
+final VocabRepository sharedVocab = openVocabFile(VocabRepository.assetPath);
 
 /// Lässt echte Datei-I/O laufen. Jeder I/O-Schritt braucht eine echte
 /// Event-Loop-Runde, daher mehrere Durchläufe mit Pump dazwischen.
@@ -97,7 +124,7 @@ class FakeTextRecognition implements TextRecognitionService {
   List<String> lines = [];
 
   @override
-  Future<List<String>> recognizeLines(File image) async => lines;
+  Future<List<String>> recognizeLines(PickedImage image) async => lines;
 }
 
 class FakeLanguageId implements LanguageIdService {

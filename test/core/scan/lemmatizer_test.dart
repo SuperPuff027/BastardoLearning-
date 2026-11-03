@@ -1,4 +1,5 @@
 import 'package:barstardo_learning/core/scan/lemmatizer.dart';
+import 'package:barstardo_learning/data/vocab/vocab_open_io.dart';
 import 'package:barstardo_learning/data/vocab/vocab_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -8,7 +9,7 @@ void main() {
   late Lemmatizer lem;
 
   setUpAll(() {
-    vocab = VocabRepository.open(VocabRepository.assetPath);
+    vocab = openVocabFile(VocabRepository.assetPath);
     lem = Lemmatizer(vocab.lookupForeign);
   });
   tearDownAll(() => vocab.close());

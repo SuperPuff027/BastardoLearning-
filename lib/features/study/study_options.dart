@@ -175,11 +175,11 @@ class _OptionsSheetState extends State<_OptionsSheet> {
                 ),
                 ButtonSegment(
                   value: QuizDirection.foreignToGerman,
-                  label: Text('Fremd → DE'),
+                  label: Text('Fremd » DE'),
                 ),
                 ButtonSegment(
                   value: QuizDirection.germanToForeign,
-                  label: Text('DE → Fremd'),
+                  label: Text('DE » Fremd'),
                 ),
               ],
               selected: {_o.direction},

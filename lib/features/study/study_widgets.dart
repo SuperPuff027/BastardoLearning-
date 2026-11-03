@@ -81,8 +81,8 @@ class PromptCard extends StatelessWidget {
             card: card,
             foreignSide: foreign,
             label: foreign
-                ? '$languageLabel → Deutsch'
-                : 'Deutsch → $languageLabel',
+                ? '$languageLabel » Deutsch'
+                : 'Deutsch » $languageLabel',
           ),
         ),
       ),

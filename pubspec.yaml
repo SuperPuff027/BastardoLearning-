@@ -47,6 +47,9 @@ dependencies:
   google_mlkit_text_recognition: ^0.17.1
   google_mlkit_language_id: ^0.15.1
   google_mlkit_translation: ^0.15.1
+  typed_data: ^1.4.0
+  web: ^1.1.2
+  file_picker: ^13.3.2
 
 dev_dependencies:
   flutter_test:

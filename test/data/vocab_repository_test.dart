@@ -1,4 +1,5 @@
 import 'package:barstardo_learning/data/vocab/vocab_entry.dart';
+import 'package:barstardo_learning/data/vocab/vocab_open_io.dart';
 import 'package:barstardo_learning/data/vocab/vocab_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -6,7 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   late VocabRepository vocab;
 
-  setUpAll(() => vocab = VocabRepository.open(VocabRepository.assetPath));
+  setUpAll(() => vocab = openVocabFile(VocabRepository.assetPath));
   tearDownAll(() => vocab.close());
 
   test('Datenbank enthält je ~1.000 Einträge und Lizenzhinweis', () {

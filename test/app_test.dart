@@ -85,7 +85,12 @@ void main() {
       find.byKey(const Key('ttsSwitch')),
     );
 
-    await tester.ensureVisible(find.byKey(const Key('reminderTimeTile')));
+    await tester.scrollUntilVisible(
+      find.byKey(const Key('remindersSwitch')),
+      100,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.ensureVisible(find.byKey(const Key('remindersSwitch')));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('remindersSwitch')));
     await tester.pumpAndSettle();

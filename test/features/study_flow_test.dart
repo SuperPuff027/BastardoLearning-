@@ -49,7 +49,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(Key(modeKey)));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Fremd → DE'));
+    await tester.tap(find.text('Fremd » DE'));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('startStudy')));
     await tester.pumpAndSettle();
@@ -142,7 +142,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('mode-write')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('DE → Fremd'));
+    await tester.tap(find.text('DE » Fremd'));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('startStudy')));
     await tester.pumpAndSettle();
@@ -204,7 +204,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('mode-test')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Fremd → DE'));
+    await tester.tap(find.text('Fremd » DE'));
     for (final t in ['Multiple Choice', 'Wahr/Falsch', 'Zuordnen']) {
       await tester.tap(find.widgetWithText(FilterChip, t));
       await tester.pumpAndSettle();
@@ -311,7 +311,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('mode-flashcards')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Fremd → DE'));
+    await tester.tap(find.text('Fremd » DE'));
     await tester.tap(find.byKey(const Key('optionStarred')));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('startStudy')));

@@ -34,7 +34,7 @@ class LibraryScreen extends ConsumerWidget {
               return const PlaceholderView(
                 icon: Icons.collections_bookmark_outlined,
                 title: 'Noch keine Sets',
-                message: 'Lege mit „Neu“ dein erstes Set oder einen Ordner an.',
+                message: 'Tippe auf „Neu“: selbst anlegen, vorgefertigt aus der Vokabeldatenbank oder aus einem Foto bzw. Text.',
               );
             }
             return ListView(

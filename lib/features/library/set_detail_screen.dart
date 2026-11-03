@@ -333,7 +333,7 @@ class _Header extends StatelessWidget {
         crossAxisAlignment: WrapCrossAlignment.center,
         children: [
           Text(
-            '${lang?.flag ?? ''} ${StudyLanguage.labelFor(set.language)} ↔ Deutsch · '
+            '${lang?.flag ?? ''} ${StudyLanguage.labelFor(set.language)} – Deutsch · '
             '$cardCount ${cardCount == 1 ? 'Karte' : 'Karten'}',
             style: theme.textTheme.bodyMedium,
           ),

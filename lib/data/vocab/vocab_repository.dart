@@ -1,44 +1,18 @@
-import 'dart:io';
-
-import 'package:flutter/services.dart';
-import 'package:path/path.dart' as p;
-import 'package:sqlite3/sqlite3.dart';
+import 'package:sqlite3/common.dart';
 
 import '../../core/learning/grading.dart' show foldAccents;
 import 'vocab_entry.dart';
 
 /// Lesezugriff auf die mitgelieferte Vokabeldatenbank (assets/vocab/vocab.db).
 ///
-/// Die Datei wird beim ersten Start (und nach App-Updates mit neuer Datenbank)
-/// aus den Assets ins App-Verzeichnis kopiert und schreibgeschützt geöffnet.
+/// Geöffnet über `installVocab` (Handy) bzw. `loadVocabWeb` (Browser),
+/// immer schreibgeschützt.
 class VocabRepository {
   VocabRepository(this._db);
 
-  /// Öffnet eine vorhandene Datei (Tests, Werkzeuge).
-  factory VocabRepository.open(String path) =>
-      VocabRepository(sqlite3.open(path, mode: OpenMode.readOnly));
-
   static const assetPath = 'assets/vocab/vocab.db';
 
-  /// Kopiert die Datenbank aus den Assets nach [directory], falls sie fehlt
-  /// oder sich geändert hat, und öffnet sie.
-  static Future<VocabRepository> install(
-    Directory directory, {
-    AssetBundle? bundle,
-  }) async {
-    final data = await (bundle ?? rootBundle).load(assetPath);
-    final file = File(p.join(directory.path, 'vocab.db'));
-    if (!await file.exists() || await file.length() != data.lengthInBytes) {
-      await directory.create(recursive: true);
-      await file.writeAsBytes(
-        data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes),
-        flush: true,
-      );
-    }
-    return VocabRepository.open(file.path);
-  }
-
-  final Database _db;
+  final CommonDatabase _db;
 
   void close() => _db.close();
 

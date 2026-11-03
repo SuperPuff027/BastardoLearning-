@@ -110,3 +110,12 @@ class Settings extends Table {
   @override
   Set<Column> get primaryKey => {key};
 }
+
+/// Bilder/Audio im Browser (Web hat kein Dateisystem). Auf dem Handy leer.
+class MediaBlobs extends Table {
+  TextColumn get key => text()();
+  BlobColumn get data => blob()();
+
+  @override
+  Set<Column> get primaryKey => {key};
+}

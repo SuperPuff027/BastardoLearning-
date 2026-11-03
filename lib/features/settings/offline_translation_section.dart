@@ -104,7 +104,7 @@ class _OfflineTranslationSectionState
           ListTile(
             key: Key('translationModel-${l.code}'),
             leading: Text(l.flag, style: const TextStyle(fontSize: 22)),
-            title: Text('${l.label} → Deutsch'),
+            title: Text('${l.label} » Deutsch'),
             subtitle: Text(switch (_ready[l]) {
               true => 'Geladen – übersetzt offline',
               false => 'Nicht geladen',

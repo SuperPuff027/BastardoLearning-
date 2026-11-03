@@ -3335,6 +3335,214 @@ class SettingsCompanion extends UpdateCompanion<Setting> {
   }
 }
 
+class $MediaBlobsTable extends MediaBlobs
+    with TableInfo<$MediaBlobsTable, MediaBlob> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $MediaBlobsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _keyMeta = const VerificationMeta('key');
+  @override
+  late final GeneratedColumn<String> key = GeneratedColumn<String>(
+    'key',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _dataMeta = const VerificationMeta('data');
+  @override
+  late final GeneratedColumn<Uint8List> data = GeneratedColumn<Uint8List>(
+    'data',
+    aliasedName,
+    false,
+    type: DriftSqlType.blob,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [key, data];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'media_blobs';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<MediaBlob> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('key')) {
+      context.handle(
+        _keyMeta,
+        key.isAcceptableOrUnknown(data['key']!, _keyMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_keyMeta);
+    }
+    if (data.containsKey('data')) {
+      context.handle(
+        _dataMeta,
+        this.data.isAcceptableOrUnknown(data['data']!, _dataMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_dataMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {key};
+  @override
+  MediaBlob map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return MediaBlob(
+      key: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}key'],
+      )!,
+      data: attachedDatabase.typeMapping.read(
+        DriftSqlType.blob,
+        data['${effectivePrefix}data'],
+      )!,
+    );
+  }
+
+  @override
+  $MediaBlobsTable createAlias(String alias) {
+    return $MediaBlobsTable(attachedDatabase, alias);
+  }
+}
+
+class MediaBlob extends DataClass implements Insertable<MediaBlob> {
+  final String key;
+  final Uint8List data;
+  const MediaBlob({required this.key, required this.data});
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['key'] = Variable<String>(key);
+    map['data'] = Variable<Uint8List>(data);
+    return map;
+  }
+
+  MediaBlobsCompanion toCompanion(bool nullToAbsent) {
+    return MediaBlobsCompanion(key: Value(key), data: Value(data));
+  }
+
+  factory MediaBlob.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return MediaBlob(
+      key: serializer.fromJson<String>(json['key']),
+      data: serializer.fromJson<Uint8List>(json['data']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'key': serializer.toJson<String>(key),
+      'data': serializer.toJson<Uint8List>(data),
+    };
+  }
+
+  MediaBlob copyWith({String? key, Uint8List? data}) =>
+      MediaBlob(key: key ?? this.key, data: data ?? this.data);
+  MediaBlob copyWithCompanion(MediaBlobsCompanion data) {
+    return MediaBlob(
+      key: data.key.present ? data.key.value : this.key,
+      data: data.data.present ? data.data.value : this.data,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('MediaBlob(')
+          ..write('key: $key, ')
+          ..write('data: $data')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(key, $driftBlobEquality.hash(data));
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is MediaBlob &&
+          other.key == this.key &&
+          $driftBlobEquality.equals(other.data, this.data));
+}
+
+class MediaBlobsCompanion extends UpdateCompanion<MediaBlob> {
+  final Value<String> key;
+  final Value<Uint8List> data;
+  final Value<int> rowid;
+  const MediaBlobsCompanion({
+    this.key = const Value.absent(),
+    this.data = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  MediaBlobsCompanion.insert({
+    required String key,
+    required Uint8List data,
+    this.rowid = const Value.absent(),
+  }) : key = Value(key),
+       data = Value(data);
+  static Insertable<MediaBlob> custom({
+    Expression<String>? key,
+    Expression<Uint8List>? data,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (key != null) 'key': key,
+      if (data != null) 'data': data,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  MediaBlobsCompanion copyWith({
+    Value<String>? key,
+    Value<Uint8List>? data,
+    Value<int>? rowid,
+  }) {
+    return MediaBlobsCompanion(
+      key: key ?? this.key,
+      data: data ?? this.data,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (key.present) {
+      map['key'] = Variable<String>(key.value);
+    }
+    if (data.present) {
+      map['data'] = Variable<Uint8List>(data.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('MediaBlobsCompanion(')
+          ..write('key: $key, ')
+          ..write('data: $data, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -3346,6 +3554,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $ReviewLogsTable reviewLogs = $ReviewLogsTable(this);
   late final $GameScoresTable gameScores = $GameScoresTable(this);
   late final $SettingsTable settings = $SettingsTable(this);
+  late final $MediaBlobsTable mediaBlobs = $MediaBlobsTable(this);
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -3359,6 +3568,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     reviewLogs,
     gameScores,
     settings,
+    mediaBlobs,
   ];
   @override
   StreamQueryUpdateRules get streamUpdateRules => const StreamQueryUpdateRules([
@@ -6606,6 +6816,143 @@ typedef $$SettingsTableProcessedTableManager =
       Setting,
       PrefetchHooks Function()
     >;
+typedef $$MediaBlobsTableCreateCompanionBuilder = MediaBlobsCompanion Function({
+  required String key,
+  required Uint8List data,
+  Value<int> rowid,
+});
+typedef $$MediaBlobsTableUpdateCompanionBuilder = MediaBlobsCompanion Function({
+  Value<String> key,
+  Value<Uint8List> data,
+  Value<int> rowid,
+});
+
+class $$MediaBlobsTableFilterComposer
+    extends Composer<_$AppDatabase, $MediaBlobsTable> {
+  $$MediaBlobsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get key => $composableBuilder(
+    column: $table.key,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<Uint8List> get data => $composableBuilder(
+    column: $table.data,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$MediaBlobsTableOrderingComposer
+    extends Composer<_$AppDatabase, $MediaBlobsTable> {
+  $$MediaBlobsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get key => $composableBuilder(
+    column: $table.key,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<Uint8List> get data => $composableBuilder(
+    column: $table.data,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$MediaBlobsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $MediaBlobsTable> {
+  $$MediaBlobsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get key =>
+      $composableBuilder(column: $table.key, builder: (column) => column);
+
+  GeneratedColumn<Uint8List> get data =>
+      $composableBuilder(column: $table.data, builder: (column) => column);
+}
+
+class $$MediaBlobsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $MediaBlobsTable,
+          MediaBlob,
+          $$MediaBlobsTableFilterComposer,
+          $$MediaBlobsTableOrderingComposer,
+          $$MediaBlobsTableAnnotationComposer,
+          $$MediaBlobsTableCreateCompanionBuilder,
+          $$MediaBlobsTableUpdateCompanionBuilder,
+          (
+            MediaBlob,
+            BaseReferences<_$AppDatabase, $MediaBlobsTable, MediaBlob>,
+          ),
+          MediaBlob,
+          PrefetchHooks Function()
+        > {
+  $$MediaBlobsTableTableManager(_$AppDatabase db, $MediaBlobsTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$MediaBlobsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$MediaBlobsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$MediaBlobsTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback: ({
+            Value<String> key = const Value.absent(),
+            Value<Uint8List> data = const Value.absent(),
+            Value<int> rowid = const Value.absent(),
+          }) => MediaBlobsCompanion(key: key, data: data, rowid: rowid),
+          createCompanionCallback: ({
+            required String key,
+            required Uint8List data,
+            Value<int> rowid = const Value.absent(),
+          }) => MediaBlobsCompanion.insert(key: key, data: data, rowid: rowid),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$MediaBlobsTable, MediaBlob>(table),
+                  BaseReferences<_$AppDatabase, $MediaBlobsTable, MediaBlob>(
+                    db,
+                    table,
+                    e,
+                  ),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$MediaBlobsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $MediaBlobsTable,
+      MediaBlob,
+      $$MediaBlobsTableFilterComposer,
+      $$MediaBlobsTableOrderingComposer,
+      $$MediaBlobsTableAnnotationComposer,
+      $$MediaBlobsTableCreateCompanionBuilder,
+      $$MediaBlobsTableUpdateCompanionBuilder,
+      (MediaBlob, BaseReferences<_$AppDatabase, $MediaBlobsTable, MediaBlob>),
+      MediaBlob,
+      PrefetchHooks Function()
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -6625,4 +6972,6 @@ class $AppDatabaseManager {
       $$GameScoresTableTableManager(_db, _db.gameScores);
   $$SettingsTableTableManager get settings =>
       $$SettingsTableTableManager(_db, _db.settings);
+  $$MediaBlobsTableTableManager get mediaBlobs =>
+      $$MediaBlobsTableTableManager(_db, _db.mediaBlobs);
 }

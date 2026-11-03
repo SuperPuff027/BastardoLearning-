@@ -1,14 +1,15 @@
-import 'dart:io';
-
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_mlkit_language_id/google_mlkit_language_id.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 import 'package:google_mlkit_translation/google_mlkit_translation.dart';
 
+import '../../data/media/media_store.dart';
+
 /// Texterkennung (OCR) auf dem Gerät.
 abstract class TextRecognitionService {
   /// Erkannte Zeilen in Lesereihenfolge.
-  Future<List<String>> recognizeLines(File image);
+  Future<List<String>> recognizeLines(PickedImage image);
 }
 
 /// Spracherkennung auf dem Gerät.
@@ -34,11 +35,15 @@ abstract class TranslationService {
 
 class MlKitTextRecognition implements TextRecognitionService {
   @override
-  Future<List<String>> recognizeLines(File image) async {
+  Future<List<String>> recognizeLines(PickedImage image) async {
+    final path = image.path;
+    if (path == null) {
+      throw UnsupportedError('Texterkennung ist im Browser nicht verfügbar');
+    }
     final recognizer = TextRecognizer(script: TextRecognitionScript.latin);
     try {
       final result = await recognizer.processImage(
-        InputImage.fromFilePath(image.path),
+        InputImage.fromFilePath(path),
       );
       return [
         for (final block in result.blocks)
@@ -146,3 +151,7 @@ final languageIdProvider = Provider<LanguageIdService>(
 final translationProvider = Provider<TranslationService>(
   (ref) => MlKitTranslation(),
 );
+
+/// Texterkennung und Übersetzung auf dem Gerät gibt es nur in der Handy-App
+/// (ML Kit). Im Browser nutzt man stattdessen Live Text des iPhones.
+final onDeviceMlAvailableProvider = Provider<bool>((ref) => !kIsWeb);

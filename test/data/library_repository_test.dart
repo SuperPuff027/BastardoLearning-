@@ -4,7 +4,7 @@ import 'package:barstardo_learning/core/import_parser.dart';
 import 'package:barstardo_learning/core/rich_text.dart';
 import 'package:barstardo_learning/data/database.dart';
 import 'package:barstardo_learning/data/library_repository.dart';
-import 'package:barstardo_learning/data/media/media_store.dart';
+import 'package:barstardo_learning/data/media/file_media_store.dart';
 import 'package:drift/drift.dart' hide isNull, isNotNull;
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -12,7 +12,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   late AppDatabase db;
   late Directory tmp;
-  late MediaStore media;
+  late FileMediaStore media;
   late LibraryRepository repo;
 
   setUp(() async {
@@ -23,7 +23,7 @@ void main() {
       ),
     );
     tmp = await Directory.systemTemp.createTemp('barstardo_test');
-    media = MediaStore(tmp);
+    media = FileMediaStore(tmp);
     repo = LibraryRepository(db, media);
   });
 
@@ -46,7 +46,7 @@ void main() {
 
   Future<String> fakeImage() async {
     final f = File('${tmp.path}/src.jpg')..writeAsStringSync('bild');
-    return media.import(f);
+    return media.importBytes(f.readAsBytesSync(), extension: '.jpg');
   }
 
   group('Ordner', () {

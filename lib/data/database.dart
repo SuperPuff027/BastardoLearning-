@@ -17,14 +17,24 @@ part 'database.g.dart';
     ReviewLogs,
     GameScores,
     Settings,
+    MediaBlobs,
   ],
 )
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor])
-    : super(executor ?? driftDatabase(name: 'barstardo_learning'));
+    : super(
+        executor ??
+            driftDatabase(
+              name: 'barstardo_learning',
+              web: DriftWebOptions(
+                sqlite3Wasm: Uri.parse('sqlite3.wasm'),
+                driftWorker: Uri.parse('drift_worker.js'),
+              ),
+            ),
+      );
 
   @override
-  int get schemaVersion => 2;
+  int get schemaVersion => 3;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -33,6 +43,10 @@ class AppDatabase extends _$AppDatabase {
       if (from < 2) {
         // Schema 2: FSRS-Bewertung im Abfrageprotokoll
         await m.addColumn(reviewLogs, reviewLogs.rating);
+      }
+      if (from < 3) {
+        // Schema 3: Medien-Ablage für die Web-Version
+        await m.createTable(mediaBlobs);
       }
     },
     beforeOpen: (details) async {
