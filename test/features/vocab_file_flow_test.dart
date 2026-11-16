@@ -47,4 +47,29 @@ void main() {
     expect(sets.map((s) => s.title).toSet(), {'Unidad 2', 'Unidad 4'});
     expect((await env.db.select(env.db.cards).get()), hasLength(3));
   });
+
+  testWidgets('Türkische Datei: Sprache wird aus der Kopfzeile übernommen', (
+    tester,
+  ) async {
+    env.vocabFileToPick = (
+      name: 'tuerkisch.csv',
+      bytes: utf8.encode(
+        'türkisch;deutsch;lektion\n'
+        '(+İ) açmak;… öffnen;Wörter A\n'
+        'Açım.;Ich habe Hunger.;Sätze & Wendungen A–H\n',
+      ),
+    );
+    await env.pumpApp(tester);
+    await tester.tap(find.byKey(const Key('libraryAdd')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('createFromFile')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('pickVocabFile')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('runFileImport')));
+    await tester.pumpAndSettle();
+    final sets = await env.db.select(env.db.sets).get();
+    expect(sets.map((s) => s.language).toSet(), {'tr'});
+    expect(sets, hasLength(2));
+  });
 }

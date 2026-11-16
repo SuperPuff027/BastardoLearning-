@@ -49,6 +49,10 @@ class _VocabFileImportScreenState extends ConsumerState<VocabFileImportScreen> {
       _file = file;
       _fileName = picked.name;
       _name.text = _prettyName(picked.name);
+      final hint = file.languageHint == null
+          ? null
+          : StudyLanguage.fromCode(file.languageHint!);
+      if (hint != null) _language = hint;
     });
   }
 

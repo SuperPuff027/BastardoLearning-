@@ -129,10 +129,13 @@ class VocabFileRow {
 }
 
 class VocabFile {
-  const VocabFile(this.rows, this.invalidLines);
+  const VocabFile(this.rows, this.invalidLines, {this.languageHint});
 
   final List<VocabFileRow> rows;
   final List<int> invalidLines;
+
+  /// Sprache laut Kopfzeile (`es`/`tr`), z. B. „türkisch;deutsch;lektion“.
+  final String? languageHint;
 
   /// Gruppen in natürlicher Reihenfolge („Unidad 2“ vor „Unidad 10“).
   List<String> get groups {
@@ -160,6 +163,7 @@ VocabFile parseVocabFile(String content) {
   final rows = <VocabFileRow>[];
   final invalid = <int>[];
   var headerChecked = false;
+  String? languageHint;
   for (var i = 0; i < lines.length; i++) {
     if (lines[i].trim().isEmpty) continue;
     final fields = _splitCsvLine(lines[i], sep);
@@ -168,6 +172,8 @@ VocabFile parseVocabFile(String content) {
       final joined = fields.join(' ').toLowerCase();
       if (RegExp(r'deutsch|german|übersetzung|lektion|unit|vorderseite')
           .hasMatch(joined)) {
+        if (RegExp(r't[üu]rk').hasMatch(joined)) languageHint = 'tr';
+        if (RegExp(r'spani|españ|espan').hasMatch(joined)) languageHint = 'es';
         continue;
       }
     }
@@ -182,7 +188,7 @@ VocabFile parseVocabFile(String content) {
         : null;
     rows.add(VocabFileRow(fields[0].trim(), fields[1].trim(), group));
   }
-  return VocabFile(rows, invalid);
+  return VocabFile(rows, invalid, languageHint: languageHint);
 }
 
 String _detectFileSeparator(String line) {

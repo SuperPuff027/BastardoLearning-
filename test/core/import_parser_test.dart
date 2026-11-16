@@ -114,6 +114,15 @@ void main() {
       expect(f.rows, hasLength(2));
     });
 
+    test('Sprache aus der Kopfzeile', () {
+      expect(
+        parseVocabFile('türkisch;deutsch;lektion\nev;Haus;A').languageHint,
+        'tr',
+      );
+      expect(parseVocabFile('spanisch;deutsch\ncasa;Haus').languageHint, 'es');
+      expect(parseVocabFile('casa;Haus').languageHint, isNull);
+    });
+
     test('naturalCompare', () {
       final l = ['Unidad 10', 'Unidad 2', 'Unidad 1']..sort(naturalCompare);
       expect(l, ['Unidad 1', 'Unidad 2', 'Unidad 10']);
