@@ -152,3 +152,19 @@ final backupFileIoProvider = Provider<BackupFileIo>(
     },
   ),
 );
+
+/// Eine ausgewählte Datei (Name und Inhalt).
+typedef PickedFileData = ({String name, Uint8List bytes});
+
+/// Lässt eine Textdatei (CSV/TSV/TXT) auswählen. In Tests überschreibbar.
+final pickVocabFileProvider = Provider<Future<PickedFileData?> Function()>(
+  (ref) => () async {
+    final file = await FilePicker.pickFile(
+      dialogTitle: 'Vokabeldatei öffnen',
+      type: FileType.custom,
+      allowedExtensions: const ['csv', 'tsv', 'txt'],
+    );
+    if (file == null) return null;
+    return (name: file.name, bytes: await file.xFile.readAsBytes());
+  },
+);

@@ -9,6 +9,7 @@ import '../features/library/library_screen.dart';
 import '../features/library/preset_sets_screen.dart';
 import '../features/library/set_detail_screen.dart';
 import '../features/library/set_form_screen.dart';
+import '../features/library/vocab_file_import_screen.dart';
 import '../features/progress/progress_screen.dart';
 import '../features/scan/scan_screen.dart';
 import '../features/settings/settings_screen.dart';
@@ -26,6 +27,7 @@ abstract final class Routes {
   static const settings = '/einstellungen';
 
   static const presets = '$library/vorlagen';
+  static const vocabFile = '$library/datei';
 
   static String newSet({int? folderId}) =>
       folderId == null ? '$library/neu' : '$library/neu?ordner=$folderId';
@@ -105,6 +107,10 @@ GoRouter buildRouter() => GoRouter(
                       state.uri.queryParameters['ordner'] ?? '',
                     ),
                   ),
+                ),
+                GoRoute(
+                  path: 'datei',
+                  builder: (_, _) => const VocabFileImportScreen(),
                 ),
                 GoRoute(
                   path: 'vorlagen',

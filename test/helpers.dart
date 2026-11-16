@@ -47,6 +47,9 @@ class TestEnv {
   String? savedBackupName;
   Uint8List? backupToOpen;
 
+  /// Datei, die „Vokabeldatei importieren“ auswählt.
+  PickedFileData? vocabFileToPick;
+
   /// Simuliert die Browser-Version (keine Texterkennung auf dem Gerät).
   bool webMode = false;
   final translation = FakeTranslation();
@@ -87,6 +90,7 @@ class TestEnv {
           languageIdProvider.overrideWithValue(FakeLanguageId()),
           translationProvider.overrideWithValue(translation),
           onDeviceMlAvailableProvider.overrideWithValue(!webMode),
+          pickVocabFileProvider.overrideWithValue(() async => vocabFileToPick),
           backupFileIoProvider.overrideWithValue(
             BackupFileIo(
               save: (name, bytes) async {

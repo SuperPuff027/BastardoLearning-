@@ -449,6 +449,38 @@ class LibraryRepository {
     };
   }
 
+  /// Legt aus einer Vokabeldatei einen Ordner [folderName] mit je einem Set
+  /// pro Gruppe an (ohne Gruppe: ein Set mit dem Ordnernamen).
+  /// Gibt die ID des Ordners zurück.
+  Future<int> importVocabFile({
+    required String folderName,
+    required String language,
+    required VocabFile file,
+  }) async {
+    if (file.rows.isEmpty) {
+      throw const ValidationException('Die Datei enthält keine Karten');
+    }
+    final folderId = await createFolder(folderName);
+    for (final group in file.groups) {
+      final rows = file.rows.where((r) => (r.group ?? '') == group).toList();
+      final setId = await createSet(
+        title: group.isEmpty ? folderName : group,
+        language: language,
+        folderId: folderId,
+      );
+      await addVocabCards(setId, [
+        for (final r in rows)
+          VocabCardData(
+            front: r.front,
+            back: r.back,
+            vocabId: null,
+            verified: true,
+          ),
+      ]);
+    }
+    return folderId;
+  }
+
   /// Hängt Karten aus der Vokabeldatenbank an ein Set an.
   Future<int> addVocabCards(int setId, List<VocabCardData> cards) async {
     if (cards.isEmpty) return 0;

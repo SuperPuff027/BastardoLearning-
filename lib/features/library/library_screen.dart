@@ -75,37 +75,49 @@ class LibraryScreen extends ConsumerWidget {
     final choice = await showModalBottomSheet<String>(
       context: context,
       showDragHandle: true,
+      isScrollControlled: true,
       builder: (context) => SafeArea(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            ListTile(
-              leading: const Icon(Icons.style_outlined),
-              title: const Text('Neues Set'),
-              onTap: () => Navigator.of(context).pop('set'),
-            ),
-            ListTile(
-              key: const Key('createScan'),
-              leading: const Icon(Icons.document_scanner_outlined),
-              title: const Text('Aus Foto oder Text'),
-              subtitle: const Text('Wörter erkennen, auch handgeschrieben'),
-              onTap: () => Navigator.of(context).pop('scan'),
-            ),
-            ListTile(
-              key: const Key('createPreset'),
-              leading: const Icon(Icons.auto_stories_outlined),
-              title: const Text('Vorgefertigtes Set'),
-              subtitle: const Text(
-                'Aus der Vokabeldatenbank nach Niveau und Thema',
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ListTile(
+                leading: const Icon(Icons.style_outlined),
+                title: const Text('Neues Set'),
+                onTap: () => Navigator.of(context).pop('set'),
               ),
-              onTap: () => Navigator.of(context).pop('preset'),
-            ),
-            ListTile(
-              leading: const Icon(Icons.create_new_folder_outlined),
-              title: const Text('Neuer Ordner'),
-              onTap: () => Navigator.of(context).pop('folder'),
-            ),
-          ],
+              ListTile(
+                key: const Key('createScan'),
+                leading: const Icon(Icons.document_scanner_outlined),
+                title: const Text('Aus Foto oder Text'),
+                subtitle: const Text('Wörter erkennen, auch handgeschrieben'),
+                onTap: () => Navigator.of(context).pop('scan'),
+              ),
+              ListTile(
+                key: const Key('createPreset'),
+                leading: const Icon(Icons.auto_stories_outlined),
+                title: const Text('Vorgefertigtes Set'),
+                subtitle: const Text(
+                  'Aus der Vokabeldatenbank nach Niveau und Thema',
+                ),
+                onTap: () => Navigator.of(context).pop('preset'),
+              ),
+              ListTile(
+                key: const Key('createFromFile'),
+                leading: const Icon(Icons.upload_file_outlined),
+                title: const Text('Vokabeldatei importieren'),
+                subtitle: const Text(
+                  'CSV mit Lektionen, z. B. Wortschatz aus dem Lehrbuch',
+                ),
+                onTap: () => Navigator.of(context).pop('file'),
+              ),
+              ListTile(
+                leading: const Icon(Icons.create_new_folder_outlined),
+                title: const Text('Neuer Ordner'),
+                onTap: () => Navigator.of(context).pop('folder'),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -115,6 +127,8 @@ class LibraryScreen extends ConsumerWidget {
         context.go(Routes.newSet());
       case 'preset':
         context.go(Routes.presets);
+      case 'file':
+        context.go(Routes.vocabFile);
       case 'scan':
         context.push(Routes.scan());
       case 'folder':

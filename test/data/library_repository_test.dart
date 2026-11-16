@@ -310,4 +310,33 @@ void main() {
       ]);
     });
   });
+
+  test('importVocabFile: Ordner mit einem Set pro Lektion', () async {
+    final file = parseVocabFile(
+      'spanisch;deutsch;lektion\n'
+      'el aeropuerto;Flughafen;Unidad 4\n'
+      'abierto/a;offen;Unidad 2\n'
+      'aparcar;parken;Unidad 4\n',
+    );
+    final folderId = await repo.importVocabFile(
+      folderName: 'Aula 3',
+      language: 'es',
+      file: file,
+    );
+    final sets = await repo.watchSets(folderId: folderId).first;
+    expect(sets.map((s) => s.set.title).toSet(), {'Unidad 2', 'Unidad 4'});
+    final u4 = sets.firstWhere((s) => s.set.title == 'Unidad 4');
+    expect(u4.cardCount, 2);
+    final cards = await repo.watchCards(u4.set.id).first;
+    expect(cards.map((c) => c.front), ['el aeropuerto', 'aparcar']);
+    expect(cards.every((c) => c.verified), isTrue);
+    expect(
+      repo.importVocabFile(
+        folderName: 'Leer',
+        language: 'es',
+        file: parseVocabFile(''),
+      ),
+      throwsA(isA<ValidationException>()),
+    );
+  });
 }

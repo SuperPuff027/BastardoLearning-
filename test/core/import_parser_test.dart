@@ -82,4 +82,41 @@ void main() {
       expect(detectSeparator('a - b\nc - d'), ImportSeparator.dash);
     });
   });
+
+  group('parseVocabFile', () {
+    test('Kopfzeile, Semikolon, Lektionen, Anführungszeichen', () {
+      final f = parseVocabFile(
+        '\uFEFFspanisch;deutsch;lektion\n'
+        'el aeropuerto;Flughafen;Unidad 4\n'
+        '¡qué fuerte!;"ein starkes Stück!; krass!";Unidad 8\n'
+        'dar (y) un "abrazo";umarmen;Unidad 10\n'
+        'kaputt\n'
+        'abierto/a;offen;Unidad 9\n',
+      );
+      expect(f.rows, hasLength(4));
+      expect(f.rows[1].back, 'ein starkes Stück!; krass!');
+      expect(f.rows[2].front, 'dar (y) un "abrazo"');
+      expect(f.groups, ['Unidad 4', 'Unidad 8', 'Unidad 9', 'Unidad 10']);
+      expect(f.invalidLines, [5]);
+    });
+
+    test('Tab und Komma ohne Lektion', () {
+      final tab = parseVocabFile('ev\tHaus\nsu\tWasser');
+      expect(tab.rows.map((r) => r.back), ['Haus', 'Wasser']);
+      expect(tab.groups, ['']);
+      final comma = parseVocabFile('casa,Haus\nperro,Hund\n');
+      expect(comma.rows.first.front, 'casa');
+    });
+
+    test('Windows-Zeilenenden, doppelte Anführungszeichen', () {
+      final f = parseVocabFile('"a ""b""";c\r\nd;e\r\n');
+      expect(f.rows.first.front, 'a "b"');
+      expect(f.rows, hasLength(2));
+    });
+
+    test('naturalCompare', () {
+      final l = ['Unidad 10', 'Unidad 2', 'Unidad 1']..sort(naturalCompare);
+      expect(l, ['Unidad 1', 'Unidad 2', 'Unidad 10']);
+    });
+  });
 }
