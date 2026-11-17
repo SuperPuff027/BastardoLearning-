@@ -34,7 +34,7 @@ class AppDatabase extends _$AppDatabase {
       );
 
   @override
-  int get schemaVersion => 3;
+  int get schemaVersion => 4;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -47,6 +47,12 @@ class AppDatabase extends _$AppDatabase {
       if (from < 3) {
         // Schema 3: Medien-Ablage für die Web-Version
         await m.createTable(mediaBlobs);
+      }
+      if (from < 4) {
+        // Schema 4: Kursordner (mitgelieferte Lehrbuch- und Niveau-Ordner)
+        await m.addColumn(folders, folders.courseKey);
+        await m.addColumn(folders, folders.language);
+        await m.addColumn(folders, folders.position);
       }
     },
     beforeOpen: (details) async {

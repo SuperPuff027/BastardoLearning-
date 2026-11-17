@@ -1,0 +1,1135 @@
+nr;typ;tuerkisch;kasus;deutsch;stichwort_nr;gruppe
+1;wort;abi;;der (ältere) Bruder;;Wörter A
+2;wort;abla;;die (ältere) Schwester;;Wörter A
+3;wort;aç;;hungrig sein, Hunger haben;;Wörter A
+4;satz;Açım.;;Ich habe Hunger.;3;Sätze & Wendungen A–H
+5;wort;açmak;İ;… öffnen;;Wörter A
+6;satz;Kapıyı açmak;;die Tür öffnen;5;Sätze & Wendungen A–H
+7;wort;ad;;der Name, der Vorname;;Wörter A
+8;satz;adım;;mein Name;7;Sätze & Wendungen A–H
+9;satz;Adın ne?;;Wie ist dein Name?;7;Sätze & Wendungen A–H
+10;satz;Adınız ne?;;Wie ist Ihr Name?;7;Sätze & Wendungen A–H
+11;wort;adımı verdiler;E;sie haben … meinen Namen gegeben;;Wörter A
+12;satz;Üniversiteye adımı verdiler.;;Sie haben der Universität meinen Namen gegeben.;11;Sätze & Wendungen A–H
+13;wort;adres;;die Adresse;;Wörter A
+14;satz;adresim;;meine Adresse;13;Sätze & Wendungen A–H
+15;satz;adresiniz;;Ihre Adresse/eure Adresse;13;Sätze & Wendungen A–H
+16;satz;Adresin ne?;;Wie ist deine Adresse?;13;Sätze & Wendungen A–H
+17;satz;Adresiniz ne?;;Wie ist Ihre/eure Adresse?;13;Sätze & Wendungen A–H
+18;wort;Afganistanlı;;aus Afghanistan (stammend);;Wörter A
+19;wort;ağrımak;;weh tun, schmerzen;;Wörter A
+20;wort;her tarafı ağrımak;(n)İn;jdm alles weh tun;;Wörter A
+21;satz;Emine’nin her tarafı ağrıyor.;;Emine tut alles weh.;20;Sätze & Wendungen A–H
+22;wort;ağustos;;der August;;Wörter A
+23;wort;Akbank;;die Akbank;;Wörter A
+24;wort;Akdeniz;;das Mittelmeer;;Wörter A
+25;wort;akıllı;;klug, schlau;;Wörter A
+26;wort;akmak;;Nase: laufen;;Wörter A
+27;wort;akraba;;der Verwandte;;Wörter A
+28;wort;akşam;;der Abend;;Wörter A
+29;wort;akvaryum;;das Aquarium;;Wörter A
+30;wort;alışveriş merkezi;;das Einkaufszentrum;;Wörter A
+31;wort;Allaha ısmarladık!;;Auf Wiedersehen! (sagt derjenige, der weggeht);;Wörter A
+32;wort;Allaha şükür.;;Gott sei Dank.;;Wörter A
+33;wort;almak;İ;… nehmen, … kaufen;;Wörter A
+34;wort;Alman;;der Deutsche, die Deutsche;;Wörter A
+35;wort;Alman pasaportu;;der deutsche Pass;;Wörter A
+36;wort;Alman vatandaşı;;der deutsche Staatsbürger;;Wörter A
+37;wort;Almanca;;Deutsch (die Sprache);;Wörter A
+38;wort;Almanya;;Deutschland;;Wörter A
+39;wort;altı;;sechs;;Wörter A
+40;wort;altmış;;sechzig;;Wörter A
+41;wort;ama;;aber;;Wörter A
+42;wort;Aman Allahım!;;Oh mein Gott!;;Wörter A
+43;wort;ana okulu;;der Kindergarten;;Wörter A
+44;wort;anlatmak;İ;… erzählen;;Wörter A
+45;wort;anne;;die Mutter;;Wörter A
+46;wort;anneanne;;die Großmutter (mütterlicherseits);;Wörter A
+47;wort;ansiklopedi;;die Enzyklopädie;;Wörter A
+48;wort;araba;;das Auto;;Wörter A
+49;wort;aralık (ğ);;der Dezember;;Wörter A
+50;wort;aramak;İ;… suchen, … anrufen;;Wörter A
+51;wort;aramaya başlamak;İ;anfangen … zu suchen;;Wörter A
+52;wort;Arap;;der Araber, die Araberin;;Wörter A
+53;wort;Arapça;;Arabisch (die Sprache);;Wörter A
+54;wort;arkadaş;;der Freund, die Freundin;;Wörter A
+55;wort;armut (d);;die Birne;;Wörter A
+56;wort;arşiv;;das Archiv;;Wörter A
+57;wort;arslan;;der Löwe;;Wörter A
+58;wort;artık;;schließlich;;Wörter A
+59;satz;Artık güzel bir kelebekti.;;Schließlich war er/sie ein schöner Schmetterling.;58;Sätze & Wendungen A–H
+60;wort;artık (+Neg.);;nicht mehr;;Wörter A
+61;wort;arzu;;der Wunsch;;Wörter A
+62;satz;Arzunuz?;;Ihr Wunsch?;61;Sätze & Wendungen A–H
+63;wort;asistan;;der Assistent, die Assistentin;;Wörter A
+64;wort;aşçı;;der Koch, die Köchin;;Wörter A
+65;wort;E aşık olmak;;in … verknallt sein, in … verliebt sein;;Wörter A
+66;satz;Bütün kızlar bana aşıktı.;;Alle Frauen waren in mich verknallt.;65;Sätze & Wendungen A–H
+67;satz;Sana aşık oldum.;;Ich habe mich in dich verliebt.;65;Sätze & Wendungen A–H
+68;satz;birbirine aşık olmak;;sich ineinander verlieben;65;Sätze & Wendungen A–H
+69;satz;Birbirimize aşık olduk.;;Wir haben uns ineinander verliebt.;65;Sätze & Wendungen A–H
+70;satz;birbirlerine aşık olmak;;ineinander verliebt sein;65;Sätze & Wendungen A–H
+71;satz;Birbirimize aşığız.;;Wir sind ineinander verliebt.;65;Sätze & Wendungen A–H
+72;wort;at (t);;das Pferd;;Wörter A
+73;wort;ateş;;"das Feuer; das Fieber";;Wörter A
+74;wort;ateş düşürücü ilaç;;das fiebersenkende Medikament;;Wörter A
+75;wort;ateş gibi yanmak;;Stirn: heiß sein, glühen;;Wörter A
+76;wort;atletik;;athletisch;;Wörter A
+77;wort;avukat (t);;der Anwalt, die Anwältin;;Wörter A
+78;wort;ay;;"der Monat; der Mond";;Wörter A
+79;satz;… ayında;;im (Monat) …;78;Sätze & Wendungen A–H
+80;satz;Mart ayında doğdum.;;Ich bin im (Monat) März geboren.;78;Sätze & Wendungen A–H
+81;satz;ay ışığının altında;;unter dem Mondlicht;78;Sätze & Wendungen A–H
+82;wort;aydınlık;;hell, erleuchtet;;Wörter A
+83;wort;aynı …;;der/die/das gleiche …;;Wörter A
+84;wort;aynı sınıf;;die gleiche Klasse;;Wörter A
+85;wort;ayrıca;;zusätzlich, darüber hinaus;;Wörter A
+86;wort;az sonra;;wenig später, kurz danach;;Wörter A
+87;wort;baba;;der Vater;;Wörter B
+88;satz;babam;;mein Vater;87;Sätze & Wendungen A–H
+89;satz;baban;;dein Vater;87;Sätze & Wendungen A–H
+90;wort;babaanne;;die Großmutter (väterlicherseits);;Wörter B
+91;wort;Bademli;;(ein Stadtteil von Bursa);;Wörter B
+92;wort;bakkal;;der Krämer;;Wörter B
+93;wort;baklava;;Baklava (eine Süßspeise);;Wörter B
+94;wort;bakmak;;schauen;;Wörter B
+95;satz;Bak!;;Schau (mal)!;94;Sätze & Wendungen A–H
+96;satz;Bakar mısınız?;;Können Sie bitte einmal schauen? Kellner: Können Sie bitte einmal kommen?;94;Sätze & Wendungen A–H
+97;wort;bale;;das Ballett;;Wörter B
+98;wort;bale kıyafeti;;die Ballettbekleidung, die Ballettsachen;;Wörter B
+99;wort;bale kursu;;der Ballettkurs;;Wörter B
+100;wort;balık (ğ);;der Fisch;;Wörter B
+101;satz;balık yemek;;Fisch essen;100;Sätze & Wendungen A–H
+102;wort;balıkçı;;der Fischer;;Wörter B
+103;wort;bana;;mir;;Wörter B
+104;wort;banyo;;das Bad;;Wörter B
+105;wort;başarı;;der Erfolg;;Wörter B
+106;wort;başlamak;E;mit … anfangen;;Wörter B
+107;satz;Derse başlıyoruz.;;Wir fangen mit dem Unterricht an.;106;Sätze & Wendungen A–H
+108;wort;başka;;noch, weiter-;;Wörter B
+109;satz;Başka bir arzunuz var mı?;;Haben Sie noch einen Wunsch?;108;Sätze & Wendungen A–H
+110;satz;Başka neresi ağrıyor?;;Was tut ihm/ihr sonst noch weh?;108;Sätze & Wendungen A–H
+111;wort;bayan;;die Dame, die Frau;;Wörter B
+112;wort;bazen;;manchmal;;Wörter B
+113;wort;beğenmek;İ;… mögen;;Wörter B
+114;wort;ben;;ich;;Wörter B
+115;wort;benim …;;mein …;;Wörter B
+116;wort;beraber;;zusammen, gemeinsam;;Wörter B
+117;satz;beraber kalmak;;zusammen wohnen;116;Sätze & Wendungen A–H
+118;wort;DEn beri;;seit ...;;Wörter B
+119;satz;iki seneden beri;;seit zwei Jahren;118;Sätze & Wendungen A–H
+120;wort;beş;;fünf;;Wörter B
+121;wort;Beşiktaş;;(ein Stadtteil von Istanbul);;Wörter B
+122;wort;bey;;der Herr (der Gesprächspartner wird gesiezt);;Wörter B
+123;satz;Hüseyin Bey oturun, lütfen.;;Bitte setzen Sie sich, Hüseyin Bey.;122;Sätze & Wendungen A–H
+124;wort;beyaz;;weiß;;Wörter B
+125;wort;beyazlamak;;weiß werden;;Wörter B
+126;wort;beyefendi;;mein Herr;;Wörter B
+127;wort;biber;;die Paprika;;Wörter B
+128;satz;biber dolması;;gefüllte Paprika;127;Sätze & Wendungen A–H
+129;wort;bile (+Neg.);;nicht einmal;;Wörter B
+130;wort;bilet (t);;die Fahrkarte, das Ticket;;Wörter B
+131;wort;bilmek;İ;… wissen, … können;;Wörter B
+132;satz;Üç dil biliyor.;;Er kann drei Sprachen.;131;Sätze & Wendungen A–H
+133;satz;Cevabı biliyorum.;;Ich weiß die Antwort.;131;Sätze & Wendungen A–H
+134;wort;bir ara;;irgendwann (einmal);;Wörter B
+135;wort;bir baştan bir başa;;von einem Ende zum anderen;;Wörter B
+136;wort;bir de;;"auch; außerdem";;Wörter B
+137;wort;bir pazar günü;;an einem Sonntag;;Wörter B
+138;wort;bir;;eins;;Wörter B
+139;wort;bir şey;;etwas;;Wörter B
+140;satz;Bir şey mi oldu?;;Ist etwas passiert?;139;Sätze & Wendungen A–H
+141;wort;bira;;das Bier;;Wörter B
+142;wort;biraz;;etwas, ein bisschen;;Wörter B
+143;wort;birçok (+Sing.);;viele;;Wörter B
+144;satz;birçok roman;;viele Romane;143;Sätze & Wendungen A–H
+145;wort;bisiklet (t);;das Fahrrad;;Wörter B
+146;satz;bisiklet ile/bisikletle;;mit dem Fahrrad;145;Sätze & Wendungen A–H
+147;wort;bitirmek;İ;… beenden;;Wörter B
+148;satz;Üniversiteyi bitirdim.;;Ich habe die Uni beendet.;147;Sätze & Wendungen A–H
+149;wort;biyoloji;;die Biologie;;Wörter B
+150;wort;biz;;wir;;Wörter B
+151;satz;bize gelmek;;zu uns kommen;150;Sätze & Wendungen A–H
+152;satz;bizimle kalmak;;mit uns zusammen wohnen;150;Sätze & Wendungen A–H
+153;wort;boksör;;der Boxer;;Wörter B
+154;wort;bronşit (t);;die Bronchitis;;Wörter B
+155;wort;bu;;dieser, dieses, diese;;Wörter B
+156;satz;bu sefer;;dieses Mal;155;Sätze & Wendungen A–H
+157;satz;Bu soru çok zor.;;Diese Frage ist sehr schwer.;155;Sätze & Wendungen A–H
+158;wort;bugün;;heute;;Wörter B
+159;wort;bugünkü;;heutig;;Wörter B
+160;wort;buluşmak;… ile;sich mit … treffen;;Wörter B
+161;satz;Dün arkadaşlarla/arkadaşlar ile;;Gestern habe ich mich mit den Freunden;160;Sätze & Wendungen A–H
+162;satz;buluştum.;;getroffen.;160;Sätze & Wendungen A–H
+163;wort;bunun için;;deswegen;;Wörter B
+164;wort;bunun üzerine;;daraufhin;;Wörter B
+165;wort;bütün;;ganz;;Wörter B
+166;satz;bütün gece;;die ganze Nacht;165;Sätze & Wendungen A–H
+167;wort;büyük;;groß;;Wörter B
+168;wort;büyükanne;;die Großmutter;;Wörter B
+169;wort;büyükbaba;;der Großvater;;Wörter B
+170;wort;büyümek;;aufwachsen;;Wörter B
+171;wort;Buyurun!;;Bitte! (Angebot, etwas zu tun);;Wörter B
+172;satz;Buyurun sofraya!;;Bitte zu Tisch!;171;Sätze & Wendungen A–H
+173;wort;cep (b);;die Tasche (in Kleidungsstücken);;Wörter C–Ç
+174;wort;cep numarası;;die Handynummer;;Wörter C–Ç
+175;wort;cep telefonu;;das Handy;;Wörter C–Ç
+176;satz;cep (b);;das Handy (kurz für: cep telefonu);175;Sätze & Wendungen A–H
+177;wort;cevap (b);;die Antwort;;Wörter C–Ç
+178;wort;cevap vermek;E;… beantworten, eine Antwort geben;;Wörter C–Ç
+179;satz;Soruma cevap vermedin.;;Du hast meine Frage nicht beantwortet.;178;Sätze & Wendungen A–H
+180;wort;cilt (d);;die Haut;;Wörter C–Ç
+181;wort;coğrafya;;die Geographie;;Wörter C–Ç
+182;wort;cuma;;"der Freitag; am Freitag";;Wörter C–Ç
+183;satz;cuma günleri;;freitags;182;Sätze & Wendungen A–H
+184;wort;cüce;;der Zwerg;;Wörter C–Ç
+185;wort;çağırmak;İ;… rufen, … bestellen;;Wörter C–Ç
+186;satz;Annem beni çağırıyor.;;Meine Mutter ruft mich.;185;Sätze & Wendungen A–H
+187;satz;Taksi çağırdım.;;Ich habe ein Taxi bestellt.;185;Sätze & Wendungen A–H
+188;wort;çalar saat;;der Wecker;;Wörter C–Ç
+189;wort;çalışmak;;arbeiten;;Wörter C–Ç
+190;wort;çalmak;;Wecker: klingeln;;Wörter C–Ç
+191;wort;çanta;;die Tasche;;Wörter C–Ç
+192;wort;çay;;der Tee;;Wörter C–Ç
+193;wort;çelik (ğ);;der Stahl;;Wörter C–Ç
+194;wort;çiftlik (ğ);;der Bauernhof;;Wörter C–Ç
+195;wort;çıkmak;;rauskommen, weggehen;;Wörter C–Ç
+196;wort;çikolata;;die Schokolade;;Wörter C–Ç
+197;wort;çikolatalı;;mit Schokolade;;Wörter C–Ç
+198;wort;çilek (ğ);;die Erdbeere;;Wörter C–Ç
+199;wort;Çin;;China;;Wörter C–Ç
+200;wort;Çince;;Chinesisch (die Sprache);;Wörter C–Ç
+201;wort;Çinli;;der Chinese, die Chinesin;;Wörter C–Ç
+202;wort;çoban;;der Schäfer;;Wörter C–Ç
+203;satz;çoban salatası;;der Hirtensalat;202;Sätze & Wendungen A–H
+204;wort;çocuk;;das Kind;;Wörter C–Ç
+205;satz;çocuklarımla;;mit meinen Kindern;204;Sätze & Wendungen A–H
+206;wort;çocukları olmak;;Kinder bekommen;;Wörter C–Ç
+207;satz;Çocuklarımız oldu.;;Wir haben Kinder bekommen.;206;Sätze & Wendungen A–H
+208;wort;çok;;"sehr; viel";;Wörter C–Ç
+209;satz;çok hasta;;sehr krank;208;Sätze & Wendungen A–H
+210;satz;çok iyi;;sehr gut;208;Sätze & Wendungen A–H
+211;satz;çok şekerli;;mit viel Zucker;208;Sätze & Wendungen A–H
+212;satz;Çok iyi Türkçe biliyorum.;;Ich kann sehr gut Türkisch.;208;Sätze & Wendungen A–H
+213;wort;çorba;;die Suppe;;Wörter C–Ç
+214;satz;mercimek çorbası;;die Linsensuppe;213;Sätze & Wendungen A–H
+215;wort;çünkü;;denn;;Wörter C–Ç
+216;wort;daha iyi;;besser;;Wörter D
+217;wort;dakika;;die Minute;;Wörter D
+218;satz;… dakika sonra;;in … Minuten;217;Sätze & Wendungen A–H
+219;satz;On dakika sonra geliyorum.;;Ich komme in zehn Minuten.;217;Sätze & Wendungen A–H
+220;wort;Danimarka;;Dänemark;;Wörter D
+221;wort;dayı;;der Onkel (mütterlicherseits);;Wörter D
+222;wort;değil;;nicht;;Wörter D
+223;satz;değil mi?;;nicht wahr?;222;Sätze & Wendungen A–H
+224;wort;değirmenci;;der Müller;;Wörter D
+225;wort;delik (ğ);;das Loch;;Wörter D
+226;satz;delik açmak;;ein Loch machen;225;Sätze & Wendungen A–H
+227;wort;demek;;sagen;;Wörter D
+228;wort;demokrasi;;die Demokratie;;Wörter D
+229;wort;deniz;;das Meer;;Wörter D
+230;wort;dere;;der Bach;;Wörter D
+231;wort;ders;;"das Unterrichtsfach; der Unterricht";;Wörter D
+232;wort;ders vermek;;unterrichten;;Wörter D
+233;wort;dert (d);;der Kummer;;Wörter D
+234;wort;dışarı çıkmak;;nach draußen kommen, herauskommen;;Wörter D
+235;wort;dil;;"die Sprache; die Zunge";;Wörter D
+236;wort;dilim;;die Scheibe (Käse, Wurst, …);;Wörter D
+237;satz;iki dilim peynir;;zwei Scheiben Käse;236;Sätze & Wendungen A–H
+238;wort;din;;die Religion;;Wörter D
+239;wort;din dersi;;der Religionsunterricht;;Wörter D
+240;wort;diş;;der Zahn;;Wörter D
+241;satz;dişlerini fırçalamak;;sich die Zähne putzen;240;Sätze & Wendungen A–H
+242;wort;dişi;;"weiblich; das Weibchen";;Wörter D
+243;wort;doçent (t);;der Dozent, die Dozentin;;Wörter D
+244;wort;doğmak;;geboren werden;;Wörter D
+245;wort;doğmak;;Sonne: aufgehen;;Wörter D
+246;wort;doğum tarihi;;das Geburtsdatum, ihr/sein Geburtsdatum;;Wörter D
+247;satz;doğum tarihim;;mein Geburtsdatum;246;Sätze & Wendungen A–H
+248;satz;Doğum tarihin kaç?;;Wie ist dein Geburtsdatum?;246;Sätze & Wendungen A–H
+249;satz;Doğum tarihiniz kaç?;;Wie ist Ihr Geburtsdatum?;246;Sätze & Wendungen A–H
+250;wort;doğum;;die Geburt;;Wörter D
+251;wort;doksan;;neunzig;;Wörter D
+252;wort;doktor;;der Arzt, die Ärztin;;Wörter D
+253;wort;doktora yapmak;;promovieren;;Wörter D
+254;wort;dokuz;;neun;;Wörter D
+255;wort;domates;;die Tomate;;Wörter D
+256;satz;domates çorbası;;die Tomatensuppe;255;Sätze & Wendungen A–H
+257;wort;domuz;;das Schwein;;Wörter D
+258;wort;dondurma;;das Eis, das Speiseeis;;Wörter D
+259;wort;dört (d);;vier;;Wörter D
+260;wort;döviz;;die Fremdwährung, die Devisen;;Wörter D
+261;wort;dün;;gestern;;Wörter D
+262;satz;dünden beri;;seit gestern;261;Sätze & Wendungen A–H
+263;wort;durak (ğ);;die Haltestelle;;Wörter D
+264;wort;durmadan;;ununterbrochen;;Wörter D
+265;wort;durmak;;"liegen; stehen";;Wörter D
+266;wort;duş;;die Dusche;;Wörter D
+267;wort;duş almak;;duschen;;Wörter D
+268;wort;duymak;İ;… hören;;Wörter D
+269;satz;Siz de müziği duyuyor musunuz?;;Hören Sie die Musik auch?;268;Sätze & Wendungen A–H
+270;wort;edebiyat (t);;die Literatur;;Wörter E
+271;wort;efendi;;der Herr;;Wörter E
+272;wort;Efendim?;;Wie bitte?;;Wörter E
+273;wort;Ege Denizi;;die Ägäis, das ägäische Meer;;Wörter E
+274;wort;ekim;;der Oktober;;Wörter E
+275;wort;ekmek (ğ);;das Brot;;Wörter E
+276;wort;ekonomi;;die Ökonomie, die Wirtschaft;;Wörter E
+277;wort;ekonomik;;ökonomisch, wirtschaftlich;;Wörter E
+278;wort;el;;die Hand;;Wörter E
+279;satz;el ele göz göze oturmak;;Händchen halten, Händchen haltend dasitzen;278;Sätze & Wendungen A–H
+280;wort;elli;;fünfzig;;Wörter E
+281;wort;elma;;der Apfel;;Wörter E
+282;wort;emekli;;der Rentner, die Rentnerin;;Wörter E
+283;wort;emekli olmak;;in Rente sein;;Wörter E
+284;wort;emin olmak;;sicher sein;;Wörter E
+285;satz;Eminim.;;Ich bin sicher.;284;Sätze & Wendungen A–H
+286;wort;enteresan;;interessant;;Wörter E
+287;wort;entegrasyon kursu;;der Integrationskurs;;Wörter E
+288;wort;enterkültürel;;interkulturell;;Wörter E
+289;wort;enterkültürel pedagoji;;die Interkulturelle Pädagogik;;Wörter E
+290;wort;erik (ğ);;die Pflaume;;Wörter E
+291;wort;erkek (ğ);;"der Mann; männlich; das Männchen";;Wörter E
+292;wort;erkek adı;;der Jungenname, der Männername;;Wörter E
+293;wort;erkekçocuk;;der Junge;;Wörter E
+294;wort;erkekkardeş;;der (jüngere) Bruder;;Wörter E
+295;wort;erken;;früh;;Wörter E
+296;wort;Ermeni;;der Armenier, die Armenierin;;Wörter E
+297;wort;Ermenice;;Armenisch (die Sprache);;Wörter E
+298;wort;Ermenistan;;Armenien;;Wörter E
+299;wort;ertesi gün;;"der folgende Tag; am folgenden Tag";;Wörter E
+300;wort;eş;;der Partner, der Ehepartner;;Wörter E
+301;satz;eşim;;mein Partner, meine Partnerin;300;Sätze & Wendungen A–H
+302;wort;eşek (ğ);;der Esel;;Wörter E
+303;wort;eser;;das Werk;;Wörter E
+304;wort;eskiden;;früher;;Wörter E
+305;wort;etmek;;machen, tun;;Wörter E
+306;wort;ev;;"das Haus; die Wohnung";;Wörter E
+307;satz;evde;;im Haus, zu Hause;306;Sätze & Wendungen A–H
+308;satz;Ali evde değil.;;Ali ist nicht zu Hause.;306;Sätze & Wendungen A–H
+309;satz;evden çıkmak;;von zu Hause weggehen, aus dem Haus gehen;306;Sätze & Wendungen A–H
+310;wort;ev kadını;;die Hausfrau;;Wörter E
+311;wort;evet;;ja;;Wörter E
+312;wort;evlenmek;;heiraten;;Wörter E
+313;wort;ile evlenmek;…;… heiraten;;Wörter E
+314;satz;Ali Ayşe’yle evleniyor.;;Ali heiratet Ayşe.;313;Sätze & Wendungen A–H
+315;wort;evli;;verheiratet;;Wörter E
+316;wort;evlilik (ğ);;die Ehe;;Wörter E
+317;wort;eylül;;der September;;Wörter E
+318;wort;Eyvah!;;Oh weh!;;Wörter E
+319;wort;fabrika;;die Fabrik;;Wörter F–G
+320;wort;faks;;das Fax;;Wörter F–G
+321;wort;fare;;die Maus;;Wörter F–G
+322;wort;Farsça;;Persisch, Farsi;;Wörter F–G
+323;satz;Farsça konuşuyorum.;;Ich spreche Persisch/Farsi.;322;Sätze & Wendungen A–H
+324;wort;Fas;;Marokko;;Wörter F–G
+325;wort;felsefe;;die Philosophie;;Wörter F–G
+326;wort;fena;;schlecht;;Wörter F–G
+327;wort;fikir (fikr-);;die Idee;;Wörter F–G
+328;satz;İyi bir fikrim var.;;Ich habe eine gute Idee.;327;Sätze & Wendungen A–H
+329;wort;film;;der Film;;Wörter F–G
+330;wort;fırın;;die Bäckerei;;Wörter F–G
+331;wort;fizik (ğ);;die Physik;;Wörter F–G
+332;wort;fotoğraf;;das Foto;;Wörter F–G
+333;wort;Fransa;;Frankreich;;Wörter F–G
+334;wort;Fransız;;der Franzose, die Französin;;Wörter F–G
+335;wort;Fransızca;;Französisch (die Sprache);;Wörter F–G
+336;wort;futbol;;der Fußball;;Wörter F–G
+337;wort;gaga;;der Schnabel;;Wörter F–G
+338;wort;galiba;;"ich glaube; es ist wohl so, dass …";;Wörter F–G
+339;wort;garson;;der Kellner;;Wörter F–G
+340;wort;geç;;spät, zu spät;;Wörter F–G
+341;wort;geç kalmak;E;zu … zu spät kommen;;Wörter F–G
+342;satz;Kursa geç kaldı.;;Er/Sie ist zu spät zum Kurs gekommen.;341;Sätze & Wendungen A–H
+343;wort;geçmek;;vorbeigehen, vorübergehen;;Wörter F–G
+344;satz;Geçmiş olsun!;;Gute Besserung!;343;Sätze & Wendungen A–H
+345;wort;gelmek;;kommen;;Wörter F–G
+346;wort;… ile gelmek;;mit … kommen;;Wörter F–G
+347;satz;Trenle/Tren ile geldim.;;Ich bin mit dem Zug gekommen.;346;Sätze & Wendungen A–H
+348;wort;gemici;;der Seemann, der Schiffer;;Wörter F–G
+349;wort;genç (c);;der Jugendliche;;Wörter F–G
+350;wort;genç;;jung;;Wörter F–G
+351;wort;gençlik (ğ);;die Jugend;;Wörter F–G
+352;wort;gençlik takımı;;die Jugendmannschaft;;Wörter F–G
+353;wort;gerçek;;"die Wahrheit; die Realität";;Wörter F–G
+354;satz;Gerçekten mi?;;Wirklich?, Echt?;353;Sätze & Wendungen A–H
+355;wort;getirmek;İ;… (mit)bringen;;Wörter F–G
+356;satz;Yarın spor eşyalarınızı getirin.;;Bringen Sie morgen Ihre Sportsachen mit.;355;Sätze & Wendungen A–H
+357;wort;gitar;;die Gitarre;;Wörter F–G
+358;wort;gitmek;;gehen, fahren;;Wörter F–G
+359;satz;… ile gitmek;;mit … fahren;358;Sätze & Wendungen A–H
+360;satz;Eve arabayla/araba ile gidiyoruz.;;Wir fahren mit dem Auto nach Hause.;358;Sätze & Wendungen A–H
+361;wort;giyinmek;;sich anziehen;;Wörter F–G
+362;wort;göndermek;İ E;… in/zu … schicken;;Wörter F–G
+363;satz;Kızımı kursa göndermek istiyorum.;;Ich möchte meine Tochter zum Kurs schicken.;362;Sätze & Wendungen A–H
+364;wort;gol;;das Tor;;Wörter F–G
+365;wort;görmek;İ;… sehen, … erblicken;;Wörter F–G
+366;wort;gram;;das Gramm;;Wörter F–G
+367;wort;grip (b);;die Grippe;;Wörter F–G
+368;wort;gülmek;;lachen;;Wörter F–G
+369;wort;Güle güle!;;Auf Wiedersehen! (sagt derjenige, der bleibt);;Wörter F–G
+370;wort;gün;;der Tag;;Wörter F–G
+371;satz;günlerden bir gün;;eines Tages;370;Sätze & Wendungen A–H
+372;wort;Günaydın!;;Guten Morgen!;;Wörter F–G
+373;wort;güneş;;die Sonne;;Wörter F–G
+374;wort;gür;;Haare: dicht;;Wörter F–G
+375;wort;Gürcistan;;Georgien;;Wörter F–G
+376;wort;güzel;;schön, hübsch;;Wörter F–G
+377;wort;ha(y)di;;los;;Wörter H
+378;wort;hafta;;die Woche;;Wörter H
+379;wort;hafta sonu;;"das Wochenende; am Wochenende";;Wörter H
+380;wort;hala;;die Tante (väterlicherseits);;Wörter H
+381;wort;hâlâ;;immer noch;;Wörter H
+382;wort;… hakkında;;über … (ein Thema);;Wörter H
+383;satz;İşsizlik hakkında konuşuyoruz.;;Wir reden über die Arbeitslosigkeit.;382;Sätze & Wendungen A–H
+384;wort;hamster;;der Hamster;;Wörter H
+385;wort;hangi;;welcher, -e, -es;;Wörter H
+386;satz;Hangi dersleri veriyorsunuz?;;Welche Fächer geben/unterrichten Sie?;385;Sätze & Wendungen A–H
+387;satz;Hangi şehirde oturuyorsun?;;In welcher Stadt wohnst du?;385;Sätze & Wendungen A–H
+388;satz;hangi dil;;welche Sprache;385;Sätze & Wendungen A–H
+389;satz;Hangi dilleri biliyorsun?;;Welche Sprachen kannst/sprichst du?;385;Sätze & Wendungen A–H
+390;satz;hangi yılda;;in welchem Jahr;385;Sätze & Wendungen A–H
+391;satz;Hangi yılda doğdun?;;In welchem Jahr bist du geboren?;385;Sätze & Wendungen A–H
+392;satz;Hangi yılda doğdunuz?;;In welchem Jahr sind Sie geboren?;385;Sätze & Wendungen A–H
+393;wort;hanım;;die Dame;;Wörter H
+394;wort;hanımefendi;;gnädige Frau, meine Dame;;Wörter H
+395;wort;harf;;der Buchstabe;;Wörter H
+396;satz;harfler;;die Buchstaben;395;Sätze & Wendungen A–H
+397;satz;harf harf söylemek;;buchstabieren;395;Sätze & Wendungen A–H
+398;satz;Harf harf söyleyin.;;Buchstabieren Sie.;395;Sätze & Wendungen A–H
+399;wort;hasta;;krank;;Wörter H
+400;satz;Hastayım.;;Ich bin krank.;399;Sätze & Wendungen A–H
+401;wort;hastane;;das Krankenhaus;;Wörter H
+402;satz;hastanede;;im Krankenhaus;401;Sätze & Wendungen A–H
+403;wort;hayat (t);;das Leben;;Wörter H
+404;wort;haydi;;los;;Wörter H
+405;satz;Haydi kalk.;;Los, steh auf.;404;Sätze & Wendungen A–H
+406;wort;Hayret!;;Erstaunlich!;;Wörter H
+407;wort;hayvan;;das Tier;;Wörter H
+408;wort;hazır;;"fertig; bereit";;Wörter H
+409;wort;hazırlamak;İ;… machen, … vorbereiten, … zubereiten;;Wörter H
+410;satz;kahvaltıyı hazırlamak;;das Frühstück machen/zubereiten;409;Sätze & Wendungen A–H
+411;wort;haziran;;der Juni;;Wörter H
+412;wort;hemen hemen hiç (+Neg.);;fast gar nicht;;Wörter H
+413;satz;Hemen hemen hiç Türkçe bilmiyor.;;Er kann fast gar kein Türkisch.;412;Sätze & Wendungen A–H
+414;wort;hemşire;;die Krankenschwester;;Wörter H
+415;wort;henüz;;noch;;Wörter H
+416;wort;henüz (+Neg.);;noch nicht;;Wörter H
+417;satz;Kızkardeşim henüz okula gitmiyor.;;Meine (jüngere) Schwester geht noch nicht zur Schule.;416;Sätze & Wendungen A–H
+418;wort;hep;;immer, ständig;;Wörter H
+419;wort;her şey;;alles;;Wörter H
+420;satz;Her şey vardı.;;Es gab alles.;419;Sätze & Wendungen A–H
+421;wort;hesap (b);;die Rechnung;;Wörter H
+422;satz;hesabı ödemek;;die Rechnung bezahlen;421;Sätze & Wendungen A–H
+423;wort;hiç (+Neg.);;überhaupt nicht, gar nicht;;Wörter H
+424;satz;hiç iyi değil;;überhaupt nicht gut, gar nicht gut;423;Sätze & Wendungen A–H
+425;wort;Hırvat;;der Kroate, die Kroatin;;Wörter H
+426;wort;Hırvatça;;Kroatisch (die Sprache);;Wörter H
+427;wort;Hırvatistan;;Kroatien;;Wörter H
+428;wort;hoca;;der Lehrer, die Lehrerin (eigentl.: der religiöse Lehrer);;Wörter H
+429;satz;hocam;;mein Lehrer, meine Lehrerin;428;Sätze & Wendungen A–H
+430;wort;horoz;;der Hahn;;Wörter H
+431;wort;Hoş bulduk!;;obligatorische Antwort auf: Hoş geldin(iz)!;;Wörter H
+432;wort;Hoş geldin!;;Willkommen! (wenn man jemanden duzt);;Wörter H
+433;wort;Hoş geldiniz!;;Willkommen! (wenn man jemanden siezt oder mehrere Personen anspricht);;Wörter H
+434;wort;Hoşça kal!;;Mach´s gut!;;Wörter H
+435;wort;hoşuna gitmek;… (n)İn;jdm … gefallen;;Wörter H
+436;satz;Hoşuma gidiyor.;;Es gefällt mir.;435;Sätze & Wendungen A–H
+437;satz;Türkiye hoşumuza gitti.;;Die Türkei hat uns gefallen.;435;Sätze & Wendungen A–H
+438;wort;hukuk (k);;Jura;;Wörter H
+439;wort;hukuk okumak;;Jura studieren;;Wörter H
+440;wort;Irak;;der Irak;;Wörter I–İ
+441;wort;Iraklı;;der Iraker, die Irakerin;;Wörter I–İ
+442;wort;ıslak;;nass, feucht;;Wörter I–İ
+443;satz;sırılsıklam ıslak;;pitschenass;442;Sätze & Wendungen I–Z
+444;wort;ışık (ğ);;das Licht;;Wörter I–İ
+445;wort;için;…;für …;;Wörter I–İ
+446;wort;içmek;;trinken;;Wörter I–İ
+447;wort;iki;;zwei;;Wörter I–İ
+448;satz;iki haftadan fazla;;mehr als zwei Wochen;447;Sätze & Wendungen I–Z
+449;wort;iki dilli olmak;;zweisprachig sein;;Wörter I–İ
+450;wort;iki kültürlü evlilik;;die bikulturelle Ehe;;Wörter I–İ
+451;wort;ikimiz;;wir beide;;Wörter I–İ
+452;wort;ilaç (c);;das Medikament;;Wörter I–İ
+453;wort;ile;…;mit …;;Wörter I–İ
+454;satz;arabayla;;mit dem Auto;453;Sätze & Wendungen I–Z
+455;wort;ile …;…;und;;Wörter I–İ
+456;satz;Meryem ile Farhad;;Meryem und Farhad;455;Sätze & Wendungen I–Z
+457;wort;ile ilgili;…;… betreffend;;Wörter I–İ
+458;satz;Kursla/Kurs ile ilgili;;Ich möchte eine Frage den Kurs;457;Sätze & Wendungen I–Z
+459;satz;soru sormak istiyorum.;;betreffend stellen.;457;Sätze & Wendungen I–Z
+460;wort;ileride;;später, in Zukunft;;Wörter I–İ
+461;wort;iletişim;;die Kommunikationswissenschaften;;Wörter I–İ
+462;wort;ilginç;;interessant;;Wörter I–İ
+463;wort;ilk görüşte;;auf den ersten Blick, sofort;;Wörter I–İ
+464;wort;ilkokul;;die Grundschule;;Wörter I–İ
+465;satz;ilkokulda;;in der Grundschule;464;Sätze & Wendungen I–Z
+466;wort;inek (ğ);;die Kuh;;Wörter I–İ
+467;wort;İngiliz;;der Engländer, die Engländerin;;Wörter I–İ
+468;wort;İngilizce;;Englisch (die Sprache);;Wörter I–İ
+469;wort;İngiltere;;England;;Wörter I–İ
+470;wort;inşaat mühendisi;;der Bauingenieur;;Wörter I–İ
+471;satz;İnşaat mühendisiyim.;;Ich bin Bauingenieur.;470;Sätze & Wendungen I–Z
+472;satz;İnşaat mühendisliği okuyorum.;;Ich studiere Bauingenieurwesen.;470;Sätze & Wendungen I–Z
+473;wort;inşaat mühendisliği;;das Bauingenieurwesen;;Wörter I–İ
+474;wort;inşaat (t);;der Bau;;Wörter I–İ
+475;wort;İran;;der Iran;;Wörter I–İ
+476;wort;İranlı;;der Iraner, aus dem Iran (stammend);;Wörter I–İ
+477;wort;isim (ism-);;der Name;;Wörter I–İ
+478;satz;ismim;;mein Name;477;Sätze & Wendungen I–Z
+479;satz;ismin;;dein Name;477;Sätze & Wendungen I–Z
+480;satz;isminiz;;Ihr/euer Name;477;Sätze & Wendungen I–Z
+481;wort;islam bilimler/bilimleri;;die Islamwissenschaften;;Wörter I–İ
+482;wort;İspanya;;Spanien;;Wörter I–İ
+483;wort;İspanyalı;;der Spanier, die Spanierin;;Wörter I–İ
+484;wort;İspanyolca;;Spanisch (die Sprache);;Wörter I–İ
+485;wort;istasyon;;der Bahnhof;;Wörter I–İ
+486;wort;istemek;;wollen, möchten;;Wörter I–İ
+487;wort;İsveç;;Schweden;;Wörter I–İ
+488;wort;İsveççe;;Schwedisch (die Sprache);;Wörter I–İ
+489;wort;İsveçli;;der Schwede;;Wörter I–İ
+490;wort;iş;;"die Arbeit; die Angelegenheit";;Wörter I–İ
+491;satz;İşim var.;;Ich habe etwas zu tun.;490;Sätze & Wendungen I–Z
+492;wort;iş arkadaşı;;der Arbeitskollege, die Arbeitskollegin;;Wörter I–İ
+493;wort;iş bulmak;;Arbeit finden;;Wörter I–İ
+494;wort;İtalya;;Italien;;Wörter I–İ
+495;wort;İtalyan;;der Italiener, die Italienerin;;Wörter I–İ
+496;wort;İtalyanca;;Italienisch (die Sprache);;Wörter I–İ
+497;wort;iyi;;gut;;Wörter I–İ
+498;satz;İyiyim.;;Es geht mir gut.;497;Sätze & Wendungen I–Z
+499;satz;Daha iyiyim.;;Es geht mir besser.;497;Sätze & Wendungen I–Z
+500;wort;İyi akşamlar!;;Guten Abend! (Begrüßung und Abschied);;Wörter I–İ
+501;wort;İyi günler!;;Guten Tag! (Begrüßung und Abschied);;Wörter I–İ
+502;wort;jimnastik;;die Gymnastik;;Wörter J–K
+503;wort;kaç;;wie viel;;Wörter J–K
+504;satz;Kaç dil biliyorsun?;;Wie viele Sprachen kannst du?;503;Sätze & Wendungen I–Z
+505;satz;Kaç dil biliyorsunuz?;;Wie viele Sprachen können Sie?;503;Sätze & Wendungen I–Z
+506;satz;Kaç yaşındasın?;;Wie alt bist du?;503;Sätze & Wendungen I–Z
+507;satz;Kaç yaşındasınız?;;Wie alt sind Sie?;503;Sätze & Wendungen I–Z
+508;satz;Saat kaç?;;Wie spät ist es?;503;Sätze & Wendungen I–Z
+509;satz;Saat kaçta?;;Wann?, Um wie viel Uhr?;503;Sätze & Wendungen I–Z
+510;wort;kafeterya;;die Cafeteria;;Wörter J–K
+511;wort;kahraman;;"der Held; der Protagonist";;Wörter J–K
+512;wort;kahvaltı;;das Frühstück;;Wörter J–K
+513;satz;kahvaltı yapmak;;frühstücken;512;Sätze & Wendungen I–Z
+514;satz;kahvaltıyı hazırlamak;;das Frühstück machen/zubereiten;512;Sätze & Wendungen I–Z
+515;wort;kahve;;der Kaffee;;Wörter J–K
+516;wort;kalkmak;;aufstehen;;Wörter J–K
+517;satz;Kalk!;;Steh auf!;516;Sätze & Wendungen I–Z
+518;wort;kalmak;;bleiben;;Wörter J–K
+519;wort;(beraber) kalmak;… ile;mit … (zusammen) wohnen;;Wörter J–K
+520;satz;Arkadaşımla beraber kalıyorum.;;Ich wohne mit meinem Freund/meiner Freundin zusammen.;519;Sätze & Wendungen I–Z
+521;wort;kapı;;die Tür;;Wörter J–K
+522;wort;kaplumbağa;;die Schildkröte;;Wörter J–K
+523;wort;Karadeniz;;das Schwarze Meer;;Wörter J–K
+524;wort;karanlık;;dunkel;;Wörter J–K
+525;wort;kardeş;;der (jüngere) Bruder/die (jüngere) Schwester;;Wörter J–K
+526;wort;karı;;die Ehefrau;;Wörter J–K
+527;satz;karım;;meine Ehefrau;526;Sätze & Wendungen I–Z
+528;wort;karın (karn-);;der Bauch;;Wörter J–K
+529;satz;Karnının ağrısı geçti.;;Ihre/Seine Bauchschmerzen gingen vorbei/hörten auf.;528;Sätze & Wendungen I–Z
+530;wort;karışık;;verworren, unübersichtlich;;Wörter J–K
+531;wort;karnıyarık;;(mit Hackfleisch gefüllte Auberginen);;Wörter J–K
+532;wort;karpuz;;die Wassermelone;;Wörter J–K
+533;wort;karşılık (ğ);;die Antwort, die Erwiederung;;Wörter J–K
+534;wort;karşılık vermek;E;… antworten, … erwiedern;;Wörter J–K
+535;wort;kasım;;der November;;Wörter J–K
+536;wort;katılmak;E;an … teilnehmen;;Wörter J–K
+537;satz;Kursa katılabilir mi?;;Kann/Darf er/sie an dem Kurs teilnehmen?;536;Sätze & Wendungen I–Z
+538;satz;Katılabilir.;;Er kann/darf teilnehmen.;536;Sätze & Wendungen I–Z
+539;wort;katolik (ğ);;"katholisch; der Katholik, die Katholikin";;Wörter J–K
+540;wort;kayıt (d);;die Anmeldung;;Wörter J–K
+541;satz;(n)İn kaydını yaptırmak;;… anmelden;540;Sätze & Wendungen I–Z
+542;satz;Kızının kaydını yaptırdı.;;Er hat seine Tochter angemeldet.;540;Sätze & Wendungen I–Z
+543;wort;kayıt işlemleri;;die Aufnahmeformalitäten;;Wörter J–K
+544;wort;kaybetmek;İ;… verlieren;;Wörter J–K
+545;satz;Ali pasaportunu kaybetmiş.;;Ali hat seinen Pass verloren.;544;Sätze & Wendungen I–Z
+546;wort;kedi;;die Katze;;Wörter J–K
+547;wort;kelebek (ğ);;der Schmetterling;;Wörter J–K
+548;wort;kelime;;das Wort;;Wörter J–K
+549;wort;Kıbrıs;;Zypern;;Wörter J–K
+550;wort;kilo almak;;zunehmen, dick werden;;Wörter J–K
+551;wort;kırk;;vierzig;;Wörter J–K
+552;wort;kırmızı;;rot;;Wörter J–K
+553;satz;kırmızı şarap;;der Rotwein;552;Sätze & Wendungen I–Z
+554;wort;kıpkırmızı olmak;;knallrot werden;;Wörter J–K
+555;wort;kış;;der Winter;;Wörter J–K
+556;wort;kız;;"das Mädchen; die Tochter";;Wörter J–K
+557;satz;kızım;;meine Tochter;556;Sätze & Wendungen I–Z
+558;wort;kız adı;;der Mädchenname, der Frauenname;;Wörter J–K
+559;wort;kıyafet (t);;die Kleidung, die Bekleidung;;Wörter J–K
+560;wort;kızkardeş;;die (jüngere) Schwester;;Wörter J–K
+561;wort;kilo;;das Kilo;;Wörter J–K
+562;satz;kilolu olmak;;dick sein;561;Sätze & Wendungen I–Z
+563;wort;kim;;wer;;Wörter J–K
+564;wort;kimse;;jemand;;Wörter J–K
+565;wort;kimse (+Neg.);;niemand;;Wörter J–K
+566;satz;Evde kimse yok.;;Zu Hause ist niemand.;565;Sätze & Wendungen I–Z
+567;wort;kimya;;die Chemie;;Wörter J–K
+568;wort;kırışıksız;;ohne Falten;;Wörter J–K
+569;wort;kişi;;die Person;;Wörter J–K
+570;wort;koca;;der Ehemann;;Wörter J–K
+571;satz;kocam;;mein Ehemann;570;Sätze & Wendungen I–Z
+572;wort;kokmak;;riechen;;Wörter J–K
+573;satz;güzel kokmak;;schön/gut riechen;572;Sätze & Wendungen I–Z
+574;wort;kolay;;leicht, einfach;;Wörter J–K
+575;wort;koro;;der Chor;;Wörter J–K
+576;wort;koza;;der Kokon;;Wörter J–K
+577;satz;koza denen bir ev;;ein Kokon genanntes Haus;576;Sätze & Wendungen I–Z
+578;satz;kozanın içinde;;in dem Kokon;576;Sätze & Wendungen I–Z
+579;wort;komik;;lustig, komisch;;Wörter J–K
+580;satz;komik bir şey;;eine lustige Sache;579;Sätze & Wendungen I–Z
+581;wort;komşu;;der Nachbar;;Wörter J–K
+582;wort;komşu ülke;;das Nachbarland;;Wörter J–K
+583;wort;konuşma;;das Gespräch;;Wörter J–K
+584;wort;konuşmak;;sprechen;;Wörter J–K
+585;satz;… ile konuşmak;;mit … sprechen;584;Sätze & Wendungen I–Z
+586;satz;Doktorla konuştum.;;Ich habe mit dem Arzt gesprochen.;584;Sätze & Wendungen I–Z
+587;satz;… konuşmaya çalışmak;;sich bemühen … zu sprechen;584;Sätze & Wendungen I–Z
+588;wort;Köln Radyosu;;Radio Köln;;Wörter J–K
+589;wort;köpek (ğ);;der Hund;;Wörter J–K
+590;wort;köprü;;die Brücke;;Wörter J–K
+591;wort;köy;;das Dorf;;Wörter J–K
+592;wort;kurbağa;;der Frosch;;Wörter J–K
+593;wort;kurs;;der Kurs;;Wörter J–K
+594;wort;kurt (d);;der Wolf;;Wörter J–K
+595;wort;kuş;;der Vogel;;Wörter J–K
+596;wort;kuyruk (ğ);;der Schwanz;;Wörter J–K
+597;wort;kuzen;;der Cousin, die Cousine;;Wörter J–K
+598;wort;kuzu;;das Lamm;;Wörter J–K
+599;satz;kuzu şiş;;der Lammspieß;598;Sätze & Wendungen I–Z
+600;wort;küçük;;klein;;Wörter J–K
+601;wort;külah;;hier: das Hörnchen (für Eis);;Wörter J–K
+602;wort;Kürt (d);;der Kurde, die Kurdin;;Wörter J–K
+603;wort;Kürtçe;;Kurdisch (die Sprache);;Wörter J–K
+604;wort;lahmacun;;(türkische Pizza);;Wörter L–M
+605;wort;lise;;das Gymnasium;;Wörter L–M
+606;wort;liste;;die Liste;;Wörter L–M
+607;wort;lokanta;;das Lokal, das Restaurant;;Wörter L–M
+608;wort;lolipop;;der Lutscher;;Wörter L–M
+609;wort;lütfen;;bitte (die Bitte um etwas);;Wörter L–M
+610;wort;maalesef;;leider;;Wörter L–M
+611;wort;maç (ç);;das Spiel;;Wörter L–M
+612;wort;mafya;;die Mafia;;Wörter L–M
+613;wort;Makedonyalı;;aus Mazedonien (stammend);;Wörter L–M
+614;wort;makine mühendisliği;;das Maschinenbauwesen;;Wörter L–M
+615;satz;makine mühendisliği okumak;;Maschinenbau studieren;614;Sätze & Wendungen I–Z
+616;wort;manav;;der Obst- und Gemüseladen;;Wörter L–M
+617;wort;Marmara denizi;;das Marmarameer;;Wörter L–M
+618;wort;mart (t);;der März;;Wörter L–M
+619;satz;mart ayında;;im (Monat) März;618;Sätze & Wendungen I–Z
+620;wort;masa;;der Tisch;;Wörter L–M
+621;satz;masadan kalmak;;aufstehen;620;Sätze & Wendungen I–Z
+622;wort;masal;;das Märchen;;Wörter L–M
+623;wort;matematik (ğ);;die Mathematik;;Wörter L–M
+624;wort;mayıs;;der Mai;;Wörter L–M
+625;wort;memnun olmak;DEn;mit … zufrieden sein;;Wörter L–M
+626;satz;Hayatımdan memnunum.;;Ich bin mit meinem Leben zufrieden.;625;Sätze & Wendungen I–Z
+627;satz;Memnun oldum!;;Angenehm! (bei der Vorstellung);625;Sätze & Wendungen I–Z
+628;satz;Memnuniyetle.;;Gern.;625;Sätze & Wendungen I–Z
+629;wort;mercimek (ğ);;die Linse(n);;Wörter L–M
+630;wort;mercimek çorbası;;die Linsensuppe;;Wörter L–M
+631;wort;Merhaba!;;Hallo!, Guten Tag!;;Wörter L–M
+632;wort;merkez;;das Zentrum;;Wörter L–M
+633;wort;Mersi.;;Danke.;;Wörter L–M
+634;wort;meslek (ğ);;der Beruf;;Wörter L–M
+635;wort;meslek eğitimi;;die Berufsausbildung;;Wörter L–M
+636;satz;meslek eğitimi yapmak;;eine Berufsausbildung machen;635;Sätze & Wendungen I–Z
+637;wort;meyva;;das Obst;;Wörter L–M
+638;satz;meyvalı kek;;der Obstkuchen;637;Sätze & Wendungen I–Z
+639;wort;minicik;;winzig klein;;Wörter L–M
+640;wort;misafir;;der Gast;;Wörter L–M
+641;wort;Moskova;;Moskau;;Wörter L–M
+642;wort;muhabbet kuşu;;der Wellensittich;;Wörter L–M
+643;wort;muhasebeci;;der Steuerberater;;Wörter L–M
+644;wort;mühendis;;der Ingenieur, die Ingenieurin;;Wörter L–M
+645;satz;Mühendisim.;;Ich bin Ingenieur/Ingenieurin.;644;Sätze & Wendungen I–Z
+646;wort;mühendislik (ğ);;die Ingenieurwissenschaften;;Wörter L–M
+647;satz;Mühendislik okuyorum.;;Ich studiere Ingenieurwissenschaften.;646;Sätze & Wendungen I–Z
+648;wort;Münih;;München;;Wörter L–M
+649;wort;mutlu;;glücklich;;Wörter L–M
+650;wort;müze;;das Museum;;Wörter L–M
+651;wort;müzik (ğ);;die Musik;;Wörter L–M
+652;wort;nadir;;selten;;Wörter N–O
+653;wort;narin;;zierlich, schlank;;Wörter N–O
+654;wort;nasıl;;wie;;Wörter N–O
+655;satz;Nasılsın?;;Wie geht es dir?;654;Sätze & Wendungen I–Z
+656;satz;Nasılsınız?;;Wie geht es Ihnen/euch?;654;Sätze & Wendungen I–Z
+657;wort;ne;;was;;Wörter N–O
+658;satz;Nen var?;;mündlicher Sprachgebrauch: Was hast du?;657;Sätze & Wendungen I–Z
+659;satz;Neyin var?;;eher schriftsprachlich: Was hast du?;657;Sätze & Wendungen I–Z
+660;satz;Ne okuyorsun?;;Was studierst du?;657;Sätze & Wendungen I–Z
+661;satz;Ne tesadüf!;;Was für ein Zufall!;657;Sätze & Wendungen I–Z
+662;wort;ne kadar;;wie lange;;Wörter N–O
+663;wort;ne kursu;;was für ein Kurs;;Wörter N–O
+664;wort;nerede;;wo;;Wörter N–O
+665;satz;Nerede doğdun?;;Wo bist du geboren?;664;Sätze & Wendungen I–Z
+666;wort;nereden;;woher;;Wörter N–O
+667;satz;Nereden geliyorsun?;;Woher kommst du? (jetzt gerade);666;Sätze & Wendungen I–Z
+668;wort;nereli;;woher stammend;;Wörter N–O
+669;satz;Nerelisin?;;Woher bist/kommst (= stammst) du?;668;Sätze & Wendungen I–Z
+670;wort;nereye;;wohin;;Wörter N–O
+671;wort;nisan;;der April;;Wörter N–O
+672;wort;Norveç;;Norwegen;;Wörter N–O
+673;wort;Norveççe;;Norwegisch (die Sprache);;Wörter N–O
+674;wort;Norveçli;;der Norweger, die Norwegerin;;Wörter N–O
+675;wort;numara;;die Nummer;;Wörter N–O
+676;wort;o;;er, sie, es;;Wörter N–O
+677;satz;o da;;er, sie, es auch;676;Sätze & Wendungen I–Z
+678;satz;O da güzel.;;Das ist auch schön.;676;Sätze & Wendungen I–Z
+679;satz;o halde;;dann, in dem Fall;676;Sätze & Wendungen I–Z
+680;satz;o zaman;;"dann; damals";676;Sätze & Wendungen I–Z
+681;wort;ocak (ğ);;der Januar;;Wörter N–O
+682;wort;oğul (oğl-);;der Sohn;;Wörter N–O
+683;satz;oğlum;;mein Sohn;682;Sätze & Wendungen I–Z
+684;wort;okul;;die Schule;;Wörter N–O
+685;satz;okulda;;in der Schule;684;Sätze & Wendungen I–Z
+686;wort;okumak;İ;"… lesen; … studieren";;Wörter N–O
+687;wort;… olarak;;als…;;Wörter N–O
+688;satz;Öğretmen olarak çalışıyorum.;;Ich arbeite als Lehrer(in).;687;Sätze & Wendungen I–Z
+689;wort;olmak;;"passieren; sein; werden";;Wörter N–O
+690;satz;Bir şey mi oldu?;;Ist etwas passiert?;689;Sätze & Wendungen I–Z
+691;wort;on;;zehn;;Wörter N–O
+692;wort;on bir;;elf;;Wörter N–O
+693;wort;onlar;;sie (Plural);;Wörter N–O
+694;satz;onların;;ihr (Genitiv von: onlar);693;Sätze & Wendungen I–Z
+695;wort;optimist (t);;"der Optimist; optimistisch";;Wörter N–O
+696;wort;orada;;da, dort;;Wörter N–O
+697;wort;oturmak;;"sitzen; wohnen";;Wörter N–O
+698;satz;… ile (beraber) oturmak;;mit … (zusammen) wohnen;697;Sätze & Wendungen I–Z
+699;satz;Arkadaşımla (beraber) oturuyorum.;;Ich wohne mit meinem Freund/meiner Freundin zusammen.;697;Sätze & Wendungen I–Z
+700;wort;otel;;das Hotel;;Wörter N–O
+701;wort;otobüs;;der Bus;;Wörter N–O
+702;satz;otobüste;;im Bus;701;Sätze & Wendungen I–Z
+703;wort;oynamak;ile;mit … spielen;;Wörter N–O
+704;satz;Çocuklar oynuyor.;;Die Kinder spielen.;703;Sätze & Wendungen I–Z
+705;satz;Kızım köpekle/köpek ile oynuyor.;;Meine Tochter spielt mit dem Hund.;703;Sätze & Wendungen I–Z
+706;wort;ödül;;der Preis;;Wörter Ö–P
+707;wort;ödül kazanmak;;einen Preis bekommen;;Wörter Ö–P
+708;wort;öğrenci;;der Schüler, der Student;;Wörter Ö–P
+709;wort;öğrenmek;İ;… lernen;;Wörter Ö–P
+710;wort;öğretmen;;der Lehrer, die Lehrerin;;Wörter Ö–P
+711;satz;öğretmenim;;mein Lehrer, meine Lehrerin;710;Sätze & Wendungen I–Z
+712;wort;öksürmek;;husten;;Wörter Ö–P
+713;wort;ölmek;;sterben;;Wörter Ö–P
+714;wort;ölçmek;İ;... messen;;Wörter Ö–P
+715;satz;(n)İn ateşini ölçmek;;bei … Fieber messen;714;Sätze & Wendungen I–Z
+716;satz;Hemşire kızın ateşini ölçtü.;;Die Krankenschwester hat bei dem Mädchen Fieber gemessen.;714;Sätze & Wendungen I–Z
+717;wort;önce;;"erst, zuerst; vor";;Wörter Ö–P
+718;satz;… önce;;vor …;717;Sätze & Wendungen I–Z
+719;satz;iki sene önce;;vor zwei Jahren;717;Sätze & Wendungen I–Z
+720;wort;öneri;;der Vorschlag;;Wörter Ö–P
+721;wort;ördek (ğ);;die Ente;;Wörter Ö–P
+722;wort;örnek(ğ);;das Beispiel;;Wörter Ö–P
+723;wort;ötmek;;Vogel: singen, zwitschern;;Wörter Ö–P
+724;wort;öyle;;so;;Wörter Ö–P
+725;satz;Öyle yapma.;;Mach nicht so.;724;Sätze & Wendungen I–Z
+726;satz;Öyle.;;So ist das.;724;Sätze & Wendungen I–Z
+727;wort;özel;;privat;;Wörter Ö–P
+728;satz;özel plaj;;der Privatstrand;727;Sätze & Wendungen I–Z
+729;wort;özlemek;İ;... vermissen, nach … Sehnsucht haben;;Wörter Ö–P
+730;satz;Türkiye’yi özlüyorum.;;Ich vermisse die Türkei.;729;Sätze & Wendungen I–Z
+731;wort;pahalı;;teuer;;Wörter Ö–P
+732;wort;papağan;;der Papagei;;Wörter Ö–P
+733;wort;para;;das Geld;;Wörter Ö–P
+734;wort;parlak;;glänzend;;Wörter Ö–P
+735;wort;pasaport (t);;der Reisepass;;Wörter Ö–P
+736;wort;pasta;;der Kuchen, die Torte;;Wörter Ö–P
+737;wort;patates;;die Kartoffel(n);;Wörter Ö–P
+738;wort;pedagoji;;die Pädagogik;;Wörter Ö–P
+739;wort;peki;;"gut; na gut; okay; wenn das so ist";;Wörter Ö–P
+740;satz;pek iyi;;sehr gut;739;Sätze & Wendungen I–Z
+741;wort;pesimist (t);;"der Pessimist; pessimistisch";;Wörter Ö–P
+742;wort;peynir;;der Käse;;Wörter Ö–P
+743;wort;pijama(lar);;der Pyjama;;Wörter Ö–P
+744;wort;pilav;;der Reis (gekocht);;Wörter Ö–P
+745;wort;piyano;;das Klavier;;Wörter Ö–P
+746;wort;plaj;;der Strand;;Wörter Ö–P
+747;wort;plan;;der Plan;;Wörter Ö–P
+748;wort;planı olmak;;etwas vorhaben;;Wörter Ö–P
+749;satz;Bu akşam bir planın var mı?;;Hast du heute Abend etwas vor?;748;Sätze & Wendungen I–Z
+750;wort;Polonya;;Polen;;Wörter Ö–P
+751;wort;Polonyaca;;Polnisch (die Sprache);;Wörter Ö–P
+752;wort;Polonyalı;;der Pole, die Polin;;Wörter Ö–P
+753;wort;portakal;;die Apfelsine, die Orange;;Wörter Ö–P
+754;wort;Portekiz;;Portugal;;Wörter Ö–P
+755;wort;Portekizce;;Portugiesisch (die Sprache);;Wörter Ö–P
+756;wort;Portekizli;;der Portugiese, die Portugiesin;;Wörter Ö–P
+757;wort;profesör;;der Professor, die Professorin;;Wörter Ö–P
+758;wort;protestan;;"protestantisch; der Protestant, die Protestantin";;Wörter Ö–P
+759;wort;psikolog (ğ);;der Psychologe, die Psychologin;;Wörter Ö–P
+760;wort;psikoloji;;die Psychologie;;Wörter Ö–P
+761;wort;pürüzsüz;;glatt, ohne Makel;;Wörter Ö–P
+762;wort;radyo;;das Radio;;Wörter R–S
+763;wort;radyo programı;;das Radioprogramm;;Wörter R–S
+764;wort;rahatsız;;krank, unwohl;;Wörter R–S
+765;satz;Rahatsızım.;;Ich bin krank., Ich fühle mich nicht wohl.;764;Sätze & Wendungen I–Z
+766;wort;rejim;;die Diät;;Wörter R–S
+767;wort;renk (g);;die Farbe;;Wörter R–S
+768;wort;renk renk;;bunt;;Wörter R–S
+769;wort;resim;;das Bild;;Wörter R–S
+770;satz;resimde;;auf dem Bild;769;Sätze & Wendungen I–Z
+771;wort;resim dersi;;der Kunstunterricht;;Wörter R–S
+772;wort;roman;;der Roman;;Wörter R–S
+773;wort;romatizma;;das Rheuma;;Wörter R–S
+774;wort;röportaj;;das Interview, die Reportage;;Wörter R–S
+775;wort;Rus;;der Russe, die Russin;;Wörter R–S
+776;wort;Rusça;;Russisch (die Sprache);;Wörter R–S
+777;wort;Rusya;;Russland;;Wörter R–S
+778;wort;Rusyalı;;aus Russland (stammend);;Wörter R–S
+779;wort;saat (saat-ler, saat-i);;"die Uhr; die Stunde";;Wörter R–S
+780;wort;sabah;;der Morgen;;Wörter R–S
+781;wort;saç (ç);;das Haar;;Wörter R–S
+782;wort;sade;;"rein; Kaffee: ungesüßt/schwarz";;Wörter R–S
+783;satz;sade kahve;;ungesüßter/schwarzer Kaffee;782;Sätze & Wendungen I–Z
+784;wort;Sağ ol!;;Danke (dir)!;;Wörter R–S
+785;wort;Sağ olun!;;Danke (Ihnen/euch)!;;Wörter R–S
+786;wort;sağlık (ğ);;die Gesundheit;;Wörter R–S
+787;satz;Sağlığı yerinde.;;Er/Sie ist gesund.;786;Sätze & Wendungen I–Z
+788;wort;salam;;die Salami;;Wörter R–S
+789;wort;salata;;der Salat;;Wörter R–S
+790;wort;salatalık (ğ);;die Gurke;;Wörter R–S
+791;wort;samimi olmak;;miteinander vertraut sein;;Wörter R–S
+792;wort;sanat (t);;die Kunst;;Wörter R–S
+793;satz;sanat dersi;;der Kunstunterricht;792;Sätze & Wendungen I–Z
+794;wort;sandviç (c);;das Sandwich;;Wörter R–S
+795;wort;sarhoş;;betrunken;;Wörter R–S
+796;wort;sarı;;gelb;;Wörter R–S
+797;wort;sarışın;;blond;;Wörter R–S
+798;wort;satmak;İ;…verkaufen;;Wörter R–S
+799;wort;sauna;;die Sauna;;Wörter R–S
+800;wort;sayı;;die Zahl;;Wörter R–S
+801;wort;sekiz;;acht;;Wörter R–S
+802;wort;sekreter;;der Sekretär, die Sekretärin;;Wörter R–S
+803;wort;seksen;;achtzig;;Wörter R–S
+804;wort;seminer;;das Seminar;;Wörter R–S
+805;satz;seminerde;;im Seminar;804;Sätze & Wendungen I–Z
+806;wort;sen;;du;;Wörter R–S
+807;satz;senin;;dein (Genitiv von: sen);806;Sätze & Wendungen I–Z
+808;satz;senin adın;;dein Name (betont);806;Sätze & Wendungen I–Z
+809;wort;sendika;;die Gewerkschaft;;Wörter R–S
+810;wort;sene;;das Jahr;;Wörter R–S
+811;wort;ses;;die Stimme;;Wörter R–S
+812;wort;seslenmek;;rufen;;Wörter R–S
+813;wort;sevimli;;nett;;Wörter R–S
+814;wort;sevmek;İ;… lieben , … mögen;;Wörter R–S
+815;satz;Seni seviyorum.;;Ich liebe dich.;814;Sätze & Wendungen I–Z
+816;wort;sıcak;;warm, heiß;;Wörter R–S
+817;wort;sımsıcak;;schön warm, ganz warm;;Wörter R–S
+818;wort;sıfır;;null;;Wörter R–S
+819;wort;sık sık;;oft, häufig;;Wörter R–S
+820;wort;şımarık;;frech;;Wörter R–S
+821;wort;sınav;;die Prüfung;;Wörter R–S
+822;wort;sinema;;das Kino;;Wörter R–S
+823;wort;sınıf;;die Klasse;;Wörter R–S
+824;wort;sinirlenmek;;"wütend werden; sich aufregen";;Wörter R–S
+825;wort;sinirli;;wütend;;Wörter R–S
+826;wort;Sırbistan;;Serbien;;Wörter R–S
+827;wort;Sırp;;der Serbe, Serbin;;Wörter R–S
+828;wort;Sırpça;;Serbisch (die Sprache);;Wörter R–S
+829;wort;sistem;;das System;;Wörter R–S
+830;wort;sitematik;;systematisch;;Wörter R–S
+831;wort;siyah;;schwarz;;Wörter R–S
+832;satz;simsiyah;;pechschwarz;831;Sätze & Wendungen I–Z
+833;wort;siyaset (t);;die Politik;;Wörter R–S
+834;wort;siyaset bilimi;;die Politikwissenschaften;;Wörter R–S
+835;wort;siz;;Sie/ihr;;Wörter R–S
+836;satz;sizin adınız;;Ihr Name (betont);835;Sätze & Wendungen I–Z
+837;wort;şoför;;der Fahrer;;Wörter R–S
+838;wort;sofra;;(der gedeckte Tisch);;Wörter R–S
+839;wort;sokak (ğ);;die Gasse, die (kleine) Straße;;Wörter R–S
+840;satz;sokağa çıkmak;;auf die Straße gehen;839;Sätze & Wendungen I–Z
+841;wort;Somalyalı;;aus Somalia (stammend);;Wörter R–S
+842;wort;sonra;;dann, später;;Wörter R–S
+843;wort;sonra;…;nach …;;Wörter R–S
+844;satz;iki saat sonra;;nach zwei Stunden;843;Sätze & Wendungen I–Z
+845;wort;sormak;E;… fragen;;Wörter R–S
+846;satz;Bir şey sorabilir miyim?;;Darf/Kann ich etwas fragen?;845;Sätze & Wendungen I–Z
+847;satz;Sana bir şey sorabilir miyim?;;Darf/Kann ich dich etwas fragen?;845;Sätze & Wendungen I–Z
+848;wort;soru;;die Frage;;Wörter R–S
+849;wort;soru sormak;E;jdm eine Frage stellen;;Wörter R–S
+850;satz;Sana bir soru sormak istiyorum.;;Ich möchte dir eine Frage stellen.;849;Sätze & Wendungen I–Z
+851;wort;sosis;;das Würstchen;;Wörter R–S
+852;wort;sosyal bilimler;;die Sozialwissenschaften;;Wörter R–S
+853;wort;sosyal çalışman;;der Sozialarbeiter;;Wörter R–S
+854;wort;sosyal çalışmanlık okumak;;Soziale Arbeit studieren, Sozialarbeit studieren;;Wörter R–S
+855;wort;sosyal hizmetler okumak;;Soziale Arbeit studieren;;Wörter R–S
+856;wort;sosyoloji;;die Soziologie;;Wörter R–S
+857;wort;soyadı;;der Nachname;;Wörter R–S
+858;satz;soyadım;;mein Nachname;857;Sätze & Wendungen I–Z
+859;satz;soyadınız;;Ihr Nachname/euer Nachname;857;Sätze & Wendungen I–Z
+860;wort;soyisim;;der Nachname (seltener verwendet als soyadı);;Wörter R–S
+861;satz;soyismim;;mein Nachname;860;Sätze & Wendungen I–Z
+862;satz;soyismin;;dein Nachname;860;Sätze & Wendungen I–Z
+863;satz;soyisminiz;;Ihr Nachname/euer Nachname;860;Sätze & Wendungen I–Z
+864;wort;söylemek;;sagen;;Wörter R–S
+865;wort;spor;;der Sport;;Wörter R–S
+866;wort;spor dersi;;der Sportunterricht;;Wörter R–S
+867;wort;spor kıyafeti;;die Sportbekleidung, die Sportsachen;;Wörter R–S
+868;satz;spor kıyafeti ile;;mit/in Sportbekleidung;867;Sätze & Wendungen I–Z
+869;wort;Sri Lanka;;Sri Lanka;;Wörter R–S
+870;wort;Sri Lankalı;;aus Sri Lanka (stammend);;Wörter R–S
+871;wort;staj;;das Praktikum;;Wörter R–S
+872;wort;staj yapmak;;ein Praktikum machen;;Wörter R–S
+873;wort;su;;das Wasser;;Wörter R–S
+874;satz;maden suyu;;das Mineralwasser;873;Sätze & Wendungen I–Z
+875;wort;Suriye;;Syrien;;Wörter R–S
+876;wort;susamak;;Durst haben/bekommen;;Wörter R–S
+877;wort;sürmek;;dauern;;Wörter R–S
+878;wort;süt (t);;die Milch;;Wörter R–S
+879;wort;sütlaç (c);;der Milchreis;;Wörter R–S
+880;wort;şair;;der Dichter;;Wörter Ş–T
+881;wort;şarap;;der Wein;;Wörter Ş–T
+882;wort;şef;;der Chef, die Chefin;;Wörter Ş–T
+883;wort;şehir;;die Stadt;;Wörter Ş–T
+884;wort;şeker;;der Zucker;;Wörter Ş–T
+885;satz;şekerli;;mit Zucker;884;Sätze & Wendungen I–Z
+886;satz;orta şekerli;;mittelsüß;884;Sätze & Wendungen I–Z
+887;wort;şişe;;die Flasche;;Wörter Ş–T
+888;wort;şişman;;dick;;Wörter Ş–T
+889;wort;şort (t);;die Shorts;;Wörter Ş–T
+890;wort;İ şaşırtmak;;… in Erstaunen versetzen;;Wörter Ş–T
+891;satz;… beni şaşırtıyor;;… erstaunt mich;890;Sätze & Wendungen I–Z
+892;wort;şöyle;;so;;Wörter Ş–T
+893;wort;şu;;"der; dieser (Demonstrativpronomen)";;Wörter Ş–T
+894;satz;şu dere;;dieser Bach;893;Sätze & Wendungen I–Z
+895;satz;şu anda;;im Augenblick, zur Zeit;893;Sätze & Wendungen I–Z
+896;wort;şubat (t);;der Februar;;Wörter Ş–T
+897;wort;takım;;die Mannschaft;;Wörter Ş–T
+898;satz;gençlik takımı;;die Jugendmannschaft;897;Sätze & Wendungen I–Z
+899;wort;taksi;;das Taxi;;Wörter Ş–T
+900;satz;taksi şoförü;;der Taxifahrer;899;Sätze & Wendungen I–Z
+901;wort;tamam;;okay;;Wörter Ş–T
+902;wort;tane;;das Stück;;Wörter Ş–T
+903;wort;tanınmış;;bekannt;;Wörter Ş–T
+904;wort;tanıtmak;İ;… vorstellen;;Wörter Ş–T
+905;satz;Kendimi tanıtmak istiyorum.;;Ich möchte mich vorstellen.;904;Sätze & Wendungen I–Z
+906;wort;tanıştırmak;;… vorstellen;;Wörter Ş–T
+907;satz;Tanıştırayım: …;;Darf ich vorstellen: …;906;Sätze & Wendungen I–Z
+908;wort;tanışmak;… ile;"sich kennen lernen; … kennenlernen";;Wörter Ş–T
+909;satz;Kocamla iki sene önce tanıştık.;;Mein Mann und ich haben uns vor zwei Jahren kennengelernt.;908;Sätze & Wendungen I–Z
+910;satz;Hüseyin’le dün tanıştım.;;Ich habe Hüseyin gestern kennengelernt.;908;Sätze & Wendungen I–Z
+911;wort;taptaze;;ganz frisch;;Wörter Ş–T
+912;wort;taraf;;die Seite;;Wörter Ş–T
+913;wort;tarih;;die Geschichte (= Historie);;Wörter Ş–T
+914;wort;taş;;der Stein;;Wörter Ş–T
+915;wort;taşınmak;DEn E;von … nach … (um)ziehen;;Wörter Ş–T
+916;satz;Ankara’dan İstanbul’a taşındım.;;Ich bin von Ankara nach Istanbul umgezogen.;915;Sätze & Wendungen I–Z
+917;wort;tatil;;der Urlaub, die Ferien;;Wörter Ş–T
+918;satz;tatilde;;im Urlaub, in den Ferien;917;Sätze & Wendungen I–Z
+919;wort;tatil köyü;;das Feriendorf, die Ferienanlage;;Wörter Ş–T
+920;wort;tatil yapmak;;Ferien machen, Urlaub machen;;Wörter Ş–T
+921;wort;tatlı;;"die Süßspeise; süß";;Wörter Ş–T
+922;wort;tavşan;;"der Hase; das Kaninchen";;Wörter Ş–T
+923;wort;tavsiye;;der Ratschlag;;Wörter Ş–T
+924;wort;tavuk (ğ);;das Huhn;;Wörter Ş–T
+925;wort;taze;;frisch;;Wörter Ş–T
+926;wort;tekrar;;nochmals;;Wörter Ş–T
+927;wort;telaş;;"die Hektik; die Panik";;Wörter Ş–T
+928;wort;telaşla;;hektisch;;Wörter Ş–T
+929;wort;telefon;;das Telefon;;Wörter Ş–T
+930;wort;telefon etmek;;telefonieren;;Wörter Ş–T
+931;wort;telefon numarası;;die Telefonnummer;;Wörter Ş–T
+932;wort;televizyon;;das Fernsehen;;Wörter Ş–T
+933;wort;İ temizlemek;;… putzen, … reinigen;;Wörter Ş–T
+934;satz;Odamı temizledim.;;Ich habe mein Zimmer geputzt.;933;Sätze & Wendungen I–Z
+935;wort;temmuz;;der Juli;;Wörter Ş–T
+936;wort;teneke;;das Blech, Blech …;;Wörter Ş–T
+937;wort;tenis sahası;;der Tennisplatz;;Wörter Ş–T
+938;wort;teoloji;;die Theologie;;Wörter Ş–T
+939;wort;tercüman;;der Dolmetscher, die Dolmetscherin;;Wörter Ş–T
+940;wort;İ terketmek;;… verlassen;;Wörter Ş–T
+941;wort;terlemek;;schwitzen;;Wörter Ş–T
+942;wort;ters gitmek;;schiefgehen;;Wörter Ş–T
+943;wort;terzi;;der Schneider, die Schneiderin;;Wörter Ş–T
+944;wort;tesadüf;;der Zufall;;Wörter Ş–T
+945;wort;tesadüfen;;zufällig;;Wörter Ş–T
+946;wort;teşekkür etmek;;sich bedanken;;Wörter Ş–T
+947;satz;Teşekkürler.;;Vielen Dank.;946;Sätze & Wendungen I–Z
+948;satz;Teşekkür ederim.;;Danke. (= ich bedanke mich);946;Sätze & Wendungen I–Z
+949;wort;tırmalamak;İ;an … kratzen;;Wörter Ş–T
+950;wort;teyze;;die Tante (mütterlicherseits);;Wörter Ş–T
+951;wort;tırtıl;;die Raupe;;Wörter Ş–T
+952;wort;tişört (t);;das T-Shirt;;Wörter Ş–T
+953;wort;tiyatro;;das Theater;;Wörter Ş–T
+954;wort;toplam;;insgesamt;;Wörter Ş–T
+955;wort;trampet (t);;die Trommel;;Wörter Ş–T
+956;wort;tramvay;;die Straßenbahn;;Wörter Ş–T
+957;satz;tramvay ile/tramvayla;;mit der Straßenbahn;956;Sätze & Wendungen I–Z
+958;wort;tren;;der Zug;;Wörter Ş–T
+959;satz;tren ile/trenle;;mit dem Zug;958;Sätze & Wendungen I–Z
+960;wort;turist (t);;der Tourist, die Touristin;;Wörter Ş–T
+961;wort;turizm;;der Tourismus;;Wörter Ş–T
+962;wort;Türk;;der Türke, die Türkin;;Wörter Ş–T
+963;satz;Türk kahvesi;;der türkische Kaffee;962;Sätze & Wendungen I–Z
+964;wort;Türkçe;;Türkisch (die Sprache);;Wörter Ş–T
+965;satz;Türkçe kursu;;der Türkischkurs;964;Sätze & Wendungen I–Z
+966;satz;Türkçe öğrenmek istiyorum.;;Ich möchte Türkisch lernen.;964;Sätze & Wendungen I–Z
+967;wort;Türkiye;;die Türkei;;Wörter Ş–T
+968;satz;Türkiye´de;;in der Türkei;967;Sätze & Wendungen I–Z
+969;wort;Türkiyeli;;aus der Türkei (stammend);;Wörter Ş–T
+970;wort;turşu;;(sauer eingelegtes Gemüse);;Wörter Ş–T
+971;wort;tüy;;"die Feder; Tiere: das Haar";;Wörter Ş–T
+972;wort;tüyler;;"das Gefieder; das Fell";;Wörter Ş–T
+973;wort;uzun;;lang;;Wörter U–V
+974;wort;upuzun;;sehr lang, ellenlang;;Wörter U–V
+975;wort;uyumak;;schlafen;;Wörter U–V
+976;wort;ücret (t);;der Preis;;Wörter U–V
+977;satz;kurs ücreti;;der Kursgebühr;976;Sätze & Wendungen I–Z
+978;wort;ülke;;das Land;;Wörter U–V
+979;wort;ün;;der Ruhm;;Wörter U–V
+980;wort;ün kazanmak;;Ruhm erlangen, berühmt werden;;Wörter U–V
+981;wort;üniversite;;die Universität;;Wörter U–V
+982;satz;üniversitede;;in der Universität;981;Sätze & Wendungen I–Z
+983;wort;üniversite öğrencisi;;der Student, die Studentin;;Wörter U–V
+984;wort;ünlü;;berühmt;;Wörter U–V
+985;wort;ünlü;;der Vokal;;Wörter U–V
+986;wort;ünsüz;;der Konsonant;;Wörter U–V
+987;wort;üşümek;;frieren;;Wörter U–V
+988;wort;üzgün;;traurig;;Wörter U–V
+989;wort;üzüm;;die Weintraube;;Wörter U–V
+990;satz;kuru üzüm;;die Rosine;989;Sätze & Wendungen I–Z
+991;satz;üzümlü kek;;der Kuchen mit Rosinen;989;Sätze & Wendungen I–Z
+992;wort;vakit (vakt-);;die Zeit;;Wörter U–V
+993;wort;Vallahi!;;"Bei Gott!; Ja wirklich!";;Wörter U–V
+994;wort;vapur;;der Dampfer;;Wörter U–V
+995;wort;var;;es gibt/existiert/ist vorhanden;;Wörter U–V
+996;satz;Kursta on öğrenci var.;;Im Kurs gibt es/sind zehn Schüler.;995;Sätze & Wendungen I–Z
+997;satz;… var mı?;;gibt es …?;995;Sätze & Wendungen I–Z
+998;satz;Kursta erkekçocuk da var mı?;;Gibt es im Kurs auch Jungen?;995;Sätze & Wendungen I–Z
+999;wort;Varşova;;Warschau;;Wörter U–V
+1000;wort;vatandaş;;der Staatsbürger, der Bürger;;Wörter U–V
+1001;wort;vazo;;die Vase;;Wörter U–V
+1002;wort;ve;;und;;Wörter U–V
+1003;wort;vermek;;geben;;Wörter U–V
+1004;wort;Viyana;;Wien;;Wörter U–V
+1005;wort;ya;;und (nur zur Einleitung von Parallelfragen);;Wörter Y–Z
+1006;satz;Ya senin adın ne?;;Und wie ist dein Name?;1005;Sätze & Wendungen I–Z
+1007;wort;Yahudi;;der Jude;;Wörter Y–Z
+1008;satz;Yahudi bir aile;;eine jüdische Familie;1007;Sätze & Wendungen I–Z
+1009;wort;yakışıklı;;gutaussehend, hübsch;;Wörter Y–Z
+1010;wort;yaklaşık;;annähernd, etwa;;Wörter Y–Z
+1011;wort;yan;;die Seite;;Wörter Y–Z
+1012;wort;yan yana;;nebeneinander;;Wörter Y–Z
+1013;satz;yan yana oturmak;;nebeneinander sitzen/wohnen;1012;Sätze & Wendungen I–Z
+1014;wort;yani;;also;;Wörter Y–Z
+1015;wort;yanında olmak;;bei sich haben;;Wörter Y–Z
+1016;satz;Pasaportum yanımda değil.;;Ich habe meinen Pass nicht dabei.;1015;Sätze & Wendungen I–Z
+1017;wort;yanmak;;brennen;;Wörter Y–Z
+1018;wort;yapmak;;machen, tun;;Wörter Y–Z
+1019;wort;yapılmak;;gemacht werden, durchgeführt werden;;Wörter Y–Z
+1020;wort;yaprak (ğ);;das Blatt;;Wörter Y–Z
+1021;satz;yaprağın üzerinde;;auf dem Blatt;1020;Sätze & Wendungen I–Z
+1022;wort;yardım;;die Hilfe;;Wörter Y–Z
+1023;wort;yardım etmek;E;jdm helfen;;Wörter Y–Z
+1024;satz;Ali bana yardım etti.;;Ali hat mir geholfen.;1023;Sätze & Wendungen I–Z
+1025;wort;yardım istemek;DEn;von … Hilfe wollen, … um Hilfe bitten;;Wörter Y–Z
+1026;satz;Ben Ali’den yardım istedim.;;Ich habe Ali um Hilfe gebeten.;1025;Sätze & Wendungen I–Z
+1027;wort;yarın;;morgen;;Wörter Y–Z
+1028;wort;yaş;;das Alter;;Wörter Y–Z
+1029;satz;Yaşım 24.;;Ich bin 24 Jahre alt.;1028;Sätze & Wendungen I–Z
+1030;satz;Yaşın kaç?;;Wie alt bist du?;1028;Sätze & Wendungen I–Z
+1031;satz;Yaşınız kaç?;;Wie alt sind Sie?;1028;Sätze & Wendungen I–Z
+1032;satz;24 yaşındayım.;;Ich bin 24 Jahre alt.;1028;Sätze & Wendungen I–Z
+1033;satz;… yaşında;;im Alter von …;1028;Sätze & Wendungen I–Z
+1034;wort;yaşamak;;leben;;Wörter Y–Z
+1035;wort;yaşarmak;;Augen: tränen;;Wörter Y–Z
+1036;wort;yaşlanmak;;"alt werden; alt sein";;Wörter Y–Z
+1037;wort;yatak (ğ);;das Bett;;Wörter Y–Z
+1038;wort;yatmak;;liegen;;Wörter Y–Z
+1039;satz;yatakta yatmak;;im Bett liegen;1038;Sätze & Wendungen I–Z
+1040;wort;yaz;;der Sommer;;Wörter Y–Z
+1041;wort;yazar;;der Schriftsteller;;Wörter Y–Z
+1042;wort;yazmak;;schreiben;;Wörter Y–Z
+1043;wort;yedi;;sieben;;Wörter Y–Z
+1044;wort;yemek yemek;;essen;;Wörter Y–Z
+1045;satz;yiyecek bir şeyler;;etwas zu essen;1044;Sätze & Wendungen I–Z
+1046;wort;yemek (ğ);;das Essen;;Wörter Y–Z
+1047;wort;yemyeşil;;knallgrün;;Wörter Y–Z
+1048;wort;yeni;;neu;;Wörter Y–Z
+1049;satz;yeni kelime;;das neue Wort, die Vokabel;1048;Sätze & Wendungen I–Z
+1050;wort;yeşil;;grün;;Wörter Y–Z
+1051;wort;yetmiş;;siebzig;;Wörter Y–Z
+1052;wort;yıl;;das Jahr;;Wörter Y–Z
+1053;satz;Yıllar nasıl geçti anlamadım.;;Ich weiß nicht, wie die Jahre vergangen sind.;1052;Sätze & Wendungen I–Z
+1054;satz;… yılında;;im Jahr …;1052;Sätze & Wendungen I–Z
+1055;wort;yıldız;;der Stern;;Wörter Y–Z
+1056;wort;yine;;wieder;;Wörter Y–Z
+1057;wort;yine de;;trotzdem;;Wörter Y–Z
+1058;wort;yirmi;;zwanzig;;Wörter Y–Z
+1059;wort;yönetici;;der Leiter;;Wörter Y–Z
+1060;wort;yorgun;;müde;;Wörter Y–Z
+1061;satz;Yorgunum.;;Ich bin müde.;1060;Sätze & Wendungen I–Z
+1062;wort;yüksek;;hoch;;Wörter Y–Z
+1063;wort;yumurta;;das Ei;;Wörter Y–Z
+1064;satz;yumurtadan çıkmak;;aus dem Ei schlüpfen/herauskommen;1063;Sätze & Wendungen I–Z
+1065;wort;yumuşak;;weich;;Wörter Y–Z
+1066;satz;yumuşak ge;;weiches g (= ğ);1065;Sätze & Wendungen I–Z
+1067;wort;Yunan;;der Grieche, die Griechin;;Wörter Y–Z
+1068;wort;Yunanca;;Griechisch (die Sprache);;Wörter Y–Z
+1069;wort;Yunanistan;;Griechenland;;Wörter Y–Z
+1070;wort;yüz;;hundert;;Wörter Y–Z
+1071;wort;yüzmek;;schwimmen;;Wörter Y–Z
+1072;wort;yüzme havuzu;;das Schwimmbecken;;Wörter Y–Z
+1073;wort;yüzük (ğ);;der Ring;;Wörter Y–Z
+1074;wort;zaman;;die Zeit;;Wörter Y–Z
+1075;satz;Zamanım yoktu.;;Ich hatte keine Zeit.;1074;Sätze & Wendungen I–Z
+1076;wort;zavallı;;arm, bedauernswert;;Wörter Y–Z
+1077;wort;zayıf;;dünn;;Wörter Y–Z
+1078;wort;zengin;;reich;;Wörter Y–Z
+1079;wort;zil;;die Klingel;;Wörter Y–Z
+1080;satz;zil çalmak;;klingeln;1079;Sätze & Wendungen I–Z
+1081;wort;ziyaret etmek;İ;… besuchen;;Wörter Y–Z
+1082;wort;zooloji;;die Zoologie;;Wörter Y–Z
+1083;wort;zor;;schwer, schwierig;;Wörter Y–Z
+1084;wortfeld;akrabalar;;die Verwandten;;Wortfeld: die Verwandten
+1085;wortfeld;aile;;die Familie;;Wortfeld: die Verwandten
+1086;wortfeld;anne;;die Mutter;;Wortfeld: die Verwandten
+1087;wortfeld;baba;;der Vater;;Wortfeld: die Verwandten
+1088;wortfeld;kız;;die Tochter;;Wortfeld: die Verwandten
+1089;wortfeld;oğul;;der Sohn;;Wortfeld: die Verwandten
+1090;wortfeld;kardeş(ler);;die Geschwister;;Wortfeld: die Verwandten
+1091;wortfeld;kızkardeş;;die (jüngere) Schwester;;Wortfeld: die Verwandten
+1092;wortfeld;erkekkardeş;;der (jüngere) Bruder;;Wortfeld: die Verwandten
+1093;wortfeld;abla;;die (ältere) Schwester;;Wortfeld: die Verwandten
+1094;wortfeld;abi;;der (ältere) Bruder;;Wortfeld: die Verwandten
+1095;wortfeld;nine;;die Oma;;Wortfeld: die Verwandten
+1096;wortfeld;dede;;der Opa;;Wortfeld: die Verwandten
+1097;wortfeld;büyükanne;;die Großmutter;;Wortfeld: die Verwandten
+1098;wortfeld;büyükbaba;;der Großvater;;Wortfeld: die Verwandten
+1099;wortfeld;babaanne;;die Oma (väterlicherseits);;Wortfeld: die Verwandten
+1100;wortfeld;anneanne;;die Oma (mütterlicherseits);;Wortfeld: die Verwandten
+1101;wortfeld;aylar;;die Monate;;Wortfeld: die Monate
+1102;wortfeld;ocak;;der Januar;;Wortfeld: die Monate
+1103;wortfeld;şubat;;der Februar;;Wortfeld: die Monate
+1104;wortfeld;mart;;der März;;Wortfeld: die Monate
+1105;wortfeld;nisan;;der April;;Wortfeld: die Monate
+1106;wortfeld;mayıs;;der Mai;;Wortfeld: die Monate
+1107;wortfeld;haziran;;der Juni;;Wortfeld: die Monate
+1108;wortfeld;temmuz;;der Juli;;Wortfeld: die Monate
+1109;wortfeld;ağustos;;der August;;Wortfeld: die Monate
+1110;wortfeld;eylül;;der September;;Wortfeld: die Monate
+1111;wortfeld;ekim;;der Oktober;;Wortfeld: die Monate
+1112;wortfeld;kasım;;der November;;Wortfeld: die Monate
+1113;wortfeld;aralık;;der Dezember;;Wortfeld: die Monate
+1114;wortfeld;sayılar;;die Zahlen;;Wortfeld: die Zahlen
+1115;wortfeld;bir;;eins;;Wortfeld: die Zahlen
+1116;wortfeld;iki;;zwei;;Wortfeld: die Zahlen
+1117;wortfeld;üç;;drei;;Wortfeld: die Zahlen
+1118;wortfeld;dört;;vier;;Wortfeld: die Zahlen
+1119;wortfeld;beş;;fünf;;Wortfeld: die Zahlen
+1120;wortfeld;altı;;sechs;;Wortfeld: die Zahlen
+1121;wortfeld;yedi;;sieben;;Wortfeld: die Zahlen
+1122;wortfeld;sekiz;;acht;;Wortfeld: die Zahlen
+1123;wortfeld;dokuz;;neun;;Wortfeld: die Zahlen
+1124;wortfeld;on;;zehn;;Wortfeld: die Zahlen
+1125;wortfeld;yirmi;;zwanzig;;Wortfeld: die Zahlen
+1126;wortfeld;otuz;;dreißig;;Wortfeld: die Zahlen
+1127;wortfeld;kırk;;vierzig;;Wortfeld: die Zahlen
+1128;wortfeld;elli;;fünfzig;;Wortfeld: die Zahlen
+1129;wortfeld;altmış;;sechzig;;Wortfeld: die Zahlen
+1130;wortfeld;yetmiş;;siebzig;;Wortfeld: die Zahlen
+1131;wortfeld;seksen;;achtzig;;Wortfeld: die Zahlen
+1132;wortfeld;doksan;;neunzig;;Wortfeld: die Zahlen
+1133;wortfeld;yüz;;hundert;;Wortfeld: die Zahlen
+1134;wortfeld;bin;;tausend;;Wortfeld: die Zahlen

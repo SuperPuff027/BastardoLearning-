@@ -46,8 +46,48 @@ class $FoldersTable extends Folders with TableInfo<$FoldersTable, Folder> {
     requiredDuringInsert: false,
     defaultValue: currentDateAndTime,
   );
+  static const VerificationMeta _courseKeyMeta = const VerificationMeta(
+    'courseKey',
+  );
   @override
-  List<GeneratedColumn> get $columns => [id, name, createdAt];
+  late final GeneratedColumn<String> courseKey = GeneratedColumn<String>(
+    'course_key',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _languageMeta = const VerificationMeta(
+    'language',
+  );
+  @override
+  late final GeneratedColumn<String> language = GeneratedColumn<String>(
+    'language',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _positionMeta = const VerificationMeta(
+    'position',
+  );
+  @override
+  late final GeneratedColumn<int> position = GeneratedColumn<int>(
+    'position',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    name,
+    createdAt,
+    courseKey,
+    language,
+    position,
+  ];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
@@ -77,6 +117,24 @@ class $FoldersTable extends Folders with TableInfo<$FoldersTable, Folder> {
         createdAt.isAcceptableOrUnknown(data['created_at']!, _createdAtMeta),
       );
     }
+    if (data.containsKey('course_key')) {
+      context.handle(
+        _courseKeyMeta,
+        courseKey.isAcceptableOrUnknown(data['course_key']!, _courseKeyMeta),
+      );
+    }
+    if (data.containsKey('language')) {
+      context.handle(
+        _languageMeta,
+        language.isAcceptableOrUnknown(data['language']!, _languageMeta),
+      );
+    }
+    if (data.containsKey('position')) {
+      context.handle(
+        _positionMeta,
+        position.isAcceptableOrUnknown(data['position']!, _positionMeta),
+      );
+    }
     return context;
   }
 
@@ -98,6 +156,18 @@ class $FoldersTable extends Folders with TableInfo<$FoldersTable, Folder> {
         DriftSqlType.dateTime,
         data['${effectivePrefix}created_at'],
       )!,
+      courseKey: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}course_key'],
+      ),
+      language: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}language'],
+      ),
+      position: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}position'],
+      ),
     );
   }
 
@@ -111,13 +181,38 @@ class Folder extends DataClass implements Insertable<Folder> {
   final int id;
   final String name;
   final DateTime createdAt;
-  const Folder({required this.id, required this.name, required this.createdAt});
+
+  /// Schlüssel des mitgelieferten Kurses (null = eigener Ordner).
+  final String? courseKey;
+
+  /// Sprache der Sets im Kursordner (`es`, `tr`); null bei eigenen Ordnern.
+  final String? language;
+
+  /// Reihenfolge der Kursordner.
+  final int? position;
+  const Folder({
+    required this.id,
+    required this.name,
+    required this.createdAt,
+    this.courseKey,
+    this.language,
+    this.position,
+  });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
     map['id'] = Variable<int>(id);
     map['name'] = Variable<String>(name);
     map['created_at'] = Variable<DateTime>(createdAt);
+    if (!nullToAbsent || courseKey != null) {
+      map['course_key'] = Variable<String>(courseKey);
+    }
+    if (!nullToAbsent || language != null) {
+      map['language'] = Variable<String>(language);
+    }
+    if (!nullToAbsent || position != null) {
+      map['position'] = Variable<int>(position);
+    }
     return map;
   }
 
@@ -126,6 +221,15 @@ class Folder extends DataClass implements Insertable<Folder> {
       id: Value(id),
       name: Value(name),
       createdAt: Value(createdAt),
+      courseKey: courseKey == null && nullToAbsent
+          ? const Value.absent()
+          : Value(courseKey),
+      language: language == null && nullToAbsent
+          ? const Value.absent()
+          : Value(language),
+      position: position == null && nullToAbsent
+          ? const Value.absent()
+          : Value(position),
     );
   }
 
@@ -138,6 +242,9 @@ class Folder extends DataClass implements Insertable<Folder> {
       id: serializer.fromJson<int>(json['id']),
       name: serializer.fromJson<String>(json['name']),
       createdAt: serializer.fromJson<DateTime>(json['createdAt']),
+      courseKey: serializer.fromJson<String?>(json['courseKey']),
+      language: serializer.fromJson<String?>(json['language']),
+      position: serializer.fromJson<int?>(json['position']),
     );
   }
   @override
@@ -147,19 +254,35 @@ class Folder extends DataClass implements Insertable<Folder> {
       'id': serializer.toJson<int>(id),
       'name': serializer.toJson<String>(name),
       'createdAt': serializer.toJson<DateTime>(createdAt),
+      'courseKey': serializer.toJson<String?>(courseKey),
+      'language': serializer.toJson<String?>(language),
+      'position': serializer.toJson<int?>(position),
     };
   }
 
-  Folder copyWith({int? id, String? name, DateTime? createdAt}) => Folder(
+  Folder copyWith({
+    int? id,
+    String? name,
+    DateTime? createdAt,
+    Value<String?> courseKey = const Value.absent(),
+    Value<String?> language = const Value.absent(),
+    Value<int?> position = const Value.absent(),
+  }) => Folder(
     id: id ?? this.id,
     name: name ?? this.name,
     createdAt: createdAt ?? this.createdAt,
+    courseKey: courseKey.present ? courseKey.value : this.courseKey,
+    language: language.present ? language.value : this.language,
+    position: position.present ? position.value : this.position,
   );
   Folder copyWithCompanion(FoldersCompanion data) {
     return Folder(
       id: data.id.present ? data.id.value : this.id,
       name: data.name.present ? data.name.value : this.name,
       createdAt: data.createdAt.present ? data.createdAt.value : this.createdAt,
+      courseKey: data.courseKey.present ? data.courseKey.value : this.courseKey,
+      language: data.language.present ? data.language.value : this.language,
+      position: data.position.present ? data.position.value : this.position,
     );
   }
 
@@ -168,45 +291,67 @@ class Folder extends DataClass implements Insertable<Folder> {
     return (StringBuffer('Folder(')
           ..write('id: $id, ')
           ..write('name: $name, ')
-          ..write('createdAt: $createdAt')
+          ..write('createdAt: $createdAt, ')
+          ..write('courseKey: $courseKey, ')
+          ..write('language: $language, ')
+          ..write('position: $position')
           ..write(')'))
         .toString();
   }
 
   @override
-  int get hashCode => Object.hash(id, name, createdAt);
+  int get hashCode =>
+      Object.hash(id, name, createdAt, courseKey, language, position);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
       (other is Folder &&
           other.id == this.id &&
           other.name == this.name &&
-          other.createdAt == this.createdAt);
+          other.createdAt == this.createdAt &&
+          other.courseKey == this.courseKey &&
+          other.language == this.language &&
+          other.position == this.position);
 }
 
 class FoldersCompanion extends UpdateCompanion<Folder> {
   final Value<int> id;
   final Value<String> name;
   final Value<DateTime> createdAt;
+  final Value<String?> courseKey;
+  final Value<String?> language;
+  final Value<int?> position;
   const FoldersCompanion({
     this.id = const Value.absent(),
     this.name = const Value.absent(),
     this.createdAt = const Value.absent(),
+    this.courseKey = const Value.absent(),
+    this.language = const Value.absent(),
+    this.position = const Value.absent(),
   });
   FoldersCompanion.insert({
     this.id = const Value.absent(),
     required String name,
     this.createdAt = const Value.absent(),
+    this.courseKey = const Value.absent(),
+    this.language = const Value.absent(),
+    this.position = const Value.absent(),
   }) : name = Value(name);
   static Insertable<Folder> custom({
     Expression<int>? id,
     Expression<String>? name,
     Expression<DateTime>? createdAt,
+    Expression<String>? courseKey,
+    Expression<String>? language,
+    Expression<int>? position,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
       if (name != null) 'name': name,
       if (createdAt != null) 'created_at': createdAt,
+      if (courseKey != null) 'course_key': courseKey,
+      if (language != null) 'language': language,
+      if (position != null) 'position': position,
     });
   }
 
@@ -214,11 +359,17 @@ class FoldersCompanion extends UpdateCompanion<Folder> {
     Value<int>? id,
     Value<String>? name,
     Value<DateTime>? createdAt,
+    Value<String?>? courseKey,
+    Value<String?>? language,
+    Value<int?>? position,
   }) {
     return FoldersCompanion(
       id: id ?? this.id,
       name: name ?? this.name,
       createdAt: createdAt ?? this.createdAt,
+      courseKey: courseKey ?? this.courseKey,
+      language: language ?? this.language,
+      position: position ?? this.position,
     );
   }
 
@@ -234,6 +385,15 @@ class FoldersCompanion extends UpdateCompanion<Folder> {
     if (createdAt.present) {
       map['created_at'] = Variable<DateTime>(createdAt.value);
     }
+    if (courseKey.present) {
+      map['course_key'] = Variable<String>(courseKey.value);
+    }
+    if (language.present) {
+      map['language'] = Variable<String>(language.value);
+    }
+    if (position.present) {
+      map['position'] = Variable<int>(position.value);
+    }
     return map;
   }
 
@@ -242,7 +402,10 @@ class FoldersCompanion extends UpdateCompanion<Folder> {
     return (StringBuffer('FoldersCompanion(')
           ..write('id: $id, ')
           ..write('name: $name, ')
-          ..write('createdAt: $createdAt')
+          ..write('createdAt: $createdAt, ')
+          ..write('courseKey: $courseKey, ')
+          ..write('language: $language, ')
+          ..write('position: $position')
           ..write(')'))
         .toString();
   }
@@ -3628,11 +3791,17 @@ typedef $$FoldersTableCreateCompanionBuilder = FoldersCompanion Function({
   Value<int> id,
   required String name,
   Value<DateTime> createdAt,
+  Value<String?> courseKey,
+  Value<String?> language,
+  Value<int?> position,
 });
 typedef $$FoldersTableUpdateCompanionBuilder = FoldersCompanion Function({
   Value<int> id,
   Value<String> name,
   Value<DateTime> createdAt,
+  Value<String?> courseKey,
+  Value<String?> language,
+  Value<int?> position,
 });
 
 final class $$FoldersTableReferences
@@ -3680,6 +3849,21 @@ class $$FoldersTableFilterComposer
 
   ColumnFilters<DateTime> get createdAt => $composableBuilder(
     column: $table.createdAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get courseKey => $composableBuilder(
+    column: $table.courseKey,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get language => $composableBuilder(
+    column: $table.language,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get position => $composableBuilder(
+    column: $table.position,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -3732,6 +3916,21 @@ class $$FoldersTableOrderingComposer
     column: $table.createdAt,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<String> get courseKey => $composableBuilder(
+    column: $table.courseKey,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get language => $composableBuilder(
+    column: $table.language,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get position => $composableBuilder(
+    column: $table.position,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$FoldersTableAnnotationComposer
@@ -3751,6 +3950,15 @@ class $$FoldersTableAnnotationComposer
 
   GeneratedColumn<DateTime> get createdAt =>
       $composableBuilder(column: $table.createdAt, builder: (column) => column);
+
+  GeneratedColumn<String> get courseKey =>
+      $composableBuilder(column: $table.courseKey, builder: (column) => column);
+
+  GeneratedColumn<String> get language =>
+      $composableBuilder(column: $table.language, builder: (column) => column);
+
+  GeneratedColumn<int> get position =>
+      $composableBuilder(column: $table.position, builder: (column) => column);
 
   Expression<T> setsRefs<T extends Object>(
     Expression<T> Function($$SetsTableAnnotationComposer a) f,
@@ -3804,20 +4012,37 @@ class $$FoldersTableTableManager
               $$FoldersTableOrderingComposer($db: db, $table: table),
           createComputedFieldComposer: () =>
               $$FoldersTableAnnotationComposer($db: db, $table: table),
-          updateCompanionCallback: ({
-            Value<int> id = const Value.absent(),
-            Value<String> name = const Value.absent(),
-            Value<DateTime> createdAt = const Value.absent(),
-          }) => FoldersCompanion(id: id, name: name, createdAt: createdAt),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> name = const Value.absent(),
+                Value<DateTime> createdAt = const Value.absent(),
+                Value<String?> courseKey = const Value.absent(),
+                Value<String?> language = const Value.absent(),
+                Value<int?> position = const Value.absent(),
+              }) => FoldersCompanion(
+                id: id,
+                name: name,
+                createdAt: createdAt,
+                courseKey: courseKey,
+                language: language,
+                position: position,
+              ),
           createCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
                 required String name,
                 Value<DateTime> createdAt = const Value.absent(),
+                Value<String?> courseKey = const Value.absent(),
+                Value<String?> language = const Value.absent(),
+                Value<int?> position = const Value.absent(),
               }) => FoldersCompanion.insert(
                 id: id,
                 name: name,
                 createdAt: createdAt,
+                courseKey: courseKey,
+                language: language,
+                position: position,
               ),
           withReferenceMapper: (p0) => p0
               .map(

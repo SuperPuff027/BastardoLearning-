@@ -7,10 +7,13 @@ import 'media/media_store.dart';
 import 'vocab/vocab_repository.dart' show normalizeKey;
 
 class FolderWithCount {
-  const FolderWithCount(this.folder, this.setCount);
+  const FolderWithCount(this.folder, this.setCount, {this.cardCount = 0});
 
   final Folder folder;
   final int setCount;
+  final int cardCount;
+
+  bool get isCourse => folder.courseKey != null;
 }
 
 class SetWithCount {
@@ -98,23 +101,85 @@ class LibraryRepository {
 
   (JoinedSelectStatement, List<FolderWithCount> Function(List<TypedResult>))
   _foldersQuery() {
-    final count = db.sets.id.count();
+    final count = db.sets.id.count(distinct: true);
+    final cards = db.cards.id.count();
     final query =
         db.select(db.folders).join([
             leftOuterJoin(db.sets, db.sets.folderId.equalsExp(db.folders.id)),
+            leftOuterJoin(db.cards, db.cards.setId.equalsExp(db.sets.id)),
           ])
-          ..addColumns([count])
+          ..addColumns([count, cards])
           ..groupBy([db.folders.id])
           ..orderBy([
+            // Kursordner zuerst, in fester Reihenfolge; dann eigene nach Name
+            OrderingTerm.asc(db.folders.position, nulls: NullsOrder.last),
             OrderingTerm.asc(db.folders.name.collate(Collate.noCase)),
           ]);
     return (
       query,
       (rows) => [
         for (final r in rows)
-          FolderWithCount(r.readTable(db.folders), r.read(count) ?? 0),
+          FolderWithCount(
+            r.readTable(db.folders),
+            r.read(count) ?? 0,
+            cardCount: r.read(cards) ?? 0,
+          ),
       ],
     );
+  }
+
+  /// Legt einen mitgelieferten Kurs als Ordner mit seinen Sets an.
+  Future<int> installCourse({
+    required String key,
+    required String title,
+    required String language,
+    required int position,
+    required List<({String title, List<VocabCardData> cards})> sets,
+  }) => db.transaction(() async {
+    final folderId = await db
+        .into(db.folders)
+        .insert(
+          FoldersCompanion.insert(
+            name: title,
+            courseKey: Value(key),
+            language: Value(language),
+            position: Value(position),
+          ),
+        );
+    for (final s in sets) {
+      final setId = await db
+          .into(db.sets)
+          .insert(
+            SetsCompanion.insert(
+              title: s.title,
+              language: language,
+              folderId: Value(folderId),
+            ),
+          );
+      await db.batch((b) {
+        var position = 0;
+        b.insertAll(db.cards, [
+          for (final c in s.cards)
+            CardsCompanion.insert(
+              setId: setId,
+              front: c.front,
+              back: c.back,
+              vocabId: Value(c.vocabId),
+              verified: Value(c.verified),
+              position: Value(position++),
+            ),
+        ]);
+      });
+    }
+    return folderId;
+  });
+
+  /// Schlüssel der Kurse, deren Ordner gerade existiert.
+  Future<Set<String>> presentCourseKeys() async {
+    final rows = await (db.select(
+      db.folders,
+    )..where((f) => f.courseKey.isNotNull())).get();
+    return {for (final f in rows) f.courseKey!};
   }
 
   Stream<Folder?> watchFolder(int id) => (db.select(

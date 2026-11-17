@@ -29,6 +29,58 @@ class VocabRepository {
           ]).first['n']
           as int;
 
+  /// Kursordner, die die App automatisch anlegt (leer bei alten Datenbanken).
+  List<CourseInfo> courses() {
+    final hasTable = _db.select(
+      "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'course'",
+    );
+    if (hasTable.isEmpty) return const [];
+    final rows = _db.select('''
+      SELECT c.*, COUNT(cc.rowid) AS n, COUNT(DISTINCT cc.set_position) AS sets
+      FROM course c LEFT JOIN course_card cc ON cc.course_key = c.key
+      GROUP BY c.key ORDER BY c.position
+    ''');
+    return [
+      for (final r in rows)
+        CourseInfo(
+          key: r['key'] as String,
+          language: r['language'] as String,
+          title: r['title'] as String,
+          subtitle: r['subtitle'] as String,
+          position: r['position'] as int,
+          version: r['version'] as int,
+          setCount: r['sets'] as int,
+          cardCount: r['n'] as int,
+        ),
+    ];
+  }
+
+  /// Sets eines Kurses in Buchreihenfolge.
+  List<CourseSet> courseSets(String key) {
+    final rows = _db.select(
+      '''
+      SELECT set_position, set_title, front, back, vocab_id FROM course_card
+      WHERE course_key = ? ORDER BY set_position, position
+    ''',
+      [key],
+    );
+    final sets = <CourseSet>[];
+    int? current;
+    for (final r in rows) {
+      final pos = r['set_position'] as int;
+      if (pos != current) {
+        current = pos;
+        sets.add(CourseSet(r['set_title'] as String, []));
+      }
+      sets.last.cards.add((
+        front: r['front'] as String,
+        back: r['back'] as String,
+        vocabId: r['vocab_id'] as int?,
+      ));
+    }
+    return sets;
+  }
+
   VocabEntry? byId(int id) {
     final rows = _db.select('SELECT * FROM vocab WHERE id = ?', [id]);
     return rows.isEmpty ? null : VocabEntry.fromRow(rows.first);
@@ -215,4 +267,36 @@ String stripGermanArticle(String key) {
     if (key.startsWith(a)) return key.substring(a.length);
   }
   return key;
+}
+
+/// Ein mitgelieferter Kursordner (z. B. „Spanisch B1 – Aula 3“).
+class CourseInfo {
+  const CourseInfo({
+    required this.key,
+    required this.language,
+    required this.title,
+    required this.subtitle,
+    required this.position,
+    required this.version,
+    required this.setCount,
+    required this.cardCount,
+  });
+
+  final String key;
+  final String language;
+  final String title;
+  final String subtitle;
+  final int position;
+  final int version;
+  final int setCount;
+  final int cardCount;
+}
+
+typedef CourseCard = ({String front, String back, int? vocabId});
+
+class CourseSet {
+  CourseSet(this.title, this.cards);
+
+  final String title;
+  final List<CourseCard> cards;
 }

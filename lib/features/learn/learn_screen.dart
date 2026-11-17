@@ -34,6 +34,11 @@ class LearnScreen extends ConsumerWidget {
             );
           }
           final totalDue = list.fold(0, (s, x) => s + x.due);
+          // Nur angefangene Sets auflisten, sonst stehen hier alle
+          // Kurs-Sets und man muss lange scrollen.
+          final started = withCards
+              .where((s) => s.due > 0 || s.started > 0)
+              .toList();
           return RefreshIndicator(
             onRefresh: () async => ref.invalidate(dueSummaryProvider),
             child: ListView(
@@ -74,8 +79,15 @@ class LearnScreen extends ConsumerWidget {
                     ),
                   ),
                 ),
-                const SectionHeader('Nach Set'),
-                for (final s in withCards)
+                const SectionHeader('Angefangene Sets'),
+                if (started.isEmpty)
+                  const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    child: Text(
+                      'Öffne unter „Sets“ einen Kursordner und lerne ein Set – danach erscheint es hier.',
+                    ),
+                  ),
+                for (final s in started)
                   ListTile(
                     leading: CircleAvatar(
                       child: Text(

@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../data/backup.dart';
+import '../data/course_installer.dart';
 import '../data/database.dart';
 import '../data/library_repository.dart';
 import '../data/media/media_store.dart';
@@ -112,6 +113,14 @@ final randomProvider = Provider<Random>((ref) => Random());
 final vocabRepositoryProvider = Provider<VocabRepository>(
   (ref) => throw UnimplementedError(
     'vocabRepositoryProvider muss überschrieben werden',
+  ),
+);
+
+final courseInstallerProvider = Provider<CourseInstaller>(
+  (ref) => CourseInstaller(
+    ref.watch(databaseProvider),
+    ref.watch(libraryRepositoryProvider),
+    ref.watch(vocabRepositoryProvider),
   ),
 );
 

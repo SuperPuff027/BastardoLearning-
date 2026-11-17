@@ -5,15 +5,25 @@ import 'package:go_router/go_router.dart';
 import '../../app/placeholder_view.dart';
 import '../../app/providers.dart';
 import '../../app/router.dart';
+import '../../core/study_language.dart';
 import '../../data/library_repository.dart';
 import 'library_providers.dart';
 import 'widgets.dart';
 
-class LibraryScreen extends ConsumerWidget {
+/// Tab „Sets“: Kursordner ganz oben, darunter eigene Ordner und Sets.
+class LibraryScreen extends ConsumerStatefulWidget {
   const LibraryScreen({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<LibraryScreen> createState() => _LibraryScreenState();
+}
+
+class _LibraryScreenState extends ConsumerState<LibraryScreen> {
+  /// Sprachfilter für die Kursordner (`null` = alle).
+  String? _language;
+
+  @override
+  Widget build(BuildContext context) {
     final folders = ref.watch(foldersProvider);
     final sets = ref.watch(setsInFolderProvider(null));
 
@@ -21,7 +31,7 @@ class LibraryScreen extends ConsumerWidget {
       appBar: AppBar(title: const Text('Meine Sets')),
       floatingActionButton: FloatingActionButton.extended(
         key: const Key('libraryAdd'),
-        onPressed: () => _showCreateSheet(context, ref),
+        onPressed: () => _showCreateSheet(context),
         icon: const Icon(Icons.add),
         label: const Text('Neu'),
       ),
@@ -34,15 +44,49 @@ class LibraryScreen extends ConsumerWidget {
               return const PlaceholderView(
                 icon: Icons.collections_bookmark_outlined,
                 title: 'Noch keine Sets',
-                message: 'Tippe auf „Neu“: selbst anlegen, vorgefertigt aus der Vokabeldatenbank oder aus einem Foto bzw. Text.',
+                message: 'Tippe auf „Neu“: selbst anlegen, Kursordner hinzufügen oder aus einem Foto bzw. Text.',
               );
             }
+            final courses = folderList.where((f) => f.isCourse).toList();
+            final own = folderList.where((f) => !f.isCourse).toList();
+            final languages = {for (final c in courses) c.folder.language ?? ''}
+                .where((l) => l.isNotEmpty)
+                .toList();
+            final shown = _language == null
+                ? courses
+                : courses.where((c) => c.folder.language == _language);
             return ListView(
               padding: const EdgeInsets.only(bottom: 96),
               children: [
-                if (folderList.isNotEmpty) ...[
-                  const SectionHeader('Ordner'),
-                  for (final f in folderList)
+                if (courses.isNotEmpty) ...[
+                  const SectionHeader('Kurse'),
+                  if (languages.length > 1)
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Wrap(
+                        spacing: 8,
+                        children: [
+                          ChoiceChip(
+                            key: const Key('courseFilterAll'),
+                            label: const Text('Alle'),
+                            selected: _language == null,
+                            onSelected: (_) => setState(() => _language = null),
+                          ),
+                          for (final l in languages)
+                            ChoiceChip(
+                              key: Key('courseFilter_$l'),
+                              label: Text(StudyLanguage.labelFor(l)),
+                              selected: _language == l,
+                              onSelected: (_) => setState(() => _language = l),
+                            ),
+                        ],
+                      ),
+                    ),
+                  for (final c in shown) CourseFolderTile(item: c),
+                ],
+                if (own.isNotEmpty) ...[
+                  SectionHeader(courses.isEmpty ? 'Ordner' : 'Eigene Ordner'),
+                  for (final f in own)
                     ListTile(
                       leading: const Icon(Icons.folder_outlined),
                       title: Text(f.folder.name),
@@ -71,7 +115,7 @@ class LibraryScreen extends ConsumerWidget {
     );
   }
 
-  Future<void> _showCreateSheet(BuildContext context, WidgetRef ref) async {
+  Future<void> _showCreateSheet(BuildContext context) async {
     final choice = await showModalBottomSheet<String>(
       context: context,
       showDragHandle: true,
@@ -94,13 +138,13 @@ class LibraryScreen extends ConsumerWidget {
                 onTap: () => Navigator.of(context).pop('scan'),
               ),
               ListTile(
-                key: const Key('createPreset'),
+                key: const Key('createCourse'),
                 leading: const Icon(Icons.auto_stories_outlined),
-                title: const Text('Vorgefertigtes Set'),
+                title: const Text('Kursordner hinzufügen'),
                 subtitle: const Text(
-                  'Aus der Vokabeldatenbank nach Niveau und Thema',
+                  'Gelöschte Lehrbuch- oder Niveau-Ordner zurückholen',
                 ),
-                onTap: () => Navigator.of(context).pop('preset'),
+                onTap: () => Navigator.of(context).pop('course'),
               ),
               ListTile(
                 key: const Key('createFromFile'),
@@ -125,8 +169,8 @@ class LibraryScreen extends ConsumerWidget {
     switch (choice) {
       case 'set':
         context.go(Routes.newSet());
-      case 'preset':
-        context.go(Routes.presets);
+      case 'course':
+        await _addCourse(context);
       case 'file':
         context.go(Routes.vocabFile);
       case 'scan':
@@ -144,5 +188,111 @@ class LibraryScreen extends ConsumerWidget {
           if (context.mounted) showMessage(context, e.message);
         }
     }
+  }
+
+  Future<void> _addCourse(BuildContext context) async {
+    final installer = ref.read(courseInstallerProvider);
+    final missing = await installer.missing();
+    if (!context.mounted) return;
+    if (missing.isEmpty) {
+      showMessage(context, 'Alle Kursordner sind schon da');
+      return;
+    }
+    final key = await showModalBottomSheet<String>(
+      context: context,
+      showDragHandle: true,
+      isScrollControlled: true,
+      builder: (context) => SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              for (final c in missing)
+                ListTile(
+                  key: Key('addCourse_${c.key}'),
+                  leading: LanguageBadge(code: c.language),
+                  title: Text(c.title),
+                  subtitle: Text(
+                    '${c.setCount} Sets · ${c.cardCount} Karten\n${c.subtitle}',
+                  ),
+                  isThreeLine: true,
+                  onTap: () => Navigator.of(context).pop(c.key),
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+    if (key == null) return;
+    final id = await installer.install(key);
+    if (context.mounted) context.go(Routes.folder(id));
+  }
+}
+
+/// Große Kachel für einen Kursordner (Lehrbuch oder Niveau).
+class CourseFolderTile extends StatelessWidget {
+  const CourseFolderTile({super.key, required this.item});
+
+  final FolderWithCount item;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final f = item.folder;
+    return Card(
+      margin: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        key: Key('course_${f.courseKey}'),
+        onTap: () => context.go(Routes.folder(f.id)),
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Row(
+            children: [
+              LanguageBadge(code: f.language ?? ''),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(f.name, style: theme.textTheme.titleMedium),
+                    const SizedBox(height: 2),
+                    Text(
+                      '${item.setCount} Sets · ${item.cardCount} Karten',
+                      style: theme.textTheme.bodySmall,
+                    ),
+                  ],
+                ),
+              ),
+              const Icon(Icons.chevron_right),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Sprachkürzel bzw. Flagge im farbigen Kreis.
+class LanguageBadge extends StatelessWidget {
+  const LanguageBadge({super.key, required this.code});
+
+  final String code;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    final (bg, fg) = code == 'tr'
+        ? (scheme.tertiaryContainer, scheme.onTertiaryContainer)
+        : (scheme.primaryContainer, scheme.onPrimaryContainer);
+    return CircleAvatar(
+      radius: 22,
+      backgroundColor: bg,
+      foregroundColor: fg,
+      child: Text(
+        StudyLanguage.fromCode(code)?.flag ?? code.toUpperCase(),
+        style: const TextStyle(fontWeight: FontWeight.bold),
+      ),
+    );
   }
 }

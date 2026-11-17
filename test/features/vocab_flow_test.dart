@@ -161,40 +161,4 @@ void main() {
     expect(await cardsOf(setId), hasLength(1));
     expect(find.text('doppelt – löschen'), findsNothing);
   });
-
-  testWidgets('Vorgefertigtes Set aus der Datenbank anlegen', (tester) async {
-    await env.pumpApp(tester);
-    await tester.tap(find.byKey(const Key('libraryAdd')));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const Key('createPreset')));
-    await tester.pumpAndSettle();
-    expect(find.text('Vorgefertigte Sets'), findsOneWidget);
-
-    await tester.tap(find.byKey(const Key('preset-A1-essen')));
-    await tester.pumpAndSettle();
-    expect(find.text('Spanisch A1 – Essen & Trinken'), findsOneWidget);
-    await tester.tap(find.byKey(const Key('addPreset')));
-    await tester.pumpAndSettle();
-
-    final sets = await env.db.select(env.db.sets).get();
-    expect(sets.single.title, 'Spanisch A1 – Essen & Trinken');
-    final cards = await cardsOf(sets.single.id);
-    expect(cards.length, greaterThan(20));
-    expect(cards.every((c) => c.vocabId != null), isTrue);
-    expect(cards.map((c) => c.front), contains('el pan'));
-    expect(find.text('Spanisch A1 – Essen & Trinken'), findsWidgets);
-  });
-
-  testWidgets('Vorgefertigtes Set: Türkisch umschalten', (tester) async {
-    await env.pumpApp(tester);
-    await tester.tap(find.byKey(const Key('libraryAdd')));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const Key('createPreset')));
-    await tester.pumpAndSettle();
-    await tester.tap(find.text('🇹🇷 Türkisch'));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const Key('preset-A1-alle')));
-    await tester.pumpAndSettle();
-    expect(find.text('Türkisch – Grundwortschatz A1'), findsOneWidget);
-  });
 }

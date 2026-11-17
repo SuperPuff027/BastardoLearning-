@@ -57,22 +57,29 @@ class FolderScreen extends ConsumerWidget {
           ),
           body: AsyncBody(
             value: sets,
-            data: (list) => list.isEmpty
-                ? const PlaceholderView(
-                    icon: Icons.folder_open_outlined,
-                    title: 'Ordner ist leer',
-                    message: 'Lege hier ein neues Set an oder verschiebe ein bestehendes Set in diesen Ordner.',
-                  )
-                : ListView(
-                    padding: const EdgeInsets.only(bottom: 96),
-                    children: [
-                      for (final s in list)
-                        SetTile(
-                          item: s,
-                          onTap: () => context.go(Routes.set(s.set.id)),
-                        ),
-                    ],
-                  ),
+            data: (unsorted) {
+              // Kursordner: Sets in Buchreihenfolge (Unidad 1, 2, …)
+              final list = f.courseKey == null
+                  ? unsorted
+                  : ([...unsorted]
+                      ..sort((a, b) => a.set.id.compareTo(b.set.id)));
+              return list.isEmpty
+                  ? const PlaceholderView(
+                      icon: Icons.folder_open_outlined,
+                      title: 'Ordner ist leer',
+                      message: 'Lege hier ein neues Set an oder verschiebe ein bestehendes Set in diesen Ordner.',
+                    )
+                  : ListView(
+                      padding: const EdgeInsets.only(bottom: 96),
+                      children: [
+                        for (final s in list)
+                          SetTile(
+                            item: s,
+                            onTap: () => context.go(Routes.set(s.set.id)),
+                          ),
+                      ],
+                    );
+            },
           ),
         );
       },

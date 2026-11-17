@@ -251,7 +251,9 @@ void main() {
     await env.pumpApp(tester);
     await tester.tap(find.byIcon(Icons.school_outlined));
     await tester.pumpAndSettle();
-    expect(find.text('0 fällig · 1 neu'), findsOneWidget);
+    // Noch nicht angefangene Sets werden nicht aufgelistet.
+    expect(find.text('0 fällig · 1 neu'), findsNothing);
+    expect(find.text('Neue Karten lernen'), findsOneWidget);
 
     await tester.tap(find.byKey(const Key('reviewAll')));
     await tester.pumpAndSettle();

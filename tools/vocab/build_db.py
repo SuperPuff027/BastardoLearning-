@@ -5,6 +5,8 @@ Tabellen:
   vocab         ein Eintrag pro Lemma
   vocab_form    Suchschlüssel Fremdsprache: Lemma, Artikel+Lemma, Formen
   vocab_de      Suchschlüssel Deutsch: Übersetzungen ohne Artikel
+  course        Kursordner, die die App beim ersten Start anlegt
+  course_card   Karten der Kursordner (Set-Titel, Reihenfolge)
 
 Vergibt fehlende stabile IDs und schreibt sie nach data/<lang>.jsonl zurück.
 """
@@ -17,11 +19,12 @@ import sqlite3
 import sys
 from pathlib import Path
 
+from courses.courses import build_courses, write_courses
 from vocab_schema import ID_BASE, Entry, fold, normalize
 
 ROOT = Path(__file__).parent
 OUT = ROOT.parent.parent / "assets" / "vocab" / "vocab.db"
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 ATTRIBUTION = (
     "Häufigkeitsdaten: FrequencyWords von Hermit Dave (OpenSubtitles 2018), "
@@ -104,8 +107,10 @@ def build(langs: list[str], out: Path = OUT) -> dict[str, int]:
         CREATE INDEX idx_de_folded ON vocab_de(language, de_folded);
     """)
     counts: dict[str, int] = {}
+    all_entries: dict[str, list[Entry]] = {}
     for lang in langs:
         entries = load(lang)
+        all_entries[lang] = entries
         assign_ids(lang, entries)
         counts[lang] = len(entries)
         for e in entries:
@@ -131,11 +136,13 @@ def build(langs: list[str], out: Path = OUT) -> dict[str, int]:
                     seen_de.add(k)
                     db.execute("INSERT INTO vocab_de VALUES (?,?,?,?,?)",
                                (lang, k, fold(k), e.id, pos))
+    course_counts = write_courses(db, build_courses(all_entries))
     meta = {
         "schema_version": str(SCHEMA_VERSION),
         "data_version": dt.date.today().isoformat(),
         "attribution": ATTRIBUTION,
         **{f"count_{l}": str(n) for l, n in counts.items()},
+        **{f"course_{k}": str(n) for k, n in course_counts.items()},
     }
     db.executemany("INSERT INTO meta VALUES (?,?)", meta.items())
     db.commit()

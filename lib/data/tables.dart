@@ -5,6 +5,15 @@ class Folders extends Table {
   IntColumn get id => integer().autoIncrement()();
   TextColumn get name => text().withLength(min: 1, max: 200)();
   DateTimeColumn get createdAt => dateTime().withDefault(currentDateAndTime)();
+
+  /// Schlüssel des mitgelieferten Kurses (null = eigener Ordner).
+  TextColumn get courseKey => text().nullable()();
+
+  /// Sprache der Sets im Kursordner (`es`, `tr`); null bei eigenen Ordnern.
+  TextColumn get language => text().nullable()();
+
+  /// Reihenfolge der Kursordner.
+  IntColumn get position => integer().nullable()();
 }
 
 /// Ein Vokabel-Set (Fremdsprache ↔ Deutsch).

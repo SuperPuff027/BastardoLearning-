@@ -14,7 +14,7 @@ abstract final class StudyMode {
 }
 
 class DueSummary {
-  const DueSummary(this.set, this.due, this.fresh);
+  const DueSummary(this.set, this.due, this.fresh, {this.started = 0});
 
   final VocabSet set;
 
@@ -23,6 +23,9 @@ class DueSummary {
 
   /// Noch nie gelernte Karten.
   final int fresh;
+
+  /// Schon mindestens einmal gelernte Karten.
+  final int started;
 }
 
 /// Karte mit FSRS-Zustand für die Wiederholung.
@@ -197,6 +200,9 @@ class StudyRepository {
     final freshCount = db.cards.id.count(
       filter: db.reviewStates.cardId.isNull(),
     );
+    final startedCount = db.cards.id.count(
+      filter: db.reviewStates.cardId.isNotNull(),
+    );
     final query =
         db.select(db.sets).join([
             leftOuterJoin(db.cards, db.cards.setId.equalsExp(db.sets.id)),
@@ -205,7 +211,7 @@ class StudyRepository {
               db.reviewStates.cardId.equalsExp(db.cards.id),
             ),
           ])
-          ..addColumns([dueCount, freshCount])
+          ..addColumns([dueCount, freshCount, startedCount])
           ..groupBy([db.sets.id])
           ..orderBy([OrderingTerm.asc(db.sets.title.collate(Collate.noCase))]);
     return query.watch().map(
@@ -215,6 +221,7 @@ class StudyRepository {
             r.readTable(db.sets),
             r.read(dueCount) ?? 0,
             r.read(freshCount) ?? 0,
+            started: r.read(startedCount) ?? 0,
           ),
       ],
     );

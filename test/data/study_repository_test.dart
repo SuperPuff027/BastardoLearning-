@@ -145,6 +145,10 @@ void main() {
         NativeDatabase.memory(
           setup: (raw) {
             raw.execute(
+              'CREATE TABLE folders (id INTEGER PRIMARY KEY AUTOINCREMENT, '
+              'name TEXT NOT NULL, created_at INTEGER NOT NULL)',
+            );
+            raw.execute(
               'CREATE TABLE review_logs (id INTEGER PRIMARY KEY '
               'AUTOINCREMENT, card_id INTEGER NOT NULL, timestamp INTEGER NOT '
               'NULL, mode TEXT NOT NULL, correct INTEGER NOT NULL, '
@@ -163,6 +167,14 @@ void main() {
     final rows = await old.customSelect('SELECT * FROM review_logs').get();
     expect(rows.single.data.containsKey('rating'), isTrue);
     expect(rows.single.data['rating'], isNull);
+    // Schema 4: Kursordner-Spalten
+    final folderCols = await old
+        .customSelect('PRAGMA table_info(folders)')
+        .get();
+    expect(
+      folderCols.map((r) => r.data['name']),
+      containsAll(['course_key', 'language', 'position']),
+    );
     await old.close();
   });
 }
