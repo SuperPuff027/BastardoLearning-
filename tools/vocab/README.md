@@ -56,6 +56,7 @@ Tabellen `course` und `course_card` von `assets/vocab/vocab.db`:
 | `es_b1_aula3` | Spanisch B1 – Aula 3 (Unidad 1–12) | `courses/es_b1_aula3.csv` |
 | `es_a2` | Spanisch A2 (nach Thema) | `data/es.jsonl`, Niveau A2 |
 | `tr_uni_1_2` | Türkisch I + II (Uni) | `courses/tr_uni_tuerkisch_1_2.csv` |
+| `tr_suffixe` | Türkisch Suffixe (Regeln, Endungen, Kombinationen) | `courses/tr_suffixe.tsv` |
 | `tr_a1`, `tr_a2`, `tr_b1_b2` | Türkisch A1, A2, B1/B2 (nach Thema) | `data/tr.jsonl` |
 
 Spanisch A1/B1/B2 aus `data/es.jsonl` bleiben im Wörterbuch (für Erkennung und

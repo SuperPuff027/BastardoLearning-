@@ -174,6 +174,18 @@ class LibraryRepository {
     return folderId;
   });
 
+  /// Setzt die Reihenfolge der Kursordner (Schlüssel → Position).
+  Future<void> updateCoursePositions(Map<String, int> positions) =>
+      db.batch((b) {
+        for (final e in positions.entries) {
+          b.update(
+            db.folders,
+            FoldersCompanion(position: Value(e.value)),
+            where: (f) => f.courseKey.equals(e.key),
+          );
+        }
+      });
+
   /// Schlüssel der Kurse, deren Ordner gerade existiert.
   Future<Set<String>> presentCourseKeys() async {
     final rows = await (db.select(

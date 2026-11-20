@@ -49,6 +49,7 @@ void main() {
       'es_b1_aula3',
       'es_a2',
       'tr_uni_1_2',
+      'tr_suffixe',
       'tr_a1',
       'tr_a2',
       'tr_b1_b2',
@@ -108,8 +109,35 @@ void main() {
     );
   });
 
+  test('Suffix-Ordner: Regeln, Fälle, Zeiten und Kombinationen', () {
+    final sets = sharedVocab.courseSets('tr_suffixe');
+    expect(sets.first.title, 'Lautregeln');
+    expect(
+      sets.map((s) => s.title),
+      containsAll(['Fälle (Kasus)', 'Präsens -Iyor', 'Partizip & Nebensatz']),
+    );
+    final all = {
+      for (final s in sets)
+        for (final c in s.cards) c.front: c.back,
+    };
+    expect(all['-DA'], startsWith('Lokativ'));
+    expect(all['evlerimizde'], contains('ev + ler + imiz + de'));
+    expect(all['gelemeyeceğim'], startsWith('ich werde nicht kommen können'));
+  });
+
+  test('Neuer Kurs kommt bei bestehenden Nutzern dazu', () async {
+    // Stand vor dem Suffix-Ordner: alle anderen Kurse schon angelegt
+    await env.db.writeSetting(
+      CourseInstaller.settingKey,
+      'es_b1_aula3,es_a2,tr_uni_1_2,tr_a1,tr_a2,tr_b1_b2',
+    );
+    expect(await installer.installNew(), 1);
+    final folders = await repo.getFolders();
+    expect(folders.single.folder.name, 'Türkisch Suffixe');
+  });
+
   test('Kurse werden einmal angelegt und bleiben gelöscht', () async {
-    expect(await installer.installNew(), 6);
+    expect(await installer.installNew(), 7);
     expect(await installer.installNew(), 0);
     expect(await cardCount('es_b1_aula3'), 2079);
     expect((await setTitles('es_b1_aula3')).first, 'Unidad 1');
@@ -140,7 +168,7 @@ void main() {
     expect(find.text('Kurse'), findsOneWidget);
     expect(find.text('Spanisch B1 – Aula 3'), findsOneWidget);
     expect(find.text('12 Sets · 2079 Karten'), findsOneWidget);
-    expect(find.text('Eigene Ordner'), findsOneWidget);
+    expect(find.text('Eigene Ordner', skipOffstage: false), findsOneWidget);
 
     await tester.tap(find.byKey(const Key('courseFilter_tr')));
     await tester.pumpAndSettle();

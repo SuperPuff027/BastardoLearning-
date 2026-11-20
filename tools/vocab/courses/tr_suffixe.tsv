@@ -1,0 +1,166 @@
+set	tuerkisch	deutsch
+1 Lautregeln	A (in Endungen)	steht für a oder e (kleine Vokalharmonie): a nach a, ı, o, u · e nach e, i, ö, ü – evler, kitaplar
+1 Lautregeln	I (in Endungen)	steht für ı, i, u oder ü (große Vokalharmonie): ı nach a, ı · i nach e, i · u nach o, u · ü nach ö, ü – evi, kızı, okulu, gözü
+1 Lautregeln	D (in Endungen)	steht für d oder t: t nach stimmlosen Konsonanten (f, s, t, k, ç, ş, h, p) – evde, kitapta
+1 Lautregeln	C (in Endungen)	steht für c oder ç: ç nach stimmlosen Konsonanten – gazeteci, kitapçı
+1 Lautregeln	(y) (n) (s) in Klammern	Bindekonsonant, steht nur nach einem Vokal – okula / eve, arabası / evi, Ali'nin / Ahmet'in
+1 Lautregeln	kitap → kitabı	Konsonantenerweichung vor Vokal: p→b, ç→c, t→d, k→ğ – kitabı, ağacı, çocuğu, rengi
+1 Lautregeln	başla + ıyor → başlıyor	a/e am Verbstamm fällt vor -Iyor weg – başlıyor (fängt an), bekliyor (wartet)
+2 Plural & Possessiv	-lAr	Plural – evler (Häuser), kitaplar (Bücher)
+2 Plural & Possessiv	-(I)m	mein – evim (mein Haus), arabam (mein Auto)
+2 Plural & Possessiv	-(I)n	dein – evin (dein Haus), araban (dein Auto)
+2 Plural & Possessiv	-(s)I	sein / ihr – evi (sein/ihr Haus), arabası (sein/ihr Auto)
+2 Plural & Possessiv	-(I)mIz	unser – evimiz (unser Haus), arabamız (unser Auto)
+2 Plural & Possessiv	-(I)nIz	euer / Ihr – eviniz (euer/Ihr Haus), arabanız (euer/Ihr Auto)
+2 Plural & Possessiv	-lArI	ihr (von mehreren) – evleri (ihr Haus / ihre Häuser), arabaları (ihr Auto / ihre Autos)
+2 Plural & Possessiv	evlerim	meine Häuser · ev + ler + im
+2 Plural & Possessiv	arkadaşlarımız	unsere Freunde · arkadaş + lar + ımız
+2 Plural & Possessiv	çocuğun	dein Kind · çocuk + un (k → ğ)
+2 Plural & Possessiv	annem	meine Mutter · anne + m
+2 Plural & Possessiv	babası	sein/ihr Vater · baba + sı
+2 Plural & Possessiv	öğretmenleriniz	eure/Ihre Lehrer · öğretmen + ler + iniz
+3 Fälle (Kasus)	-(y)I	Akkusativ (bestimmtes Objekt) – evi görüyorum (ich sehe das Haus), kapıyı aç (öffne die Tür)
+3 Fälle (Kasus)	-(y)A	Dativ (wohin? wem?) – eve (nach Hause), okula (zur Schule), Ali'ye (Ali / zu Ali)
+3 Fälle (Kasus)	-DA	Lokativ (wo?) – evde (zu Hause), okulda (in der Schule), kitapta (im Buch)
+3 Fälle (Kasus)	-DAn	Ablativ (woher? von) – evden (von zu Hause), okuldan (von der Schule), Almanya'dan (aus Deutschland)
+3 Fälle (Kasus)	-(n)In	Genitiv (wessen?) – evin kapısı (die Tür des Hauses), Ali'nin arabası (Alis Auto)
+3 Fälle (Kasus)	-(y)lA	mit (Begleitung / Mittel) – otobüsle (mit dem Bus), arkadaşımla (mit meinem Freund)
+3 Fälle (Kasus)	-n- (nach -(s)I)	nach dem Possessiv der 3. Person steht vor dem Kasus ein n – evinde (in seinem Haus), arabasına (zu seinem Auto)
+3 Fälle (Kasus)	-ki	der/die/das …-ige (macht aus Ort/Zeit ein Adjektiv) – masadaki kitap (das Buch auf dem Tisch), bugünkü (heutig), benimki (meins)
+3 Fälle (Kasus)	bana · sana · ona	mir · dir · ihm/ihr (Dativ der Pronomen, ben → bana, sen → sana)
+3 Fälle (Kasus)	benim · senin · onun	mein · dein · sein/ihr (Genitiv der Pronomen)
+3 Fälle (Kasus)	evlerimizde	in unseren Häusern · ev + ler + imiz + de
+3 Fälle (Kasus)	arkadaşlarımdan	von meinen Freunden · arkadaş + lar + ım + dan
+3 Fälle (Kasus)	annemle	mit meiner Mutter · anne + m + le
+3 Fälle (Kasus)	evinden	aus seinem/ihrem Haus · ev + i + n + den
+3 Fälle (Kasus)	kitaplarımı	meine Bücher (Akkusativ) · kitap + lar + ım + ı
+3 Fälle (Kasus)	çocukların odası	das Zimmer der Kinder · çocuk + lar + ın · oda + sı
+3 Fälle (Kasus)	Türkiye'ye	in die Türkei · Türkiye + y + e
+3 Fälle (Kasus)	evdekiler	die (Leute) zu Hause · ev + de + ki + ler
+4 Sein & Frage	-(y)Im	ich bin – öğretmenim (ich bin Lehrer), yorgunum (ich bin müde)
+4 Sein & Frage	-sIn	du bist – yorgunsun (du bist müde)
+4 Sein & Frage	-(DIr)	er/sie/es ist (meist ohne Endung, -DIr = sicher / vermutlich) – evde(dir) (er ist zu Hause)
+4 Sein & Frage	-(y)Iz	wir sind – öğrenciyiz (wir sind Studenten)
+4 Sein & Frage	-sInIz	ihr seid / Sie sind – Almansınız (Sie sind Deutsche/r)
+4 Sein & Frage	-lAr (3. Person Plural)	sie sind – evdeler (sie sind zu Hause)
+4 Sein & Frage	-(y)DI	war – evdeydim (ich war zu Hause), yorgundu (er war müde)
+4 Sein & Frage	-(y)mIş	ist anscheinend / soll sein – hastaymış (er ist wohl krank)
+4 Sein & Frage	-(y)sA	wenn … ist – evdeysen (wenn du zu Hause bist)
+4 Sein & Frage	değil	nicht (bei Nomen/Adjektiven) – öğretmen değilim (ich bin kein Lehrer)
+4 Sein & Frage	mI	Fragepartikel, getrennt geschrieben – Yorgun musun? (Bist du müde?), Evde mi? (Ist er zu Hause?)
+4 Sein & Frage	Öğretmen misiniz?	Sind Sie Lehrer/in? · öğretmen + mi + siniz
+4 Sein & Frage	Evde değildim.	Ich war nicht zu Hause. · değil + di + m
+4 Sein & Frage	Hasta mıydın?	Warst du krank? · mı + ydı + n
+4 Sein & Frage	Okuldaydık.	Wir waren in der Schule. · okul + da + ydı + k
+5 Präsens -Iyor	-(I)yor	Präsens (jetzt, gerade) – geliyor (er kommt), okuyor (er liest)
+5 Präsens -Iyor	geliyorum	ich komme
+5 Präsens -Iyor	geliyorsun	du kommst
+5 Präsens -Iyor	geliyor	er/sie/es kommt
+5 Präsens -Iyor	geliyoruz	wir kommen
+5 Präsens -Iyor	geliyorsunuz	ihr kommt / Sie kommen
+5 Präsens -Iyor	geliyorlar	sie kommen
+5 Präsens -Iyor	-mIyor	Verneinung im Präsens – gelmiyorum (ich komme nicht), anlamıyorum (ich verstehe nicht)
+5 Präsens -Iyor	Geliyor musun?	Kommst du? · gel + iyor + mu + sun
+5 Präsens -Iyor	Gelmiyor musun?	Kommst du nicht? · gel + mi + yor + mu + sun
+5 Präsens -Iyor	Okumuyorlar mı?	Lesen sie nicht? · oku + mu + yor + lar + mı
+5 Präsens -Iyor	-(I)yordu	Verlaufsform der Vergangenheit – geliyordum (ich war gerade am Kommen / ich kam)
+5 Präsens -Iyor	Gidiyor muydun?	Warst du gerade dabei zu gehen? · gid + iyor + mu + ydu + n
+6 Vergangenheit	-DI	bestimmte Vergangenheit (erlebt) – geldi (er kam / ist gekommen), gitti (er ging)
+6 Vergangenheit	geldim	ich kam / bin gekommen
+6 Vergangenheit	geldin	du kamst / bist gekommen
+6 Vergangenheit	geldi	er/sie/es kam
+6 Vergangenheit	geldik	wir kamen
+6 Vergangenheit	geldiniz	ihr kamt / Sie kamen
+6 Vergangenheit	geldiler	sie kamen
+6 Vergangenheit	gelmedim	ich bin nicht gekommen · gel + me + di + m
+6 Vergangenheit	Geldin mi?	Bist du gekommen? (bei -DI steht mI nach der Personalendung)
+6 Vergangenheit	-mIş	gehörte / erschlossene Vergangenheit – gelmiş (er ist anscheinend gekommen)
+6 Vergangenheit	gelmişim	ich bin (anscheinend) gekommen
+6 Vergangenheit	gelmemiş	er ist (anscheinend) nicht gekommen · gel + me + miş
+6 Vergangenheit	Gelmiş mi?	Ist er gekommen?
+6 Vergangenheit	-mIştI	Plusquamperfekt – gelmiştim (ich war gekommen)
+6 Vergangenheit	söylememiştim	ich hatte nicht gesagt · söyle + me + miş + ti + m
+6 Vergangenheit	yorulmuşsun	du bist (anscheinend) müde geworden · yor + ul + muş + sun
+7 Futur & Aorist	-(y)AcAk	Futur – gelecek (er wird kommen), okuyacak (er wird lesen)
+7 Futur & Aorist	geleceğim	ich werde kommen (k → ğ vor Vokal)
+7 Futur & Aorist	geleceksin	du wirst kommen
+7 Futur & Aorist	geleceğiz	wir werden kommen
+7 Futur & Aorist	gelecekler	sie werden kommen
+7 Futur & Aorist	gelmeyeceğim	ich werde nicht kommen · gel + me + yeceğ + im
+7 Futur & Aorist	Gelecek misin?	Wirst du kommen?
+7 Futur & Aorist	-(y)AcAktI	Futur in der Vergangenheit – gelecektim (ich wollte kommen)
+7 Futur & Aorist	-r / -Ar / -Ir	Aorist (Gewohnheit, allgemeine Aussage, Angebot) – okur (er liest), yapar (er macht), konuşur (er spricht)
+7 Futur & Aorist	-Ar bei einsilbigen Stämmen	yapar, gider, yazar – Ausnahmen mit -Ir: alır, bilir, bulur, durur, gelir, görür, kalır, olur, ölür, sanır, varır, verir, vurur
+7 Futur & Aorist	-mAz	verneinter Aorist – gelmez (er kommt nicht), içmez (er trinkt nicht)
+7 Futur & Aorist	gelmem · gelmezsin · gelmez	ich komme nicht · du kommst nicht · er kommt nicht (Aorist)
+7 Futur & Aorist	gelmeyiz · gelmezsiniz · gelmezler	wir · ihr · sie kommen nicht (Aorist)
+7 Futur & Aorist	Gelir misin?	Kommst du (mit)? / Würdest du kommen? (höfliche Bitte)
+7 Futur & Aorist	-(y)Abil	können – gelebilirim (ich kann kommen), yapabilir (er kann machen)
+7 Futur & Aorist	-(y)AmA	nicht können – gelemem (ich kann nicht kommen), gelemedim (ich konnte nicht kommen)
+7 Futur & Aorist	Yapabilir misiniz?	Können Sie das machen? · yap + abil + ir + mi + siniz
+7 Futur & Aorist	İçebilir miyim?	Darf / Kann ich trinken? · iç + ebil + ir + mi + yim
+7 Futur & Aorist	gelemeyeceğim	ich werde nicht kommen können · gel + eme + yeceğ + im
+8 Befehl & Modalformen	gel!	komm! (Imperativ = Verbstamm)
+8 Befehl & Modalformen	-(y)In / -(y)InIz	Imperativ höflich / Plural – gelin, geliniz (kommen Sie!), oturun (setzen Sie sich!)
+8 Befehl & Modalformen	-sIn	er/sie soll – gelsin (er soll kommen), gelsinler (sie sollen kommen)
+8 Befehl & Modalformen	gelme!	komm nicht! · gel + me
+8 Befehl & Modalformen	Unutmayın!	Vergessen Sie nicht! · unut + ma + yın
+8 Befehl & Modalformen	-(y)AyIm	soll ich …? – gideyim mi? (soll ich gehen?)
+8 Befehl & Modalformen	-(y)AlIm	lass(t) uns … – gidelim (lass uns gehen), başlayalım (fangen wir an)
+8 Befehl & Modalformen	-mAlI	müssen / sollen – gitmeliyim (ich muss gehen), gelmelisin (du solltest kommen)
+8 Befehl & Modalformen	-mAmAlI	nicht dürfen / nicht sollen – gitmemeliyim (ich sollte nicht gehen)
+8 Befehl & Modalformen	çalışmalıydım	ich hätte arbeiten müssen · çalış + malı + ydı + m
+8 Befehl & Modalformen	-sA	Konditional (wenn) – gelirsen (wenn du kommst), gelsem (wenn ich käme)
+8 Befehl & Modalformen	-sAydI	irreal (Vergangenheit) – gelseydim (wäre ich doch gekommen / wenn ich gekommen wäre)
+8 Befehl & Modalformen	gelmeseydin	wenn du nicht gekommen wärst · gel + me + se + ydi + n
+8 Befehl & Modalformen	-mAk istiyorum	ich möchte … – gitmek istiyorum (ich möchte gehen)
+8 Befehl & Modalformen	-mAk zorundayım	ich muss (bin gezwungen) – çalışmak zorundayım (ich muss arbeiten)
+8 Befehl & Modalformen	-mAk lazım	man muss – gitmek lazım (man muss gehen)
+9 Wortbildung	-mAk	Infinitiv – gelmek (kommen), okumak (lesen)
+9 Wortbildung	-mA	Verbalnomen – okuma (das Lesen), dondurma (Eis)
+9 Wortbildung	-(y)Iş	Handlung / Art und Weise – gidiş (Hinfahrt), dönüş (Rückfahrt), bakış (Blick)
+9 Wortbildung	-CI	Beruf / Person – gazeteci (Journalist), kitapçı (Buchhändler), yolcu (Reisender)
+9 Wortbildung	-lI	mit / versehen mit / Herkunft – şekerli (mit Zucker), tuzlu (salzig), Berlinli (Berliner)
+9 Wortbildung	-sIz	ohne – şekersiz (ohne Zucker), işsiz (arbeitslos)
+9 Wortbildung	-lIk	Abstraktum / Gegenstand – güzellik (Schönheit), kitaplık (Bücherregal), gözlük (Brille)
+9 Wortbildung	-CA	Sprache / Art und Weise – Türkçe, Almanca, yavaşça (langsam), bence (meiner Meinung nach)
+9 Wortbildung	-CIk	Verkleinerung – kedicik (Kätzchen), küçücük (winzig)
+9 Wortbildung	-DAş	Gemeinsamkeit – vatandaş (Staatsbürger), meslektaş (Kollege)
+9 Wortbildung	-sAl	Adjektiv (-lich) – kişisel (persönlich), tarihsel (historisch)
+9 Wortbildung	-lA	Verb aus Nomen/Adjektiv – temizlemek (reinigen), başlamak (beginnen), ütülemek (bügeln)
+9 Wortbildung	-lAş	werden – kolaylaşmak (leichter werden), güzelleşmek (schöner werden)
+9 Wortbildung	-(I)ncI	Ordnungszahl – birinci (erste), ikinci (zweite), üçüncü (dritte), dördüncü (vierte)
+9 Wortbildung	-(ş)Ar	je … – birer (je eins), ikişer (je zwei), altışar (je sechs)
+9 Wortbildung	gözlükçü	Optiker · göz + lük + çü
+9 Wortbildung	işsizlik	Arbeitslosigkeit · iş + siz + lik
+9 Wortbildung	arkadaşlık	Freundschaft · arkadaş + lık
+9 Wortbildung	Türkçede	im Türkischen · Türk + çe + de
+9 Wortbildung	şekersiz çay	Tee ohne Zucker · şeker + siz
+10 Verbstamm (Passiv usw.)	-(I)l / -(I)n	Passiv – yapıldı (wurde gemacht), okunur (wird gelesen), yenir (wird gegessen)
+10 Verbstamm (Passiv usw.)	-DIr / -t / -Ir	Kausativ (lassen, veranlassen) – yaptırmak (machen lassen), okutmak (lesen lassen), içirmek (zu trinken geben)
+10 Verbstamm (Passiv usw.)	-(I)n (reflexiv)	sich … – yıkanmak (sich waschen), giyinmek (sich anziehen)
+10 Verbstamm (Passiv usw.)	-(I)ş	gegenseitig / miteinander – görüşmek (sich treffen), tanışmak (sich kennenlernen)
+10 Verbstamm (Passiv usw.)	-mA (im Verbstamm)	Verneinung – gelme-, yapma-: gelmedi (er kam nicht)
+10 Verbstamm (Passiv usw.)	yaptırdım	ich habe machen lassen · yap + tır + dı + m
+10 Verbstamm (Passiv usw.)	yapılabilir	kann gemacht werden · yap + ıl + abil + ir
+10 Verbstamm (Passiv usw.)	yapılacak	wird gemacht werden · yap + ıl + acak
+10 Verbstamm (Passiv usw.)	Görüşürüz!	Wir sehen uns! · gör + üş + ür + üz
+11 Partizip & Nebensatz	-(y)An	der/die …, der/die … (Subjekt) – gelen adam (der Mann, der kommt/kam), okuyan öğrenci
+11 Partizip & Nebensatz	-DIK + Possessiv	der/die …, den/die ich … (Objekt) – okuduğum kitap (das Buch, das ich lese/las)
+11 Partizip & Nebensatz	-(y)AcAK + Possessiv	der/die …, den/die ich … werde – okuyacağım kitap (das Buch, das ich lesen werde)
+11 Partizip & Nebensatz	-DIğInI	dass – geldiğini biliyorum (ich weiß, dass er gekommen ist)
+11 Partizip & Nebensatz	-mAsInI	dass (Wunsch/Aufforderung) – gelmesini istiyorum (ich möchte, dass er kommt)
+11 Partizip & Nebensatz	-DIğI için	weil – hasta olduğum için (weil ich krank bin/war)
+11 Partizip & Nebensatz	-DIğIndA	als – geldiğimde (als ich kam)
+11 Partizip & Nebensatz	-mAk için	um zu – öğrenmek için (um zu lernen)
+11 Partizip & Nebensatz	-(y)ken	während / als – evdeyken (während ich zu Hause bin/war), okurken (beim Lesen)
+11 Partizip & Nebensatz	-(y)Ip	und (verbindet zwei Handlungen) – eve gidip yemek yedim (ich ging nach Hause und aß)
+11 Partizip & Nebensatz	-(y)ArAk	indem / …end – koşarak (rennend), gülerek (lachend)
+11 Partizip & Nebensatz	-(y)IncA	sobald / als – eve gelince (sobald ich nach Hause kam/komme)
+11 Partizip & Nebensatz	-DIktAn sonra	nachdem – yedikten sonra (nachdem ich gegessen habe)
+11 Partizip & Nebensatz	-mAdAn (önce)	ohne zu / bevor – söylemeden (ohne zu sagen), yatmadan önce (bevor ich schlafen gehe)
+11 Partizip & Nebensatz	-(y)AlI	seit – Türkiye'ye geleli iki yıl oldu (seit ich in die Türkei gekommen bin, sind zwei Jahre vergangen)
+11 Partizip & Nebensatz	-DIkçA	je mehr / immer wenn – okudukça (je mehr ich lese)
+11 Partizip & Nebensatz	geldiğimizde	als wir kamen · gel + diğ + imiz + de
+11 Partizip & Nebensatz	Tanıştığımıza memnun oldum.	Freut mich, Sie kennenzulernen. · tanış + tığ + ımız + a
+11 Partizip & Nebensatz	evlerimizdeydiler	sie waren in unseren Häusern · ev + ler + imiz + de + ydi + ler

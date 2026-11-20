@@ -25,6 +25,10 @@ class CourseInstaller {
   Future<int> installNew() async {
     final installed = await _installed();
     final present = await library.presentCourseKeys();
+    // Reihenfolge vorhandener Kursordner an neue Kurse anpassen
+    await library.updateCoursePositions({
+      for (final c in vocab.courses()) c.key: c.position,
+    });
     var n = 0;
     for (final c in vocab.courses()) {
       if (installed.contains(c.key)) continue;

@@ -102,6 +102,18 @@ def _tr_uni() -> Course:
                   [(g, groups[g]) for g in names])
 
 
+def _tr_suffixe() -> Course:
+    """Türkische Endungen: Regeln, Formen und Kombinationen mit Beispielen."""
+    rows = list(csv.DictReader(open(HERE / 'tr_suffixe.tsv', encoding='utf-8'), delimiter='\t'))
+    groups: dict[str, list[Card]] = {}
+    for r in rows:
+        groups.setdefault(r['set'], []).append(Card(r['tuerkisch'], r['deutsch']))
+    ordered = sorted(groups, key=lambda g: int(g.split(' ', 1)[0]))
+    return Course('tr_suffixe', 'tr', 'Türkisch Suffixe',
+                  'Alle Endungen und ihre Kombinationen mit Beispielen',
+                  [(g.split(' ', 1)[1], groups[g]) for g in ordered])
+
+
 def build_courses(entries_by_lang: dict[str, list]) -> list[Course]:
     es = entries_by_lang.get('es', [])
     tr = entries_by_lang.get('tr', [])
@@ -110,6 +122,7 @@ def build_courses(entries_by_lang: dict[str, list]) -> list[Course]:
                Course('es_a2', 'es', 'Spanisch A2', 'Grundwortschatz A2 nach Thema',
                       _topic_sets(lvl(es, 'A2'))),
                _tr_uni(),
+               _tr_suffixe(),
                Course('tr_a1', 'tr', 'Türkisch A1', 'Grundwortschatz A1 nach Thema',
                       _topic_sets(lvl(tr, 'A1'))),
                Course('tr_a2', 'tr', 'Türkisch A2', 'Grundwortschatz A2 nach Thema',
