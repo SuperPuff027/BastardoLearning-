@@ -12,9 +12,30 @@ class CourseInstaller {
 
   static const settingKey = 'installed_courses';
 
+  /// Inhaltsversion je angelegtem Kurs, z. B. `tr_suffixe:2,es_a2:1`.
+  static const versionKey = 'course_versions';
+
   final AppDatabase db;
   final LibraryRepository library;
   final VocabRepository vocab;
+
+  Future<Map<String, int>> _versions() async {
+    final raw = await db.readSetting(versionKey) ?? '';
+    return {
+      for (final e in raw.split(','))
+        if (e.contains(':'))
+          e.split(':').first: int.tryParse(e.split(':').last) ?? 1,
+    };
+  }
+
+  Future<void> _setVersion(String key, int version) async {
+    final v = await _versions()
+      ..[key] = version;
+    await db.writeSetting(
+      versionKey,
+      [for (final e in v.entries) '${e.key}:${e.value}'].join(','),
+    );
+  }
 
   Future<Set<String>> _installed() async {
     final raw = await db.readSetting(settingKey) ?? '';
@@ -29,6 +50,14 @@ class CourseInstaller {
     await library.updateCoursePositions({
       for (final c in vocab.courses()) c.key: c.position,
     });
+    // Vorhandene Kursordner mit neuerer Inhaltsversion aktualisieren
+    final versions = await _versions();
+    for (final c in vocab.courses()) {
+      if (present.contains(c.key) && (versions[c.key] ?? 1) < c.version) {
+        await library.syncCourse(c.key, _sets(c.key));
+        await _setVersion(c.key, c.version);
+      }
+    }
     var n = 0;
     for (final c in vocab.courses()) {
       if (installed.contains(c.key)) continue;
@@ -61,25 +90,31 @@ class CourseInstaller {
     return id;
   }
 
-  Future<int> _install(CourseInfo c) => library.installCourse(
-    key: c.key,
-    title: c.title,
-    language: c.language,
-    position: c.position,
-    sets: [
-      for (final s in vocab.courseSets(c.key))
-        (
-          title: s.title,
-          cards: [
-            for (final card in s.cards)
-              VocabCardData(
-                front: card.front,
-                back: card.back,
-                vocabId: card.vocabId,
-                verified: true,
-              ),
-          ],
-        ),
-    ],
-  );
+  Future<int> _install(CourseInfo c) async {
+    final id = await library.installCourse(
+      key: c.key,
+      title: c.title,
+      language: c.language,
+      position: c.position,
+      sets: _sets(c.key),
+    );
+    await _setVersion(c.key, c.version);
+    return id;
+  }
+
+  List<({String title, List<VocabCardData> cards})> _sets(String key) => [
+    for (final s in vocab.courseSets(key))
+      (
+        title: s.title,
+        cards: [
+          for (final card in s.cards)
+            VocabCardData(
+              front: card.front,
+              back: card.back,
+              vocabId: card.vocabId,
+              verified: true,
+            ),
+        ],
+      ),
+  ];
 }

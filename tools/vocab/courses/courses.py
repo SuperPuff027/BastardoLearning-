@@ -14,8 +14,12 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 
-# Version erhöhen, wenn sich Kursinhalte ändern (für spätere Aktualisierungen).
+# Version pro Kurs erhöhen, wenn sich sein Inhalt ändert: Die App
+# aktualisiert dann vorhandene Kursordner (Lernstand bleibt erhalten).
 COURSE_VERSION = 1
+COURSE_VERSIONS = {
+    'tr_suffixe': 2,  # Türkisch vorne (Endung + Beispiele), Deutsch hinten
+}
 
 TAG_LABELS = {
     'alltag': 'Alltag', 'arbeit': 'Arbeit & Beruf', 'einkaufen': 'Einkaufen & Geld',
@@ -159,7 +163,8 @@ def write_courses(db, courses: list[Course]) -> dict[str, int]:
     counts = {}
     for pos, c in enumerate(courses):
         db.execute('INSERT INTO course VALUES (?,?,?,?,?,?)',
-                   (c.key, c.language, c.title, c.subtitle, pos, COURSE_VERSION))
+                   (c.key, c.language, c.title, c.subtitle, pos,
+                    COURSE_VERSIONS.get(c.key, COURSE_VERSION)))
         n = 0
         for sp, (title, cards) in enumerate(c.sets):
             for cp, card in enumerate(cards):

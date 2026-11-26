@@ -1,4 +1,5 @@
 import 'package:barstardo_learning/data/course_installer.dart';
+import 'package:barstardo_learning/data/database.dart';
 import 'package:barstardo_learning/data/library_repository.dart';
 import 'package:drift/drift.dart' hide isNotNull, isNull;
 import 'package:flutter/material.dart';
@@ -120,9 +121,59 @@ void main() {
       for (final s in sets)
         for (final c in s.cards) c.front: c.back,
     };
-    expect(all['-DA'], startsWith('Lokativ'));
-    expect(all['evlerimizde'], contains('ev + ler + imiz + de'));
-    expect(all['gelemeyeceğim'], startsWith('ich werde nicht kommen können'));
+    // Türkisch vorne: Endung + türkische Beispiele
+    // Deutsch hinten: Name + deutsche Beispiele (keine Endung)
+    expect(
+      all['-DA: evde, okulda, kitapta'],
+      'Lokativ (wo?): zu Hause, in der Schule, im Buch',
+    );
+    expect(
+      all['evlerimizde (ev + ler + imiz + de)'],
+      'in unseren Häusern (Plural + unser + Lokativ)',
+    );
+    for (final back in all.values) {
+      expect(back, isNot(matches(RegExp(r'(^|[ (])-[A-Za-z(]'))));
+    }
+  });
+
+  test('Geänderter Kurs wird aktualisiert, Lernstand bleibt', () async {
+    await installer.installNew();
+    final folder = (await repo.getFolders()).firstWhere(
+      (f) => f.folder.courseKey == 'tr_suffixe',
+    );
+    final set =
+        (await (env.db.select(env.db.sets)
+                  ..where((s) => s.folderId.equals(folder.folder.id))
+                  ..orderBy([(s) => OrderingTerm.asc(s.id)]))
+                .get())
+            .first;
+    final card = await (env.db.select(
+      env.db.cards,
+    )..where((c) => c.setId.equals(set.id) & c.position.equals(0))).getSingle();
+    // alten Stand simulieren: anderer Text, Version 1, schon gelernt
+    await (env.db.update(env.db.cards)..where((c) => c.id.equals(card.id)))
+        .write(const CardsCompanion(front: Value('alt'), back: Value('alt')));
+    await env.db
+        .into(env.db.reviewStates)
+        .insert(
+          ReviewStatesCompanion.insert(
+            cardId: Value(card.id),
+            due: DateTime(2030),
+          ),
+        );
+    await env.db.writeSetting(CourseInstaller.versionKey, 'tr_suffixe:1');
+
+    expect(await installer.installNew(), 0);
+    final updated = await (env.db.select(
+      env.db.cards,
+    )..where((c) => c.id.equals(card.id))).getSingle();
+    expect(updated.front, startsWith('A = a / e'));
+    expect(updated.back, startsWith('kleine Vokalharmonie'));
+    expect(await env.db.select(env.db.reviewStates).get(), hasLength(1));
+    expect(
+      await env.db.readSetting(CourseInstaller.versionKey),
+      contains('tr_suffixe:2'),
+    );
   });
 
   test('Neuer Kurs kommt bei bestehenden Nutzern dazu', () async {

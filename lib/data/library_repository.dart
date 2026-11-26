@@ -174,6 +174,86 @@ class LibraryRepository {
     return folderId;
   });
 
+  /// Bringt einen vorhandenen Kursordner auf den neuen Inhalt. Karten werden
+  /// nach Position aktualisiert, damit der Lernstand erhalten bleibt.
+  Future<void> syncCourse(
+    String key,
+    List<({String title, List<VocabCardData> cards})> sets,
+  ) => db.transaction(() async {
+    final folder = await (db.select(
+      db.folders,
+    )..where((f) => f.courseKey.equals(key))).getSingleOrNull();
+    if (folder == null) return;
+    final existing =
+        await (db.select(db.sets)
+              ..where((s) => s.folderId.equals(folder.id))
+              ..orderBy([(s) => OrderingTerm.asc(s.id)]))
+            .get();
+    for (var i = 0; i < sets.length; i++) {
+      final target = sets[i];
+      final int setId;
+      if (i < existing.length) {
+        setId = existing[i].id;
+        await (db.update(db.sets)..where((s) => s.id.equals(setId))).write(
+          SetsCompanion(title: Value(target.title)),
+        );
+      } else {
+        setId = await db
+            .into(db.sets)
+            .insert(
+              SetsCompanion.insert(
+                title: target.title,
+                language: folder.language ?? 'tr',
+                folderId: Value(folder.id),
+              ),
+            );
+      }
+      final cards =
+          await (db.select(db.cards)
+                ..where((c) => c.setId.equals(setId))
+                ..orderBy([
+                  (c) => OrderingTerm.asc(c.position),
+                  (c) => OrderingTerm.asc(c.id),
+                ]))
+              .get();
+      for (var j = 0; j < target.cards.length; j++) {
+        final c = target.cards[j];
+        if (j < cards.length) {
+          await (db.update(
+            db.cards,
+          )..where((x) => x.id.equals(cards[j].id))).write(
+            CardsCompanion(
+              front: Value(c.front),
+              back: Value(c.back),
+              frontRich: const Value(null),
+              backRich: const Value(null),
+              vocabId: Value(c.vocabId),
+              position: Value(j),
+            ),
+          );
+        } else {
+          await db
+              .into(db.cards)
+              .insert(
+                CardsCompanion.insert(
+                  setId: setId,
+                  front: c.front,
+                  back: c.back,
+                  vocabId: Value(c.vocabId),
+                  position: Value(j),
+                ),
+              );
+        }
+      }
+      for (final extra in cards.skip(target.cards.length)) {
+        await (db.delete(db.cards)..where((x) => x.id.equals(extra.id))).go();
+      }
+    }
+    for (final extra in existing.skip(sets.length)) {
+      await (db.delete(db.sets)..where((s) => s.id.equals(extra.id))).go();
+    }
+  });
+
   /// Setzt die Reihenfolge der Kursordner (Schlüssel → Position).
   Future<void> updateCoursePositions(Map<String, int> positions) =>
       db.batch((b) {
